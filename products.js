@@ -3634,5 +3634,321 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/edion/cabinet/goods/ll/img_167/4549980052068_ll.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F"
+  },
+  {
+    "cat": "robot",
+    "maker": "ロボロック",
+    "model": "S8 Pro Ultra",
+    "name": "Roborock S8 Pro Ultra",
+    "price": 119800,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 2,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "ゴミ収集からモップ洗浄まで全部入りの高性能フラッグシップ",
+    "features": [
+      "最大級クラスの吸引力",
+      "モップ自動洗浄・乾燥まで対応",
+      "ゴミ収集ドックでお手入れ最小限",
+      "AI障害物回避が賢い"
+    ]
+  },
+  {
+    "cat": "robot",
+    "maker": "Anker Eufy",
+    "model": "Clean X10 Pro Omni",
+    "name": "Eufy Clean X10 Pro Omni",
+    "price": 89900,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 3
+    },
+    "point": "全自動ステーション付きで実力十分、価格も手頃な人気モデル",
+    "features": [
+      "8,000Paの強力吸引",
+      "モップ自動洗浄・乾燥",
+      "自動ゴミ収集ドック付き",
+      "コスパに優れた全自動モデル"
+    ]
+  },
+  {
+    "cat": "robot",
+    "maker": "SwitchBot",
+    "model": "S10",
+    "name": "SwitchBot S10",
+    "price": 119800,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 3
+    },
+    "point": "水の自動給排水に対応、モップの手入れがほぼ不要に",
+    "features": [
+      "給水・排水を自動化する新方式",
+      "水拭きの手間を大幅カット",
+      "スマートホーム連携が得意",
+      "薄型ボディで家具下も"
+    ]
+  },
+  {
+    "cat": "vacuum",
+    "maker": "ダイソン",
+    "model": "V15 Detect",
+    "name": "Dyson V15 Detect",
+    "price": 89800,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "緑色レーザーでゴミを可視化する最上位コードレス",
+    "features": [
+      "緑色レーザーで微細なゴミを可視化",
+      "第5世代モーターの圧倒的吸引力",
+      "液晶にゴミの量を表示",
+      "最長約60分運転"
+    ]
+  },
+  {
+    "cat": "purifier",
+    "maker": "シャープ",
+    "model": "KI-TS50",
+    "name": "加湿空気清浄機 プラズマクラスターNEXT",
+    "price": 49800,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "高濃度プラズマクラスターNEXT搭載の加湿空気清浄機",
+    "features": [
+      "最上位プラズマクラスターNEXT",
+      "加湿もできる1台2役",
+      "〜23畳対応のパワフル清浄",
+      "花粉・ニオイ対策に"
+    ]
+  },
+  {
+    "cat": "purifier",
+    "maker": "Levoit",
+    "model": "Core 600S",
+    "name": "Core 600S",
+    "price": 29800,
+    "size": [
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "〜48畳対応の大風量をコスパよく",
+    "features": [
+      "大部屋・リビング向けの大風量",
+      "静音の睡眠モード搭載",
+      "アプリ・スマートスピーカー対応",
+      "交換フィルターが手頃"
+    ]
+  },
+  {
+    "cat": "dryer",
+    "maker": "ダイソン",
+    "model": "Supersonic Nural",
+    "name": "Dyson Supersonic Nural",
+    "price": 53900,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 3
+    },
+    "point": "頭皮を感知して自動で風温を調整する最新ダイソン",
+    "features": [
+      "大風量で速乾",
+      "頭皮センサーで温度を自動調整",
+      "髪のダメージを抑える",
+      "付け替えノズルが豊富"
+    ]
+  },
+  {
+    "cat": "dryer",
+    "maker": "リファ",
+    "model": "ビューテック ドライヤー プロ",
+    "name": "ReFa BEAUTECH DRYER PRO",
+    "price": 43000,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "サロン発想のハイブリッド温冷ドライヤー",
+    "features": [
+      "温風と冷風を自動で切替",
+      "ハイドロイオンでうるおい",
+      "大風量で速乾",
+      "美容師にも人気"
+    ]
+  },
+  {
+    "cat": "circulator",
+    "maker": "アイリスオーヤマ",
+    "model": "PCF-SDS15TEC",
+    "name": "WOOZOO 360°サーキュレーター",
+    "price": 12800,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 3,
+      "care": 2,
+      "eco": 3,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "上下左右360°首振りのDCサーキュレーター",
+    "features": [
+      "360°自動首振りで循環効率アップ",
+      "DCモーターで静音・省エネ",
+      "室温連動モード搭載",
+      "リモコン付き"
+    ]
+  },
+  {
+    "cat": "ricecooker",
+    "maker": "パナソニック",
+    "model": "SR-VSX101",
+    "name": "ビストロ Wおどり炊き",
+    "price": 62000,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "2つの圧力で激しく対流させる最上位モデル",
+    "features": [
+      "Wおどり炊きで一粒一粒ふっくら",
+      "銘柄炊き分け対応",
+      "高温スチームでもちもち",
+      "パン・低温調理にも対応"
+    ]
+  },
+  {
+    "cat": "ricecooker",
+    "maker": "象印",
+    "model": "NW-SA10",
+    "name": "STAN. IH炊飯ジャー",
+    "price": 39600,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "インテリアになじむSTAN.デザインのIH炊飯器",
+    "features": [
+      "フラットでお手入れ簡単",
+      "落ち着いたマットデザイン",
+      "わたし好み炊き分け",
+      "5.5合炊き"
+    ]
+  },
+  {
+    "cat": "toothbrush",
+    "maker": "ブラウン",
+    "model": "オーラルB iO9",
+    "name": "オーラルB iO9",
+    "price": 29800,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 3
+    },
+    "point": "リニアマグネット振動と歯ぐきケアの上位モデル",
+    "features": [
+      "やわらかな振動で歯垢を除去",
+      "カラーディスプレイでガイド",
+      "押しつけ防止センサー",
+      "アプリで磨き残しチェック"
+    ]
   }
 ];
