@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="qotYTOKG89KaQQ7KC8Sp900nsUkic_cDXrz1Dv2Yx-w" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ぴったり家電診断｜あなたに合う家電が30秒でわかる</title>
+<meta name="description" content="4つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・掃除機・炊飯器・ドライヤーなど11カテゴリ・100点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
+<link rel="canonical" href="https://kadenshindan.github.io/">
+<meta property="og:title" content="ぴったり家電診断｜あなたに合う家電が30秒でわかる">
+<meta property="og:description" content="4つの質問に答えるだけ。条件に合った家電がランキング形式で見つかる無料診断サイト。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kadenshindan.github.io/">
+<meta property="og:site_name" content="ぴったり家電診断">
+<meta property="og:image" content="https://kadenshindan.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<script src="./ga.js"></script>
+<style>
+  :root {
+    --main: #2a9d8f;
+    --main-dark: #21867a;
+    --accent: #e76f51;
+    --gold: #e9a52f;
+    --bg: #f6f8f7;
+    --card: #ffffff;
+    --text: #2b2b2b;
+    --muted: #777;
+    --line: #e4e8e6;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", Meiryo, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+  }
+  header {
+    background: linear-gradient(135deg, var(--main), #37b5a5);
+    color: #fff;
+    text-align: center;
+    padding: 36px 16px 30px;
+  }
+  header h1 { font-size: 1.5rem; margin-bottom: 6px; }
+  header p { font-size: 0.9rem; opacity: 0.92; }
+  .container { max-width: 640px; margin: 0 auto; padding: 24px 16px 60px; }
+
+  /* progress */
+  .progress { display: flex; gap: 6px; margin-bottom: 20px; }
+  .progress span { flex: 1; height: 6px; border-radius: 3px; background: #d9e2df; transition: background .3s; }
+  .progress span.done { background: var(--main); }
+
+  /* question card */
+  .qcard {
+    background: var(--card);
+    border-radius: 14px;
+    padding: 26px 22px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+  }
+  .qnum { font-size: 0.8rem; color: var(--main-dark); font-weight: bold; letter-spacing: .05em; }
+  .qtitle { font-size: 1.15rem; font-weight: bold; margin: 6px 0 18px; }
+  .opts { display: grid; gap: 10px; }
+  .opts.grid2 { grid-template-columns: 1fr 1fr; }
+  .opt {
+    display: block; width: 100%;
+    text-align: left;
+    background: #fff;
+    border: 2px solid var(--line);
+    border-radius: 10px;
+    padding: 14px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: border-color .15s, background .15s, transform .1s;
+    font-family: inherit;
+    color: var(--text);
+  }
+  .opt:hover { border-color: var(--main); background: #f0faf8; }
+  .opt:active { transform: scale(0.98); border-color: var(--main); }
+  .opt .sub { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 2px; line-height: 1.5; }
+  .backbtn {
+    margin-top: 16px;
+    background: none; border: none;
+    color: var(--muted); font-size: 0.85rem;
+    cursor: pointer; text-decoration: underline;
+    font-family: inherit;
+    padding: 8px 4px;
+  }
+
+  /* result */
+  .result-head { text-align: center; margin-bottom: 18px; }
+  .result-head .badge {
+    display: inline-block;
+    background: var(--accent); color: #fff;
+    font-size: 0.8rem; font-weight: bold;
+    padding: 4px 14px; border-radius: 999px;
+    margin-bottom: 8px;
+  }
+  .result-head h2 { font-size: 1.25rem; }
+
+  .win-card {
+    background: var(--card);
+    border: 2px solid var(--gold);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  }
+  .win-rank {
+    background: linear-gradient(135deg, var(--gold), #f2c14e);
+    color: #fff; font-weight: bold;
+    text-align: center; padding: 8px;
+    font-size: 1rem; letter-spacing: .1em;
+  }
+  .win-body { padding: 20px; }
+  .win-photo {
+    background: #eef1f0;
+    border: 1px dashed #c8cfcc;
+    border-radius: 10px;
+    height: 180px;
+    display: flex; align-items: center; justify-content: center;
+    color: #9aa5a1; font-size: 0.85rem;
+    margin-bottom: 14px;
+  }
+  .win-maker { font-size: 0.8rem; color: var(--muted); }
+  .win-name { font-size: 1.2rem; font-weight: bold; margin: 2px 0 10px; }
+  .price-line {
+    display: flex; align-items: baseline; gap: 8px;
+    margin: 10px 0 4px;
+  }
+  .price-label { font-size: 0.78rem; color: var(--muted); }
+  .price-value { font-size: 1.5rem; font-weight: bold; color: var(--accent); }
+  .price-note { font-size: 0.72rem; color: var(--muted); margin-bottom: 12px; }
+  .win-points { list-style: none; margin: 12px 0; }
+  .win-points li {
+    padding: 6px 0 6px 26px;
+    position: relative;
+    font-size: 0.92rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .win-points li:last-child { border-bottom: none; }
+  .win-points li::before {
+    content: "✓";
+    position: absolute; left: 4px;
+    color: var(--main); font-weight: bold;
+  }
+  .match-reason {
+    background: #f0faf8;
+    border-left: 4px solid var(--main);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 14px;
+    font-size: 0.88rem;
+    margin: 14px 0;
+  }
+  .match-reason strong { color: var(--main-dark); }
+  .cta-row { display: flex; gap: 10px; margin-top: 16px; }
+  .cta {
+    flex: 1;
+    display: block;
+    text-align: center;
+    padding: 13px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: #fff;
+    transition: opacity .15s;
+  }
+  .cta:hover { opacity: 0.88; }
+  .cta.amazon { background: #e88b1a; }
+  .cta.rakuten { background: #bf0000; }
+
+  /* ranking list */
+  .rank-section { margin-top: 28px; }
+  .rank-section h3 {
+    font-size: 1.05rem;
+    margin-bottom: 12px;
+    padding-left: 10px;
+    border-left: 4px solid var(--main);
+  }
+  .rank-item {
+    display: flex; align-items: center; gap: 12px;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  .rank-badge {
+    flex-shrink: 0;
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-weight: bold; color: #fff; font-size: 0.95rem;
+    background: #9aa5a1;
+  }
+  .rank-badge.r2 { background: #8fa3b8; }
+  .rank-badge.r3 { background: #c08a5a; }
+  .rank-photo {
+    flex-shrink: 0;
+    width: 64px; height: 64px;
+    background: #eef1f0;
+    border: 1px dashed #c8cfcc;
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    color: #9aa5a1; font-size: 0.6rem;
+  }
+  .rank-info { flex: 1; min-width: 0; }
+  .rank-maker { font-size: 0.7rem; color: var(--muted); }
+  .rank-name { font-size: 0.9rem; font-weight: bold; line-height: 1.4; }
+  .rank-point { font-size: 0.75rem; color: var(--main-dark); margin-top: 2px; }
+  .rank-price { font-size: 0.9rem; font-weight: bold; color: var(--accent); margin-top: 2px; }
+  .rank-cta {
+    flex-shrink: 0;
+    background: var(--main);
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.78rem;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+  .rank-cta:hover { background: var(--main-dark); }
+
+  .retry {
+    display: block;
+    width: 100%;
+    margin-top: 26px;
+    background: #fff;
+    border: 2px solid var(--main);
+    color: var(--main-dark);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 13px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  .retry:hover { background: #f0faf8; }
+
+  .disclaimer {
+    margin-top: 24px;
+    font-size: 0.72rem;
+    color: var(--muted);
+    line-height: 1.6;
+  }
+  .hidden { display: none; }
+  footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--muted);
+    padding: 20px 16px 40px;
+  }
+
+  /* ===== スマホ対応 ===== */
+  @media (max-width: 430px) {
+    header { padding: 26px 14px 22px; }
+    header h1 { font-size: 1.3rem; }
+    header p { font-size: 0.8rem; }
+    .container { padding: 16px 12px 48px; }
+    .qcard { padding: 20px 14px; }
+    .qtitle { font-size: 1.05rem; }
+    .opt { padding: 12px 12px; font-size: 0.95rem; }
+    .opts.grid2 { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .opts.grid2 .opt { padding: 12px 10px; }
+    .opts.grid2 .opt .sub { font-size: 0.7rem; }
+    .win-body { padding: 16px 14px; }
+    .win-photo { height: 150px; }
+    .win-name { font-size: 1.05rem; }
+    .price-value { font-size: 1.3rem; }
+    .cta { font-size: 0.85rem; padding: 12px 4px; }
+    .rank-item { flex-wrap: wrap; padding: 10px; gap: 10px; }
+    .rank-info { flex: 1 1 calc(100% - 130px); }
+    .rank-cta { flex: 1 1 100%; text-align: center; padding: 11px; margin-top: 2px; }
+    .result-head h2 { font-size: 1.1rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ぴったり家電診断</h1>
+  <p>4つの質問に答えるだけ。あなたにぴったりの家電が見つかります</p>
+</header>
+
+<div class="container">
+
+  <div class="progress" id="progress">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- 質問カード -->
+  <div class="qcard" id="quiz">
+    <div class="qnum" id="qnum">Q1</div>
+    <div class="qtitle" id="qtitle"></div>
+    <div class="opts" id="opts"></div>
+    <button class="backbtn hidden" id="backbtn">← 前の質問に戻る</button>
+  </div>
+
+  <!-- 結果 -->
+  <div id="result" class="hidden">
+    <div class="result-head">
+      <span class="badge">診断結果</span>
+      <h2 id="resultTitle"></h2>
+    </div>
+
+    <div class="win-card">
+      <div class="win-rank">🏆 あなたへのおすすめ 第1位</div>
+      <div class="win-body">
+        <div class="win-photo" id="winPhoto">商品写真（後で差し替え）</div>
+        <div class="win-maker" id="winMaker"></div>
+        <div class="win-name" id="winName"></div>
+        <div class="price-line">
+          <span class="price-label">参考価格</span>
+          <span class="price-value" id="winPrice"></span>
+        </div>
+        <div class="price-note">※価格は変動します。最新価格はリンク先でご確認ください。</div>
+        <ul class="win-points" id="winPoints"></ul>
+        <div class="match-reason" id="winReason"></div>
+        <div class="cta-row">
+          <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener">Amazonで見る（PR）</a>
+          <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener">楽天で見る（PR）</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="rank-section">
+      <h3>2位以下のおすすめ</h3>
+      <div id="rankList"></div>
+    </div>
+
+    <div style="margin-top:20px;">
+      <div style="font-size:0.85rem; font-weight:bold; margin-bottom:8px; text-align:center;">診断結果をシェアする</div>
+      <div style="display:flex; gap:8px;">
+        <a id="shareX" href="#" target="_blank" rel="noopener" style="flex:1;background:#000;color:#fff;text-decoration:none;font-weight:bold;font-size:0.85rem;padding:11px 4px;border-radius:9px;text-align:center;">Xでポスト</a>
+        <a id="shareLine" href="#" target="_blank" rel="noopener" style="flex:1;background:#06c755;color:#fff;text-decoration:none;font-weight:bold;font-size:0.85rem;padding:11px 4px;border-radius:9px;text-align:center;">LINEで送る</a>
+        <button id="copyLink" style="flex:1;background:#fff;border:2px solid var(--main);color:var(--main-dark);font-weight:bold;font-size:0.85rem;padding:9px 4px;border-radius:9px;cursor:pointer;font-family:inherit;">リンクをコピー</button>
+      </div>
+    </div>
+
+    <button class="retry" id="retryBtn">もう一度診断する</button>
+
+    <div class="disclaimer">
+      ※本ページはアフィリエイト広告（PR）を含みます。<br>
+      ※参考価格は2026年7月時点の主要ECサイト・価格比較サイトの実勢価格をもとにした概算です。実際の販売価格はリンク先でご確認ください。
+    </div>
+  </div>
+
+  <section style="margin-top:32px; font-size:0.82rem; color:var(--muted); line-height:1.9;">
+    <h2 style="font-size:0.95rem; color:var(--text); padding-left:10px; border-left:4px solid var(--main); margin-bottom:8px;">ぴったり家電診断とは</h2>
+    <p style="margin-bottom:8px;">「ぴったり家電診断」は、カテゴリ・部屋の広さ(人数)・重視ポイント・予算の4つの質問に答えるだけで、あなたの条件に合った家電をランキング形式で紹介する無料の診断サービスです。</p>
+    <p>対応カテゴリはサーキュレーター、扇風機、除湿機、空気清浄機、加湿器、コードレス掃除機、ロボット掃除機、炊飯器、電気ケトル、ドライヤー、電動歯ブラシの11ジャンル・<span id="pcount">119</span>商品。専門メディアや価格比較サイトの評価を参考に、2026年7月時点の実勢価格とあわせて掲載しています。静音性重視、お手入れのしやすさ重視、省エネ重視など、こだわりに合わせた1台がすぐに見つかります。</p>
+    <p style="margin-top:10px;"><strong>カテゴリ別おすすめ記事: </strong><a href='/osusume-circulator' style='color:var(--main-dark);'>サーキュレーター</a> ／ <a href='/osusume-fan' style='color:var(--main-dark);'>扇風機</a> ／ <a href='/osusume-dehumidifier' style='color:var(--main-dark);'>除湿機</a> ／ <a href='/osusume-purifier' style='color:var(--main-dark);'>空気清浄機</a> ／ <a href='/osusume-humidifier' style='color:var(--main-dark);'>加湿器</a> ／ <a href='/osusume-vacuum' style='color:var(--main-dark);'>コードレス掃除機</a> ／ <a href='/osusume-robot' style='color:var(--main-dark);'>ロボット掃除機</a> ／ <a href='/osusume-ricecooker' style='color:var(--main-dark);'>炊飯器</a> ／ <a href='/osusume-kettle' style='color:var(--main-dark);'>電気ケトル</a> ／ <a href='/osusume-dryer' style='color:var(--main-dark);'>ドライヤー</a> ／ <a href='/osusume-toothbrush' style='color:var(--main-dark);'>電動歯ブラシ</a></p>
+    <p style="margin-top:6px;"><strong>比較記事: </strong><a href='/hikaku-na0k-na0j' style='color:var(--main-dark);'>ナノケアNA0KとNA0Jの違い</a> ／ <a href='/hikaku-roomba-105-205' style='color:var(--main-dark);'>ルンバ105と205の違い</a> ／ <a href='/hikaku-nwqb10-jpvx100' style='color:var(--main-dark);'>象印とタイガーの炊飯器比較</a> ／ <a href='/hikaku-sonicare-oralb' style='color:var(--main-dark);'>ソニッケアーとオーラルB比較</a> ／ <a href='/hikaku-eede50-eede35' style='color:var(--main-dark);'>象印加湿器のサイズ比較</a></p>
+  </section>
+</div>
+
+<footer>© 2026 ぴったり家電診断<br><a href='/policy' style='color:var(--muted);'>運営者情報・プライバシーポリシー</a></footer>
+
+<script src="./products.js"></script>
+<script>
+const CAT_NAMES = {
+  circulator: "サーキュレーター",
+  fan: "扇風機",
+  humidifier: "加湿器",
+  dehumidifier: "除湿機",
+  purifier: "空気清浄機",
+  vacuum: "コードレス掃除機",
+  robot: "ロボット掃除機",
+  ricecooker: "炊飯器",
+  kettle: "電気ケトル",
+  dryer: "ドライヤー",
+  toothbrush: "電動歯ブラシ",
+};
+
+// カテゴリ→質問グループ
+const CAT_GROUPS = {
+  circulator:"air", fan:"air", humidifier:"air", dehumidifier:"air", purifier:"air",
+  vacuum:"clean", robot:"clean",
+  ricecooker:"kitchen", kettle:"kitchen",
+  dryer:"beauty", toothbrush:"beauty",
+};
+
+// Q2: 規模(s/m/l) — グループごとに聞き方を変える
+const SIZE_Q = {
+  air: { title:"使う部屋の広さは？", opts:[
+    { label:"〜8畳くらい", sub:"寝室・個室・ワンルーム", value:"s" },
+    { label:"8〜16畳くらい", sub:"リビング・LDK", value:"m" },
+    { label:"16畳以上", sub:"広いリビング・吹き抜け", value:"l" },
+  ]},
+  clean: { title:"お住まいの広さは？", opts:[
+    { label:"ワンルーム〜1LDK", sub:"一人暮らし・コンパクトな部屋", value:"s" },
+    { label:"2LDK〜3LDK", sub:"二人暮らし・小さめファミリー", value:"m" },
+    { label:"4LDK以上・戸建て", sub:"広い家・部屋数が多い", value:"l" },
+  ]},
+  kitchen: { title:"何人で使いますか？", opts:[
+    { label:"1人", sub:"一人暮らし", value:"s" },
+    { label:"2〜3人", sub:"夫婦・小さなお子さんと", value:"m" },
+    { label:"4人以上", sub:"ファミリー", value:"l" },
+  ]},
+  beauty: { title:"誰が使いますか？", opts:[
+    { label:"自分専用", sub:"自分だけで使う", value:"s" },
+    { label:"2人で共用", sub:"夫婦・パートナーと", value:"m" },
+    { label:"家族みんな", sub:"3人以上で使う", value:"l" },
+  ]},
+};
+
+// Q3: 重視ポイント(quiet/power/care/eco) — グループごとに言い換え
+const FOCUS_Q = {
+  air: { title:"いちばん重視するポイントは？", opts:[
+    { label:"静かさ", sub:"寝室でも気にならない静音性", value:"quiet" },
+    { label:"パワー・性能", sub:"とにかくしっかり効くこと", value:"power" },
+    { label:"お手入れのしやすさ", sub:"掃除・メンテが簡単なこと", value:"care" },
+    { label:"省エネ・電気代", sub:"毎日使うから電気代を抑えたい", value:"eco" },
+    { label:"コンパクト・省スペース", sub:"置き場所を取らないこと", value:"compact" },
+    { label:"多機能・高機能", sub:"付加機能・モードの充実度", value:"multi" },
+  ]},
+  clean: { title:"いちばん重視するポイントは？", opts:[
+    { label:"静かさ", sub:"夜や集合住宅でも使いやすい", value:"quiet" },
+    { label:"吸引力・掃除性能", sub:"とにかくキレイになること", value:"power" },
+    { label:"ゴミ捨て・お手入れのラクさ", sub:"日々の手間を減らしたい", value:"care" },
+    { label:"軽さ・コスパ", sub:"扱いやすさと価格のバランス", value:"eco" },
+    { label:"コンパクト・収納性", sub:"軽くて収納場所に困らない", value:"compact" },
+    { label:"多機能・スマート機能", sub:"アプリ連携・自動化など", value:"multi" },
+  ]},
+  kitchen: { title:"いちばん重視するポイントは？", opts:[
+    { label:"時短・スピード", sub:"忙しい毎日でサッと使える", value:"quiet" },
+    { label:"おいしさ・性能", sub:"仕上がりのクオリティ最優先", value:"power" },
+    { label:"お手入れのしやすさ", sub:"洗い物・メンテが簡単なこと", value:"care" },
+    { label:"省エネ・コスパ", sub:"価格とランニングコスト重視", value:"eco" },
+    { label:"コンパクトさ", sub:"キッチンで場所を取らない", value:"compact" },
+    { label:"多機能・メニュー充実", sub:"炊き分け・温度調節など", value:"multi" },
+  ]},
+  beauty: { title:"いちばん重視するポイントは？", opts:[
+    { label:"静かさ・使い心地", sub:"音や振動が気にならないこと", value:"quiet" },
+    { label:"パワー・速さ", sub:"速乾・しっかり磨けること", value:"power" },
+    { label:"ケア効果", sub:"髪や歯ぐきへのやさしさ・仕上がり", value:"care" },
+    { label:"コスパ", sub:"価格とランニングコスト重視", value:"eco" },
+    { label:"軽さ・携帯性", sub:"軽くて旅行にも持ち運べる", value:"compact" },
+    { label:"多機能・高機能", sub:"モード・付加機能の充実度", value:"multi" },
+  ]},
+};
+
+// Q4: 予算 — カテゴリごとに金額帯を変える [下限ライン, 中間ライン]
+const CAT_BUDGETS = {
+  circulator:[10000,25000], fan:[10000,25000], humidifier:[10000,25000],
+  dehumidifier:[20000,40000], purifier:[10000,30000],
+  vacuum:[30000,60000], robot:[50000,100000],
+  ricecooker:[15000,40000], kettle:[6000,12000],
+  dryer:[15000,35000], toothbrush:[8000,20000],
+};
+
+function fmtYen(n) {
+  if (n >= 10000) {
+    const man = n / 10000;
+    return (man % 1 === 0 ? man : man.toFixed(1)) + "万円";
+  }
+  return n.toLocaleString("ja-JP") + "円";
+}
+
+function budgetQ(cat) {
+  const [low, mid] = CAT_BUDGETS[cat];
+  return { title:"ご予算は？", key:"budget", opts:[
+    { label:"〜" + fmtYen(low), sub:"できるだけ安く", value:low },
+    { label:fmtYen(low) + "〜" + fmtYen(mid), sub:"コスパ重視で選びたい", value:mid },
+    { label:fmtYen(mid) + "以上もOK", sub:"良いものなら予算は出せる", value:999999 },
+    { label:"こだわらない", sub:"予算より内容で選びたい", value:0 },
+  ]};
+}
+
+// Q1: カテゴリ
+const CAT_Q = { title:"どの家電をお探しですか？", key:"cat", grid:true, opts:[
+  { label:"サーキュレーター", sub:"空気の循環・部屋干しに", value:"circulator" },
+  { label:"扇風機", sub:"夏の涼をとる", value:"fan" },
+  { label:"除湿機", sub:"梅雨・湿気・部屋干し対策", value:"dehumidifier" },
+  { label:"空気清浄機", sub:"花粉・ホコリ・ニオイ対策", value:"purifier" },
+  { label:"加湿器", sub:"乾燥対策・のど・肌ケア", value:"humidifier" },
+  { label:"コードレス掃除機", sub:"毎日の掃除を手軽に", value:"vacuum" },
+  { label:"ロボット掃除機", sub:"掃除を自動化したい", value:"robot" },
+  { label:"炊飯器", sub:"おいしいごはんを炊きたい", value:"ricecooker" },
+  { label:"電気ケトル", sub:"お湯をサッと沸かす", value:"kettle" },
+  { label:"ドライヤー", sub:"速乾・ヘアケア", value:"dryer" },
+  { label:"電動歯ブラシ", sub:"歯みがきをレベルアップ", value:"toothbrush" },
+]};
+
+// ===== 状態 =====
+const TOTAL_STEPS = 5;
+let step = 0;
+let flow = [CAT_Q];
+const answers = {};
+
+const quizEl = document.getElementById("quiz");
+const resultEl = document.getElementById("result");
+const progressEl = document.getElementById("progress");
+
+function buildFlow(cat) {
+  const g = CAT_GROUPS[cat];
+  flow = [
+    CAT_Q,
+    Object.assign({ key:"size" }, SIZE_Q[g]),
+    Object.assign({ key:"focus" }, FOCUS_Q[g]),
+    { key:"focus2", title:"2番目に重視するポイントは？", opts:[] },
+    budgetQ(cat),
+  ];
+}
+
+function renderQuestion() {
+  const q = flow[step];
+  if (q.key === "focus2") {
+    const g = CAT_GROUPS[answers.cat];
+    q.opts = FOCUS_Q[g].opts.filter(o => o.value !== answers.focus)
+      .concat([{ label:"特になし", sub:"1番目のポイントだけで選ぶ", value:"none" }]);
+  }
+  document.getElementById("qnum").textContent = "Q" + (step + 1) + " / " + TOTAL_STEPS;
+  document.getElementById("qtitle").textContent = q.title;
+
+  const optsEl = document.getElementById("opts");
+  optsEl.className = "opts" + (q.grid ? " grid2" : "");
+  optsEl.innerHTML = "";
+  q.opts.forEach(o => {
+    const btn = document.createElement("button");
+    btn.className = "opt";
+    btn.innerHTML = "<strong>" + o.label + "</strong><span class='sub'>" + o.sub + "</span>";
+    btn.addEventListener("click", () => {
+      answers[q.key] = o.value;
+      answers[q.key + "Label"] = o.label;
+      if (q.key === "cat") buildFlow(o.value);
+      if (step < TOTAL_STEPS - 1) {
+        step++;
+        renderQuestion();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        showResult();
+      }
+    });
+    optsEl.appendChild(btn);
+  });
+
+  document.getElementById("backbtn").classList.toggle("hidden", step === 0);
+
+  Array.from(progressEl.children).forEach((sp, i) => {
+    sp.classList.toggle("done", i <= step);
+  });
+}
+
+document.getElementById("backbtn").addEventListener("click", () => {
+  if (step > 0) { step--; renderQuestion(); }
+});
+
+// ===== スコアリング =====
+function scoreProduct(p) {
+  let score = 0;
+  if (p.size.includes(answers.size)) score += 3;
+  score += (p.focus[answers.focus] || 0) * 3;
+  if (answers.focus2 && answers.focus2 !== "none") score += (p.focus[answers.focus2] || 0) * 1.5;
+  if (answers.budget === 0) {
+    score += 1;
+  } else if (p.price <= answers.budget) {
+    score += 3;
+    if (p.price >= answers.budget * 0.4) score += 1;
+  } else {
+    // 予算超過は超過率に応じて減点(15%以内なら軽め)
+    const ratio = (p.price - answers.budget) / answers.budget;
+    score -= ratio <= 0.15 ? 2 : 4 + Math.min(12, Math.round(ratio * 6));
+  }
+  return score;
+}
+
+// ===== リンク生成(アフィリエイトリンクがあれば優先、なければ検索結果へ) =====
+// 楽天アフィリエイトID(全商品の楽天リンクに自動適用されます)
+const RAKUTEN_AFF_ID = "55d685fe.6c6518d7.55d685ff.2b70ebf0";
+
+// AmazonアソシエイトのトラッキングID(例: "ren1020-22")。取得したらここに入れるだけで全リンクに適用されます
+const AMAZON_TAG = "tanosiikitaic-22";
+
+function amazonLink(p) {
+  if (p.amazon) return p.amazon;
+  let url = "https://www.amazon.co.jp/s?k=" + encodeURIComponent(p.maker + " " + p.model);
+  if (AMAZON_TAG) url += "&tag=" + AMAZON_TAG;
+  return url;
+}
+function rakutenLink(p) {
+  if (p.rakuten) return p.rakuten; // 商品個別のアフィリエイトリンクがあれば優先
+  const target = "https://search.rakuten.co.jp/search/mall/" + encodeURIComponent(p.maker + " " + p.model) + "/";
+  return "https://hb.afl.rakuten.co.jp/hgc/" + RAKUTEN_AFF_ID + "/?pc=" +
+    encodeURIComponent(target) + "&m=" + encodeURIComponent(target);
+}
+// 画像(imgがあれば表示、なければプレースホルダー)
+function photoHTML(p, isWin) {
+  return p.img
+    ? "<img src='" + p.img + "' alt='" + p.maker + " " + p.name + "' style='max-width:100%;max-height:100%;object-fit:contain;'>"
+    : (isWin ? "商品写真（後で差し替え）" : "写真");
+}
+function yen(n) {
+  return "約" + n.toLocaleString("ja-JP") + "円";
+}
+
+// ===== 結果表示 =====
+function showResult(forcedModel) {
+  const candidates = PRODUCTS
+    .filter(p => p.cat === answers.cat)
+    .map(p => ({ p, s: scoreProduct(p) + Math.random() * 1.2 })) // 僅差の商品が入れ替わる"ゆらぎ"
+    .sort((a, b) => b.s - a.s);
+
+  let winner = candidates[0].p;
+  if (forcedModel) {
+    const f = PRODUCTS.find(p => p.model === forcedModel && p.cat === answers.cat);
+    if (f) winner = f;
+  }
+  const rest = candidates.filter(c => c.p !== winner).slice(0, 4).map(c => c.p);
+
+  document.getElementById("resultTitle").textContent =
+    "あなたにぴったりの" + CAT_NAMES[answers.cat] + "はこれ！";
+
+  document.getElementById("winPhoto").innerHTML = photoHTML(winner, true);
+  document.getElementById("winMaker").textContent = winner.maker + " ／ " + winner.model;
+  document.getElementById("winName").textContent = winner.name;
+  document.getElementById("winPrice").textContent = yen(winner.price);
+
+  const pointsEl = document.getElementById("winPoints");
+  pointsEl.innerHTML = "";
+  winner.features.forEach(f => {
+    const li = document.createElement("li");
+    li.textContent = f;
+    pointsEl.appendChild(li);
+  });
+
+  document.getElementById("winReason").innerHTML =
+    "<strong>この商品が1位の理由：</strong>「" + answers.sizeLabel + "」で「" +
+    answers.focusLabel + "」重視" + (answers.focus2 && answers.focus2 !== "none" ? "（次いで「" + answers.focus2Label + "」）" : "") + "というあなたの条件に、候補の中でもっとも高くマッチしました。";
+
+  document.getElementById("winAmazon").href = amazonLink(winner);
+  document.getElementById("winRakuten").href = rakutenLink(winner);
+
+  const rankList = document.getElementById("rankList");
+  rankList.innerHTML = "";
+  if (rest.length === 0) {
+    rankList.innerHTML = "<p style='font-size:0.85rem;color:var(--muted);'>このジャンルでは現在、上記の1商品のみをご紹介しています。</p>";
+  }
+  rest.forEach((p, i) => {
+    const rank = i + 2;
+    const item = document.createElement("div");
+    item.className = "rank-item";
+    item.innerHTML =
+      "<div class='rank-badge r" + rank + "'>" + rank + "</div>" +
+      "<div class='rank-photo'>" + photoHTML(p, false) + "</div>" +
+      "<div class='rank-info'>" +
+        "<div class='rank-maker'>" + p.maker + " ／ " + p.model + "</div>" +
+        "<div class='rank-name'>" + p.name + "</div>" +
+        "<div class='rank-point'>" + p.point + "</div>" +
+        "<div class='rank-price'>" + yen(p.price) + "</div>" +
+      "</div>" +
+      "<a class='rank-cta' href='" + rakutenLink(p) + "' target='_blank' rel='noopener'>見る（PR）</a>";
+    rankList.appendChild(item);
+  });
+
+  // 結果をURLに保存し、シェアリンクを生成
+  const state = encodeURIComponent(JSON.stringify({ a: answers, m: winner.model }));
+  history.replaceState(null, "", "#r=" + state);
+  const shareUrl = location.origin + location.pathname + "#r=" + state;
+  const shareText = "家電診断をやってみたら、私にぴったりの" + CAT_NAMES[answers.cat] + "は「" + winner.maker + " " + winner.name + "」でした！";
+  document.getElementById("shareX").href = "https://twitter.com/intent/tweet?text=" + encodeURIComponent(shareText) + "&url=" + encodeURIComponent(shareUrl);
+  document.getElementById("shareLine").href = "https://social-plugins.line.me/lineit/share?url=" + encodeURIComponent(shareUrl) + "&text=" + encodeURIComponent(shareText);
+
+  quizEl.classList.add("hidden");
+  progressEl.classList.add("hidden");
+  resultEl.classList.remove("hidden");
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+// ===== リトライ =====
+document.getElementById("retryBtn").addEventListener("click", () => {
+  step = 0;
+  flow = [CAT_Q];
+  for (const k in answers) delete answers[k];
+  history.replaceState(null, "", location.pathname);
+  document.getElementById("rankList").innerHTML = "";
+  resultEl.classList.add("hidden");
+  progressEl.classList.remove("hidden");
+  quizEl.classList.remove("hidden");
+  renderQuestion();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+const pc = document.getElementById("pcount");
+if (pc) pc.textContent = PRODUCTS.length;
+
+// リンクコピー
+document.getElementById("copyLink").addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText(location.href);
+    const b = document.getElementById("copyLink");
+    b.textContent = "コピーしました！";
+    setTimeout(() => { b.textContent = "リンクをコピー"; }, 2000);
+  } catch (e) {}
+});
+
+// 共有URL(#r=...)から結果を復元
+let restored = false;
+try {
+  const mh = location.hash.match(/^#r=(.+)$/);
+  if (mh) {
+    const st = JSON.parse(decodeURIComponent(mh[1]));
+    if (st && st.a && st.a.cat && CAT_NAMES[st.a.cat]) {
+      Object.assign(answers, st.a);
+      buildFlow(answers.cat);
+      step = TOTAL_STEPS - 1;
+      showResult(st.m);
+      restored = true;
+    }
+  }
+} catch (e) {}
+if (!restored) renderQuestion();
+</script>
+</body>
+</html>

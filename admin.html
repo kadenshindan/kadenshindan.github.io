@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>商品管理｜ぴったり家電診断</title>
+<style>
+  :root { --main:#2a9d8f; --main-dark:#21867a; --accent:#e76f51; --bg:#f6f8f7; --text:#2b2b2b; --muted:#777; --line:#e4e8e6; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",Meiryo,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+  header { background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; padding:20px 16px; text-align:center; }
+  header h1 { font-size:1.2rem; }
+  header p { font-size:0.8rem; opacity:.9; }
+  .container { max-width:860px; margin:0 auto; padding:20px 16px 80px; }
+  .card { background:#fff; border-radius:12px; padding:20px; box-shadow:0 2px 8px rgba(0,0,0,.06); margin-bottom:16px; }
+  h2 { font-size:1rem; padding-left:10px; border-left:4px solid var(--main); margin-bottom:12px; }
+  label { display:block; font-size:0.8rem; font-weight:bold; margin:10px 0 4px; }
+  label .hint { font-weight:normal; color:var(--muted); }
+  input[type=text], input[type=number], select, textarea {
+    width:100%; padding:9px 10px; border:1.5px solid var(--line); border-radius:8px; font-size:0.9rem; font-family:inherit;
+  }
+  textarea { resize:vertical; }
+  .row { display:flex; gap:10px; flex-wrap:wrap; }
+  .row > div { flex:1; min-width:140px; }
+  .chks { display:flex; gap:14px; font-size:0.85rem; padding:6px 0; flex-wrap:wrap; }
+  .chks label { display:flex; align-items:center; gap:4px; margin:0; font-weight:normal; }
+  button { font-family:inherit; cursor:pointer; border:none; border-radius:8px; padding:10px 16px; font-size:0.9rem; font-weight:bold; }
+  .btn-main { background:var(--main); color:#fff; }
+  .btn-main:hover { background:var(--main-dark); }
+  .btn-accent { background:var(--accent); color:#fff; font-size:1rem; padding:14px 20px; width:100%; }
+  .btn-sub { background:#eee; color:var(--text); font-size:0.78rem; padding:6px 10px; }
+  .btn-del { background:#fbe9e5; color:#c0392b; font-size:0.78rem; padding:6px 10px; }
+  table { width:100%; border-collapse:collapse; font-size:0.82rem; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:middle; }
+  td img { width:40px; height:40px; object-fit:contain; background:#f2f4f3; border-radius:6px; }
+  .msg { font-size:0.85rem; padding:10px 12px; border-radius:8px; margin-bottom:12px; display:none; }
+  .msg.ok { background:#e7f6f3; color:var(--main-dark); display:block; }
+  .msg.err { background:#fbe9e5; color:#c0392b; display:block; }
+  .steps { font-size:0.82rem; color:var(--muted); }
+  .steps b { color:var(--text); }
+  .count { font-size:0.8rem; color:var(--muted); margin-left:8px; font-weight:normal; }
+</style>
+</head>
+<body>
+<header>
+  <h1>商品管理ページ</h1>
+  <p>商品を追加・編集して、更新用ファイルをダウンロード → Netlifyにドロップで反映</p>
+</header>
+<div class="container">
+
+  <div class="msg" id="msg"></div>
+
+  <div class="card">
+    <h2 id="formTitle">商品を追加</h2>
+    <div class="row">
+      <div>
+        <label>カテゴリ</label>
+        <select id="f_cat"></select>
+      </div>
+      <div>
+        <label>メーカー <span class="hint">(例: アイリスオーヤマ)</span></label>
+        <input type="text" id="f_maker">
+      </div>
+      <div>
+        <label>型番 <span class="hint">(例: PCF-SDC15T)</span></label>
+        <input type="text" id="f_model">
+      </div>
+    </div>
+    <label>商品名 <span class="hint">(例: サーキュレーターアイ DC JET)</span></label>
+    <input type="text" id="f_name">
+    <div class="row">
+      <div>
+        <label>参考価格(円・数字のみ)</label>
+        <input type="number" id="f_price" placeholder="12800">
+      </div>
+      <div>
+        <label>対応サイズ <span class="hint">(部屋の広さ/人数など)</span></label>
+        <div class="chks">
+          <label><input type="checkbox" id="f_s"> 小(〜8畳/1人/自分用)</label>
+          <label><input type="checkbox" id="f_m"> 中</label>
+          <label><input type="checkbox" id="f_l"> 大</label>
+        </div>
+      </div>
+    </div>
+    <label>スコア <span class="hint">(0〜3。診断でどの回答に強いか。3=最も強い)</span></label>
+    <div class="row">
+      <div><label class="hint">静かさ/時短</label><select id="f_quiet"><option>0</option><option>1</option><option selected>2</option><option>3</option></select></div>
+      <div><label class="hint">パワー・性能</label><select id="f_power"><option>0</option><option>1</option><option selected>2</option><option>3</option></select></div>
+      <div><label class="hint">手入れ/ケア</label><select id="f_care"><option>0</option><option>1</option><option selected>2</option><option>3</option></select></div>
+      <div><label class="hint">省エネ/コスパ</label><select id="f_eco"><option>0</option><option>1</option><option selected>2</option><option>3</option></select></div>
+      <div><label class="hint">コンパクトさ</label><select id="f_compact"><option>0</option><option>1</option><option selected>2</option><option>3</option></select></div>
+      <div><label class="hint">多機能さ</label><select id="f_multi"><option>0</option><option>1</option><option selected>2</option><option>3</option></select></div>
+    </div>
+    <label>ひとことポイント <span class="hint">(ランキングに表示される短い紹介文)</span></label>
+    <input type="text" id="f_point" placeholder="静音とパワーを両立した定番DCモデル">
+    <label>特徴(1行に1つ、2〜4行)</label>
+    <textarea id="f_features" rows="4" placeholder="DCモーターで静音・省エネ&#10;上下左右の自動首振り"></textarea>
+    <label>商品画像URL <span class="hint">(楽天の商品ページ画像。https://tshop.r10s.jp/〜.jpg)</span></label>
+    <input type="text" id="f_img" placeholder="https://tshop.r10s.jp/...jpg">
+    <label>楽天の商品ページURL <span class="hint">(https://item.rakuten.co.jp/〜 を貼るだけでアフィリエイトリンクに自動変換)</span></label>
+    <input type="text" id="f_rakuten" placeholder="https://item.rakuten.co.jp/shop/item/">
+    <div style="margin-top:14px; display:flex; gap:10px;">
+      <button class="btn-main" id="saveBtn">この内容で追加</button>
+      <button class="btn-sub" id="cancelBtn" style="display:none;">編集をキャンセル</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>登録済みの商品<span class="count" id="count"></span></h2>
+    <div style="margin-bottom:10px;">
+      <select id="filterCat" style="max-width:240px;"></select>
+    </div>
+    <table>
+      <thead><tr><th></th><th>メーカー/型番</th><th>商品名</th><th>価格</th><th></th></tr></thead>
+      <tbody id="list"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>サイトに反映する</h2>
+    <p class="steps" style="margin-bottom:12px;">
+      <b>① 下のボタンで更新用zipをダウンロード</b>(編集内容が入ったサイト一式) →
+      <b>② <a href="https://app.netlify.com/projects/kaden-shindan/deploys" target="_blank">NetlifyのDeploysページ</a>を開く</b> →
+      <b>③ zipをドラッグ&ドロップ</b>。数秒で公開されます。
+    </p>
+    <button class="btn-accent" id="dlBtn">更新用zipをダウンロード</button>
+  </div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="./products.js"></script>
+<script>
+const AFF_ID = "55d685fe.6c6518d7.55d685ff.2b70ebf0";
+const CATS = {
+  circulator:"サーキュレーター", fan:"扇風機", dehumidifier:"除湿機", purifier:"空気清浄機",
+  humidifier:"加湿器", vacuum:"コードレス掃除機", robot:"ロボット掃除機",
+  ricecooker:"炊飯器", kettle:"電気ケトル", dryer:"ドライヤー", toothbrush:"電動歯ブラシ",
+};
+let products = JSON.parse(JSON.stringify(PRODUCTS)); // 編集用コピー
+let editIndex = -1;
+
+const $ = id => document.getElementById(id);
+function msg(text, ok) {
+  const m = $("msg");
+  m.textContent = text; m.className = "msg " + (ok ? "ok" : "err");
+  window.scrollTo({top:0, behavior:"smooth"});
+  if (ok) setTimeout(()=>{ m.className="msg"; }, 4000);
+}
+
+// セレクト初期化
+for (const [v,n] of Object.entries(CATS)) {
+  $("f_cat").insertAdjacentHTML("beforeend", `<option value="${v}">${n}</option>`);
+  $("filterCat").insertAdjacentHTML("beforeend", `<option value="${v}">${n}</option>`);
+}
+$("filterCat").insertAdjacentHTML("afterbegin", `<option value="" selected>すべてのカテゴリ</option>`);
+
+// 楽天URL→アフィリエイトリンク変換
+function toAffiliate(url) {
+  url = (url||"").trim();
+  if (!url) return "";
+  if (url.includes("hb.afl.rakuten.co.jp")) return url; // 既にアフィリエイトリンク
+  if (url.includes("item.rakuten.co.jp")) {
+    const clean = url.split("?")[0];
+    const e = encodeURIComponent(clean);
+    return `https://hb.afl.rakuten.co.jp/hgc/${AFF_ID}/?pc=${e}&m=${e}`;
+  }
+  return url;
+}
+
+function renderList() {
+  const cat = $("filterCat").value;
+  const rows = products.map((p,i)=>({p,i})).filter(x=>!cat || x.p.cat===cat);
+  $("count").textContent = "全" + products.length + "商品";
+  $("list").innerHTML = rows.map(({p,i}) => `
+    <tr>
+      <td>${p.img ? `<img src="${p.img}" alt="">` : "－"}</td>
+      <td>${CATS[p.cat]||p.cat}<br><b>${p.maker}</b> ${p.model}</td>
+      <td>${p.name}</td>
+      <td>約${(p.price||0).toLocaleString()}円</td>
+      <td style="white-space:nowrap;">
+        <button class="btn-sub" onclick="editP(${i})">編集</button>
+        <button class="btn-del" onclick="delP(${i})">削除</button>
+      </td>
+    </tr>`).join("");
+}
+
+window.editP = function(i) {
+  const p = products[i];
+  editIndex = i;
+  $("formTitle").textContent = "商品を編集: " + p.model;
+  $("saveBtn").textContent = "変更を保存";
+  $("cancelBtn").style.display = "";
+  $("f_cat").value = p.cat; $("f_maker").value = p.maker; $("f_model").value = p.model;
+  $("f_name").value = p.name; $("f_price").value = p.price;
+  $("f_s").checked = p.size.includes("s"); $("f_m").checked = p.size.includes("m"); $("f_l").checked = p.size.includes("l");
+  $("f_quiet").value = p.focus.quiet; $("f_power").value = p.focus.power;
+  $("f_care").value = p.focus.care; $("f_eco").value = p.focus.eco;
+  $("f_compact").value = p.focus.compact ?? 2; $("f_multi").value = p.focus.multi ?? 2;
+  $("f_point").value = p.point; $("f_features").value = (p.features||[]).join("\n");
+  $("f_img").value = p.img||""; $("f_rakuten").value = p.rakuten||"";
+  window.scrollTo({top:0, behavior:"smooth"});
+};
+
+window.delP = function(i) {
+  if (!confirm(products[i].maker + " " + products[i].model + " を削除しますか?")) return;
+  products.splice(i,1);
+  if (editIndex === i) resetForm();
+  renderList();
+  msg("削除しました。反映するには下のzipダウンロード→Netlifyへのドロップが必要です。", true);
+};
+
+function resetForm() {
+  editIndex = -1;
+  $("formTitle").textContent = "商品を追加";
+  $("saveBtn").textContent = "この内容で追加";
+  $("cancelBtn").style.display = "none";
+  ["f_maker","f_model","f_name","f_price","f_point","f_features","f_img","f_rakuten"].forEach(id=>$(id).value="");
+  ["f_s","f_m","f_l"].forEach(id=>$(id).checked=false);
+  ["f_quiet","f_power","f_care","f_eco","f_compact","f_multi"].forEach(id=>$(id).value="2");
+}
+$("cancelBtn").addEventListener("click", resetForm);
+
+$("saveBtn").addEventListener("click", () => {
+  const size = ["s","m","l"].filter((v,i)=>[$("f_s"),$("f_m"),$("f_l")][i].checked);
+  const features = $("f_features").value.split("\n").map(s=>s.trim()).filter(Boolean);
+  if (!$("f_maker").value.trim() || !$("f_model").value.trim() || !$("f_name").value.trim())
+    return msg("メーカー・型番・商品名は必須です。", false);
+  if (!$("f_price").value || +$("f_price").value <= 0) return msg("価格を入力してください。", false);
+  if (size.length === 0) return msg("対応サイズを1つ以上チェックしてください。", false);
+  if (!$("f_point").value.trim()) return msg("ひとことポイントを入力してください。", false);
+  if (features.length === 0) return msg("特徴を1行以上入力してください。", false);
+
+  const p = {
+    cat: $("f_cat").value, maker: $("f_maker").value.trim(), model: $("f_model").value.trim(),
+    name: $("f_name").value.trim(), price: +$("f_price").value, size,
+    focus: { quiet:+$("f_quiet").value, power:+$("f_power").value, care:+$("f_care").value, eco:+$("f_eco").value, compact:+$("f_compact").value, multi:+$("f_multi").value },
+    point: $("f_point").value.trim(), features,
+  };
+  const img = $("f_img").value.trim(); if (img) p.img = img;
+  const rk = toAffiliate($("f_rakuten").value); if (rk) p.rakuten = rk;
+
+  if (editIndex >= 0) { products[editIndex] = p; msg("変更を保存しました。反映するには下のzipダウンロード→Netlifyへのドロップが必要です。", true); }
+  else { products.push(p); msg(p.maker + " " + p.model + " を追加しました。反映するには下のzipダウンロード→Netlifyへのドロップが必要です。", true); }
+  resetForm(); renderList();
+});
+
+// 更新用zip生成: 現在のサイト一式を取得してproducts.jsだけ差し替える
+$("dlBtn").addEventListener("click", async () => {
+  try {
+    $("dlBtn").textContent = "作成中...";
+    const zip = new JSZip();
+    for (const f of ["index.html","policy.html","sitemap.xml","robots.txt","admin.html"]) {
+      const r = await fetch("./"+f, {cache:"no-store"});
+      if (!r.ok) throw new Error(f+" の取得に失敗");
+      zip.file(f, await r.text());
+    }
+    zip.file("products.js", "// 商品データ(admin.htmlで編集できます)\nconst PRODUCTS = " + JSON.stringify(products, null, 2) + ";\n");
+    const blob = await zip.generateAsync({type:"blob"});
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "kaden-site-update.zip";
+    a.click();
+    msg("zipをダウンロードしました。NetlifyのDeploysページにドロップすると反映されます。", true);
+  } catch(e) {
+    msg("zipの作成に失敗しました: " + e.message, false);
+  } finally {
+    $("dlBtn").textContent = "更新用zipをダウンロード";
+  }
+});
+
+renderList();
+</script>
+</body>
+</html>
