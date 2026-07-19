@@ -3659,7 +3659,8 @@ const PRODUCTS = [
       "モップ自動洗浄・乾燥まで対応",
       "ゴミ収集ドックでお手入れ最小限",
       "AI障害物回避が賢い"
-    ]
+    ],
+    "img": "https://tshop.r10s.jp/ohw/cabinet/tokusyu/imgrc0121382000.jpg"
   },
   {
     "cat": "robot",
@@ -3685,7 +3686,8 @@ const PRODUCTS = [
       "モップ自動洗浄・乾燥",
       "自動ゴミ収集ドック付き",
       "コスパに優れた全自動モデル"
-    ]
+    ],
+    "img": "https://tshop.r10s.jp/arc-market-kaden/cabinet/10911043/4571411226663.jpg"
   },
   {
     "cat": "robot",
@@ -3711,33 +3713,8 @@ const PRODUCTS = [
       "水拭きの手間を大幅カット",
       "スマートホーム連携が得意",
       "薄型ボディで家具下も"
-    ]
-  },
-  {
-    "cat": "vacuum",
-    "maker": "ダイソン",
-    "model": "V15 Detect",
-    "name": "Dyson V15 Detect",
-    "price": 89800,
-    "size": [
-      "m",
-      "l"
     ],
-    "focus": {
-      "quiet": 1,
-      "power": 3,
-      "care": 2,
-      "eco": 2,
-      "compact": 2,
-      "multi": 2
-    },
-    "point": "緑色レーザーでゴミを可視化する最上位コードレス",
-    "features": [
-      "緑色レーザーで微細なゴミを可視化",
-      "第5世代モーターの圧倒的吸引力",
-      "液晶にゴミの量を表示",
-      "最長約60分運転"
-    ]
+    "img": "https://tshop.r10s.jp/switchbot/cabinet/09377790/s10/ebc/imgrc0092497597.jpg"
   },
   {
     "cat": "purifier",
@@ -3763,32 +3740,8 @@ const PRODUCTS = [
       "加湿もできる1台2役",
       "〜23畳対応のパワフル清浄",
       "花粉・ニオイ対策に"
-    ]
-  },
-  {
-    "cat": "purifier",
-    "maker": "Levoit",
-    "model": "Core 600S",
-    "name": "Core 600S",
-    "price": 29800,
-    "size": [
-      "l"
     ],
-    "focus": {
-      "quiet": 2,
-      "power": 3,
-      "care": 2,
-      "eco": 3,
-      "compact": 1,
-      "multi": 2
-    },
-    "point": "〜48畳対応の大風量をコスパよく",
-    "features": [
-      "大部屋・リビング向けの大風量",
-      "静音の睡眠モード搭載",
-      "アプリ・スマートスピーカー対応",
-      "交換フィルターが手頃"
-    ]
+    "img": "https://tshop.r10s.jp/premoa/cabinet/orj/49/0-4550556135832.jpg"
   },
   {
     "cat": "dryer",
@@ -3815,7 +3768,8 @@ const PRODUCTS = [
       "頭皮センサーで温度を自動調整",
       "髪のダメージを抑える",
       "付け替えノズルが豊富"
-    ]
+    ],
+    "img": "https://tshop.r10s.jp/b-bell/cabinet/products/dyson/20901002.jpg"
   },
   {
     "cat": "dryer",
@@ -3842,7 +3796,8 @@ const PRODUCTS = [
       "ハイドロイオンでうるおい",
       "大風量で速乾",
       "美容師にも人気"
-    ]
+    ],
+    "img": "https://tshop.r10s.jp/kiseki-shop/cabinet/shohin/mtg-ka/5066-o-5073-6100_m.jpg"
   },
   {
     "cat": "circulator",
@@ -3869,33 +3824,8 @@ const PRODUCTS = [
       "DCモーターで静音・省エネ",
       "室温連動モード搭載",
       "リモコン付き"
-    ]
-  },
-  {
-    "cat": "ricecooker",
-    "maker": "パナソニック",
-    "model": "SR-VSX101",
-    "name": "ビストロ Wおどり炊き",
-    "price": 62000,
-    "size": [
-      "m",
-      "l"
     ],
-    "focus": {
-      "quiet": 2,
-      "power": 3,
-      "care": 2,
-      "eco": 2,
-      "compact": 1,
-      "multi": 3
-    },
-    "point": "2つの圧力で激しく対流させる最上位モデル",
-    "features": [
-      "Wおどり炊きで一粒一粒ふっくら",
-      "銘柄炊き分け対応",
-      "高温スチームでもちもち",
-      "パン・低温調理にも対応"
-    ]
+    "img": "https://tshop.r10s.jp/enetroom/cabinet/11375185/11760512/imgrc0100049267.jpg"
   },
   {
     "cat": "ricecooker",
@@ -3922,7 +3852,8 @@ const PRODUCTS = [
       "落ち着いたマットデザイン",
       "わたし好み炊き分け",
       "5.5合炊き"
-    ]
+    ],
+    "img": "https://tshop.r10s.jp/harika-hanno/cabinet/2023to/p254-277/20230612073638.jpg"
   },
   {
     "cat": "toothbrush",
@@ -3949,6 +3880,7 @@ const PRODUCTS = [
       "カラーディスプレイでガイド",
       "押しつけ防止センサー",
       "アプリで磨き残しチェック"
-    ]
+    ],
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg"
   }
 ];
