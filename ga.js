@@ -13,7 +13,8 @@ if (GA_ID) {
   gtag("config", GA_ID);
 
   // --- アフィリエイトリンクのクリック計測 ---
-  // 商品リンク(Amazon / 楽天など)のクリックを GA4 イベントとして送信します。
+  // 商品リンク(Amazon / 楽天など)のクリックを GA4 イベント "affiliate_click" として送信します。
+  // GA4 の「イベント」で shop(ショップ) / item_name(メーカー・型番) 等が確認できます。
   document.addEventListener("click", function (e) {
     const a = e.target.closest("a[href]");
     if (!a) return;
@@ -21,7 +22,6 @@ if (GA_ID) {
     let host = "";
     try { host = new URL(href, location.href).hostname; } catch (err) { return; }
 
-    // アフィリエイト/外部ショップ判定(rel="sponsored" またはショップのドメイン)
     const rel = (a.getAttribute("rel") || "").toLowerCase();
     const isAmazon = /(^|\.)amazon\.co\.jp$/.test(host) || /(^|\.)amzn\.to$/.test(host);
     const isRakuten = /rakuten\.co\.jp$/.test(host);
@@ -30,11 +30,18 @@ if (GA_ID) {
 
     const shop = isAmazon ? "amazon" : (isRakuten ? "rakuten" : "other");
 
-    // 商品名の推定:リンクを含むカード/リスト内の見出しを拾う
-    let itemName = "";
-    const box = a.closest("li, article, .card, .rank, .item, .product, .box, .rank-item, div");
-    if (box) {
-      const h = box.querySelector("h1, h2, h3, h4, strong, b");
+    // 商品名の取得:商品カード(.item)内の .mk(メーカー・型番)/ .nm(商品名)を優先
+    let itemName = "", itemDesc = "";
+    const card = a.closest(".item");
+    if (card) {
+      const mk = card.querySelector(".mk");
+      const nm = card.querySelector(".nm");
+      if (mk) itemName = (mk.textContent || "").trim().slice(0, 100);
+      if (nm) itemDesc = (nm.textContent || "").trim().slice(0, 100);
+    }
+    if (!itemName) {
+      const box = a.closest("li, article, section, .card, div");
+      const h = box && box.querySelector("h1, h2, h3, h4, strong, b");
       if (h) itemName = (h.textContent || "").trim().slice(0, 100);
     }
     const linkText = (a.textContent || "").trim().slice(0, 60);
@@ -42,6 +49,7 @@ if (GA_ID) {
     gtag("event", "affiliate_click", {
       shop: shop,
       item_name: itemName,
+      item_desc: itemDesc,
       link_text: linkText,
       link_domain: host,
       link_url: href.slice(0, 200),
