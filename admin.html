@@ -45,7 +45,7 @@
 <body>
 <header>
   <h1>商品管理ページ</h1>
-  <p>商品を追加・編集して、更新用ファイルをダウンロード → Netlifyにドロップで反映</p>
+  <p>商品を追加・編集して、更新用ファイルをダウンロード → Claudeに送るだけで反映</p>
 </header>
 <div class="container">
 
@@ -120,15 +120,14 @@
   <div class="card">
     <h2>サイトに反映する</h2>
     <p class="steps" style="margin-bottom:12px;">
-      <b>① 下のボタンで更新用zipをダウンロード</b>(編集内容が入ったサイト一式) →
-      <b>② <a href="https://app.netlify.com/projects/kaden-shindan/deploys" target="_blank">NetlifyのDeploysページ</a>を開く</b> →
-      <b>③ zipをドラッグ&ドロップ</b>。数秒で公開されます。
+      <b>① 下のボタンで更新用ファイル(products.js)をダウンロード</b> →
+      <b>② Claudeとのチャットにそのファイルをドラッグ&ドロップして送る</b>。
+      あとはClaudeが、診断だけでなく<b>おすすめ記事・比較記事の価格や商品も更新</b>してGitHubに反映します。
     </p>
-    <button class="btn-accent" id="dlBtn">更新用zipをダウンロード</button>
+    <button class="btn-accent" id="dlBtn">更新用ファイルをダウンロード</button>
   </div>
 
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 <script src="./products.js"></script>
 <script>
 const AFF_ID = "55d685fe.6c6518d7.55d685ff.2b70ebf0";
@@ -207,7 +206,7 @@ window.delP = function(i) {
   products.splice(i,1);
   if (editIndex === i) resetForm();
   renderList();
-  msg("削除しました。反映するには下のzipダウンロード→Netlifyへのドロップが必要です。", true);
+  msg("削除しました。反映するには下の『更新用ファイルをダウンロード』→ Claudeに送信してください。", true);
 };
 
 function resetForm() {
@@ -240,32 +239,23 @@ $("saveBtn").addEventListener("click", () => {
   const img = $("f_img").value.trim(); if (img) p.img = img;
   const rk = toAffiliate($("f_rakuten").value); if (rk) p.rakuten = rk;
 
-  if (editIndex >= 0) { products[editIndex] = p; msg("変更を保存しました。反映するには下のzipダウンロード→Netlifyへのドロップが必要です。", true); }
-  else { products.push(p); msg(p.maker + " " + p.model + " を追加しました。反映するには下のzipダウンロード→Netlifyへのドロップが必要です。", true); }
+  if (editIndex >= 0) { products[editIndex] = p; msg("変更を保存しました。反映するには下の『更新用ファイルをダウンロード』→ Claudeに送信してください。", true); }
+  else { products.push(p); msg(p.maker + " " + p.model + " を追加しました。反映するには下の『更新用ファイルをダウンロード』→ Claudeに送信してください。", true); }
   resetForm(); renderList();
 });
 
-// 更新用zip生成: 現在のサイト一式を取得してproducts.jsだけ差し替える
-$("dlBtn").addEventListener("click", async () => {
+// 更新用ファイル(products.js)を生成してダウンロード。Claudeに送ると反映される。
+$("dlBtn").addEventListener("click", () => {
   try {
-    $("dlBtn").textContent = "作成中...";
-    const zip = new JSZip();
-    for (const f of ["index.html","policy.html","sitemap.xml","robots.txt","admin.html"]) {
-      const r = await fetch("./"+f, {cache:"no-store"});
-      if (!r.ok) throw new Error(f+" の取得に失敗");
-      zip.file(f, await r.text());
-    }
-    zip.file("products.js", "// 商品データ(admin.htmlで編集できます)\nconst PRODUCTS = " + JSON.stringify(products, null, 2) + ";\n");
-    const blob = await zip.generateAsync({type:"blob"});
+    const content = "// 商品データ(admin.htmlで編集できます)\nconst PRODUCTS = " + JSON.stringify(products, null, 2) + ";\n";
+    const blob = new Blob([content], {type:"application/javascript"});
     const a = document.createElement("a");
     a.href = URL.createObjectURL(blob);
-    a.download = "kaden-site-update.zip";
+    a.download = "products.js";
     a.click();
-    msg("zipをダウンロードしました。NetlifyのDeploysページにドロップすると反映されます。", true);
+    msg("products.js をダウンロードしました。Claudeとのチャットに送れば、記事ページも含めて反映されます。", true);
   } catch(e) {
-    msg("zipの作成に失敗しました: " + e.message, false);
-  } finally {
-    $("dlBtn").textContent = "更新用zipをダウンロード";
+    msg("ダウンロードに失敗しました: " + e.message, false);
   }
 });
 
