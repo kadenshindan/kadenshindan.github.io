@@ -48,8 +48,8 @@ if (GA_ID) {
 
     gtag("event", "affiliate_click", {
       shop: shop,
-      item_name: itemName,
-      item_desc: itemDesc,
+      product_name: itemName,
+      product_desc: itemDesc,
       link_text: linkText,
       link_domain: host,
       link_url: href.slice(0, 200),
