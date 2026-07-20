@@ -1153,7 +1153,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "EH-NA0K",
     "name": "ヘアードライヤー ナノケア",
-    "price": 34967,
+    "price": 31489,
     "size": [
       "s",
       "m",
@@ -1168,7 +1168,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/eh-na0k_004.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4549980975022%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4549980975022%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyabibstore%2Feh-na0k%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyabibstore%2Feh-na0k%2F",
     "point": "高浸透ナノイーでうるおい最高峰",
     "features": [
       "高浸透ナノイーで髪にうるおい",
@@ -1182,7 +1182,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "EH-NA0J",
     "name": "ヘアードライヤー ナノケア(型落ち)",
-    "price": 34967,
+    "price": 30560,
     "size": [
       "s",
       "m",
@@ -1197,7 +1197,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/eh-na0k_004.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Feh-na0j-a%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Feh-na0j-a%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F",
     "point": "最新とほぼ同性能、型落ちでお得",
     "features": [
       "EH-NA0Kとほぼ同性能",
@@ -1296,7 +1296,7 @@ const PRODUCTS = [
     "maker": "ブラウン",
     "model": "オーラルB iO4S",
     "name": "オーラルB iO4S",
-    "price": 15778,
+    "price": 21998,
     "size": [
       "s",
       "m"
@@ -1310,7 +1310,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/shopavail/cabinet/07943905/compass1751508614.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftales-store%2F202405101053224210201442172%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftales-store%2F202405101053224210201442172%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F",
     "point": "回転式のパワフル洗浄で磨き残しなし",
     "features": [
       "丸型ブラシが歯を包み込んで磨く",
@@ -2409,7 +2409,7 @@ const PRODUCTS = [
     "maker": "ツインバード",
     "model": "TC-E124",
     "name": "サイクロンスティック掃除機",
-    "price": 4580,
+    "price": 5980,
     "size": [
       "s"
     ],
@@ -3075,7 +3075,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "CK-DA10",
     "name": "電気ケトル 1.0L",
-    "price": 5080,
+    "price": 8233,
     "size": [
       "s",
       "m"
@@ -3505,7 +3505,7 @@ const PRODUCTS = [
     "maker": "Anker Eufy",
     "model": "Clean X10 Pro Omni",
     "name": "Eufy Clean X10 Pro Omni",
-    "price": 89900,
+    "price": 57200,
     "size": [
       "m",
       "l"
@@ -3561,7 +3561,7 @@ const PRODUCTS = [
     "maker": "シャープ",
     "model": "KI-TS50",
     "name": "加湿空気清浄機 プラズマクラスターNEXT",
-    "price": 49800,
+    "price": 32800,
     "size": [
       "m",
       "l"
@@ -3589,7 +3589,7 @@ const PRODUCTS = [
     "maker": "ダイソン",
     "model": "Supersonic Nural",
     "name": "Dyson Supersonic Nural",
-    "price": 53900,
+    "price": 44530,
     "size": [
       "s",
       "m",
@@ -3618,7 +3618,7 @@ const PRODUCTS = [
     "maker": "リファ",
     "model": "ビューテック ドライヤー プロ",
     "name": "ReFa BEAUTECH DRYER PRO",
-    "price": 43000,
+    "price": 30980,
     "size": [
       "s",
       "m",
@@ -3647,7 +3647,7 @@ const PRODUCTS = [
     "maker": "アイリスオーヤマ",
     "model": "PCF-SDS15T-EC",
     "name": "静音サーキュレーター 上下左右首振り",
-    "price": 12800,
+    "price": 7980,
     "size": [
       "s",
       "m",
@@ -3706,7 +3706,7 @@ const PRODUCTS = [
     "maker": "ブラウン",
     "model": "オーラルB iO9",
     "name": "オーラルB iO9",
-    "price": 29800,
+    "price": 35005,
     "size": [
       "s",
       "m",

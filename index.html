@@ -253,6 +253,7 @@
   .chips a:hover { background: #f0faf8; border-color: var(--main); }
   .allink { display: inline-block; margin-top: 11px; font-size: 0.85rem; color: var(--main-dark); font-weight: bold; text-decoration: none; }
   .allink:hover { text-decoration: underline; }
+  .adnote { font-size:0.78rem; color:#5b6b68; background:#f4f8f7; border:1px solid var(--line); border-radius:8px; padding:8px 11px; margin-bottom:16px; line-height:1.6; }
   .disclaimer {
     margin-top: 24px;
     font-size: 0.72rem;
@@ -314,6 +315,7 @@
 
   <!-- 結果 -->
   <div id="result" class="hidden">
+    <div class="adnote">広告について：以下の「Amazonで見る」「楽天で見る」はアフィリエイトリンクです。リンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
     <div class="result-head">
       <span class="badge">診断結果</span>
       <h2 id="resultTitle"></h2>
@@ -333,8 +335,8 @@
         <ul class="win-points" id="winPoints"></ul>
         <div class="match-reason" id="winReason"></div>
         <div class="cta-row">
-          <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener">Amazonで見る（PR）</a>
-          <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener">楽天で見る（PR）</a>
+          <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener">Amazonで見る</a>
+          <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener">楽天で見る</a>
         </div>
       </div>
     </div>
@@ -356,7 +358,7 @@
     <button class="retry" id="retryBtn">もう一度診断する</button>
 
     <div class="disclaimer">
-      ※本ページはアフィリエイト広告（PR）を含みます。<br>
+      広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。<br>
       ※参考価格は2026年7月時点の主要ECサイト・価格比較サイトの実勢価格をもとにした概算です。実際の販売価格はリンク先でご確認ください。
     </div>
   </div>
@@ -691,7 +693,7 @@ function showResult(forcedModel) {
         "<div class='rank-point'>" + p.point + "</div>" +
         "<div class='rank-price'>" + yen(p.price) + "</div>" +
       "</div>" +
-      "<a class='rank-cta' href='" + rakutenLink(p) + "' target='_blank' rel='noopener'>見る（PR）</a>";
+      "<a class='rank-cta' href='" + rakutenLink(p) + "' target='_blank' rel='noopener'>見る</a>";
     rankList.appendChild(item);
   });
 
