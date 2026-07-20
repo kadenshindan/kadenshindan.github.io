@@ -24,12 +24,15 @@
   .container { max-width:680px; margin:0 auto; padding:24px 16px 60px; }
   h1 { font-size:1.3rem; line-height:1.5; margin-bottom:14px; }
   .date { font-size:0.75rem; color:var(--muted); margin-bottom:16px; }
+  .adnote { font-size:0.78rem; color:#5b6b68; background:#f4f8f7; border:1px solid var(--line); border-radius:8px; padding:8px 11px; margin-bottom:18px; line-height:1.6; }
   p { font-size:0.95rem; margin-bottom:14px; }
   h2 { font-size:1.15rem; padding-left:10px; border-left:4px solid var(--main); margin:32px 0 14px; }
-  table { width:100%; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
-  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; }
+  table { width:100%; table-layout:fixed; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
+  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; word-break:break-word; overflow-wrap:anywhere; }
   thead th { background:var(--main); color:#fff; }
-  tbody th { background:#f0faf8; text-align:left; white-space:nowrap; font-size:0.8rem; }
+  tbody th { background:#f0faf8; text-align:left; font-size:0.78rem; line-height:1.45; }
+  thead th:first-child, tbody th { width:26%; }
+  @media (max-width:480px) { table { font-size:0.8rem; } th, td { padding:8px 6px; } tbody th { font-size:0.72rem; } thead th:first-child, tbody th { width:28%; } }
   .verdict { background:#fff7f0; border-left:4px solid var(--accent); border-radius:0 10px 10px 0; padding:14px 16px; font-size:0.92rem; margin:18px 0; }
   .cta { display:block; background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; text-decoration:none; text-align:center; font-weight:bold; padding:16px; border-radius:12px; margin:22px 0; font-size:1rem; }
   .cta small { display:block; font-weight:normal; font-size:0.78rem; opacity:.9; }
@@ -57,7 +60,8 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>象印NW-QB10とタイガーJPV-X100の違いを比較【炊飯器どっちを買うべき?】</h1>
-  <div class="date">2026年7月更新 ／ 本ページはアフィリエイト広告（PR）を含みます</div>
+  <div class="date">2026年7月更新</div>
+  <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <p>3万円前後で「おいしいIH炊飯器」を探すと必ず候補に挙がるのが、象印NW-QB10とタイガーJPV-X100です。どちらも専門メディアの比較で上位常連ですが、炊き上がりの傾向とお手入れ性に個性があります。</p>
   <h2>象印 NW-QB10 と タイガー JPV-X100 の比較表</h2>
   <table>
@@ -82,8 +86,8 @@
     <div class="pr">参考価格 約28,800円</div>
     <ul><li>専門家テストでベストバイ獲得</li><li>IHの強火で甘みのある炊き上がり</li><li>メニュー豊富で炊き分け可能</li><li>5.5合でファミリーに最適</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20NW-QB10&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20NW-QB10&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <h2>タイガー「圧力IHジャー炊飯器〈炊きたて〉」（JPV-X100）の詳細</h2>
@@ -95,8 +99,8 @@
     <div class="pr">参考価格 約31,600円</div>
     <ul><li>圧力IHでもちもちの炊き上がり</li><li>内ぶた・内なべの2点洗いでお手入れ簡単</li><li>粒立ち炊飯で冷めてもおいしい</li><li>比較テスト上位の実力機</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%20JPV-X100&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%20JPV-X100&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <div class="rel">

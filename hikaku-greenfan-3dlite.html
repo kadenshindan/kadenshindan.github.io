@@ -24,12 +24,15 @@
   .container { max-width:680px; margin:0 auto; padding:24px 16px 60px; }
   h1 { font-size:1.3rem; line-height:1.5; margin-bottom:14px; }
   .date { font-size:0.75rem; color:var(--muted); margin-bottom:16px; }
+  .adnote { font-size:0.78rem; color:#5b6b68; background:#f4f8f7; border:1px solid var(--line); border-radius:8px; padding:8px 11px; margin-bottom:18px; line-height:1.6; }
   p { font-size:0.95rem; margin-bottom:14px; }
   h2 { font-size:1.15rem; padding-left:10px; border-left:4px solid var(--main); margin:32px 0 14px; }
-  table { width:100%; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
-  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; }
+  table { width:100%; table-layout:fixed; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
+  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; word-break:break-word; overflow-wrap:anywhere; }
   thead th { background:var(--main); color:#fff; }
-  tbody th { background:#f0faf8; text-align:left; white-space:nowrap; font-size:0.8rem; }
+  tbody th { background:#f0faf8; text-align:left; font-size:0.78rem; line-height:1.45; }
+  thead th:first-child, tbody th { width:26%; }
+  @media (max-width:480px) { table { font-size:0.8rem; } th, td { padding:8px 6px; } tbody th { font-size:0.72rem; } thead th:first-child, tbody th { width:28%; } }
   .verdict { background:#fff7f0; border-left:4px solid var(--accent); border-radius:0 10px 10px 0; padding:14px 16px; font-size:0.92rem; margin:18px 0; }
   .cta { display:block; background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; text-decoration:none; text-align:center; font-weight:bold; padding:16px; border-radius:12px; margin:22px 0; font-size:1rem; }
   .cta small { display:block; font-weight:normal; font-size:0.78rem; opacity:.9; }
@@ -57,7 +60,8 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>バルミューダ The GreenFanとツインバード3D Liteを比較【扇風機どっち?】</h1>
-  <div class="date">2026年7月更新 ／ 本ページはアフィリエイト広告（PR）を含みます</div>
+  <div class="date">2026年7月更新</div>
+  <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <p>静音性で評価される扇風機の対決、バルミューダ The GreenFan（EGF-1800）と ツインバード サーキュレーション扇風機3D Lite（EF-E995W）。どちらも「静かさ」を売りにしていますが、価格差は約1.1万円。<strong>風の質を突き詰めたGreenFan</strong>と、<strong>静かさに多機能を足した3D Lite</strong>という違いがあります。</p>
   <h2>バルミューダ EGF-1800 と ツインバード EF-E995W の比較表</h2>
   <table>
@@ -87,8 +91,8 @@
     <div class="pr">参考価格 約29,259円</div>
     <ul><li>二重構造の羽根で面で広がる自然な風</li><li>最小運転音は図書館より静か</li><li>消費電力最小1.5Wの省エネ性</li><li>デザイン性が高くインテリアに映える</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%90%E3%83%AB%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%80%20EGF-1800&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%90%E3%83%AB%E3%83%9F%E3%83%A5%E3%83%BC%E3%83%80%20EGF-1800&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <h2>ツインバード「サーキュレーション扇風機3D Lite」（EF-E995W）の詳細</h2>
@@ -100,8 +104,8 @@
     <div class="pr">参考価格 約17,800円</div>
     <ul><li>風量7以下なら35dB未満の静かさ</li><li>上下約100°・左右約120°の3D首振り</li><li>11枚羽根「エクセルブレード」で大風量</li><li>羽根とガードは水洗いできる</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%84%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%E3%83%89%20EF-E995W&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%84%E3%82%A4%E3%83%B3%E3%83%90%E3%83%BC%E3%83%89%20EF-E995W&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <div class="rel">

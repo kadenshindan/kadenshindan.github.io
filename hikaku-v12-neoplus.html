@@ -24,12 +24,15 @@
   .container { max-width:680px; margin:0 auto; padding:24px 16px 60px; }
   h1 { font-size:1.3rem; line-height:1.5; margin-bottom:14px; }
   .date { font-size:0.75rem; color:var(--muted); margin-bottom:16px; }
+  .adnote { font-size:0.78rem; color:#5b6b68; background:#f4f8f7; border:1px solid var(--line); border-radius:8px; padding:8px 11px; margin-bottom:18px; line-height:1.6; }
   p { font-size:0.95rem; margin-bottom:14px; }
   h2 { font-size:1.15rem; padding-left:10px; border-left:4px solid var(--main); margin:32px 0 14px; }
-  table { width:100%; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
-  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; }
+  table { width:100%; table-layout:fixed; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
+  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; word-break:break-word; overflow-wrap:anywhere; }
   thead th { background:var(--main); color:#fff; }
-  tbody th { background:#f0faf8; text-align:left; white-space:nowrap; font-size:0.8rem; }
+  tbody th { background:#f0faf8; text-align:left; font-size:0.78rem; line-height:1.45; }
+  thead th:first-child, tbody th { width:26%; }
+  @media (max-width:480px) { table { font-size:0.8rem; } th, td { padding:8px 6px; } tbody th { font-size:0.72rem; } thead th:first-child, tbody th { width:28%; } }
   .verdict { background:#fff7f0; border-left:4px solid var(--accent); border-radius:0 10px 10px 0; padding:14px 16px; font-size:0.92rem; margin:18px 0; }
   .cta { display:block; background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; text-decoration:none; text-align:center; font-weight:bold; padding:16px; border-radius:12px; margin:22px 0; font-size:1rem; }
   .cta small { display:block; font-weight:normal; font-size:0.78rem; opacity:.9; }
@@ -57,7 +60,8 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>ダイソンV12 Detect Slimとシャーク EVOPOWER SYSTEM NEO+を比較【コードレス掃除機どっち?】</h1>
-  <div class="date">2026年7月更新 ／ 本ページはアフィリエイト広告（PR）を含みます</div>
+  <div class="date">2026年7月更新</div>
+  <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <p>人気コードレス掃除機の対決、ダイソン V12 Detect Slim と シャーク EVOPOWER SYSTEM NEO+。方向性がはっきり違い、V12は「見えないゴミまで可視化して取り切る」、NEO+は「ゴミ捨ての手間をなくす」ことに強みがあります。</p>
   <h2>ダイソン V12 Detect Slim と シャーク EVOPOWER SYSTEM NEO+ の比較表</h2>
   <table>
@@ -84,8 +88,8 @@
     <div class="pr">参考価格 約59,800円</div>
     <ul><li>グリーンレーザーでゴミを可視化</li><li>強力な吸引力とゴミ量の自動検知</li><li>液晶でゴミの量とサイズを表示</li><li>広い家の徹底掃除に</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%80%E3%82%A4%E3%82%BD%E3%83%B3%20V12%20Detect%20Slim&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%80%E3%82%A4%E3%82%BD%E3%83%B3%20V12%20Detect%20Slim&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <h2>シャーク「エヴォパワーシステム NEO+」（EVOPOWER SYSTEM NEO+）の詳細</h2>
@@ -97,8 +101,8 @@
     <div class="pr">参考価格 約46,090円</div>
     <ul><li>ドックに戻すだけで自動ゴミ収集</li><li>iQセンサーで吸引力を自動調整</li><li>カーボンファイバーで軽くて丈夫</li><li>ハンディとしても使える2WAY</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%82%AF%20EVOPOWER%20SYSTEM%20NEO%2B&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%82%AF%20EVOPOWER%20SYSTEM%20NEO%2B&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <div class="rel">

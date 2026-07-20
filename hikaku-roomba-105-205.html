@@ -24,12 +24,15 @@
   .container { max-width:680px; margin:0 auto; padding:24px 16px 60px; }
   h1 { font-size:1.3rem; line-height:1.5; margin-bottom:14px; }
   .date { font-size:0.75rem; color:var(--muted); margin-bottom:16px; }
+  .adnote { font-size:0.78rem; color:#5b6b68; background:#f4f8f7; border:1px solid var(--line); border-radius:8px; padding:8px 11px; margin-bottom:18px; line-height:1.6; }
   p { font-size:0.95rem; margin-bottom:14px; }
   h2 { font-size:1.15rem; padding-left:10px; border-left:4px solid var(--main); margin:32px 0 14px; }
-  table { width:100%; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
-  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; }
+  table { width:100%; table-layout:fixed; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
+  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; word-break:break-word; overflow-wrap:anywhere; }
   thead th { background:var(--main); color:#fff; }
-  tbody th { background:#f0faf8; text-align:left; white-space:nowrap; font-size:0.8rem; }
+  tbody th { background:#f0faf8; text-align:left; font-size:0.78rem; line-height:1.45; }
+  thead th:first-child, tbody th { width:26%; }
+  @media (max-width:480px) { table { font-size:0.8rem; } th, td { padding:8px 6px; } tbody th { font-size:0.72rem; } thead th:first-child, tbody th { width:28%; } }
   .verdict { background:#fff7f0; border-left:4px solid var(--accent); border-radius:0 10px 10px 0; padding:14px 16px; font-size:0.92rem; margin:18px 0; }
   .cta { display:block; background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; text-decoration:none; text-align:center; font-weight:bold; padding:16px; border-radius:12px; margin:22px 0; font-size:1rem; }
   .cta small { display:block; font-weight:normal; font-size:0.78rem; opacity:.9; }
@@ -57,7 +60,8 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>ルンバ105 Comboと205 DustCompactorの違いを比較【どっちを買うべき?】</h1>
-  <div class="date">2026年7月更新 ／ 本ページはアフィリエイト広告（PR）を含みます</div>
+  <div class="date">2026年7月更新</div>
+  <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <p>2万円台後半〜の入門価格帯で人気のルンバ105と205。どちらも吸引+水拭き対応ですが、決定的な違いは205だけの「ゴミ圧縮(DustCompactor)」機能です。ゴミ捨て頻度をどこまで減らしたいかで選択が分かれます。</p>
   <h2>アイロボット Roomba 105 Combo と アイロボット Roomba 205 DustCompactor Combo の比較表</h2>
   <table>
@@ -82,8 +86,8 @@
     <div class="pr">参考価格 約39,761円</div>
     <ul><li>吸引と水拭きの1台2役</li><li>信頼のルンバブランドを手頃に</li><li>アプリで掃除スケジュール管理</li><li>初めてのロボット掃除機に</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%20Roomba%20105%20Combo&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%20Roomba%20105%20Combo&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <h2>アイロボット「ルンバ 205 DustCompactor Combo」（Roomba 205 DustCompactor Combo）の詳細</h2>
@@ -95,8 +99,8 @@
     <div class="pr">参考価格 約59,743円</div>
     <ul><li>本体内でゴミを圧縮、ドック不要</li><li>省スペースで一人暮らしにも</li><li>吸引＋水拭き対応</li><li>信頼のルンバブランド</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%20Roomba%20205%20DustCompactor%20Combo&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%20Roomba%20205%20DustCompactor%20Combo&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <div class="rel">

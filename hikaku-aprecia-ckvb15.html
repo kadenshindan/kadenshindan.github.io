@@ -24,12 +24,15 @@
   .container { max-width:680px; margin:0 auto; padding:24px 16px 60px; }
   h1 { font-size:1.3rem; line-height:1.5; margin-bottom:14px; }
   .date { font-size:0.75rem; color:var(--muted); margin-bottom:16px; }
+  .adnote { font-size:0.78rem; color:#5b6b68; background:#f4f8f7; border:1px solid var(--line); border-radius:8px; padding:8px 11px; margin-bottom:18px; line-height:1.6; }
   p { font-size:0.95rem; margin-bottom:14px; }
   h2 { font-size:1.15rem; padding-left:10px; border-left:4px solid var(--main); margin:32px 0 14px; }
-  table { width:100%; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
-  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; }
+  table { width:100%; table-layout:fixed; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
+  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; word-break:break-word; overflow-wrap:anywhere; }
   thead th { background:var(--main); color:#fff; }
-  tbody th { background:#f0faf8; text-align:left; white-space:nowrap; font-size:0.8rem; }
+  tbody th { background:#f0faf8; text-align:left; font-size:0.78rem; line-height:1.45; }
+  thead th:first-child, tbody th { width:26%; }
+  @media (max-width:480px) { table { font-size:0.8rem; } th, td { padding:8px 6px; } tbody th { font-size:0.72rem; } thead th:first-child, tbody th { width:28%; } }
   .verdict { background:#fff7f0; border-left:4px solid var(--accent); border-radius:0 10px 10px 0; padding:14px 16px; font-size:0.92rem; margin:18px 0; }
   .cta { display:block; background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; text-decoration:none; text-align:center; font-weight:bold; padding:16px; border-radius:12px; margin:22px 0; font-size:1rem; }
   .cta small { display:block; font-weight:normal; font-size:0.78rem; opacity:.9; }
@@ -57,7 +60,8 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>ティファール アプレシア ロックと象印CK-VB15を比較【電気ケトルどっち?】</h1>
-  <div class="date">2026年7月更新 ／ 本ページはアフィリエイト広告（PR）を含みます</div>
+  <div class="date">2026年7月更新</div>
+  <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <p>電気ケトルの定番対決、ティファール アプレシア ロック（0.8L）と 象印 CK-VB15（1.5L）。沸く速さはどちらもカップ1杯で約1分と互角で、実際の選択ポイントは<strong>容量と安全機能</strong>です。</p>
   <h2>ティファール アプレシア ロック KO6403J0 と 象印 CK-VB15 の比較表</h2>
   <table>
@@ -84,8 +88,8 @@
     <div class="pr">参考価格 約3,878円</div>
     <ul><li>0.8Lの省スペースサイズ</li><li>転倒お湯もれロック付き</li><li>軽くて扱いやすい</li><li>比較テストでも高評価</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%97%E3%83%AC%E3%82%B7%E3%82%A2%20%E3%83%AD%E3%83%83%E3%82%AF%20KO6403J0&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AB%20%E3%82%A2%E3%83%97%E3%83%AC%E3%82%B7%E3%82%A2%20%E3%83%AD%E3%83%83%E3%82%AF%20KO6403J0&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <h2>象印「電気ケトル 1.5L」（CK-VB15）の詳細</h2>
@@ -97,8 +101,8 @@
     <div class="pr">参考価格 約5,897円</div>
     <ul><li>1.5Lの大容量でファミリー向け</li><li>転倒湯もれ防止・本体二重構造</li><li>蒸気セーブ構造で蒸気の量を抑える</li><li>比較テスト高評価の安心設計</li></ul>
     <div class="btns">
-      <a class="am" href="https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20CK-VB15&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る（PR）</a>
-      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F" target="_blank" rel="noopener sponsored">楽天で見る（PR）</a>
+      <a class="am" href="https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20CK-VB15&tag=tanosiikitaic-22" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+      <a class="rk2" href="https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F" target="_blank" rel="noopener sponsored">楽天で見る</a>
     </div>
   </div>
   <div class="rel">
