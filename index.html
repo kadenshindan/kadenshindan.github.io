@@ -642,8 +642,8 @@ function yen(n) {
 function showResult(forcedModel) {
   const candidates = PRODUCTS
     .filter(p => p.cat === answers.cat && p.img)
-    .map(p => ({ p, s: scoreProduct(p) + Math.random() * 1.2 })) // 僅差の商品が入れ替わる"ゆらぎ"
-    .sort((a, b) => b.s - a.s);
+    .map(p => ({ p, s: scoreProduct(p) })) // 同点は価格の安い順（結果は常に同じになります）
+    .sort((a, b) => b.s - a.s || a.p.price - b.p.price);
 
   let winner = candidates[0].p;
   if (forcedModel) {
