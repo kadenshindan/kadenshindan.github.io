@@ -590,32 +590,6 @@ const PRODUCTS = [
     ]
   },
   {
-    "cat": "purifier",
-    "maker": "アイリスオーヤマ",
-    "model": "IAP-A25",
-    "name": "空気清浄機 10畳",
-    "price": 8000,
-    "size": [
-      "s"
-    ],
-    "focus": {
-      "quiet": 2,
-      "power": 1,
-      "care": 2,
-      "eco": 2,
-      "compact": 3,
-      "multi": 1
-    },
-    "point": "1万円以下で始める空気清浄デビュー",
-    "features": [
-      "1万円以下の低価格",
-      "〜10畳の個室に最適",
-      "シンプル操作",
-      "コンパクトで圧迫感がない"
-    ],
-    "img": "https://tshop.r10s.jp/trenditemshop/cabinet/skypiea/skypiea_0068/b0dpkl9pkt_1.jpg"
-  },
-  {
     "cat": "vacuum",
     "maker": "ダイソン",
     "model": "Micro Plus SV33",
@@ -803,7 +777,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/yasora/cabinet/clean/xia12.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyasora%2Fxia12%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyasora%2Fxia12%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F",
     "point": "7万円台で全部入りのコスパ王",
     "features": [
       "優れた障害物回避センサー",
@@ -1194,7 +1168,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/eh-na0k_004.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Feh-na0j-a%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Feh-na0j-a%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4549980975022%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4549980975022%2F",
     "point": "高浸透ナノイーでうるおい最高峰",
     "features": [
       "高浸透ナノイーで髪にうるおい",
@@ -1290,34 +1264,6 @@ const PRODUCTS = [
     ]
   },
   {
-    "cat": "dryer",
-    "maker": "コイズミ",
-    "model": "MONSTER KHD-W925",
-    "name": "モンスター ダブルファンドライヤー",
-    "price": 17980,
-    "size": [
-      "m",
-      "l"
-    ],
-    "focus": {
-      "quiet": 1,
-      "power": 3,
-      "care": 1,
-      "eco": 3,
-      "compact": 1,
-      "multi": 1
-    },
-    "img": "https://tshop.r10s.jp/ecmaison/cabinet/compass1770876199.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1770876220%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1770876220%2F",
-    "point": "1万円前後で買える大風量モンスター",
-    "features": [
-      "ダブルファンの圧倒的風量",
-      "1万円前後の手頃さ",
-      "家族みんなでガンガン使える",
-      "速乾コスパ最強クラス"
-    ]
-  },
-  {
     "cat": "toothbrush",
     "maker": "フィリップス",
     "model": "ソニッケアー プロテクトクリーン",
@@ -1364,7 +1310,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/shopavail/cabinet/07943905/compass1751508614.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopavail%2F2630%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopavail%2F2630%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftales-store%2F202405101053224210201442172%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftales-store%2F202405101053224210201442172%2F",
     "point": "回転式のパワフル洗浄で磨き残しなし",
     "features": [
       "丸型ブラシが歯を包み込んで磨く",
@@ -1537,7 +1483,7 @@ const PRODUCTS = [
       "コスパの高い1.5万円以下"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/020/main-t0h59.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Ft0h59%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Ft0h59%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftatsumax%2Ftake-pjs3dsw%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftatsumax%2Ftake-pjs3dsw%2F"
   },
   {
     "cat": "fan",
@@ -1594,34 +1540,6 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/emedama/cabinet/4574/4967576774574_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4967576774574%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4967576774574%2F"
-  },
-  {
-    "cat": "humidifier",
-    "maker": "ダイニチ",
-    "model": "HD-RXT524",
-    "name": "ハイブリッド式加湿器 RXタイプ",
-    "price": 27280,
-    "size": [
-      "m",
-      "l"
-    ],
-    "focus": {
-      "quiet": 3,
-      "power": 3,
-      "care": 2,
-      "eco": 2,
-      "compact": 1,
-      "multi": 2
-    },
-    "point": "静音×パワフルの加湿器売れ筋トップ級",
-    "features": [
-      "ハイブリッド式で速く静かに加湿",
-      "業界トップクラスの静音設計",
-      "タンクが洗いやすく清潔",
-      "リビング〜寝室まで幅広く対応"
-    ],
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/29_5/4951272036029_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036029%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036029%2F"
   },
   {
     "cat": "humidifier",
@@ -2321,33 +2239,6 @@ const PRODUCTS = [
   },
   {
     "cat": "fan",
-    "maker": "ドウシシャ",
-    "model": "PIERIA スリムタワーファン",
-    "name": "PIERIA スリムコンパクトファン",
-    "price": 3190,
-    "size": [
-      "s"
-    ],
-    "focus": {
-      "quiet": 2,
-      "power": 1,
-      "care": 2,
-      "eco": 3,
-      "compact": 3,
-      "multi": 1
-    },
-    "point": "3千円台・省スペースのタワーファン",
-    "features": [
-      "置き場所を選ばないスリム設計",
-      "3千円台の手軽さ",
-      "デスク横や脱衣所にも",
-      "シンプル操作"
-    ],
-    "img": "https://tshop.r10s.jp/freivagarden/cabinet/1/imgrc0107235111.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreivagarden%2Fb08xm7cnht-1980%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffreivagarden%2Fb08xm7cnht-1980%2F"
-  },
-  {
-    "cat": "fan",
     "maker": "ダイソン",
     "model": "Purifier Cool Gen1",
     "name": "Dyson Purifier Cool 空気清浄ファン",
@@ -2538,7 +2429,7 @@ const PRODUCTS = [
       "一人暮らしのサブ機にも"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/orj/36/0-4975058513528.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4975058513528%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4975058513528%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F51241%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F51241%2F"
   },
   {
     "cat": "robot",
@@ -3205,7 +3096,7 @@ const PRODUCTS = [
       "5千円前後の高コスパ"
     ],
     "img": "https://tshop.r10s.jp/nttxstore/cabinet/12563235/qzx0031257.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx0031257%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx0031257%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F"
   },
   {
     "cat": "dryer",
@@ -3395,32 +3286,6 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/try3/cabinet/11147956/11147958/4550556135689.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F"
-  },
-  {
-    "cat": "purifier",
-    "maker": "シャープ",
-    "model": "薄型スリム プラズマクラスター",
-    "name": "薄型スリム空気清浄機",
-    "price": 32800,
-    "size": [
-      "m"
-    ],
-    "focus": {
-      "quiet": 2,
-      "power": 2,
-      "care": 2,
-      "eco": 2,
-      "compact": 3,
-      "multi": 2
-    },
-    "point": "厚さスリムで置き場所に困らない",
-    "features": [
-      "家具の隙間にも置ける薄型設計",
-      "プラズマクラスター搭載",
-      "スリムでも広めの部屋に対応"
-    ],
-    "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/021/main-s9f44.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F"
   },
   {
     "cat": "vacuum",
@@ -3637,33 +3502,6 @@ const PRODUCTS = [
   },
   {
     "cat": "robot",
-    "maker": "ロボロック",
-    "model": "S8 Pro Ultra",
-    "name": "Roborock S8 Pro Ultra",
-    "price": 119800,
-    "size": [
-      "m",
-      "l"
-    ],
-    "focus": {
-      "quiet": 2,
-      "power": 3,
-      "care": 3,
-      "eco": 2,
-      "compact": 1,
-      "multi": 3
-    },
-    "point": "ゴミ収集からモップ洗浄まで全部入りの高性能フラッグシップ",
-    "features": [
-      "最大級クラスの吸引力",
-      "モップ自動洗浄・乾燥まで対応",
-      "ゴミ収集ドックでお手入れ最小限",
-      "AI障害物回避が賢い"
-    ],
-    "img": "https://tshop.r10s.jp/ohw/cabinet/tokusyu/imgrc0121382000.jpg"
-  },
-  {
-    "cat": "robot",
     "maker": "Anker Eufy",
     "model": "Clean X10 Pro Omni",
     "name": "Eufy Clean X10 Pro Omni",
@@ -3687,7 +3525,8 @@ const PRODUCTS = [
       "自動ゴミ収集ドック付き",
       "コスパに優れた全自動モデル"
     ],
-    "img": "https://tshop.r10s.jp/arc-market-kaden/cabinet/10911043/4571411226663.jpg"
+    "img": "https://tshop.r10s.jp/arc-market-kaden/cabinet/10911043/4571411226663.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F"
   },
   {
     "cat": "robot",
@@ -3714,7 +3553,8 @@ const PRODUCTS = [
       "スマートホーム連携が得意",
       "薄型ボディで家具下も"
     ],
-    "img": "https://tshop.r10s.jp/switchbot/cabinet/09377790/s10/ebc/imgrc0092497597.jpg"
+    "img": "https://tshop.r10s.jp/switchbot/cabinet/09377790/s10/ebc/imgrc0092497597.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F"
   },
   {
     "cat": "purifier",
@@ -3741,7 +3581,8 @@ const PRODUCTS = [
       "〜23畳対応のパワフル清浄",
       "花粉・ニオイ対策に"
     ],
-    "img": "https://tshop.r10s.jp/premoa/cabinet/orj/49/0-4550556135832.jpg"
+    "img": "https://tshop.r10s.jp/premoa/cabinet/orj/49/0-4550556135832.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F"
   },
   {
     "cat": "dryer",
@@ -3769,7 +3610,8 @@ const PRODUCTS = [
       "髪のダメージを抑える",
       "付け替えノズルが豊富"
     ],
-    "img": "https://tshop.r10s.jp/b-bell/cabinet/products/dyson/20901002.jpg"
+    "img": "https://tshop.r10s.jp/b-bell/cabinet/products/dyson/20901002.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F122660-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F122660-01%2F"
   },
   {
     "cat": "dryer",
@@ -3797,13 +3639,14 @@ const PRODUCTS = [
       "大風量で速乾",
       "美容師にも人気"
     ],
-    "img": "https://tshop.r10s.jp/kiseki-shop/cabinet/shohin/mtg-ka/5066-o-5073-6100_m.jpg"
+    "img": "https://tshop.r10s.jp/kiseki-shop/cabinet/shohin/mtg-ka/5066-o-5073-6100_m.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F"
   },
   {
     "cat": "circulator",
     "maker": "アイリスオーヤマ",
-    "model": "PCF-SDS15TEC",
-    "name": "WOOZOO 360°サーキュレーター",
+    "model": "PCF-SDS15T-EC",
+    "name": "静音サーキュレーター 上下左右首振り",
     "price": 12800,
     "size": [
       "s",
@@ -3818,14 +3661,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "上下左右360°首振りのDCサーキュレーター",
+    "point": "風量1〜3なら35dB未満。上下左右の自動首振りで部屋の空気を循環",
     "features": [
-      "360°自動首振りで循環効率アップ",
-      "DCモーターで静音・省エネ",
-      "室温連動モード搭載",
-      "リモコン付き"
+      "風量1〜3の運転音は35dB未満",
+      "上下左右に自動で首振り",
+      "風量6段階＋2/4/8時間タイマー",
+      "適用床面積22畳・消費電力23W",
+      "羽根とガードは分解して水洗い可"
     ],
-    "img": "https://tshop.r10s.jp/enetroom/cabinet/11375185/11760512/imgrc0100049267.jpg"
+    "img": "https://tshop.r10s.jp/enetroom/cabinet/11375185/11760512/imgrc0100049267.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F273516-ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F273516-ss%2F"
   },
   {
     "cat": "ricecooker",
@@ -3853,7 +3698,8 @@ const PRODUCTS = [
       "わたし好み炊き分け",
       "5.5合炊き"
     ],
-    "img": "https://tshop.r10s.jp/harika-hanno/cabinet/2023to/p254-277/20230612073638.jpg"
+    "img": "https://tshop.r10s.jp/harika-hanno/cabinet/2023to/p254-277/20230612073638.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F"
   },
   {
     "cat": "toothbrush",
@@ -3881,6 +3727,7 @@ const PRODUCTS = [
       "押しつけ防止センサー",
       "アプリで磨き残しチェック"
     ],
-    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg"
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F"
   }
 ];
