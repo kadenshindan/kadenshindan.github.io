@@ -203,7 +203,7 @@ const PRODUCTS = [
     "cat": "fan",
     "maker": "ツインバード",
     "model": "EF-E995W",
-    "name": "3D首振り DC扇風機 コアンダエア",
+    "name": "サーキュレーション扇風機3D Lite",
     "price": 17800,
     "size": [
       "s",
@@ -217,12 +217,12 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "point": "静音特化のコアンダエア現行モデル",
+    "point": "大風量なのに静かな、サーキュレーター兼用の扇風機",
     "features": [
-      "寝室に最適な圧倒的静音性",
-      "3D首振りで部屋全体に風を届ける",
-      "コアンダ効果でやわらかい風",
-      "ツインバード公式ストアで購入可"
+      "風量7以下なら35dB未満の静かさ",
+      "上下約100°・左右約120°の3D首振り",
+      "11枚羽根「エクセルブレード」で大風量",
+      "羽根とガードは水洗いできる"
     ],
     "img": "https://tshop.r10s.jp/twinbird/cabinet/06297082/59951/59951.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F"
