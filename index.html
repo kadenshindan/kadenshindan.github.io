@@ -237,6 +237,13 @@
   }
   .retry:hover { background: #f0faf8; }
 
+  .linknav { margin-top: 20px; }
+  .linknav h3 { font-size: 0.88rem; color: var(--text); margin-bottom: 9px; padding-left: 8px; border-left: 3px solid var(--main); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chips a { display: inline-block; background: #fff; border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 0.8rem; color: var(--main-dark); text-decoration: none; line-height: 1.4; }
+  .chips a:hover { background: #f0faf8; border-color: var(--main); }
+  .allink { display: inline-block; margin-top: 11px; font-size: 0.85rem; color: var(--main-dark); font-weight: bold; text-decoration: none; }
+  .allink:hover { text-decoration: underline; }
   .disclaimer {
     margin-top: 24px;
     font-size: 0.72rem;
@@ -349,8 +356,35 @@
     <h2 style="font-size:0.95rem; color:var(--text); padding-left:10px; border-left:4px solid var(--main); margin-bottom:8px;">ぴったり家電診断とは</h2>
     <p style="margin-bottom:8px;">「ぴったり家電診断」は、カテゴリ・部屋の広さ(人数)・重視ポイント・予算の4つの質問に答えるだけで、あなたの条件に合った家電をランキング形式で紹介する無料の診断サービスです。</p>
     <p>対応カテゴリはサーキュレーター、扇風機、除湿機、空気清浄機、加湿器、コードレス掃除機、ロボット掃除機、炊飯器、電気ケトル、ドライヤー、電動歯ブラシの11ジャンル・<span id="pcount">119</span>商品。専門メディアや価格比較サイトの評価を参考に、2026年7月時点の実勢価格とあわせて掲載しています。静音性重視、お手入れのしやすさ重視、省エネ重視など、こだわりに合わせた1台がすぐに見つかります。</p>
-    <p style="margin-top:10px;"><strong>カテゴリ別おすすめ記事: </strong><a href='/osusume-circulator.html' style='color:var(--main-dark);'>サーキュレーター</a> ／ <a href='/osusume-fan.html' style='color:var(--main-dark);'>扇風機</a> ／ <a href='/osusume-dehumidifier.html' style='color:var(--main-dark);'>除湿機</a> ／ <a href='/osusume-purifier.html' style='color:var(--main-dark);'>空気清浄機</a> ／ <a href='/osusume-humidifier.html' style='color:var(--main-dark);'>加湿器</a> ／ <a href='/osusume-vacuum.html' style='color:var(--main-dark);'>コードレス掃除機</a> ／ <a href='/osusume-robot.html' style='color:var(--main-dark);'>ロボット掃除機</a> ／ <a href='/osusume-ricecooker.html' style='color:var(--main-dark);'>炊飯器</a> ／ <a href='/osusume-kettle.html' style='color:var(--main-dark);'>電気ケトル</a> ／ <a href='/osusume-dryer.html' style='color:var(--main-dark);'>ドライヤー</a> ／ <a href='/osusume-toothbrush.html' style='color:var(--main-dark);'>電動歯ブラシ</a></p>
-    <p style="margin-top:6px;"><strong>比較記事: </strong><a href='/hikaku-na0k-na0j.html' style='color:var(--main-dark);'>ナノケアNA0KとNA0Jの違い</a> ／ <a href='/hikaku-roomba-105-205.html' style='color:var(--main-dark);'>ルンバ105と205の違い</a> ／ <a href='/hikaku-nwqb10-jpvx100.html' style='color:var(--main-dark);'>象印とタイガーの炊飯器比較</a> ／ <a href='/hikaku-sonicare-oralb.html' style='color:var(--main-dark);'>ソニッケアーとオーラルB比較</a> ／ <a href='/hikaku-eede50-eede35.html' style='color:var(--main-dark);'>象印加湿器のサイズ比較</a> ／ <a href='/hikaku-roborock-s8-eufy-x10.html' style='color:var(--main-dark);'>ロボロックとEufyのロボット掃除機比較</a> ／ <a href='/hikaku-woozoo-greenfan.html' style='color:var(--main-dark);'>アイリスとバルミューダのサーキュレーター比較</a> ／ <a href='/hikaku-nanocare-dyson-nural.html' style='color:var(--main-dark);'>ナノケアとダイソンのドライヤー比較</a> ／ <a href='/hikaku-kits50-mck706.html' style='color:var(--main-dark);'>シャープとダイキンの空気清浄機比較</a> ／ <a href='/hikaku-io9-diamondclean.html' style='color:var(--main-dark);'>オーラルBとソニッケアーの上位機比較</a></p>
+    <div class="linknav">
+      <h3>カテゴリ別おすすめ記事</h3>
+      <div class="chips">
+        <a href="/osusume-circulator.html">サーキュレーター</a>
+        <a href="/osusume-fan.html">扇風機</a>
+        <a href="/osusume-dehumidifier.html">除湿機</a>
+        <a href="/osusume-purifier.html">空気清浄機</a>
+        <a href="/osusume-humidifier.html">加湿器</a>
+        <a href="/osusume-vacuum.html">コードレス掃除機</a>
+        <a href="/osusume-robot.html">ロボット掃除機</a>
+        <a href="/osusume-ricecooker.html">炊飯器</a>
+        <a href="/osusume-kettle.html">電気ケトル</a>
+        <a href="/osusume-dryer.html">ドライヤー</a>
+        <a href="/osusume-toothbrush.html">電動歯ブラシ</a>
+      </div>
+    </div>
+
+    <div class="linknav">
+      <h3>人気の比較記事</h3>
+      <div class="chips">
+        <a href="/hikaku-roomba-105-205.html">ルンバ105と205の違い</a>
+        <a href="/hikaku-nanocare-dyson-nural.html">ナノケアとダイソン</a>
+        <a href="/hikaku-kits50-mck706.html">シャープとダイキン</a>
+        <a href="/hikaku-roborock-s8-eufy-x10.html">ロボロックとEufy</a>
+        <a href="/hikaku-woozoo-greenfan.html">アイリスとバルミューダ</a>
+        <a href="/hikaku-nwqb10-jpvx100.html">象印とタイガーの炊飯器</a>
+      </div>
+      <a class="allink" href="/kiji.html">記事一覧をすべて見る（全21本）→</a>
+    </div>
   </section>
 </div>
 
