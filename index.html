@@ -753,7 +753,18 @@ try {
     }
   }
 } catch (e) {}
-if (!restored) renderQuestion();
+// 記事から #cat=xxx で来た場合はカテゴリ選択を飛ばして質問2から開始
+if (!restored) {
+  const mc = location.hash.match(/^#cat=([a-z]+)$/);
+  if (mc && CAT_NAMES[mc[1]]) {
+    answers.cat = mc[1];
+    answers.catLabel = CAT_NAMES[mc[1]];
+    buildFlow(mc[1]);
+    step = 1;
+    history.replaceState(null, "", location.pathname);
+  }
+  renderQuestion();
+}
 </script>
 </body>
 </html>
