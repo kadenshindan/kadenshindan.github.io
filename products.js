@@ -3813,5 +3813,119 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F"
+  },
+  {
+    "cat": "heater",
+    "maker": "シャープ",
+    "model": "HX-SK12",
+    "name": "プラズマクラスター加湿セラミックファンヒーター",
+    "price": 29100,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 1,
+      "compact": 1,
+      "multi": 3
+    },
+    "img": "https://tshop.r10s.jp/wonder-depo/cabinet/13097724/34529230_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F",
+    "point": "暖房と加湿を1台で。加湿量650mL/hは電気温風機クラス最大級",
+    "features": [
+      "暖房強 1200W(50Hz)・木造3畳/コンクリ4.5畳まで",
+      "加湿量650mL/h・タンク3.1L(連続約4.8h)",
+      "加湿の適用は木造11畳・プレハブ18畳",
+      "プラズマクラスター7000搭載",
+      "運転音38dB(強)・フィルター自動洗浄"
+    ]
+  },
+  {
+    "cat": "heater",
+    "maker": "パナソニック",
+    "model": "DS-FTX1201",
+    "name": "ナノイー搭載セラミックファンヒーター",
+    "price": 30383,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 2
+    },
+    "img": "https://tshop.r10s.jp/hitcreations/cabinet/g/23/e9uhjrb4cb-3.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F",
+    "point": "ナノイーと2WAY人センサー搭載。タテヨコ置きできる薄型",
+    "features": [
+      "温風 強1170W/中750W/弱530W(50Hz)",
+      "2WAY人センサーで自動節電",
+      "ナノイー搭載・アレルバスターフィルター",
+      "41.5×21.5×14.0cm / 2.8kg",
+      "電気代 強 約31.6円/h(27円/kWh換算)"
+    ]
+  },
+  {
+    "cat": "heater",
+    "maker": "アイリスオーヤマ",
+    "model": "ACH-LW12A",
+    "name": "大風量セラミックファンヒーター Wセンサー付",
+    "price": 8481,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 1,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705394.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705394%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705394%2F",
+    "point": "1万円以下でWセンサー。脱衣所や足元にちょうどいい1台",
+    "features": [
+      "ターボ1200W/標準1000W/節電550Wの3段階",
+      "人感＋室温のWセンサーで自動運転",
+      "木造3畳・コンクリ4.5畳まで(断熱材なし)",
+      "270×130×378mm / 2.4kg と軽量",
+      "温度設定16/20/24/28℃・転倒時停止"
+    ]
+  },
+  {
+    "cat": "heater",
+    "maker": "パナソニック",
+    "model": "DB-U12T",
+    "name": "電気しき毛布 シングルSサイズ",
+    "price": 6600,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 1,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/63_5/4549077646163_5.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549077646163%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549077646163%2F",
+    "point": "1時間 約1.0円。部屋ごと暖めない省エネ暖房",
+    "features": [
+      "消費電力 定格54W",
+      "1時間の電気代 強 約1.0円(室温10℃)",
+      "約140×80cmのシングルSサイズ",
+      "標準表面温度 強51℃/中37℃",
+      "コントローラーを外して丸洗い可"
+    ]
   }
 ];

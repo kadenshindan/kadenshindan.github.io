@@ -14,7 +14,7 @@
   "url": "https://kadenshindan.github.io/"
 }
 </script>
-<meta name="description" content="4つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・掃除機・炊飯器・ドライヤーなど11カテゴリ・100点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
+<meta name="description" content="4つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・掃除機・炊飯器・ドライヤーなど12カテゴリ・100点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
 <link rel="canonical" href="https://kadenshindan.github.io/">
 <meta property="og:title" content="ぴったり家電診断｜あなたに合う家電が30秒でわかる">
 <meta property="og:description" content="4つの質問に答えるだけ。条件に合った家電がランキング形式で見つかる無料診断サイト。">
@@ -381,6 +381,7 @@
         <a href="/osusume-kettle.html">電気ケトル</a>
         <a href="/osusume-dryer.html">ドライヤー</a>
         <a href="/osusume-toothbrush.html">電動歯ブラシ</a>
+        <a href="/osusume-heater.html">暖房器具</a>
       </div>
     </div>
 
@@ -393,7 +394,7 @@
         <a href="/hikaku-yhvx120-p180wx.html">パナソニックと三菱の除湿機</a>
         <a href="/hikaku-aprecia-ckvb15.html">ティファールと象印のケトル</a>
       </div>
-      <a class="allink" href="/kiji.html">記事一覧をすべて見る（全28本）→</a>
+      <a class="allink" href="/kiji.html">記事一覧をすべて見る（全29本）→</a>
     </div>
   </section>
 </div>
@@ -414,11 +415,12 @@ const CAT_NAMES = {
   kettle: "電気ケトル",
   dryer: "ドライヤー",
   toothbrush: "電動歯ブラシ",
+  heater: "暖房器具",
 };
 
 // カテゴリ→質問グループ
 const CAT_GROUPS = {
-  circulator:"air", fan:"air", humidifier:"air", dehumidifier:"air", purifier:"air",
+  circulator:"air", fan:"air", humidifier:"air", dehumidifier:"air", purifier:"air", heater:"air",
   vacuum:"clean", robot:"clean",
   ricecooker:"kitchen", kettle:"kitchen",
   dryer:"beauty", toothbrush:"beauty",
@@ -524,6 +526,7 @@ const CAT_Q = { title:"どの家電をお探しですか？", key:"cat", grid:tr
   { label:"電気ケトル", sub:"お湯をサッと沸かす", value:"kettle" },
   { label:"ドライヤー", sub:"速乾・ヘアケア", value:"dryer" },
   { label:"電動歯ブラシ", sub:"歯みがきをレベルアップ", value:"toothbrush" },
+  { label:"暖房器具", sub:"足元・脱衣所・寝室の寒さ対策", value:"heater" },
 ]};
 
 // ===== 状態 =====
