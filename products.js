@@ -3348,11 +3348,12 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "point": "シャープ最上位、広いリビングの1台",
+    "point": "プラズマクラスターNEXT搭載のシャープ最上位、〜46畳対応",
     "features": [
-      "最上位プラズマクラスターNEXT搭載",
-      "大容量加湿+パワフル清浄",
-      "アプリ連携で空気を見える化"
+      "プラズマクラスターNEXT（適用床面積 約23畳）",
+      "空気清浄は〜46畳、8畳をわずか6分で清浄",
+      "最大加湿量1,100mL/h・タンク約4.3L",
+      "ホコリ・照度まで見る5種センサーとAIモニター"
     ],
     "img": "https://tshop.r10s.jp/try3/cabinet/11147956/11147958/4550556135689.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F",
@@ -3653,12 +3654,13 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "point": "高濃度プラズマクラスターNEXT搭載の加湿空気清浄機",
+    "point": "プラズマクラスター25000搭載、奥行23cmの薄型加湿空気清浄機",
     "features": [
-      "最上位プラズマクラスターNEXT",
-      "加湿もできる1台2役",
-      "〜23畳対応のパワフル清浄",
-      "花粉・ニオイ対策に"
+      "プラズマクラスター25000（適用床面積 約13畳）",
+      "空気清浄は〜23畳、8畳を12分で清浄",
+      "最大加湿量600mL/h・タンク約2.7L",
+      "奥行23cmの薄型で置き場所を選ばない",
+      "静電HEPA・脱臭フィルターとも交換目安10年"
     ],
     "img": "https://tshop.r10s.jp/premoa/cabinet/orj/49/0-4550556135832.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F",
