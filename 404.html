@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ページが見つかりません｜ぴったり家電診断</title>
+<meta name="description" content="お探しのページは見つかりませんでした。ぴったり家電診断の記事一覧や30秒診断からお探しください。">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="ページが見つかりません">
+<meta property="og:description" content="お探しのページは見つかりませんでした。ぴったり家電診断の記事一覧や30秒診断からお探しください。">
+<meta property="og:type" content="website">
+
+<meta property="og:site_name" content="ぴったり家電診断">
+<meta property="og:image" content="https://kadenshindan.github.io/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<script src="./ga.js"></script>
+
+<style>
+  :root { --main:#2a9d8f; --main-dark:#21867a; --accent:#e76f51; --gold:#e9a52f; --bg:#f6f8f7; --text:#2b2b2b; --muted:#777; --line:#e4e8e6; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:"Hiragino Kaku Gothic ProN","Hiragino Sans","Yu Gothic",Meiryo,sans-serif; background:var(--bg); color:var(--text); line-height:1.9; }
+  header { background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; padding:14px 16px; }
+  header a { color:#fff; text-decoration:none; font-weight:bold; }
+  .container { max-width:680px; margin:0 auto; padding:24px 16px 60px; }
+  h1 { font-size:1.3rem; line-height:1.5; margin-bottom:14px; }
+  .date { font-size:0.75rem; color:var(--muted); margin-bottom:16px; }
+  p { font-size:0.95rem; margin-bottom:14px; }
+  h2 { font-size:1.15rem; padding-left:10px; border-left:4px solid var(--main); margin:32px 0 14px; }
+  table { width:100%; border-collapse:collapse; font-size:0.85rem; background:#fff; border-radius:12px; overflow:hidden; }
+  th, td { padding:10px 8px; border:1px solid var(--line); vertical-align:top; }
+  thead th { background:var(--main); color:#fff; }
+  tbody th { background:#f0faf8; text-align:left; white-space:nowrap; font-size:0.8rem; }
+  .verdict { background:#fff7f0; border-left:4px solid var(--accent); border-radius:0 10px 10px 0; padding:14px 16px; font-size:0.92rem; margin:18px 0; }
+  .cta { display:block; background:linear-gradient(135deg,var(--main),#37b5a5); color:#fff; text-decoration:none; text-align:center; font-weight:bold; padding:16px; border-radius:12px; margin:22px 0; font-size:1rem; }
+  .cta small { display:block; font-weight:normal; font-size:0.78rem; opacity:.9; }
+  .item { background:#fff; border:1px solid var(--line); border-radius:14px; padding:18px; margin-bottom:18px; }
+  .item img { width:100%; max-height:210px; object-fit:contain; background:#f2f4f3; border-radius:10px; margin-bottom:10px; }
+  .item .mk { font-size:0.78rem; color:var(--muted); }
+  .item .nm { font-size:1.02rem; font-weight:bold; margin-bottom:6px; }
+  .item .pr { color:var(--accent); font-weight:bold; font-size:1.05rem; }
+  .item ul { list-style:none; margin:8px 0; }
+  .item li { padding:4px 0 4px 24px; position:relative; font-size:0.88rem; border-bottom:1px solid var(--line); }
+  .item li:last-child { border-bottom:none; }
+  .item li::before { content:"✓"; position:absolute; left:2px; color:var(--main); font-weight:bold; }
+  .btns { display:flex; gap:8px; margin-top:12px; }
+  .btns a { flex:1; text-align:center; color:#fff; text-decoration:none; font-weight:bold; font-size:0.85rem; padding:11px 4px; border-radius:9px; }
+  .btns .am { background:#e88b1a; }
+  .btns .rk2 { background:#bf0000; }
+  .rel { background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px; margin-top:26px; }
+  .rel a { display:block; color:var(--main-dark); padding:6px 0; font-size:0.92rem; }
+  .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
+  footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
+  footer a { color:var(--muted); }
+
+  .grp { margin-bottom: 16px; }
+  .grp-t { font-size: 0.82rem; font-weight: bold; color: var(--muted); margin-bottom: 4px; }
+  .list a { display: block; color: var(--main-dark); text-decoration: none; padding: 9px 0; border-bottom: 1px solid var(--line); font-size: 0.92rem; }
+  .list a:last-child { border-bottom: none; }
+  .list a:hover { color: var(--main); }
+  .box { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+
+  .big { font-size:3rem; font-weight:bold; color:var(--main); text-align:center; margin:20px 0 6px; }
+  .lead-c { text-align:center; color:var(--muted); font-size:0.95rem; font-weight:normal; margin-bottom:24px; }
+  .policy-box { background:#fff; border:1px solid var(--line); border-radius:12px; padding:16px 18px; margin-bottom:16px; }
+  .policy-box h3 { font-size:0.98rem; color:var(--main-dark); margin-bottom:8px; }
+  .policy-box p { font-size:0.9rem; margin-bottom:0; }
+  .kijun { counter-reset:k; }
+  .kijun li { list-style:none; position:relative; padding:12px 0 12px 40px; border-bottom:1px solid var(--line); font-size:0.92rem; }
+  .kijun li:last-child { border-bottom:none; }
+  .kijun li::before { counter-increment:k; content:counter(k); position:absolute; left:0; top:12px; width:26px; height:26px; background:var(--main); color:#fff; border-radius:50%; text-align:center; line-height:26px; font-size:0.8rem; font-weight:bold; }
+</style>
+</head>
+<body>
+<header><a href='/'>ぴったり家電診断</a></header>
+<div class="container">
+  <div class="big">404</div>
+  <h1 class="lead-c">お探しのページは見つかりませんでした</h1>
+  <p>URLが変更されたか、掲載を取り下げた記事の可能性があります。当サイトでは、メーカー公式サイトで仕様を確認できなくなった商品や、販売が終了した商品の記事は取り下げています。</p>
+  <a class='cta' href='/'>30秒診断で探す<small>4つの質問に答えるだけ。11カテゴリからあなたに合う1台を提案します →</small></a>
+  <h2>お探しのものはこちらですか?</h2>
+  <div class="rel">
+    <a href='/kiji.html'>記事一覧（おすすめランキング・型番比較をまとめて見る）</a>
+    <a href='/osusume-robot.html'>ロボット掃除機のおすすめ</a>
+    <a href='/osusume-vacuum.html'>コードレス掃除機のおすすめ</a>
+    <a href='/osusume-purifier.html'>空気清浄機のおすすめ</a>
+    <a href='/osusume-dryer.html'>ドライヤーのおすすめ</a>
+    <a href='/osusume-ricecooker.html'>炊飯器のおすすめ</a>
+    <a href='/'>トップページへ戻る</a>
+  </div>
+</div>
+<footer>© 2026 ぴったり家電診断<br><a href='/policy.html'>運営者情報・プライバシーポリシー</a> ／ <a href='/kijun.html'>選び方と掲載基準</a></footer>
+</body>
+</html>
