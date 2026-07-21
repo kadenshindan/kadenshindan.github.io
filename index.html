@@ -14,7 +14,7 @@
   "url": "https://kadenshindan.github.io/"
 }
 </script>
-<meta name="description" content="4つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・掃除機・炊飯器・ドライヤーなど12カテゴリ・100点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
+<meta name="description" content="4つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・暖房器具・掃除機・炊飯器・ドライヤーなど12カテゴリ・130点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
 <link rel="canonical" href="https://kadenshindan.github.io/">
 <meta property="og:title" content="ぴったり家電診断｜あなたに合う家電が30秒でわかる">
 <meta property="og:description" content="4つの質問に答えるだけ。条件に合った家電がランキング形式で見つかる無料診断サイト。">
@@ -83,7 +83,9 @@
     font-family: inherit;
     color: var(--text);
   }
-  .opt:hover { border-color: var(--main); background: #f0faf8; }
+  @media (hover: hover) and (pointer: fine) {
+    .opt:hover { border-color: var(--main); background: #f0faf8; }
+  }
   .opt:active { transform: scale(0.98); border-color: var(--main); }
   .opt .sub { display: block; font-size: 0.8rem; color: var(--muted); margin-top: 2px; line-height: 1.5; }
   .backbtn {
@@ -366,7 +368,7 @@
   <section style="margin-top:32px; font-size:0.82rem; color:var(--muted); line-height:1.9;">
     <h2 style="font-size:0.95rem; color:var(--text); padding-left:10px; border-left:4px solid var(--main); margin-bottom:8px;">ぴったり家電診断とは</h2>
     <p style="margin-bottom:8px;">「ぴったり家電診断」は、カテゴリ・部屋の広さ(人数)・重視ポイント・予算の4つの質問に答えるだけで、あなたの条件に合った家電をランキング形式で紹介する無料の診断サービスです。</p>
-    <p>対応カテゴリはサーキュレーター、扇風機、除湿機、空気清浄機、加湿器、コードレス掃除機、ロボット掃除機、炊飯器、電気ケトル、ドライヤー、電動歯ブラシの11ジャンル・<span id="pcount">119</span>商品。専門メディアや価格比較サイトの評価を参考に、2026年7月時点の実勢価格とあわせて掲載しています。静音性重視、お手入れのしやすさ重視、省エネ重視など、こだわりに合わせた1台がすぐに見つかります。</p>
+    <p>対応カテゴリはサーキュレーター、扇風機、除湿機、空気清浄機、加湿器、暖房器具、コードレス掃除機、ロボット掃除機、炊飯器、電気ケトル、ドライヤー、電動歯ブラシの12ジャンル・<span id="pcount">119</span>商品。専門メディアや価格比較サイトの評価を参考に、2026年7月時点の実勢価格とあわせて掲載しています。静音性重視、お手入れのしやすさ重視、省エネ重視など、こだわりに合わせた1台がすぐに見つかります。</p>
     <div class="linknav">
       <h3>カテゴリ別おすすめ記事</h3>
       <div class="chips">
@@ -493,6 +495,7 @@ const CAT_BUDGETS = {
   vacuum:[30000,60000], robot:[50000,100000],
   ricecooker:[15000,40000], kettle:[6000,12000],
   dryer:[15000,35000], toothbrush:[8000,20000],
+  heater:[10000,30000],
 };
 
 function fmtYen(n) {
@@ -504,7 +507,7 @@ function fmtYen(n) {
 }
 
 function budgetQ(cat) {
-  const [low, mid] = CAT_BUDGETS[cat];
+  const [low, mid] = CAT_BUDGETS[cat] || [10000, 30000]; // 未登録カテゴリでも診断を止めない
   return { title:"ご予算は？", key:"budget", opts:[
     { label:"〜" + fmtYen(low), sub:"できるだけ安く", value:low },
     { label:fmtYen(low) + "〜" + fmtYen(mid), sub:"コスパ重視で選びたい", value:mid },
