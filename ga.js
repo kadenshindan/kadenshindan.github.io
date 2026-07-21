@@ -12,50 +12,55 @@ if (GA_ID) {
   gtag("js", new Date());
   gtag("config", GA_ID);
 
-  // --- アフィリエイトリンクのクリック計測 ---
-  // 商品リンク(Amazon / 楽天など)のクリックを GA4 イベント "affiliate_click" として送信します。
-  // GA4 の「イベント」で shop(ショップ) / item_name(メーカー・型番) 等が確認できます。
+  // ===== アフィリエイトクリックの計測 =====
+  // 「楽天で見る」「Amazonで見る」「見る」などのクリックで、
+  // どのショップ・どの商品が押されたかを affiliate_click イベントとして送信する。
+  // GA4カスタムディメンション: shop / product_name に対応。
+  // 全ページ共通で、リンク周辺のマークアップから商品名を自動取得する。
+  function clean(t) {
+    return (t || "").replace(/\s*／\s*/g, " ").replace(/\s+/g, " ").trim();
+  }
+  function productNameFor(a) {
+    // 記事ページの商品カード（.item 内の .mk = メーカー ／ 型番）
+    const item = a.closest(".item");
+    if (item) {
+      const mk = item.querySelector(".mk");
+      if (mk) return clean(mk.textContent);
+    }
+    // 診断結果の2位以下（.rank-item 内の .rank-maker）
+    const ri = a.closest(".rank-item");
+    if (ri) {
+      const mk = ri.querySelector(".rank-maker");
+      if (mk) return clean(mk.textContent);
+    }
+    // 診断結果の1位（勝者ブロックの #winMaker）
+    if (a.id === "winAmazon" || a.id === "winRakuten") {
+      const mk = document.getElementById("winMaker");
+      if (mk) return clean(mk.textContent);
+    }
+    return "";
+  }
   document.addEventListener("click", function (e) {
-    const a = e.target.closest("a[href]");
+    const a = e.target.closest && e.target.closest("a");
     if (!a) return;
-    const href = a.getAttribute("href") || "";
-    let host = "";
-    try { host = new URL(href, location.href).hostname; } catch (err) { return; }
-
-    const rel = (a.getAttribute("rel") || "").toLowerCase();
-    const isAmazon = /(^|\.)amazon\.co\.jp$/.test(host) || /(^|\.)amzn\.to$/.test(host);
-    const isRakuten = /rakuten\.co\.jp$/.test(host);
-    const isSponsored = rel.indexOf("sponsored") !== -1;
-    if (!isAmazon && !isRakuten && !isSponsored) return;
-
-    const shop = isAmazon ? "amazon" : (isRakuten ? "rakuten" : "other");
-
-    // 商品名の取得:商品カード(.item)内の .mk(メーカー・型番)/ .nm(商品名)を優先
-    let itemName = "", itemDesc = "";
-    const card = a.closest(".item");
-    if (card) {
-      const mk = card.querySelector(".mk");
-      const nm = card.querySelector(".nm");
-      if (mk) itemName = (mk.textContent || "").trim().slice(0, 100);
-      if (nm) itemDesc = (nm.textContent || "").trim().slice(0, 100);
+    const href = a.getAttribute("href") || a.href || "";
+    const cls = a.className || "";
+    let shop = "";
+    if (/amazon/i.test(href) || /\bamazon\b/.test(cls) || a.id === "winAmazon" || /\bam\b/.test(cls)) {
+      shop = "amazon";
+    } else if (/rakuten/i.test(href) || /\b(rakuten|rk2|rank-cta)\b/.test(cls) || a.id === "winRakuten") {
+      shop = "rakuten";
+    } else {
+      return; // アフィリエイトリンク以外は無視
     }
-    if (!itemName) {
-      const box = a.closest("li, article, section, .card, div");
-      const h = box && box.querySelector("h1, h2, h3, h4, strong, b");
-      if (h) itemName = (h.textContent || "").trim().slice(0, 100);
-    }
-    const linkText = (a.textContent || "").trim().slice(0, 60);
-
-    gtag("event", "affiliate_click", {
-      shop: shop,
-      product_name: itemName,
-      product_desc: itemDesc,
-      link_text: linkText,
-      link_domain: host,
-      link_url: href.slice(0, 200),
-      page_path: location.pathname,
-      page_title: document.title,
-      transport_type: "beacon"
-    });
+    const product_name = productNameFor(a) || "(不明)";
+    try {
+      window.gtag("event", "affiliate_click", {
+        shop: shop,
+        product_name: product_name,
+        page_path: location.pathname,
+        link_url: href
+      });
+    } catch (err) {}
   }, true);
 }
