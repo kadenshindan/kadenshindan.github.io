@@ -564,12 +564,12 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/niche-express/cabinet/2025/dkn/01/dkn00000000122-01.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F",
-    "point": "ニオイ分解力とフィルター長寿命が強み",
+    "point": "加湿なしで25畳まで、5.8kgの軽量ストリーマ空気清浄機",
     "features": [
-      "ストリーマでニオイ・有害物質を分解",
-      "撥水・撥油のTAFUフィルター（10年交換不要）",
-      "〜25畳対応",
-      "ペット・タバコのニオイ対策に強い"
+      "適用床面積 25畳・8畳を11分で清浄",
+      "ストリーマ＋TAFUフィルター（交換目安10年）",
+      "本体5.8kgと軽く動かしやすい",
+      "加湿機能なしで手入れがシンプル"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0FQ5PNWY5?tag=tanosiikitaic-22"
   },
@@ -1734,12 +1734,12 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "point": "加湿もできるダイキンの上位モデル",
+    "point": "ツインストリーマ搭載、加湿700mL/hの31畳対応モデル",
     "features": [
-      "ストリーマ+加湿の1台2役",
-      "TAFUフィルターで10年交換不要",
-      "ニオイ・花粉への分解力が強み",
-      "広いリビングにも対応"
+      "適用床面積 31畳・8畳を9分で清浄",
+      "加湿量700mL/h・タンク約3.4L",
+      "ツインストリーマとPM2.5センサー搭載",
+      "スマホ接続・エアコン連動に対応"
     ],
     "img": "https://tshop.r10s.jp/niche-express/cabinet/2025/dkn/01/dkn00000000067-01.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F",
@@ -2674,12 +2674,12 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "1万円台で買えるコンパクトナノケア",
+    "point": "ナノケア最軽量475g、風量1.3㎥/分のコンパクトモデル",
     "features": [
-      "ナノイー搭載をこの価格で",
-      "軽量コンパクトで扱いやすい",
-      "持ち運び・旅行にも便利",
-      "ナノケア入門に最適"
+      "ナノケアシリーズ最軽量 約475g",
+      "風量1.3㎥/分・消費電力1200W",
+      "「ナノイー」搭載で静電気を抑制",
+      "高さ21.7cmで持ち運びやすい"
     ],
     "img": "https://tshop.r10s.jp/shop-24/cabinet/biiino/item/174-6.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-24%2F4549980735978%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-24%2F4549980735978%2F",
