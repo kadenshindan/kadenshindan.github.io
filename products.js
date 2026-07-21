@@ -3927,5 +3927,64 @@ const PRODUCTS = [
       "標準表面温度 強51℃/中37℃",
       "コントローラーを外して丸洗い可"
     ]
+  },
+  {
+    "cat": "heater",
+    "maker": "コロナ",
+    "model": "CHK-C12B",
+    "name": "ウォールヒート 壁掛型遠赤外線暖房機",
+    "price": 36250,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 2
+    },
+    "img": "https://tshop.r10s.jp/auc-ventistyle/cabinet/corona/imgrc0131235750.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F",
+    "point": "壁掛けで床を占領しない。脱衣所のヒートショック対策に",
+    "features": [
+      "壁掛け設置で床スペースを使わない",
+      "強1200W／弱600Wの2段階切換",
+      "人感センサーで自動ON・OFF",
+      "運転音 弱26dB（強42dB）",
+      "ecoオート運転・切タイマー0.5/1/2h",
+      "夏は涼風運転も使える（日本製）"
+    ]
+  },
+  {
+    "cat": "heater",
+    "maker": "パナソニック",
+    "model": "DC-2NKM",
+    "name": "着せかえカーペット用ヒーター 2畳",
+    "price": 10780,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 1,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "img": "https://tshop.r10s.jp/townland/cabinet/hotkerpet/dc-2nkm-111.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F",
+    "point": "足元から暖める2畳用。暖房面積を半分に切り換えて節電",
+    "features": [
+      "2畳相当・定格490W",
+      "1時間の電気代 高 約10.4円／中 約7.1円",
+      "暖房面積を2面で切換できる",
+      "室温センサー・切り忘れ防止(8時間)",
+      "176×176cm・約3.2kg / 12折で収納",
+      "ダニ対策機能つき"
+    ]
   }
 ];
