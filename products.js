@@ -3986,5 +3986,93 @@ const PRODUCTS = [
       "176×176cm・約3.2kg / 12折で収納",
       "ダニ対策機能つき"
     ]
+  },
+  {
+    "cat": "heater",
+    "maker": "デロンギ",
+    "model": "RHJ21F0812-GY",
+    "name": "オイルヒーター ヴェルティカルド",
+    "price": 26800,
+    "size": [
+      "m"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 2,
+      "care": 3,
+      "eco": 1,
+      "compact": 1,
+      "multi": 1
+    },
+    "img": "https://shop.r10s.jp/delonghi/cabinet/06618479/item/0108156301/imgrc0107005791.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0108156301%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0108156301%2F",
+    "point": "風が出ないから乾燥しにくい。表面温度 約80℃のやけどしにくい設計",
+    "features": [
+      "消費電力1200W・適用畳数8〜10畳",
+      "平均表面温度 約80℃で子ども部屋や寝室にも",
+      "サーモスタットで設定温度を自動キープ",
+      "24時間タイマー（30分単位でON/OFF設定）",
+      "430×260×650mm / 13kg・キャスター付き",
+      "電気代 最大 約37.2円/h（31円/kWh換算）"
+    ]
+  },
+  {
+    "cat": "heater",
+    "maker": "コロナ",
+    "model": "DH-1225R",
+    "name": "遠赤外線暖房機 コアヒート",
+    "price": 29650,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 1
+    },
+    "img": "https://shop.r10s.jp/edion/cabinet/goods/ll/img_500/4906128560937_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4906128560937%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4906128560937%2F",
+    "point": "シーズヒーターの遠赤外線でからだのしんまで温かい。省エネ機能も充実",
+    "features": [
+      "暖房出力1150W・温度調節11段階",
+      "消費電力 通常1150〜330W／ゆらぎ運転820〜200W",
+      "BCコーティングのシーズヒーターで遠赤外線を放射",
+      "省エネセンサー＋ゆらぎ運転で電気代を節約",
+      "タテヨコ自在・自動首振り3段階（30°/50°/70°）",
+      "高さ718×幅343×奥行293mm / 6.3kg・日本製",
+      "電気代 強 約35.7円/h（31円/kWh換算）"
+    ]
+  },
+  {
+    "cat": "heater",
+    "maker": "コロナ",
+    "model": "DH-C925",
+    "name": "遠赤外線電気ストーブ スリムカーボン",
+    "price": 17380,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 3,
+      "multi": 1
+    },
+    "img": "https://shop.r10s.jp/ksdenki/cabinet/images/39_5/4906128545439_5.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F",
+    "point": "3.4kgと軽くてスリム。スイッチひとつですぐ暖まるカーボンヒーター",
+    "features": [
+      "暖房出力900W・消費電力900〜350W（10段階）",
+      "遠赤外線カーボンヒーターで立ち上がりが速い",
+      "自動首振り（70°）で広めに暖める",
+      "高さ897×幅306×奥行306mm / 3.4kg のスリム設計",
+      "転倒オフスイッチ・過熱防止装置つき（日本製）",
+      "電気代 強 約27.9円/h（31円/kWh換算）"
+    ]
   }
 ];
