@@ -231,6 +231,13 @@
     white-space: nowrap;
   }
   .rank-cta:hover { background: var(--main-dark); }
+  .rank-ctas { flex-shrink: 0; display: flex; flex-direction: column; gap: 5px; }
+  .rank-ctas a { display: block; text-align: center; text-decoration: none; font-size: 0.72rem; font-weight: bold; padding: 6px 12px; border-radius: 7px; white-space: nowrap; color: #fff; min-width: 62px; }
+  .rank-ctas .am { background: #e88b1a; }
+  .rank-ctas .rk { background: #bf0000; }
+  .rank-ctas a:hover { opacity: 0.88; }
+  .result-article-link { display: block; margin-top: 16px; background: #fff; border: 2px solid var(--main); border-radius: 10px; padding: 13px 14px; text-align: center; color: var(--main-dark); font-weight: bold; font-size: 0.92rem; text-decoration: none; }
+  .result-article-link:hover { background: #f0faf8; }
 
   .retry {
     display: block;
@@ -290,6 +297,8 @@
     .rank-item { flex-wrap: wrap; padding: 10px; gap: 10px; }
     .rank-info { flex: 1 1 calc(100% - 130px); }
     .rank-cta { flex: 1 1 100%; text-align: center; padding: 11px; margin-top: 2px; }
+    .rank-ctas { flex: 1 1 100%; flex-direction: row; margin-top: 2px; }
+    .rank-ctas a { flex: 1; padding: 10px; font-size: 0.8rem; }
     .result-head h2 { font-size: 1.1rem; }
   }
 </style>
@@ -337,8 +346,8 @@
         <ul class="win-points" id="winPoints"></ul>
         <div class="match-reason" id="winReason"></div>
         <div class="cta-row">
-          <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener">Amazonで見る</a>
-          <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener">楽天で見る</a>
+          <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener sponsored">Amazonで見る</a>
+          <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener sponsored">楽天で見る</a>
         </div>
       </div>
     </div>
@@ -346,6 +355,7 @@
     <div class="rank-section">
       <h3>2位以下のおすすめ</h3>
       <div id="rankList"></div>
+      <a id="catArticleLink" class="result-article-link" href="#" style="display:none;"></a>
     </div>
 
     <div style="margin-top:20px;">
@@ -699,9 +709,20 @@ function showResult(forcedModel) {
         "<div class='rank-point'>" + p.point + "</div>" +
         "<div class='rank-price'>" + yen(p.price) + "</div>" +
       "</div>" +
-      "<a class='rank-cta' href='" + rakutenLink(p) + "' target='_blank' rel='noopener'>見る</a>";
+      "<div class='rank-ctas'>" +
+        "<a class='am' href='" + amazonLink(p) + "' target='_blank' rel='noopener sponsored'>Amazon</a>" +
+        "<a class='rk' href='" + rakutenLink(p) + "' target='_blank' rel='noopener sponsored'>楽天</a>" +
+      "</div>";
     rankList.appendChild(item);
   });
+
+  // カテゴリのおすすめ記事への導線（回遊・SEO内部リンク）
+  const catLink = document.getElementById("catArticleLink");
+  if (catLink) {
+    catLink.href = "/osusume-" + answers.cat + ".html";
+    catLink.textContent = CAT_NAMES[answers.cat] + "のおすすめランキングをもっと見る →";
+    catLink.style.display = "block";
+  }
 
   // 結果をURLに保存し、シェアリンクを生成
   const state = encodeURIComponent(JSON.stringify({ a: answers, m: winner.model }));
@@ -724,6 +745,8 @@ document.getElementById("retryBtn").addEventListener("click", () => {
   for (const k in answers) delete answers[k];
   history.replaceState(null, "", location.pathname);
   document.getElementById("rankList").innerHTML = "";
+  const cl = document.getElementById("catArticleLink");
+  if (cl) cl.style.display = "none";
   resultEl.classList.add("hidden");
   progressEl.classList.remove("hidden");
   quizEl.classList.remove("hidden");
