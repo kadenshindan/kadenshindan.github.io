@@ -148,8 +148,8 @@ const PRODUCTS = [
   {
     "cat": "fan",
     "maker": "パナソニック",
-    "model": "F-DR5Z",
-    "name": "DCリビング扇風機 ナノイーX搭載",
+    "model": "F-C339D-W",
+    "name": "DCモーター搭載 リビング扇",
     "price": 27580,
     "size": [
       "s",
@@ -164,15 +164,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001733/4550719157718_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4550719157718%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4550719157718%2F",
-    "point": "1/fゆらぎの自然な風＋ナノイーX",
+    "img": "https://shop.r10s.jp/jism/cabinet/0068/4550719157718.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4550719157718-22-73049-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4550719157718-22-73049-n%2F",
+    "point": "9枚羽根の1/fゆらぎ＋温度センサー",
     "features": [
-      "「1/fゆらぎ」でやさしい自然風",
-      "ナノイーXで空気も清潔に",
-      "DCモーターで静音・省エネ",
-      "リモコン・タイマー完備"
-    ]
+      "9枚羽根と「1/fゆらぎ」のなめらかな風",
+      "DCモーターで風量8段階",
+      "温度センサー連動の自動・おやすみ運転",
+      "リモコンと入・切タイマーを搭載"
+    ],
+    "amazon": "https://www.amazon.co.jp/s?k=Panasonic%20F-C339D-W&tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
@@ -835,9 +836,9 @@ const PRODUCTS = [
   {
     "cat": "robot",
     "maker": "ロボロック",
-    "model": "Q Revo",
-    "name": "Roborock Q Revo",
-    "price": 76780,
+    "model": "Qrevo L",
+    "name": "Roborock Qrevo L",
+    "price": 53800,
     "size": [
       "l"
     ],
@@ -849,15 +850,16 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/roborockjapandirect/cabinet/products/12574614/imgrc0135322591.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froborockjapandirect%2F6936905903426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Froborockjapandirect%2F6936905903426%2F",
-    "point": "モップ洗浄・乾燥まで任せられるハイエンド",
+    "img": "https://shop.r10s.jp/roborockjapandirect/cabinet/products/12574614/12574615/imgrc0130333896.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froborockjapandirect%2F6936905903426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Froborockjapandirect%2F6936905903426%2F",
+    "point": "10,000Pa吸引＋4way全自動ドック",
     "features": [
-      "回転モップでしっかり水拭き",
-      "モップ洗浄・乾燥・ゴミ収集を自動化",
-      "高精度マッピングで賢く走行",
-      "広い家・共働き家庭の強い味方"
-    ]
+      "10,000Paのパワフルな吸引力",
+      "最大毎分200回転の2つの丸形モップ",
+      "モップ洗浄・乾燥・給水・ゴミ収集を自動化",
+      "ストラクチャードライトとLDSで回避・マッピング"
+    ],
+    "amazon": "https://www.amazon.co.jp/s?k=Roborock%20Qrevo%20L&tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
