@@ -784,7 +784,7 @@ const PRODUCTS = [
     "maker": "シャオミ",
     "model": "X20 Max",
     "name": "ロボット掃除機 X20 Max",
-    "price": 78000,
+    "price": 74800,
     "size": [
       "m",
       "l"
@@ -797,7 +797,7 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/yasora/cabinet/clean/xia12.jpg",
+    "img": "https://tshop.r10s.jp/xiaomiofficial/cabinet/11092610/11092614/mainx.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F",
     "point": "7万円台で全部入りのコスパ王",
     "features": [
