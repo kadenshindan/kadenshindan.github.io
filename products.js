@@ -20,7 +20,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/description_home02/kogata/imgrc0110314610.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274315%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274315%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274315%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274315%2F",
     "point": "静音とパワーを両立した定番DCモデル",
     "features": [
       "DCモーターで静音・省エネ",
@@ -50,7 +50,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/siroca/cabinet/sf-16a351/imgrc0124102990.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-16a351%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-16a351%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-16a351%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-16a351%2F",
     "point": "3D首振り＋衣類乾燥モード搭載の新モデル",
     "features": [
       "3D首振りで部屋全体の空気を循環",
@@ -79,7 +79,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/74_5/4550533270174_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550533270174%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550533270174%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550533270174%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550533270174%2F",
     "point": "コードレスでどこでも使える設置性の高さ",
     "features": [
       "充電式コードレスで持ち運び自由",
@@ -106,7 +106,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/enetroom/cabinet/11375185/11760512/i271000.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2Fi271000%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2Fi271000%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2Fi271000%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2Fi271000%2F",
     "point": "3,000円台で買える入門モデル",
     "features": [
       "圧倒的な低価格",
@@ -135,7 +135,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/irodorikukan/cabinet/other19/21010526.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firodorikukan%2F21010526%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firodorikukan%2F21010526%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firodorikukan%2F21010526%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firodorikukan%2F21010526%2F",
     "point": "竜巻状の直進気流で大空間もしっかり循環",
     "features": [
       "独自の竜巻気流で到達距離が長い",
@@ -195,7 +195,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/gbft-ltd/cabinet/image33/gb-inte-10bd_ts.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2Fgb-inte-10bd%2F",
     "point": "自然界の風を再現した高級扇風機の代名詞",
     "features": [
       "二重構造の羽根で面で広がる自然な風",
@@ -231,15 +231,15 @@ const PRODUCTS = [
       "羽根とガードは水洗いできる"
     ],
     "img": "https://tshop.r10s.jp/twinbird/cabinet/06297082/59951/59951.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F3N3WD64?tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
     "maker": "山善",
-    "model": "YLX-ED30",
+    "model": "YLX-AJD30E",
     "name": "DCリビング扇風機",
-    "price": 5980,
+    "price": 7480,
     "size": [
       "s",
       "m"
@@ -252,22 +252,23 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/021/main-t2z04.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqj387%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fqj387%2F",
-    "point": "1万円以下で買えるコスパDC扇風機",
+    "img": "https://tshop.r10s.jp/yamazenkaden/cabinet/main-img/018/main-r9w50.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FYLX-AJD30E%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FYLX-AJD30E%2F",
+    "point": "節電センサー付きで1万円以下の高機能DC扇風機",
     "features": [
-      "DCモーター搭載で1万円以下",
-      "風量8段階＋静音モード",
-      "リモコン・タイマー付き",
-      "初めてのDC扇風機にぴったり"
-    ]
+      "DCモーター・風量10段階",
+      "24・26・28℃の節電センサー運転",
+      "1〜8時間の入・切タイマー",
+      "最大消費電力18W"
+    ],
+    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20YLX-AJD30E&tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
     "maker": "日立",
-    "model": "HEF-DL300E",
+    "model": "HEF-DL300H",
     "name": "DC扇風機 うちわ風搭載",
-    "price": 17770,
+    "price": 16250,
     "size": [
       "m",
       "l"
@@ -281,14 +282,15 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001722/4526044017645_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4526044017645%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4526044017645%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F071c925b2b3fb149b1b1782f08ac7c0f%2F&m=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F071c925b2b3fb149b1b1782f08ac7c0f%2F",
     "point": "うちわのようなやさしい風が特徴",
     "features": [
       "独自の「うちわ風」機能",
-      "8枚羽根でなめらかな送風",
-      "お手入れしやすい前面ガード",
-      "リビング向けの安定モデル"
-    ]
+      "8枚羽根・風量6段階",
+      "切・入タイマーとおやすみ運転",
+      "チャイルドロック搭載"
+    ],
+    "amazon": "https://www.amazon.co.jp/s?k=%E6%97%A5%E7%AB%8B%20HEF-DL300H&tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
@@ -309,7 +311,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/14promo/cabinet/imgrc0110835437.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-22650%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-22650%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-22650%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-22650%2F",
     "point": "フィルターレスで手入れが圧倒的にラク",
     "features": [
       "沸騰させた清潔な蒸気で加湿",
@@ -344,7 +346,7 @@ const PRODUCTS = [
       "チャイルドロック搭載"
     ],
     "img": "https://tshop.r10s.jp/world-free-store/cabinet/system20250111/4974305227775.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fworld-free-store%2F4974305227775%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fworld-free-store%2F4974305227775%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fworld-free-store%2F4974305227775%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fworld-free-store%2F4974305227775%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D5V99MLQ?tag=tanosiikitaic-22"
   },
   {
@@ -365,7 +367,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/medicell51/cabinet/4906128541134_t.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4906128541134%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4906128541134%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4906128541134%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4906128541134%2F",
     "point": "一人暮らしの部屋干しにちょうどいい定番機",
     "features": [
       "6.3L/日でワンルームに最適",
@@ -393,7 +395,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/mrmax-r/cabinet/pb/12758812/imgrc0127080389.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmrmax-r%2Fcv-s71-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmrmax-r%2Fcv-s71-w%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmrmax-r%2Fcv-s71-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmrmax-r%2Fcv-s71-w%2F",
     "point": "プラズマクラスターで部屋干し臭も抑える",
     "features": [
       "除湿7.1L/日",
@@ -406,7 +408,7 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "アイリスオーヤマ",
-    "model": "IJC-H65",
+    "model": "IJC-R65",
     "name": "コンプレッサー式除湿機 6.5L",
     "price": 12800,
     "size": [
@@ -422,22 +424,22 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/12113165/imgrc0121244229.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F561929%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F561929%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F561929%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F561929%2F",
     "point": "軽くて安い、除湿機デビューの入門機",
     "features": [
-      "1.5万円前後の手頃な価格",
-      "6.5L/日の十分な除湿力",
-      "軽量で持ち運びやすい",
-      "シンプル操作"
+      "除湿能力5.5L/日（50Hz）・6.5L/日（60Hz）",
+      "約2Lの水タンク",
+      "内部乾燥運転を搭載",
+      "市販ホースで連続排水に対応"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B079MCT7S5?tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20IJC-R65&tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
     "maker": "三菱電機",
-    "model": "MJ-P180WX",
+    "model": "MJ-P180YX",
     "name": "衣類乾燥除湿機 18L",
-    "price": 45590,
+    "price": 45350,
     "size": [
       "m",
       "l"
@@ -451,14 +453,15 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/bearmarche/cabinet/compass1774955126.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbearmarche%2F4573637000430%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbearmarche%2F4573637000430%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fd4f657ad8fb959b9160a322d2a470f37%2F&m=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fd4f657ad8fb959b9160a322d2a470f37%2F",
     "point": "18L/日級のパワーで家族の部屋干しも一気に乾く",
     "features": [
-      "18L/日の大能力",
-      "ワイド送風で大量の洗濯物に対応",
-      "広いリビングの湿気対策にも",
-      "部屋干しメインなら最有力"
-    ]
+      "除湿能力15.5L/日（50Hz）・18L/日（60Hz）",
+      "広角オートスイングで大量の洗濯物に対応",
+      "冬モード・おまかせ霜取りを搭載",
+      "市販ホースで連続排水に対応"
+    ],
+    "amazon": "https://www.amazon.co.jp/s?k=%E4%B8%89%E8%8F%B1%E9%9B%BB%E6%A9%9F%20MJ-P180YX&tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -479,7 +482,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/31_5/4906128540731_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F",
     "point": "大能力＋省エネDC送風のハイエンド機",
     "features": [
       "18L/日の大能力コンプレッサー式",
@@ -507,7 +510,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/auc-pcfreak/cabinet/imgrc0110215368.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-pcfreak%2F10003085%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-pcfreak%2F10003085%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-pcfreak%2F10003085%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-pcfreak%2F10003085%2F",
     "point": "迷ったらこれ、加湿もできる国民的定番機",
     "features": [
       "空気清浄＋加湿の1台2役",
@@ -536,7 +539,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/surprise-shop/cabinet/13090980/fu-u40-h.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-shop%2Ffu-u40-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-shop%2Ffu-u40-h%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-shop%2Ffu-u40-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-shop%2Ffu-u40-h%2F",
     "point": "寝室・自室向けの静音スリムモデル",
     "features": [
       "脱臭性能とセンサー感度が優秀",
@@ -564,7 +567,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/niche-express/cabinet/2025/dkn/01/dkn00000000122-01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F",
     "point": "加湿なしで25畳まで、5.8kgの軽量ストリーマ空気清浄機",
     "features": [
       "適用床面積 25畳・8畳を11分で清浄",
@@ -593,7 +596,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9099/4549980751855.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980751855%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980751855%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980751855%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980751855%2F",
     "point": "花粉撃退気流と上質な加湿にこだわる人へ",
     "features": [
       "ナノイーX 4.8兆搭載",
@@ -622,7 +625,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/slife/cabinet/rakus125_0028/b0cll1cmmb00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fslife%2Fb0cll1cmmb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fslife%2Fb0cll1cmmb%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fslife%2Fb0cll1cmmb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fslife%2Fb0cll1cmmb%2F",
     "point": "1kg切りの軽さにダイソンの吸引力",
     "features": [
       "本体約0.97kgの超軽量",
@@ -680,7 +683,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p00/lc200j_ps.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F",
     "point": "自動ゴミ収集ドック付きのハイエンド機",
     "features": [
       "ドックに戻すだけで自動ゴミ収集",
@@ -710,7 +713,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/30_5/4967576831130_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576831130%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576831130%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576831130%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576831130%2F",
     "point": "5万円切りでゴミ自動回収ドック付き",
     "features": [
       "ゴミ捨ては数週間に1回でOK",
@@ -738,7 +741,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/superdeal/cabinet/09061004/10528769/11542220/5025155106518_00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F",
     "point": "レーザーで見えないホコリまで可視化",
     "features": [
       "グリーンレーザーでゴミを可視化",
@@ -767,7 +770,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/store-ecovacs-japan/cabinet/campaign/260717/ddx57-12ee.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fddx57-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fddx57-12ee%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fddx57-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fddx57-12ee%2F",
     "point": "吸引力トップ級、水拭きまで全自動のベストバイ",
     "features": [
       "比較テストで吸引力トップの成績",
@@ -795,7 +798,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/yasora/cabinet/clean/xia12.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fxiaomiofficial%2Fm59070%2F",
     "point": "7万円台で全部入りのコスパ王",
     "features": [
       "優れた障害物回避センサー",
@@ -824,7 +827,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/irobotstore/cabinet/03016688/20260719_marathon/260719_205c_tm_v2.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fl12%2F",
     "point": "小型部門1位、ゴミ圧縮でドック不要",
     "features": [
       "本体内でゴミを圧縮、ドック不要",
@@ -887,7 +890,7 @@ const PRODUCTS = [
       "Anker公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/anker/cabinet/listing/tmb/t2250/t2250_normal.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Ft2250%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Ft2250%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Ft2250%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fanker%2Ft2250%2F"
   },
   {
     "cat": "ricecooker",
@@ -908,7 +911,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/yamada-denki/cabinet/a07000462/6614137019.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F",
     "point": "お米マイスター実証テスト1位のベストバイ",
     "features": [
       "専門家テストでベストバイ獲得",
@@ -937,7 +940,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/den-mart/cabinet/item_photo3/6a100e049fb1c.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fden-mart%2F58378%2F",
     "point": "圧力IHでもちもち食感、手入れもラク",
     "features": [
       "圧力IHでもちもちの炊き上がり",
@@ -973,7 +976,7 @@ const PRODUCTS = [
       "2025年発売の現行モデル"
     ],
     "img": "https://tshop.r10s.jp/seishinjapan/cabinet/k0001636884.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F"
   },
   {
     "cat": "ricecooker",
@@ -994,7 +997,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/82_5/4904710429082_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4904710429082%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4904710429082%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4904710429082%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4904710429082%2F",
     "point": "1万円台前半で買える定番マイコン機",
     "features": [
       "1万円台前半の手頃な価格",
@@ -1023,7 +1026,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/e-cutestyle/cabinet/img051/p000000909871_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000909871%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000909871%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000909871%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000909871%2F",
     "point": "本物の土鍋で炊く最高峰の一杯",
     "features": [
       "本土鍋の遠赤外線と泡立ちで炊く",
@@ -1052,7 +1055,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/bellevie-harima/cabinet/0101/default/s1/t-fal-350_white0201.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Ft-fal-350%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Ft-fal-350%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Ft-fal-350%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Ft-fal-350%2F",
     "point": "売れ筋1位、カップ1杯約1分で沸く",
     "features": [
       "カップ1杯分が約1分で沸騰",
@@ -1080,7 +1083,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/payoff/cabinet/muryou_07/b07609.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpayoff%2Fpk07609%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpayoff%2Fpk07609%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpayoff%2Fpk07609%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpayoff%2Fpk07609%2F",
     "point": "沸騰3分台の速さとデザイン性を両立",
     "features": [
       "実測3分台の沸騰スピード",
@@ -1107,7 +1110,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/patie/cabinet/0000/default/s1/t-fal-349_s1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpatie%2Ft-fal-349%2F",
     "point": "コンパクトで一人暮らしにちょうどいい",
     "features": [
       "0.8Lの省スペースサイズ",
@@ -1135,7 +1138,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001522/4974305230997_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230997%2F",
     "point": "安全機能全部入りの大容量モデル",
     "features": [
       "1.5Lの大容量でファミリー向け",
@@ -1148,8 +1151,8 @@ const PRODUCTS = [
   {
     "cat": "kettle",
     "maker": "山善",
-    "model": "YKU-S1210J",
-    "name": "温度調節電気ケトル 1.2L",
+    "model": "EGL-C1281",
+    "name": "温度調節電気ケトル 0.8L",
     "price": 8980,
     "size": [
       "s",
@@ -1163,15 +1166,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/018/main-s4x25.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76033%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76033%2F",
+    "img": "https://tshop.r10s.jp/yamazenkaden/cabinet/main-img/018/main-s4x25.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F76033%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F76033%2F",
     "point": "1℃単位の温度調節でコーヒー党に人気",
     "features": [
-      "60〜100℃の温度設定が可能",
+      "50〜100℃を1℃単位で設定可能",
       "細口ノズルでドリップしやすい",
       "保温機能付き",
-      "比較テスト上位の実力派"
-    ]
+      "1200Wのハイパワー"
+    ],
+    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20EGL-C1281&tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -1193,7 +1197,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/eh-na0k_004.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyabibstore%2Feh-na0k%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyabibstore%2Feh-na0k%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyabibstore%2Feh-na0k%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmiyabibstore%2Feh-na0k%2F",
     "point": "高浸透ナノイーでうるおい最高峰",
     "features": [
       "高浸透ナノイーで髪にうるおい",
@@ -1223,7 +1227,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/eh-na0k_004.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F",
     "point": "最新とほぼ同性能、型落ちでお得",
     "features": [
       "EH-NA0Kとほぼ同性能",
@@ -1252,7 +1256,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/matukaze/cabinet/compass1778744563.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatukaze%2F5025155117699%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatukaze%2F5025155117699%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatukaze%2F5025155117699%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatukaze%2F5025155117699%2F",
     "point": "圧倒的風量でとにかく速く乾かす",
     "features": [
       "大風量でロングヘアも速乾",
@@ -1281,7 +1285,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/nrfonline/cabinet/onesell527/nrf43c5e1fb83.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnrfonline%2Fnrf43c5e1fb83%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnrfonline%2Fnrf43c5e1fb83%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnrfonline%2Fnrf43c5e1fb83%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnrfonline%2Fnrf43c5e1fb83%2F",
     "point": "1万円台で大風量1.6m³/分",
     "features": [
       "風量1.6m³/分の速乾クラス",
@@ -1310,7 +1314,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/hikaritv/cabinet/plala/201/01251/2010125118_k.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2010125118%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2010125118%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2010125118%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2010125118%2F",
     "point": "音波水流で歯ぐきにやさしい定番機",
     "features": [
       "毎分約31,000回の音波振動",
@@ -1339,7 +1343,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/shopavail/cabinet/07943905/compass1751508614.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F",
     "point": "回転式のパワフル洗浄で磨き残しなし",
     "features": [
       "丸型ブラシが歯を包み込んで磨く",
@@ -1367,7 +1371,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/hfstore/cabinet/imgrc0109932893.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhfstore%2Ffi01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhfstore%2Ffi01%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhfstore%2Ffi01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhfstore%2Ffi01%2F",
     "point": "7千円以下で買える音波式エントリー",
     "features": [
       "音波式をこの価格で",
@@ -1395,7 +1399,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/oralb-braun/cabinet/item/eb-scy_r/thumb/eb-scy_r_2408.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Feb-scy_r%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Feb-scy_r%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Feb-scy_r%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Feb-scy_r%2F",
     "point": "6千円以下の回転式入門機",
     "features": [
       "回転式のパワフル洗浄を手頃に",
@@ -1424,7 +1428,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/auc-worldichi/cabinet/11/4987176160720.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4987176160720%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4987176160720%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4987176160720%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4987176160720%2F",
     "point": "AIガイド付きの最上位フラッグシップ",
     "features": [
       "AIが磨き残しをリアルタイム表示",
@@ -1486,7 +1490,7 @@ const PRODUCTS = [
       "静音設計"
     ],
     "img": "https://tshop.r10s.jp/mujirushi-ryohin/cabinet/item34/4550584865336.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550584865336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550584865336%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550584865336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550584865336%2F"
   },
   {
     "cat": "fan",
@@ -1514,7 +1518,7 @@ const PRODUCTS = [
       "コスパの高い1.5万円以下"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/020/main-t0h59.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftatsumax%2Ftake-pjs3dsw%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftatsumax%2Ftake-pjs3dsw%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftatsumax%2Ftake-pjs3dsw%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftatsumax%2Ftake-pjs3dsw%2F"
   },
   {
     "cat": "fan",
@@ -1542,7 +1546,7 @@ const PRODUCTS = [
       "コードレスでも使えるモデルあり"
     ],
     "img": "https://tshop.r10s.jp/doshisha-marche/cabinet/kamome/p10/k-f28ay-4700.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdoshisha-marche%2Fk-f28ay%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdoshisha-marche%2Fk-f28ay%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdoshisha-marche%2Fk-f28ay%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdoshisha-marche%2Fk-f28ay%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CCY1HRKZ?tag=tanosiikitaic-22"
   },
   {
@@ -1599,7 +1603,7 @@ const PRODUCTS = [
       "お手入れしやすい設計"
     ],
     "img": "https://tshop.r10s.jp/14promo/cabinet/11200097/imgrc0103905120.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20240207-22500%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20240207-22500%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20240207-22500%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20240207-22500%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D86SP5NL?tag=tanosiikitaic-22"
   },
   {
@@ -1628,7 +1632,7 @@ const PRODUCTS = [
       "加湿力最優先の家庭に"
     ],
     "img": "https://tshop.r10s.jp/14promo/cabinet/imgrc0103853607.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FH9Q2RQG?tag=tanosiikitaic-22"
   },
   {
@@ -1657,7 +1661,7 @@ const PRODUCTS = [
       "衣類乾燥の最上位クラス"
     ],
     "img": "https://tshop.r10s.jp/ecmaison/cabinet/compass1779782165.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1779782218%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1779782218%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1779782218%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1779782218%2F",
     "amazon": "https://www.amazon.co.jp/dp/B09VX9JXQD?tag=tanosiikitaic-22"
   },
   {
@@ -1686,7 +1690,7 @@ const PRODUCTS = [
       "移動しやすいキャスター付き"
     ],
     "img": "https://tshop.r10s.jp/hikaritv/cabinet/plala/200/01261/2000126164_k.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2000126164%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2000126164%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2000126164%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhikaritv%2F2000126164%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D73J1QX7?tag=tanosiikitaic-22"
   },
   {
@@ -1715,7 +1719,7 @@ const PRODUCTS = [
       "1万円台の手頃な価格"
     ],
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/12113165/imgrc0112889968.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274018%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274018%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274018%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F274018%2F",
     "amazon": "https://www.amazon.co.jp/dp/B07RVT4BK3?tag=tanosiikitaic-22"
   },
   {
@@ -1744,7 +1748,7 @@ const PRODUCTS = [
       "スマホ接続・エアコン連動に対応"
     ],
     "img": "https://tshop.r10s.jp/niche-express/cabinet/2025/dkn/01/dkn00000000067-01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FLWHV6KG?tag=tanosiikitaic-22"
   },
   {
@@ -1772,7 +1776,7 @@ const PRODUCTS = [
       "世界的に人気の新興ブランド"
     ],
     "img": "https://tshop.r10s.jp/ryohinseikatsukan/cabinet/levoit-od/05.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fryohinseikatsukan%2Ftsuhan-123-c300s%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fryohinseikatsukan%2Ftsuhan-123-c300s%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fryohinseikatsukan%2Ftsuhan-123-c300s%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fryohinseikatsukan%2Ftsuhan-123-c300s%2F",
     "amazon": "https://www.amazon.co.jp/dp/B092D322HR?tag=tanosiikitaic-22"
   },
   {
@@ -1801,7 +1805,7 @@ const PRODUCTS = [
       "花粉・PM2.5対策に強い"
     ],
     "img": "https://tshop.r10s.jp/blueair/cabinet/airpurifiers/new_thum/b-110157.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fblueair%2Fb-110157%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fblueair%2Fb-110157%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fblueair%2Fb-110157%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fblueair%2Fb-110157%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0G81FHVBL?tag=tanosiikitaic-22"
   },
   {
@@ -1830,7 +1834,7 @@ const PRODUCTS = [
       "スキマ時間掃除に最適"
     ],
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/itemimg01/mc-ns10ke_00_v2.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fmc-ns10ke-k%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fmc-ns10ke-k%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fmc-ns10ke-k%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fmc-ns10ke-k%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CN27SVQ9?tag=tanosiikitaic-22"
   },
   {
@@ -1859,7 +1863,7 @@ const PRODUCTS = [
       "ごみくっきりライト搭載"
     ],
     "img": "https://tshop.r10s.jp/townland/cabinet/clenar/pv-bl50l-n-1-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-pv-bl50j-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-pv-bl50j-n%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-pv-bl50j-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-pv-bl50j-n%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CP1HDHD7?tag=tanosiikitaic-22"
   },
   {
@@ -1888,7 +1892,7 @@ const PRODUCTS = [
       "2万円以下のロングセラー"
     ],
     "img": "https://tshop.r10s.jp/yamamura/cabinet/point3/cl107fdshw-main.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F"
   },
   {
     "cat": "robot",
@@ -1915,7 +1919,7 @@ const PRODUCTS = [
       "一人暮らしのワンルームに最適"
     ],
     "img": "https://tshop.r10s.jp/plex/cabinet/swichbot/850043739975-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplex%2F15100185%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fplex%2F15100185%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplex%2F15100185%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fplex%2F15100185%2F"
   },
   {
     "cat": "robot",
@@ -1943,7 +1947,7 @@ const PRODUCTS = [
       "初めてのロボット掃除機に"
     ],
     "img": "https://tshop.r10s.jp/irobotstore/cabinet/03016688/20260719_marathon/260719_105c_tm.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F1FCG28P?tag=tanosiikitaic-22"
   },
   {
@@ -1972,7 +1976,7 @@ const PRODUCTS = [
       "ごはんの甘み・粒立ちが別格"
     ],
     "img": "https://tshop.r10s.jp/e-cutestyle/cabinet/img047/p000000874797_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000874797%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000874797%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000874797%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000874797%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D4D95VKD?tag=tanosiikitaic-22"
   },
   {
@@ -2000,7 +2004,7 @@ const PRODUCTS = [
       "ランキング上位の定番3合機"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/mailmaga/08814302/12654252/4974305231390.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4974305231390%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4974305231390%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4974305231390%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4974305231390%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FH6BW4Q3?tag=tanosiikitaic-22"
   },
   {
@@ -2028,7 +2032,7 @@ const PRODUCTS = [
       "0.6Lの1〜2人用サイズ"
     ],
     "img": "https://tshop.r10s.jp/kazamidori/cabinet/products26/4560330113307.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkazamidori%2F4560330113307%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkazamidori%2F4560330113307%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkazamidori%2F4560330113307%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkazamidori%2F4560330113307%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CWKD99QV?tag=tanosiikitaic-22"
   },
   {
@@ -2057,7 +2061,7 @@ const PRODUCTS = [
       "ギフトにも人気"
     ],
     "img": "https://tshop.r10s.jp/delonghi/cabinet/06618479/item/0210100062/0210100062_01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100062%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100062%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100062%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100062%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0GX8B7VXQ?tag=tanosiikitaic-22"
   },
   {
@@ -2086,7 +2090,7 @@ const PRODUCTS = [
       "カフェのような佇まい"
     ],
     "img": "https://tshop.r10s.jp/toolandmeal/cabinet/item/12048751/00081655_th_05.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoolandmeal%2F10017263%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoolandmeal%2F10017263%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoolandmeal%2F10017263%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoolandmeal%2F10017263%2F",
     "amazon": "https://www.amazon.co.jp/dp/B09F2RBJVQ?tag=tanosiikitaic-22"
   },
   {
@@ -2115,7 +2119,7 @@ const PRODUCTS = [
       "美容感度の高い人に人気"
     ],
     "img": "https://tshop.r10s.jp/mtgec-beauty/cabinet/refa/refa_dryer_smart_w/imgrc0128428312.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1382920101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1382920101%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1382920101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1382920101%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FQ4Y2169?tag=tanosiikitaic-22"
   },
   {
@@ -2145,7 +2149,7 @@ const PRODUCTS = [
       "家族で使いやすいバランス型"
     ],
     "img": "https://tshop.r10s.jp/shopch-r/cabinet/item/ele/4000765255001/4000765255001-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0B5Q5J9HR?tag=tanosiikitaic-22"
   },
   {
@@ -2175,7 +2179,7 @@ const PRODUCTS = [
       "シンプルでおしゃれなデザイン"
     ],
     "img": "https://tshop.r10s.jp/beautyeveryday/cabinet/heakea/11920277/salonia-iondryer3.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyeveryday%2F4582267399890%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyeveryday%2F4582267399890%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyeveryday%2F4582267399890%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyeveryday%2F4582267399890%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DYNWMQ7F?tag=tanosiikitaic-22"
   },
   {
@@ -2204,7 +2208,7 @@ const PRODUCTS = [
       "日本メーカーの安心感"
     ],
     "img": "https://tshop.r10s.jp/ebest/cabinet/479/4550719010105.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4550719010105%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4550719010105%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4550719010105%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4550719010105%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FKFQZ2TW?tag=tanosiikitaic-22"
   },
   {
@@ -2232,7 +2236,7 @@ const PRODUCTS = [
       "持ち運びにも便利"
     ],
     "img": "https://tshop.r10s.jp/townland-neo/cabinet/dendouhaburasi/ht-b304-w-1-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland-neo%2Fy-ht-b304-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland-neo%2Fy-ht-b304-w%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland-neo%2Fy-ht-b304-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland-neo%2Fy-ht-b304-w%2F",
     "amazon": "https://www.amazon.co.jp/dp/B07HNH255V?tag=tanosiikitaic-22"
   },
   {
@@ -2261,7 +2265,7 @@ const PRODUCTS = [
       "シロカ公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/siroca/cabinet/sf-c151/thumb_sf-c151w_p2.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-c151%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-c151%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-c151%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsiroca%2Fsf-c151%2F",
     "amazon": "https://www.amazon.co.jp/dp/B086PGT5KC?tag=tanosiikitaic-22"
   },
   {
@@ -2290,7 +2294,7 @@ const PRODUCTS = [
       "信頼の国内老舗ブランド"
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9201/4904530144356.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530144356%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530144356%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530144356%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530144356%2F"
   },
   {
     "cat": "fan",
@@ -2319,13 +2323,13 @@ const PRODUCTS = [
       "夏以外も空気清浄機として活躍"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/021/main-s4f79.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F"
   },
   {
     "cat": "humidifier",
     "maker": "ダイニチ",
-    "model": "HD-LXタイプ",
-    "name": "ハイブリッド式加湿器 LXタイプ",
+    "model": "HD-LX1025",
+    "name": "ハイブリッド式加湿器 LX TYPE",
     "price": 41580,
     "size": [
       "l"
@@ -2346,7 +2350,7 @@ const PRODUCTS = [
       "加湿器シェア上位ダイニチの上位機"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/81_5/4951272036081_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F"
   },
   {
     "cat": "humidifier",
@@ -2374,7 +2378,7 @@ const PRODUCTS = [
       "公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/bruno-official/cabinet/item/2025_2/7761193_main1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbruno-official%2F7761193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbruno-official%2F7761193%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbruno-official%2F7761193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbruno-official%2F7761193%2F"
   },
   {
     "cat": "dehumidifier",
@@ -2402,7 +2406,7 @@ const PRODUCTS = [
       "山善公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/rank-img/020/main-r8p23.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1k76%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1k76%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1k76%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1k76%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F4KHNVBT?tag=tanosiikitaic-22"
   },
   {
@@ -2430,7 +2434,7 @@ const PRODUCTS = [
       "シャーク公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p00/wv416j_bs.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F"
   },
   {
     "cat": "vacuum",
@@ -2458,7 +2462,7 @@ const PRODUCTS = [
       "国内メーカーの安心感"
     ],
     "img": "https://tshop.r10s.jp/denkichiweb/cabinet/12405600/4904530134388_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530134388%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530134388%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530134388%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530134388%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FYN7ZCLY?tag=tanosiikitaic-22"
   },
   {
@@ -2486,7 +2490,7 @@ const PRODUCTS = [
       "一人暮らしのサブ機にも"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/orj/36/0-4975058513528.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F51241%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F51241%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F51241%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F51241%2F",
     "amazon": "https://www.amazon.co.jp/dp/B09GTMV4LY?tag=tanosiikitaic-22"
   },
   {
@@ -2515,7 +2519,7 @@ const PRODUCTS = [
       "エコバックス公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/store-ecovacs-japan/cabinet/campaign/260717/dkx55-12ee.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F"
   },
   {
     "cat": "ricecooker",
@@ -2543,7 +2547,7 @@ const PRODUCTS = [
       "日立の人気シリーズ"
     ],
     "img": "https://tshop.r10s.jp/emedama/cabinet/5698/4549873195698_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873195698%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873195698%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873195698%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873195698%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FC655FF7?tag=tanosiikitaic-22"
   },
   {
@@ -2572,7 +2576,7 @@ const PRODUCTS = [
       "保温重視の家庭に最適"
     ],
     "img": "https://tshop.r10s.jp/superdeal/cabinet/yamada/2024/11424131/4904530120107_00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14542rc10vrv2411%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14542rc10vrv2411%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14542rc10vrv2411%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14542rc10vrv2411%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DNY7TZZG?tag=tanosiikitaic-22"
   },
   {
@@ -2600,13 +2604,13 @@ const PRODUCTS = [
       "山善公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/020/main-t0f25.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F"
   },
   {
     "cat": "kettle",
     "maker": "タイガー",
-    "model": "わく子 PCM-A080",
-    "name": "蒸気レス電気ケトル わく子 0.8L",
+    "model": "PCM-N080",
+    "name": "省スチーム電気ケトル わく子 0.8L",
     "price": 4980,
     "size": [
       "s",
@@ -2620,15 +2624,16 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "蒸気レスで置き場所を選ばない定番",
+    "point": "蒸気を抑えた安全設計のコンパクトケトル",
     "features": [
-      "蒸気が出ず結露・やけどの心配が少ない",
+      "蒸気をほとんど出さない省スチーム設計",
       "転倒お湯もれ防止など安全設計",
-      "カップ1杯が約45秒のスピード沸騰",
-      "タイガー公式ストアで購入可"
+      "カップ1杯が約60秒のスピード沸騰",
+      "1300W・容量0.8L"
     ],
     "img": "https://tshop.r10s.jp/tiger-online/cabinet/pcm-n080_ra260710.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftiger-online%2Fpcm-a080%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftiger-online%2Fpcm-a080%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftiger-online%2Fpcm-a080%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftiger-online%2Fpcm-a080%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%20PCM-N080&tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
@@ -2655,7 +2660,7 @@ const PRODUCTS = [
       "デザイン性も高い"
     ],
     "img": "https://tshop.r10s.jp/interior-palette/cabinet/maker_hario3/472408ip.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finterior-palette%2F472408%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Finterior-palette%2F472408%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finterior-palette%2F472408%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Finterior-palette%2F472408%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DSHTKFHH?tag=tanosiikitaic-22"
   },
   {
@@ -2684,7 +2689,7 @@ const PRODUCTS = [
       "高さ21.7cmで持ち運びやすい"
     ],
     "img": "https://tshop.r10s.jp/shop-24/cabinet/biiino/item/174-6.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-24%2F4549980735978%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-24%2F4549980735978%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-24%2F4549980735978%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshop-24%2F4549980735978%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CC8QVYG9?tag=tanosiikitaic-22"
   },
   {
@@ -2713,7 +2718,7 @@ const PRODUCTS = [
       "サロン品質の仕上がり"
     ],
     "img": "https://tshop.r10s.jp/fastep/cabinet/09581633/imgrc0115029990.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffastep%2Fft-1009%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffastep%2Fft-1009%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffastep%2Fft-1009%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffastep%2Fft-1009%2F"
   },
   {
     "cat": "dryer",
@@ -2742,7 +2747,7 @@ const PRODUCTS = [
       "6千円以下の高コスパ"
     ],
     "img": "https://tshop.r10s.jp/atomya/cabinet/bte02/nb_dr_nb1906_m01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F"
   },
   {
     "cat": "toothbrush",
@@ -2770,12 +2775,12 @@ const PRODUCTS = [
       "スタイリッシュなデザイン"
     ],
     "img": "https://tshop.r10s.jp/nowpick/cabinet/biiino/item/main-image/20260620004255_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fhx9911%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fhx9911%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fhx9911%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fhx9911%2F"
   },
   {
     "cat": "circulator",
     "maker": "山善",
-    "model": "洗える360°サーキュレーター",
+    "model": "YAR-CD20ES",
     "name": "全分解で洗える360°首振りサーキュレーター",
     "price": 9980,
     "size": [
@@ -2798,7 +2803,7 @@ const PRODUCTS = [
       "山善公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/sku-img/001/sku-r9w52.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76220%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76220%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76220%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76220%2F"
   },
   {
     "cat": "circulator",
@@ -2826,7 +2831,7 @@ const PRODUCTS = [
       "アイリス公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/11073544/12096888/imgrc0110283253.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F282763%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F282763%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F282763%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F282763%2F",
     "amazon": "https://www.amazon.co.jp/dp/B087RM7DD6?tag=tanosiikitaic-22"
   },
   {
@@ -2854,7 +2859,7 @@ const PRODUCTS = [
       "2万円以下で買える象印"
     ],
     "img": "https://tshop.r10s.jp/rugia/cabinet/onesell137/rg363aadd880.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frugia%2Frg363aadd880%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frugia%2Frg363aadd880%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frugia%2Frg363aadd880%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frugia%2Frg363aadd880%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CD3HN2V3?tag=tanosiikitaic-22"
   },
   {
@@ -2883,7 +2888,7 @@ const PRODUCTS = [
       "部屋干しの質を上げたい家庭に"
     ],
     "img": "https://tshop.r10s.jp/r-u-happiness/cabinet/10261635/12063833/13296320/01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-u-happiness%2Fmj-m120rx-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-u-happiness%2Fmj-m120rx-w%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-u-happiness%2Fmj-m120rx-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-u-happiness%2Fmj-m120rx-w%2F"
   },
   {
     "cat": "dehumidifier",
@@ -2911,7 +2916,7 @@ const PRODUCTS = [
       "日本の老舗メーカー製"
     ],
     "img": "https://tshop.r10s.jp/sanrex2/cabinet/06236180/06236205/imgrc0114626133.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanrex2%2Ftd-c60r-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanrex2%2Ftd-c60r-w%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanrex2%2Ftd-c60r-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsanrex2%2Ftd-c60r-w%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0C5DJV9S4?tag=tanosiikitaic-22"
   },
   {
@@ -2939,7 +2944,7 @@ const PRODUCTS = [
       "コンパクトな個室向けサイズ"
     ],
     "img": "https://tshop.r10s.jp/toconnect/cabinet/07831354/09225771/rakuten_mini01-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoconnect%2F10000022%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoconnect%2F10000022%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoconnect%2F10000022%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoconnect%2F10000022%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0BCFK5MKP?tag=tanosiikitaic-22"
   },
   {
@@ -2968,7 +2973,7 @@ const PRODUCTS = [
       "お手入れの手間を減らしたい人に"
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9118/4549980860977.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980860977%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980860977%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980860977%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980860977%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DBH8HWN5?tag=tanosiikitaic-22"
   },
   {
@@ -2997,7 +3002,7 @@ const PRODUCTS = [
       "ゴミ捨てが苦手な人の最適解"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/orj/30/0-4549873161426.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F"
   },
   {
     "cat": "robot",
@@ -3025,7 +3030,7 @@ const PRODUCTS = [
       "世界シェア急成長ブランド"
     ],
     "img": "https://tshop.r10s.jp/dreame-shop/cabinet/11302689/imgrc0140534087.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F"
   },
   {
     "cat": "ricecooker",
@@ -3053,7 +3058,7 @@ const PRODUCTS = [
       "パナソニック公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/sr-x710d_003.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fsr-x710d-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fsr-x710d-h%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fsr-x710d-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fsr-x710d-h%2F"
   },
   {
     "cat": "ricecooker",
@@ -3080,7 +3085,7 @@ const PRODUCTS = [
       "公式店は2年保証付き"
     ],
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/10172579/12541977/imgrc0117628162.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F"
   },
   {
     "cat": "ricecooker",
@@ -3108,7 +3113,7 @@ const PRODUCTS = [
       "料理好きの憧れの一台"
     ],
     "img": "https://tshop.r10s.jp/vermicular-rshop/cabinet/11432399/rp23_sv_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvermicular-rshop%2Frp23a-sv%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvermicular-rshop%2Frp23a-sv%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvermicular-rshop%2Frp23a-sv%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvermicular-rshop%2Frp23a-sv%2F",
     "amazon": "https://www.amazon.co.jp/dp/B077P24PYR?tag=tanosiikitaic-22"
   },
   {
@@ -3136,7 +3141,7 @@ const PRODUCTS = [
       "ビタントニオ公式で購入可"
     ],
     "img": "https://tshop.r10s.jp/select-rainbow/cabinet/13322066/4968291311532-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F"
   },
   {
     "cat": "kettle",
@@ -3164,7 +3169,7 @@ const PRODUCTS = [
       "5千円前後の高コスパ"
     ],
     "img": "https://tshop.r10s.jp/nttxstore/cabinet/12563235/qzx0031257.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F",
     "amazon": "https://www.amazon.co.jp/dp/B09HBQHDL2?tag=tanosiikitaic-22"
   },
   {
@@ -3193,7 +3198,7 @@ const PRODUCTS = [
       "公式店限定の長期保証付き"
     ],
     "img": "https://tshop.r10s.jp/holistic-cures/cabinet/mg/0000mg_0001.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F"
   },
   {
     "cat": "dryer",
@@ -3221,7 +3226,7 @@ const PRODUCTS = [
       "ヤーマン公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/ya-man/cabinet/06031355/ma/r2503c-ma10x.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fya-man%2Fr2503c%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fya-man%2Fr2503c%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fya-man%2Fr2503c%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fya-man%2Fr2503c%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FQB5SDHM?tag=tanosiikitaic-22"
   },
   {
@@ -3250,7 +3255,7 @@ const PRODUCTS = [
       "公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/curaprox/cabinet/thumbnails/normal/73349336.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuraprox%2F73349336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuraprox%2F73349336%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuraprox%2F73349336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuraprox%2F73349336%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CHYC5XD4?tag=tanosiikitaic-22"
   },
   {
@@ -3278,7 +3283,7 @@ const PRODUCTS = [
       "替えブラシも入手しやすい"
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001746/8720689050845_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F8720689050845%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F8720689050845%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F8720689050845%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F8720689050845%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D1VTC31M?tag=tanosiikitaic-22"
   },
   {
@@ -3305,7 +3310,7 @@ const PRODUCTS = [
       "コンパクトで置き場所自由"
     ],
     "img": "https://tshop.r10s.jp/bluxe-store/cabinet/thumb/cfaz2601_main.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F"
   },
   {
     "cat": "humidifier",
@@ -3331,7 +3336,7 @@ const PRODUCTS = [
       "寝室・デスクにちょうどいい"
     ],
     "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705516.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F"
   },
   {
     "cat": "purifier",
@@ -3358,7 +3363,7 @@ const PRODUCTS = [
       "ホコリ・照度まで見る5種センサーとAIモニター"
     ],
     "img": "https://tshop.r10s.jp/try3/cabinet/11147956/11147958/4550556135689.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135689%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F4JRGMDZ?tag=tanosiikitaic-22"
   },
   {
@@ -3386,7 +3391,7 @@ const PRODUCTS = [
       "公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/dyson/cabinet/product/09439639/sv10kextbk_sale_em.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F436158-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F436158-01%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F436158-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F436158-01%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DGX6HJ2Z?tag=tanosiikitaic-22"
   },
   {
@@ -3413,7 +3418,7 @@ const PRODUCTS = [
       "エコバックス公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/store-ecovacs-japan/cabinet/campaign/260717/djx11-11ee.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdjx11-11ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdjx11-11ee%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdjx11-11ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdjx11-11ee%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0GJCCTQMC?tag=tanosiikitaic-22"
   },
   {
@@ -3441,7 +3446,7 @@ const PRODUCTS = [
       "かため好きに刺さる粒立ち食感"
     ],
     "img": "https://tshop.r10s.jp/jyousui/cabinet/shouhin/mitubishi/nj-bw10g_img/nj-bw10g_tmb.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyousui%2Fnj-bw10f-b-001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyousui%2Fnj-bw10f-b-001%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyousui%2Fnj-bw10f-b-001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyousui%2Fnj-bw10f-b-001%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D78WW85Q?tag=tanosiikitaic-22"
   },
   {
@@ -3468,15 +3473,15 @@ const PRODUCTS = [
       "一人暮らしにちょうどいい3合"
     ],
     "img": "https://tshop.r10s.jp/emedama/cabinet/9820/4974019149820_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4974019149820%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4974019149820%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4974019149820%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4974019149820%2F",
     "amazon": "https://www.amazon.co.jp/dp/B082NWX2GQ?tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
     "maker": "ティファール",
-    "model": "温度調節電気ケトル",
-    "name": "アプレシア 温度コントロール",
-    "price": 9791,
+    "model": "KO8608J0",
+    "name": "アプレシア ロック コントロール 0.8L",
+    "price": 8800,
     "size": [
       "s",
       "m"
@@ -3489,15 +3494,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 3
     },
-    "point": "7段階の温度設定ができるティファール",
+    "point": "9段階の温度設定と転倒お湯もれロックを両立",
     "features": [
-      "飲み物に合わせた温度設定",
-      "60分の保温機能付き",
-      "定番ティファールの温調モデル"
+      "40〜100℃の9段階温度設定",
+      "設定温度で60分間保温",
+      "転倒お湯もれロック搭載",
+      "容量0.8Lの軽量コンパクト設計"
     ],
-    "img": "https://tshop.r10s.jp/bellevie-harima/cabinet/0101/default/s1/t-fal-293_black0201.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Ft-fal-293%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbellevie-harima%2Ft-fal-293%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FRRSV956?tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/hdirect/cabinet/a2025/560-ko8608j0-01.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhdirect%2F560-ko8608j0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhdirect%2F560-ko8608j0%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AB%20KO8608J0&tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -3524,7 +3530,7 @@ const PRODUCTS = [
       "手頃な価格でデザインも良い"
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000873/4968291313826_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4968291313826%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4968291313826%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4968291313826%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4968291313826%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DJFBF7XH?tag=tanosiikitaic-22"
   },
   {
@@ -3552,7 +3558,7 @@ const PRODUCTS = [
       "iOシリーズのコスパ担当"
     ],
     "img": "https://tshop.r10s.jp/nowpick/cabinet/biiino/item/main-image/20260627153823_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fobpio5%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fobpio5%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fobpio5%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fobpio5%2F"
   },
   {
     "cat": "toothbrush",
@@ -3578,7 +3584,7 @@ const PRODUCTS = [
       "3千円前後の手軽さ"
     ],
     "img": "https://tshop.r10s.jp/edion/cabinet/goods/ll/img_167/4549980052068_ll.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F",
     "amazon": "https://www.amazon.co.jp/dp/B07BMR45R8?tag=tanosiikitaic-22"
   },
   {
@@ -3607,7 +3613,7 @@ const PRODUCTS = [
       "コスパに優れた全自動モデル"
     ],
     "img": "https://tshop.r10s.jp/arc-market-kaden/cabinet/10911043/4571411226663.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F"
   },
   {
     "cat": "robot",
@@ -3635,7 +3641,7 @@ const PRODUCTS = [
       "薄型ボディで家具下も"
     ],
     "img": "https://tshop.r10s.jp/switchbot/cabinet/09377790/s10/ebc/imgrc0092497597.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D5GKG1V6?tag=tanosiikitaic-22"
   },
   {
@@ -3665,7 +3671,7 @@ const PRODUCTS = [
       "静電HEPA・脱臭フィルターとも交換目安10年"
     ],
     "img": "https://tshop.r10s.jp/premoa/cabinet/orj/49/0-4550556135832.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DP2KLMMT?tag=tanosiikitaic-22"
   },
   {
@@ -3695,7 +3701,7 @@ const PRODUCTS = [
       "付け替えノズルが豊富"
     ],
     "img": "https://tshop.r10s.jp/b-bell/cabinet/products/dyson/20901002.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F122660-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F122660-01%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F122660-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F122660-01%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D4TH6D4T?tag=tanosiikitaic-22"
   },
   {
@@ -3725,7 +3731,7 @@ const PRODUCTS = [
       "美容師にも人気"
     ],
     "img": "https://tshop.r10s.jp/kiseki-shop/cabinet/shohin/mtg-ka/5066-o-5073-6100_m.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F"
   },
   {
     "cat": "circulator",
@@ -3755,7 +3761,7 @@ const PRODUCTS = [
       "羽根とガードは分解して水洗い可"
     ],
     "img": "https://tshop.r10s.jp/enetroom/cabinet/11375185/11760512/imgrc0100049267.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F273516-ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F273516-ss%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F273516-ss%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2F273516-ss%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DHCYCJQ2?tag=tanosiikitaic-22"
   },
   {
@@ -3785,7 +3791,7 @@ const PRODUCTS = [
       "5.5合炊き"
     ],
     "img": "https://tshop.r10s.jp/harika-hanno/cabinet/2023to/p254-277/20230612073638.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F"
   },
   {
     "cat": "toothbrush",
@@ -3814,7 +3820,7 @@ const PRODUCTS = [
       "アプリで磨き残しチェック"
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F"
   },
   {
     "cat": "heater",
@@ -3835,7 +3841,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/wonder-depo/cabinet/13097724/34529230_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F",
     "point": "暖房と加湿を1台で。加湿量650mL/hは電気温風機クラス最大級",
     "features": [
       "暖房強 1200W(50Hz)・木造3畳/コンクリ4.5畳まで",
@@ -3864,7 +3870,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/hitcreations/cabinet/g/23/e9uhjrb4cb-3.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F",
     "point": "ナノイーと2WAY人センサー搭載。タテヨコ置きできる薄型",
     "features": [
       "温風 強1170W/中750W/弱530W(50Hz)",
@@ -3892,7 +3898,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705394.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705394%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705394%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705394%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705394%2F",
     "point": "1万円以下でWセンサー。脱衣所や足元にちょうどいい1台",
     "features": [
       "ターボ1200W/標準1000W/節電550Wの3段階",
@@ -3920,7 +3926,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/63_5/4549077646163_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549077646163%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549077646163%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549077646163%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549077646163%2F",
     "point": "1時間 約1.0円。部屋ごと暖めない省エネ暖房",
     "features": [
       "消費電力 定格54W",
@@ -3948,7 +3954,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/auc-ventistyle/cabinet/corona/imgrc0131235750.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F",
     "point": "壁掛けで床を占領しない。脱衣所のヒートショック対策に",
     "features": [
       "壁掛け設置で床スペースを使わない",
@@ -3978,7 +3984,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/townland/cabinet/hotkerpet/dc-2nkm-111.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F",
     "point": "足元から暖める2畳用。暖房面積を半分に切り換えて節電",
     "features": [
       "2畳相当・定格490W",
@@ -4007,7 +4013,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://shop.r10s.jp/delonghi/cabinet/06618479/item/0108156301/imgrc0107005791.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0108156301%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0108156301%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0108156301%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0108156301%2F",
     "point": "風が出ないから乾燥しにくい。表面温度 約80℃のやけどしにくい設計",
     "features": [
       "消費電力1200W・適用畳数8〜10畳",
@@ -4036,7 +4042,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://shop.r10s.jp/edion/cabinet/goods/ll/img_500/4906128560937_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4906128560937%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4906128560937%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4906128560937%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4906128560937%2F",
     "point": "シーズヒーターの遠赤外線でからだのしんまで温かい。省エネ機能も充実",
     "features": [
       "暖房出力1150W・温度調節11段階",
@@ -4066,7 +4072,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://shop.r10s.jp/ksdenki/cabinet/images/39_5/4906128545439_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F",
     "point": "3.4kgと軽くてスリム。スイッチひとつですぐ暖まるカーボンヒーター",
     "features": [
       "暖房出力900W・消費電力900〜350W（10段階）",
@@ -4078,3 +4084,12 @@ const PRODUCTS = [
     ]
   }
 ];
+
+// 個別商品ページがない場合も、型番を固定したAmazon検索へ確実に遷移させる。
+window.PRODUCTS.forEach(function(product) {
+  if (!product.amazon) {
+    product.amazon = "https://www.amazon.co.jp/s?k=" +
+      encodeURIComponent(product.maker + " " + product.model) +
+      "&tag=tanosiikitaic-22";
+  }
+});
