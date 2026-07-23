@@ -4086,7 +4086,7 @@ const PRODUCTS = [
 ];
 
 // 個別商品ページがない場合も、型番を固定したAmazon検索へ確実に遷移させる。
-window.PRODUCTS.forEach(function(product) {
+PRODUCTS.forEach(function(product) {
   if (!product.amazon) {
     product.amazon = "https://www.amazon.co.jp/s?k=" +
       encodeURIComponent(product.maker + " " + product.model) +
