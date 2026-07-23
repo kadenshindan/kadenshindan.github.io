@@ -636,7 +636,7 @@ const PRODUCTS = [
     "maker": "日立",
     "model": "PV-BL3M",
     "name": "ラクかるスティック",
-    "price": 34785,
+    "price": 32832,
     "size": [
       "s",
       "m"
@@ -650,7 +650,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/pc-bomber-shop/cabinet/mastertool70/255030007040400.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-bomber-shop%2F255030007040400%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-bomber-shop%2F255030007040400%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvalue-shopping%2F4549873202617%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvalue-shopping%2F4549873202617%2F",
     "point": "0.8kgの超軽量で毎日の掃除が苦にならない",
     "features": [
       "業界トップクラスの軽さ0.8kg",
@@ -1436,7 +1436,7 @@ const PRODUCTS = [
     "maker": "バルミューダ",
     "model": "GreenFan C2",
     "name": "GreenFan C2 サーキュレーター",
-    "price": 25800,
+    "price": 34100,
     "size": [
       "s",
       "m"
@@ -1457,7 +1457,7 @@ const PRODUCTS = [
       "コンパクトで持ち運びやすい"
     ],
     "img": "https://tshop.r10s.jp/gbft-ltd/cabinet/image35/5z-fym8-dkvd_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2F5z-fym8-dkvd%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgbft-ltd%2F5z-fym8-dkvd%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb19jun27b01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb19jun27b01%2F"
   },
   {
     "cat": "circulator",
@@ -1548,7 +1548,7 @@ const PRODUCTS = [
     "maker": "アイリスオーヤマ",
     "model": "LFD-307L",
     "name": "リモコン式DCリビング扇",
-    "price": 7380,
+    "price": 7480,
     "size": [
       "s",
       "m"
@@ -1569,7 +1569,7 @@ const PRODUCTS = [
       "コスパ最優先ならこれ"
     ],
     "img": "https://tshop.r10s.jp/emedama/cabinet/4574/4967576774574_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/55d685fe.6c6518d7.55d685ff.2b70ebf0/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4967576774574%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4967576774574%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4967576774574%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4967576774574%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F5PZN96T?tag=tanosiikitaic-22"
   },
   {
