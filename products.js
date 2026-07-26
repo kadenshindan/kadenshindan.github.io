@@ -3510,7 +3510,7 @@ const PRODUCTS = [
     "maker": "モッズヘア",
     "model": "MHD-12",
     "name": "ダブルイオンヘアードライヤー",
-    "price": 5940,
+    "price": 4950,
     "size": [
       "s",
       "m"
