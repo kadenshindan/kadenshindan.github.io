@@ -253,7 +253,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/yamazenkaden/cabinet/main-img/018/main-r9w50.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FYLX-AJD30E%2F&m=https%3A%2F%2Fsearch.rakuten.co.jp%2Fsearch%2Fmall%2FYLX-AJD30E%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F25226%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F25226%2F",
     "point": "節電センサー付きで1万円以下の高機能DC扇風機",
     "features": [
       "DCモーター・風量10段階",
