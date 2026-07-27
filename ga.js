@@ -27,6 +27,14 @@ if (GA_ID) {
       const mk = item.querySelector(".mk");
       if (mk) return clean(mk.textContent);
     }
+    // 選び方・電気代ガイドの商品カード（.product 内の .maker / .name）
+    const product = a.closest(".product");
+    if (product) {
+      const maker = product.querySelector(".maker");
+      const name = product.querySelector(".name");
+      const label = [maker && maker.textContent, name && name.textContent].filter(Boolean).join(" ");
+      if (label) return clean(label);
+    }
     // 診断結果の2位以下（.rank-item 内の .rank-maker）
     const ri = a.closest(".rank-item");
     if (ri) {
@@ -62,5 +70,18 @@ if (GA_ID) {
         link_url: href
       });
     } catch (err) {}
+  }, true);
+
+  // 外部の商品画像が移転・削除された場合も、記事のレイアウトを崩さない。
+  document.addEventListener("error", function (e) {
+    const img = e.target;
+    if (!img || img.tagName !== "IMG" || img.dataset.imageFallback) return;
+    img.dataset.imageFallback = "1";
+    const fallback = document.createElement("div");
+    fallback.textContent = "商品画像はリンク先でご確認ください";
+    fallback.setAttribute("role", "img");
+    fallback.setAttribute("aria-label", img.alt || "商品画像");
+    fallback.style.cssText = "min-height:120px;display:flex;align-items:center;justify-content:center;background:#f2f4f3;border:1px solid #e4e8e6;border-radius:9px;color:#66706d;font-size:12px;padding:12px;text-align:center;";
+    img.replaceWith(fallback);
   }, true);
 }
