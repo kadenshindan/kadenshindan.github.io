@@ -165,7 +165,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://shop.r10s.jp/jism/cabinet/0068/4550719157718.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4550719157718-22-73049-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4550719157718-22-73049-n%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fandonya%2Ff-c339d-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fandonya%2Ff-c339d-w%2F",
     "point": "9枚羽根の1/fゆらぎ＋温度センサー",
     "features": [
       "9枚羽根と「1/fゆらぎ」のなめらかな風",
@@ -911,7 +911,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/yamada-denki/cabinet/a07000462/6614137019.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamada-denki%2F6614137019%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frelie-3f%2Fnw-qb10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frelie-3f%2Fnw-qb10%2F",
     "point": "お米マイスター実証テスト1位のベストバイ",
     "features": [
       "専門家テストでベストバイ獲得",
@@ -3510,7 +3510,7 @@ const PRODUCTS = [
     "maker": "モッズヘア",
     "model": "MHD-12",
     "name": "ダブルイオンヘアードライヤー",
-    "price": 4950,
+    "price": 5940,
     "size": [
       "s",
       "m"
@@ -3558,7 +3558,7 @@ const PRODUCTS = [
       "iOシリーズのコスパ担当"
     ],
     "img": "https://tshop.r10s.jp/nowpick/cabinet/biiino/item/main-image/20260627153823_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fobpio5%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fobpio5%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Fio5%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Fio5%2F"
   },
   {
     "cat": "toothbrush",
