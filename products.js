@@ -3825,9 +3825,9 @@ const PRODUCTS = [
   {
     "cat": "heater",
     "maker": "シャープ",
-    "model": "HX-SK12",
+    "model": "HX-TK12",
     "name": "プラズマクラスター加湿セラミックファンヒーター",
-    "price": 29100,
+    "price": 22170,
     "size": [
       "s",
       "m"
@@ -3840,15 +3840,15 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/wonder-depo/cabinet/13097724/34529230_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwonder-depo%2Fhso4b6uqehziunw6gopj3qk74q%2F",
+    "img": "https://tshop.r10s.jp/selectkoh/cabinet/11307696/imgrc0179154750.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselectkoh%2Fwho836%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselectkoh%2Fwho836%2F",
     "point": "暖房と加湿を1台で。加湿量650mL/hは電気温風機クラス最大級",
     "features": [
       "暖房強 1200W(50Hz)・木造3畳/コンクリ4.5畳まで",
-      "加湿量650mL/h・タンク3.1L(連続約4.8h)",
+      "加湿量650mL/h・タンク3.1L(強＋加湿で連続約4.8h)",
       "加湿の適用は木造11畳・プレハブ18畳",
-      "プラズマクラスター7000搭載",
-      "運転音38dB(強)・フィルター自動洗浄"
+      "プラズマクラスター7000搭載・フィルター自動洗浄",
+      "電気代 強 約37円/h(31円/kWh・50Hz)"
     ]
   },
   {
@@ -4084,12 +4084,3 @@ const PRODUCTS = [
     ]
   }
 ];
-
-// 個別商品ページがない場合も、型番を固定したAmazon検索へ確実に遷移させる。
-PRODUCTS.forEach(function(product) {
-  if (!product.amazon) {
-    product.amazon = "https://www.amazon.co.jp/s?k=" +
-      encodeURIComponent(product.maker + " " + product.model) +
-      "&tag=tanosiikitaic-22";
-  }
-});
