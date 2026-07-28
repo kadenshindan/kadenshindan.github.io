@@ -1628,12 +1628,13 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "point": "広いリビング向けのハイパワースチーム式",
+    "point": "広いリビング向けのハイパワースチーム式（600mL/h）",
     "features": [
-      "広いリビングでも使えるハイパワー加湿",
-      "清潔な沸騰スチーム式",
-      "フィルター不要でお手入れ簡単",
-      "加湿力最優先の家庭に"
+      "定格加湿能力600mL/h・タンク約4.0L",
+      "適用床面積 木造和室〜10畳／プレハブ洋室〜17畳",
+      "連続加湿 強6h／中10h／弱20h",
+      "弱（静音）モードは約30dB",
+      "フィルター不要・広口容器でお手入れ簡単"
     ],
     "img": "https://tshop.r10s.jp/14promo/cabinet/imgrc0103853607.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F",
