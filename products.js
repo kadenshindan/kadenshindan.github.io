@@ -295,9 +295,9 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-DE50",
+    "model": "EE-DF50",
     "name": "スチーム式加湿器 4.0L",
-    "price": 29800,
+    "price": 23980,
     "size": [
       "s",
       "m"
@@ -310,23 +310,25 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/14promo/cabinet/imgrc0110835437.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-22650%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-22650%2F",
-    "point": "フィルターレスで手入れが圧倒的にラク",
+    "img": "https://shop.r10s.jp/yas-online/cabinet/11334967/4974305231130.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305231130%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305231130%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-DF50&tag=tanosiikitaic-22",
+    "point": "フィルターレスで手入れが圧倒的にラク。リビング向けの4.0L",
     "features": [
-      "沸騰させた清潔な蒸気で加湿",
-      "フィルター不要・フッ素加工でお手入れ簡単",
-      "湿度＋室温のデュアルセンサー",
-      "タンク4.0Lで長時間連続加湿"
-    ],
-    "amazon": "https://www.amazon.co.jp/dp/B0F3TNB6YG?tag=tanosiikitaic-22"
+      "定格加湿能力480mL/h・タンク約4.0L",
+      "適用床面積 木造和室〜8畳／プレハブ洋室〜13畳",
+      "連続加湿 強8h／中16h／弱32h",
+      "フィルター不要・広口容器でお手入れ簡単",
+      "消費電力 湯沸かし985W／加湿410W",
+      "外形寸法 24×27.5×36.5cm・約2.9kg"
+    ]
   },
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-DE35",
-    "name": "スチーム式加湿器 2.2L",
-    "price": 27980,
+    "model": "EE-DF35",
+    "name": "スチーム式加湿器 3.0L",
+    "price": 20680,
     "size": [
       "s"
     ],
@@ -338,16 +340,18 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "一人暮らし・寝室向けのコンパクトスチーム式",
+    "img": "https://www.zojirushi-direct.com/client_info/ZOJIRUSHI_DIRECT/itemimage/EEDF35_WA/EEDF35_WA_01.png",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feedf35_ha%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feedf35_ha%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-DF35&tag=tanosiikitaic-22",
+    "point": "寝室・個室向けのコンパクトなスチーム式",
     "features": [
-      "清潔なスチーム式をコンパクトに",
-      "フィルター不要でお手入れ簡単",
-      "寝室・個室にちょうどいいサイズ",
-      "チャイルドロック搭載"
-    ],
-    "img": "https://tshop.r10s.jp/world-free-store/cabinet/system20250111/4974305227775.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fworld-free-store%2F4974305227775%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fworld-free-store%2F4974305227775%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0D5V99MLQ?tag=tanosiikitaic-22"
+      "定格加湿能力350mL/h・タンク約3.0L",
+      "適用床面積 木造和室〜6畳／プレハブ洋室〜10畳",
+      "連続加湿 強8h／中16h／弱32h",
+      "フィルター不要・広口容器でお手入れ簡単",
+      "消費電力 湯沸かし985W／加湿305W",
+      "外形寸法 24×27.5×32.5cm・約2.7kg"
+    ]
   },
   {
     "cat": "dehumidifier",
@@ -2837,9 +2841,9 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-RS35",
+    "model": "EE-RU35",
     "name": "スチーム式加湿器 ベーシック 2.2L",
-    "price": 19422,
+    "price": 17380,
     "size": [
       "s"
     ],
@@ -2848,19 +2852,21 @@ const PRODUCTS = [
       "power": 2,
       "care": 3,
       "eco": 2,
-      "compact": 2,
+      "compact": 3,
       "multi": 1
     },
-    "point": "象印スチーム式の入門ベーシック機",
+    "img": "https://www.zojirushi-direct.com/client_info/ZOJIRUSHI_DIRECT/itemimage/EERU35_WA/EERU35_WA_01.png",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Fee-ru35-wa%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Fee-ru35-wa%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-RU35&tag=tanosiikitaic-22",
+    "point": "象印スチーム式の入門ベーシック機。2万円以下で買える",
     "features": [
-      "清潔な沸騰スチーム式",
-      "フィルター不要でお手入れ簡単",
-      "寝室・個室にちょうどいい2.2L",
-      "2万円以下で買える象印"
-    ],
-    "img": "https://tshop.r10s.jp/rugia/cabinet/onesell137/rg363aadd880.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frugia%2Frg363aadd880%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frugia%2Frg363aadd880%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0CD3HN2V3?tag=tanosiikitaic-22"
+      "定格加湿能力350mL/h・タンク約2.2L",
+      "適用床面積 木造和室〜6畳／プレハブ洋室〜10畳",
+      "連続加湿 強6h／弱27h",
+      "フィルター不要・広口容器でお手入れ簡単",
+      "消費電力 湯沸かし985W／加湿305W",
+      "外形寸法 24×26×27.5cm・約2.3kg"
+    ]
   },
   {
     "cat": "dehumidifier",
