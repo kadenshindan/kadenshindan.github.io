@@ -1585,7 +1585,7 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "シャープ",
-    "model": "HV-S55",
+    "model": "HV-T55",
     "name": "プラズマクラスター加湿器",
     "price": 27800,
     "size": [
@@ -1599,16 +1599,18 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "point": "上からも注げる「どっちも給水」が便利",
+    "point": "上からも注げる「どっちも給水」。ハイブリッド式で電気代も控えめ",
     "features": [
-      "上から注ぐだけの簡単給水",
-      "プラズマクラスターで清潔加湿",
-      "ハイブリッド式で効率よく加湿",
-      "お手入れしやすい設計"
+      "加湿量 強550mL/h／静音200mL/h・タンク約4.0L",
+      "適用床面積 木造和室〜9畳／プレハブ洋室〜15畳",
+      "上からも下からも注げる「どっちも給水」",
+      "消費電力 強190W／静音12W／エコ強24W",
+      "電気代 強 約5.9円/h・静音 約0.37円/h（31円/kWh）",
+      "プラズマクラスター7000・連続加湿 強7.2h／静音19h"
     ],
-    "img": "https://tshop.r10s.jp/14promo/cabinet/11200097/imgrc0103905120.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20240207-22500%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20240207-22500%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0D86SP5NL?tag=tanosiikitaic-22"
+    "img": "https://shop.r10s.jp/kabuozaki/cabinet/09052302/imgrc0126295884.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkabuozaki%2Fhv-t55-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkabuozaki%2Fhv-t55-w%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FPWXNQ3G?tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
