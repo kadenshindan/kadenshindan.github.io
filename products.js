@@ -3657,7 +3657,7 @@ const PRODUCTS = [
     "cat": "purifier",
     "maker": "シャープ",
     "model": "KI-TS50",
-    "name": "加湿空気清浄機 プラズマクラスターNEXT",
+    "name": "加湿空気清浄機 プラズマクラスター25000",
     "price": 32800,
     "size": [
       "m",
