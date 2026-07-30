@@ -3324,8 +3324,8 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "アイリスオーヤマ",
-    "model": "AHM-UU2",
-    "name": "上給水超音波加湿器",
+    "model": "AHM-UU28B",
+    "name": "上給水超音波加湿器 4.0L",
     "price": 5780,
     "size": [
       "s"
@@ -3340,9 +3340,10 @@ const PRODUCTS = [
     },
     "point": "上から注ぐだけ、6千円以下の手軽さ",
     "features": [
-      "上から給水でラクに注げる",
-      "超音波式で静か・省エネ",
-      "寝室・デスクにちょうどいい"
+      "上から注ぐだけの上給水・タンク約4.0L",
+      "加湿量280mL/h・消費電力24W（HI時）",
+      "適用床面積 和室約4畳／洋室約7畳",
+      "最長約14時間の連続運転・本体約1.4kg"
     ],
     "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705516.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F"
