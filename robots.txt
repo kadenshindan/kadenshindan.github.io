@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin.html
 
-Sitemap: https://kadenshindan.github.io/sitemap.xml
+Sitemap: https://kadenshindan.com/sitemap.xml
