@@ -1331,9 +1331,9 @@ const PRODUCTS = [
   {
     "cat": "toothbrush",
     "maker": "ブラウン",
-    "model": "オーラルB iO4S",
-    "name": "オーラルB iO4S",
-    "price": 21998,
+    "model": "オーラルB iO4",
+    "name": "オーラルB iO4",
+    "price": 12800,
     "size": [
       "s",
       "m"
@@ -1346,16 +1346,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/shopavail/cabinet/07943905/compass1751508614.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fspeedwagon%2F10013997%2F",
+    "img": "https://tshop.r10s.jp/edion/cabinet/goods/ll/img_379/4210201442196_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4210201442196%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4210201442196%2F",
     "point": "回転式のパワフル洗浄で磨き残しなし",
     "features": [
-      "丸型ブラシが歯を包み込んで磨く",
-      "歯科クリーニングに近い仕上がり",
-      "押し付け防止センサー",
-      "しっかり磨きたい人向け"
+      "丸型ブラシの回転＋遠心マイクロモーション",
+      "歯科クリーニング後のような磨き上がり",
+      "押し付け防止センサーが赤・緑・白で圧をガイド",
+      "公式現行のiOシリーズ エントリーモデル"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0G81SWHKX?tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20iO4&tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -3978,9 +3978,9 @@ const PRODUCTS = [
   {
     "cat": "heater",
     "maker": "パナソニック",
-    "model": "DC-2NKM",
+    "model": "DC-2NK",
     "name": "着せかえカーペット用ヒーター 2畳",
-    "price": 10780,
+    "price": 11324,
     "size": [
       "s",
       "m"
@@ -3993,14 +3993,14 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/townland/cabinet/hotkerpet/dc-2nkm-111.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftownland%2Fy-dc-2nkm%2F",
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/377/4549077646019.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549077646019%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549077646019%2F",
     "point": "足元から暖める2畳用。暖房面積を半分に切り換えて節電",
     "features": [
       "2畳相当・定格490W",
       "1時間の電気代 高 約10.4円／中 約7.1円",
       "暖房面積を2面で切換できる",
-      "室温センサー・切り忘れ防止(8時間)",
+      "室温センサー・2H/4H切タイマー・切り忘れ防止(8時間)",
       "176×176cm・約3.2kg / 12折で収納",
       "ダニ対策機能つき"
     ]
