@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -182,11 +186,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>保温と再加熱（レンジ）、どっちが安い？</summary><p>数時間なら保温、半日以上なら冷凍＋レンジ再加熱が有利です。長時間の保温は電気代が積み上がるうえ、ごはんが乾燥・黄ばみしやすくなります。</p></details>
-    <details><summary>圧力IHは電気代が高い？</summary><p>炊飯1回あたりの差はわずかです。方式より、保温時間の長さのほうが電気代への影響は大きくなります。</p></details>
-    <details><summary>どれを選べばいい？</summary><p>人数（合数）と炊き上がりの好みで選ぶのが基本です。<a href="/#cat=ricecooker">30秒診断</a>で条件に合う1台を提案します。合数の選び方は<a href="/erabi-ricecooker.html">炊飯器の選び方ガイド</a>もどうぞ。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>保温と再加熱（レンジ）、どっちが安い？</dt><dd>数時間なら保温、半日以上なら冷凍＋レンジ再加熱が有利です。長時間の保温は電気代が積み上がるうえ、ごはんが乾燥・黄ばみしやすくなります。</dd>
+  <dt>圧力IHは電気代が高い？</dt><dd>炊飯1回あたりの差はわずかです。方式より、保温時間の長さのほうが電気代への影響は大きくなります。</dd>
+  <dt>どれを選べばいい？</dt><dd>人数（合数）と炊き上がりの好みで選ぶのが基本です。<a href="/#cat=ricecooker">30秒診断</a>で条件に合う1台を提案します。合数の選び方は<a href="/erabi-ricecooker.html">炊飯器の選び方ガイド</a>もどうぞ。</dd>
+  </dl>
 
   <section class="official-sources" aria-labelledby="official-sources">
     <h2 id="official-sources">メーカー公式資料・確認状況</h2>

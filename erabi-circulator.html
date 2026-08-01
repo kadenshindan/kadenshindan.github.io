@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -184,11 +188,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>サーキュレーターと扇風機、どっちを選ぶ？</summary><p>空気を循環させて冷暖房効率を上げたいならサーキュレーター、体に涼しい風を当てたいなら扇風機です。両用モデルもあります。</p></details>
-    <details><summary>つけっぱなしで電気代は大丈夫？</summary><p>DCモーターなら24時間つけても月数百円程度です。詳しくは<a href="/denki-circulator.html">サーキュレーター・扇風機の電気代</a>をご覧ください。</p></details>
-    <details><summary>どれを選べばいい？</summary><p>部屋の広さと目的（エアコン併用・部屋干し・寝室）で選びます。<a href="/#cat=circulator">30秒診断</a>で条件に合う1台を提案します。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>サーキュレーターと扇風機、どっちを選ぶ？</dt><dd>空気を循環させて冷暖房効率を上げたいならサーキュレーター、体に涼しい風を当てたいなら扇風機です。両用モデルもあります。</dd>
+  <dt>つけっぱなしで電気代は大丈夫？</dt><dd>DCモーターなら24時間つけても月数百円程度です。詳しくは<a href="/denki-circulator.html">サーキュレーター・扇風機の電気代</a>をご覧ください。</dd>
+  <dt>どれを選べばいい？</dt><dd>部屋の広さと目的（エアコン併用・部屋干し・寝室）で選びます。<a href="/#cat=circulator">30秒診断</a>で条件に合う1台を提案します。</dd>
+  </dl>
   <div class="rel">
     <strong>関連ページ</strong>
     <a href='/osusume-circulator.html'>サーキュレーターのおすすめランキングを見る</a>

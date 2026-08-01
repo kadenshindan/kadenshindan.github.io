@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -184,11 +188,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>なぜ2倍で選ぶの？</summary><p>適用畳数は「30分で1回きれいにする」最大能力だからです。余裕を持って大きめを選ぶと、弱〜中運転でも空気が速く回り、静かで省エネに使えます。</p></details>
-    <details><summary>大きめを選ぶと電気代が上がる？</summary><p>むしろ下がります。大きめの機種は弱運転で足りるため、消費電力が小さく静かです。空気清浄機の電気代は<a href="/denki-purifier.html">24時間つけっぱなしで月100〜300円</a>が目安です。</p></details>
-    <details><summary>どれを選べばいい？</summary><p>部屋の2倍の畳数を目安に、加湿の要否で絞ります。<a href="/#cat=purifier">30秒診断</a>で条件に合う1台を提案します。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>なぜ2倍で選ぶの？</dt><dd>適用畳数は「30分で1回きれいにする」最大能力だからです。余裕を持って大きめを選ぶと、弱〜中運転でも空気が速く回り、静かで省エネに使えます。</dd>
+  <dt>大きめを選ぶと電気代が上がる？</dt><dd>むしろ下がります。大きめの機種は弱運転で足りるため、消費電力が小さく静かです。空気清浄機の電気代は<a href="/denki-purifier.html">24時間つけっぱなしで月100〜300円</a>が目安です。</dd>
+  <dt>どれを選べばいい？</dt><dd>部屋の2倍の畳数を目安に、加湿の要否で絞ります。<a href="/#cat=purifier">30秒診断</a>で条件に合う1台を提案します。</dd>
+  </dl>
   <div class="rel">
     <strong>関連ページ</strong>
     <a href='/osusume-purifier.html'>空気清浄機のおすすめランキングを見る</a>

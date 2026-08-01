@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -182,11 +186,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>電気代が安いのはどれ？</summary><p>気化式がいちばん省エネで、次いでハイブリッド式のエコ・静音運転です。スチーム式は水を沸騰させるぶん電気代は高めですが、清潔さと手入れの楽さが強みです。</p></details>
-    <details><summary>スチーム式は本当に電気代が高い？</summary><p>加湿時の定格消費電力換算で1時間 約12.7円で、1日5時間なら月約1,000円ほど。気化式の10倍前後になります。ただし煮沸で清潔、加湿も速いので、電気代とのトレードオフで選ぶことになります。</p></details>
-    <details><summary>どれを選べばいい？</summary><p>清潔さ・電気代・加湿スピードのどれを優先するかで変わります。<a href="/#cat=humidifier">30秒診断</a>と<a href="/erabi-humidifier.html">加湿器は何畳用？ガイド</a>もあわせてどうぞ。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>電気代が安いのはどれ？</dt><dd>気化式がいちばん省エネで、次いでハイブリッド式のエコ・静音運転です。スチーム式は水を沸騰させるぶん電気代は高めですが、清潔さと手入れの楽さが強みです。</dd>
+  <dt>スチーム式は本当に電気代が高い？</dt><dd>加湿時の定格消費電力換算で1時間 約12.7円で、1日5時間なら月約1,000円ほど。気化式の10倍前後になります。ただし煮沸で清潔、加湿も速いので、電気代とのトレードオフで選ぶことになります。</dd>
+  <dt>どれを選べばいい？</dt><dd>清潔さ・電気代・加湿スピードのどれを優先するかで変わります。<a href="/#cat=humidifier">30秒診断</a>と<a href="/erabi-humidifier.html">加湿器は何畳用？ガイド</a>もあわせてどうぞ。</dd>
+  </dl>
 
   <section class="official-sources" aria-labelledby="official-sources">
     <h2 id="official-sources">メーカー公式資料・確認状況</h2>

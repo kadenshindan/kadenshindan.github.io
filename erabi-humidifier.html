@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -184,11 +188,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>マンションは木造・プレハブどっち？</summary><p>鉄筋コンクリートのマンションは基本「プレハブ（洋室）」の数字で見ます。木造アパートや和室中心の戸建ては「木造」の数字で判断すると安全です。</p></details>
-    <details><summary>大きすぎる加湿器を選ぶとダメ？</summary><p>問題ありません。むしろ余裕がある分、静かで省エネな運転で目標湿度に届きます。加湿しすぎは湿度設定やセンサーで自動調整されます。</p></details>
-    <details><summary>方式でも畳数の意味は変わる？</summary><p>変わります。同じ畳数表示でも、加湿の速さや電気代は方式で差が出ます。詳しくは<a href="/denki-humidifier.html">加湿器の電気代（方式別）</a>をご覧ください。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>マンションは木造・プレハブどっち？</dt><dd>鉄筋コンクリートのマンションは基本「プレハブ（洋室）」の数字で見ます。木造アパートや和室中心の戸建ては「木造」の数字で判断すると安全です。</dd>
+  <dt>大きすぎる加湿器を選ぶとダメ？</dt><dd>問題ありません。むしろ余裕がある分、静かで省エネな運転で目標湿度に届きます。加湿しすぎは湿度設定やセンサーで自動調整されます。</dd>
+  <dt>方式でも畳数の意味は変わる？</dt><dd>変わります。同じ畳数表示でも、加湿の速さや電気代は方式で差が出ます。詳しくは<a href="/denki-humidifier.html">加湿器の電気代（方式別）</a>をご覧ください。</dd>
+  </dl>
   <div class="rel">
     <strong>関連ページ</strong>
     <a href='/osusume-humidifier.html'>加湿器のおすすめランキングを見る</a>

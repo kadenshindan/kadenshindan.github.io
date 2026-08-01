@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -182,11 +186,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>高いドライヤーは電気代も高い？</summary><p>いいえ。消費電力はほぼ1200Wで横並びなので、電気代はほとんど変わりません。価格差は風量・ヘアケア機能・静音性などによるもので、ランニングコストの差ではありません。</p></details>
-    <details><summary>電気代を抑えるコツは？</summary><p>タオルドライでしっかり水気を取ってから乾かすと、乾燥時間そのものが短くなり、いちばん効きます。冷風の使いすぎは乾燥時間が延びるので、温風→仕上げに冷風が効率的です。</p></details>
-    <details><summary>どれを選べばいい？</summary><p>電気代はどれも同程度なので、髪質と仕上がりの好みで選んで大丈夫です。<a href="/#cat=dryer">30秒診断</a>で条件に合う1台を提案します。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>高いドライヤーは電気代も高い？</dt><dd>いいえ。消費電力はほぼ1200Wで横並びなので、電気代はほとんど変わりません。価格差は風量・ヘアケア機能・静音性などによるもので、ランニングコストの差ではありません。</dd>
+  <dt>電気代を抑えるコツは？</dt><dd>タオルドライでしっかり水気を取ってから乾かすと、乾燥時間そのものが短くなり、いちばん効きます。冷風の使いすぎは乾燥時間が延びるので、温風→仕上げに冷風が効率的です。</dd>
+  <dt>どれを選べばいい？</dt><dd>電気代はどれも同程度なので、髪質と仕上がりの好みで選んで大丈夫です。<a href="/#cat=dryer">30秒診断</a>で条件に合う1台を提案します。</dd>
+  </dl>
 
   <section class="official-sources" aria-labelledby="official-sources">
     <h2 id="official-sources">メーカー公式資料・確認状況</h2>

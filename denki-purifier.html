@@ -109,6 +109,10 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
+  .faq dt { font-weight:bold; margin-top:14px; }
+  .faq dt::before { content:"Q. "; color:var(--main-dark); }
+  .faq dd { margin:4px 0 0 0; font-size:0.92rem; }
+  .faq dd::before { content:"A. "; color:var(--accent); font-weight:bold; }
 </style>
 </head>
 <body>
@@ -172,11 +176,11 @@
   </div>
 
   <h2>よくある質問</h2>
-  <div class="faq">
-    <details><summary>電気代が怖くて消しがちです。つけっぱなしで大丈夫？</summary><p>静音運転の計算例は月約74〜223円ですが、自動運転の実額は空気の汚れや加湿の有無で変わります。在室中は自動運転、長時間不在の部屋は必要性に応じて停止するなど、利用環境に合わせてください。</p></details>
-    <details><summary>加湿機能を使うと電気代は上がる？</summary><p>加湿は気化式が主流で、ファンで水を蒸発させるだけなのでヒーター式ほど電気を使いません。上の表のKC-S50も「加湿あり・静音」で月約78円です。ただし加湿には水の補充とフィルター清掃の手間がかかります。</p></details>
-    <details><summary>どれを選べばいい？</summary><p>部屋の広さに対して余裕のある適用畳数の機種を選ぶと、弱運転中心で静か＆省エネに使えます。<a href="/#cat=purifier">30秒診断</a>で広さと重視ポイントから最適な1台を提案します。</p></details>
-  </div>
+  <dl class="faq">
+  <dt>電気代が怖くて消しがちです。つけっぱなしで大丈夫？</dt><dd>静音運転の計算例は月約74〜223円ですが、自動運転の実額は空気の汚れや加湿の有無で変わります。在室中は自動運転、長時間不在の部屋は必要性に応じて停止するなど、利用環境に合わせてください。</dd>
+  <dt>加湿機能を使うと電気代は上がる？</dt><dd>加湿は気化式が主流で、ファンで水を蒸発させるだけなのでヒーター式ほど電気を使いません。上の表のKC-S50も「加湿あり・静音」で月約78円です。ただし加湿には水の補充とフィルター清掃の手間がかかります。</dd>
+  <dt>どれを選べばいい？</dt><dd>部屋の広さに対して余裕のある適用畳数の機種を選ぶと、弱運転中心で静か＆省エネに使えます。<a href="/#cat=purifier">30秒診断</a>で広さと重視ポイントから最適な1台を提案します。</dd>
+  </dl>
 
   <section class="official-sources" aria-labelledby="official-sources">
     <h2 id="official-sources">メーカー公式資料・確認状況</h2>
