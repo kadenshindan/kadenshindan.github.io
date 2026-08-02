@@ -3548,7 +3548,7 @@ const PRODUCTS = [
     "maker": "ブラウン",
     "model": "オーラルB iO5",
     "name": "オーラルB iO5",
-    "price": 13080,
+    "price": 17030,
     "size": [
       "s",
       "m"
@@ -3561,14 +3561,14 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "上位のiOシリーズを1.3万円で",
+    "point": "AI磨きガイド付きのiOシリーズ中位機",
     "features": [
       "遠心マイクロモーションの磨き心地",
       "AI磨きガイド対応",
-      "iOシリーズのコスパ担当"
+      "iO9より手が届きやすい価格帯"
     ],
-    "img": "https://tshop.r10s.jp/nowpick/cabinet/biiino/item/main-image/20260627153823_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Fio5%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Foralb-braun%2Fio5%2F"
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000675/4210201442233_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4210201442233%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4210201442233%2F"
   },
   {
     "cat": "toothbrush",
