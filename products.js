@@ -781,7 +781,8 @@ const PRODUCTS = [
       "水拭き＋モップ洗浄・乾燥まで全自動",
       "ゴミ収集ドック付きで手間いらず",
       "セールで大幅値下げされることも"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0DRVBP6B2?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -1121,7 +1122,8 @@ const PRODUCTS = [
       "転倒お湯もれロック付き",
       "軽くて扱いやすい",
       "比較テストでも高評価"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0FNPRPD54?tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
@@ -1467,7 +1469,8 @@ const PRODUCTS = [
       "コンパクトで持ち運びやすい"
     ],
     "img": "https://tshop.r10s.jp/gbft-ltd/cabinet/image35/5z-fym8-dkvd_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb19jun27b01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb19jun27b01%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb19jun27b01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Froomy%2Fmtb19jun27b01%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B07T3KH7G4?tag=tanosiikitaic-22"
   },
   {
     "cat": "circulator",
@@ -3861,7 +3864,8 @@ const PRODUCTS = [
       "加湿の適用は木造11畳・プレハブ18畳",
       "プラズマクラスター7000搭載・フィルター自動洗浄",
       "電気代 強 約37円/h(31円/kWh・50Hz)"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0DM8JRW5B?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -3918,7 +3922,8 @@ const PRODUCTS = [
       "木造3畳・コンクリ4.5畳まで(断熱材なし)",
       "270×130×378mm / 2.4kg と軽量",
       "温度設定16/20/24/28℃・転倒時停止"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0DF1HJLG9?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
