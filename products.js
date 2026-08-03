@@ -1230,7 +1230,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/eh-na0k_004.jpg",
+    "img": "https://tshop.r10s.jp/alljapan-online-shop/cabinet/kaden/08229209/imgrc0096194198.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Falljapan-online-shop%2F4549980652961%2F",
     "point": "最新とほぼ同性能、型落ちでお得",
     "features": [
