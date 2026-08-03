@@ -1645,9 +1645,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "パナソニック",
-    "model": "F-YHVX120",
-    "name": "ハイブリッド式衣類乾燥除湿機",
-    "price": 58480,
+    "model": "F-YEX120B",
+    "name": "エコ・ハイブリッド方式 衣類乾燥除湿機",
+    "price": 69935,
     "size": [
       "m",
       "l"
@@ -1656,20 +1656,22 @@ const PRODUCTS = [
       "quiet": 2,
       "power": 3,
       "care": 2,
-      "eco": 2,
+      "eco": 3,
       "compact": 1,
       "multi": 3
     },
-    "point": "1年中スピード乾燥のハイブリッド最高峰",
+    "point": "消費電力を約69%削減。1年中カラッと乾かす省エネ機",
     "features": [
-      "夏も冬も乾燥スピードが落ちないハイブリッド式",
-      "ナノイーXで部屋干し臭を抑制",
-      "ツインルーバーで幅広く送風",
-      "衣類乾燥の最上位クラス"
+      "エコ・ハイブリッド方式で除湿205W／225W(50/60Hz)",
+      "定格除湿 10.5L／12.5L日(50/60Hz)",
+      "約2kgの洗濯物を速乾90分(梅雨時)",
+      "ナノイーX 48兆・ツインルーバー",
+      "タンク約3.2L・連続排水に対応",
+      "583×370×225mm・13.0kg"
     ],
-    "img": "https://tshop.r10s.jp/ecmaison/cabinet/compass1779782165.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1779782218%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecmaison%2Fcompass1779782218%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B09VX9JXQD?tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9111/4549980784358.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980784358%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980784358%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20F-YEX120B&tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -2390,9 +2392,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "山善",
-    "model": "衣類乾燥除湿機",
-    "name": "コンプレッサー式衣類乾燥除湿機",
-    "price": 15800,
+    "model": "YDC-H601",
+    "name": "衣類乾燥除湿機 6L/日",
+    "price": 16280,
     "size": [
       "s",
       "m"
@@ -2405,15 +2407,15 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "point": "1.5万円台で部屋干し対策デビュー",
+    "point": "6L/日をコンパクト筐体で。部屋干し対策の入門機",
     "features": [
-      "夏に強いコンプレッサー式",
-      "衣類乾燥モード搭載",
-      "1.5万円台の手頃な価格",
-      "山善公式ストアで購入可"
+      "コンプレッサー式・除湿能力 5L/6L(50/60Hz)",
+      "衣類モードで約2kgを約197分",
+      "タンク4.5L・キャスター付き",
+      "湿度40〜70%を5%刻みで設定"
     ],
-    "img": "https://tshop.r10s.jp/e-kurashi/cabinet/rank-img/020/main-r8p23.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1k76%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs1k76%2F",
+    "img": "https://tshop.r10s.jp/lamd/cabinet/image154/455053314631_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flamd%2F4550533146318%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Flamd%2F4550533146318%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F4KHNVBT?tag=tanosiikitaic-22"
   },
   {
