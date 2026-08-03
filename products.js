@@ -173,7 +173,7 @@ const PRODUCTS = [
       "温度センサー連動の自動・おやすみ運転",
       "リモコンと入・切タイマーを搭載"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=Panasonic%20F-C339D-W&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0GS8RSPVF?tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
@@ -261,7 +261,7 @@ const PRODUCTS = [
       "1〜8時間の入・切タイマー",
       "最大消費電力18W"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20YLX-AJD30E&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0CY4JKW3V?tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
@@ -290,7 +290,7 @@ const PRODUCTS = [
       "切・入タイマーとおやすみ運転",
       "チャイルドロック搭載"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E6%97%A5%E7%AB%8B%20HEF-DL300H&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0H6LX73VD?tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
@@ -312,7 +312,7 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/compmoto-r/cabinet/gf00050/4974305231123.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcompmoto-r%2F4974305231123%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fcompmoto-r%2F4974305231123%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-DF50&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH8WJXRM?tag=tanosiikitaic-22",
     "point": "フィルターレスで手入れが圧倒的にラク。リビング向けの4.0L",
     "features": [
       "定格加湿能力480mL/h・タンク約4.0L",
@@ -342,7 +342,7 @@ const PRODUCTS = [
     },
     "img": "https://shop.r10s.jp/zojirushi-direct/cabinet/compass1760490831.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feedf35_ha%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feedf35_ha%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-DF35&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH97RNLP?tag=tanosiikitaic-22",
     "point": "寝室・個室向けのコンパクトなスチーム式",
     "features": [
       "定格加湿能力350mL/h・タンク約3.0L",
@@ -436,7 +436,7 @@ const PRODUCTS = [
       "内部乾燥運転を搭載",
       "市販ホースで連続排水に対応"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20IJC-R65&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0DXQ1Z3J2?tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -465,7 +465,7 @@ const PRODUCTS = [
       "冬モード・おまかせ霜取りを搭載",
       "市販ホースで連続排水に対応"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E4%B8%89%E8%8F%B1%E9%9B%BB%E6%A9%9F%20MJ-P180YX&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0FGCBTYQY?tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -866,7 +866,7 @@ const PRODUCTS = [
       "モップ洗浄・乾燥・給水・ゴミ収集を自動化",
       "ストラクチャードライトとLDSで回避・マッピング"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=Roborock%20Qrevo%20L&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0F6NGXD99?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -1179,7 +1179,7 @@ const PRODUCTS = [
       "保温機能付き",
       "1200Wのハイパワー"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20EGL-C1281&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0BR3PTQHG?tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -1671,7 +1671,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9111/4549980784358.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980784358%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980784358%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20F-YEX120B&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0D1764L6D?tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -2862,7 +2862,7 @@ const PRODUCTS = [
     },
     "img": "https://shop.r10s.jp/ra-kudenmart/cabinet/10117/ee-ru35-wa.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Fee-ru35-wa%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Fee-ru35-wa%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-RU35&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH94KJHW?tag=tanosiikitaic-22",
     "point": "象印スチーム式の入門ベーシック機。2万円以下で買える",
     "features": [
       "定格加湿能力350mL/h・タンク約2.2L",
@@ -3515,7 +3515,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/hdirect/cabinet/a2025/560-ko8608j0-01.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhdirect%2F560-ko8608j0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhdirect%2F560-ko8608j0%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%A3%E3%83%95%E3%82%A1%E3%83%BC%E3%83%AB%20KO8608J0&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0FMWMY986?tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
