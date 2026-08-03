@@ -268,7 +268,7 @@ const PRODUCTS = [
     "maker": "日立",
     "model": "HEF-DL300H",
     "name": "DC扇風機 うちわ風搭載",
-    "price": 16250,
+    "price": 16780,
     "size": [
       "m",
       "l"
@@ -281,8 +281,8 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001722/4526044017645_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F071c925b2b3fb149b1b1782f08ac7c0f%2F&m=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2F071c925b2b3fb149b1b1782f08ac7c0f%2F",
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9192_01/4526044017645_01.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4526044017645%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4526044017645%2F",
     "point": "うちわのようなやさしい風が特徴",
     "features": [
       "独自の「うちわ風」機能",
@@ -297,7 +297,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "EE-DF50",
     "name": "スチーム式加湿器 4.0L",
-    "price": 23980,
+    "price": 25979,
     "size": [
       "s",
       "m"
@@ -310,8 +310,8 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://shop.r10s.jp/yas-online/cabinet/11334967/4974305231130.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305231130%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305231130%2F",
+    "img": "https://tshop.r10s.jp/compmoto-r/cabinet/gf00050/4974305231123.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcompmoto-r%2F4974305231123%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fcompmoto-r%2F4974305231123%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-DF50&tag=tanosiikitaic-22",
     "point": "フィルターレスで手入れが圧倒的にラク。リビング向けの4.0L",
     "features": [
@@ -443,7 +443,7 @@ const PRODUCTS = [
     "maker": "三菱電機",
     "model": "MJ-P180YX",
     "name": "衣類乾燥除湿機 18L",
-    "price": 45350,
+    "price": 50335,
     "size": [
       "m",
       "l"
@@ -456,8 +456,8 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/bearmarche/cabinet/compass1774955126.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fd4f657ad8fb959b9160a322d2a470f37%2F&m=https%3A%2F%2Fproduct.rakuten.co.jp%2Fproduct%2F-%2Fd4f657ad8fb959b9160a322d2a470f37%2F",
+    "img": "https://tshop.r10s.jp/endless02/cabinet/imgrc0101924509.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fendless02%2F4573637000430%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fendless02%2F4573637000430%2F",
     "point": "18L/日級のパワーで家族の部屋干しも一気に乾く",
     "features": [
       "除湿能力15.5L/日（50Hz）・18L/日（60Hz）",
@@ -615,7 +615,7 @@ const PRODUCTS = [
     "maker": "ダイソン",
     "model": "Micro Plus SV33",
     "name": "Dyson Micro Plus",
-    "price": 38560,
+    "price": 43550,
     "size": [
       "s",
       "m"
@@ -628,8 +628,8 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/slife/cabinet/rakus125_0028/b0cll1cmmb00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fslife%2Fb0cll1cmmb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fslife%2Fb0cll1cmmb%2F",
+    "img": "https://tshop.r10s.jp/dyson/cabinet/product/09679188/006.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F447813-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F447813-01%2F",
     "point": "1kg切りの軽さにダイソンの吸引力",
     "features": [
       "本体約0.97kgの超軽量",
@@ -914,8 +914,8 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/yamada-denki/cabinet/a07000462/6614137019.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frelie-3f%2Fnw-qb10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frelie-3f%2Fnw-qb10%2F",
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/08_3/4974305230508_3.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230508%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230508%2F",
     "point": "お米マイスター実証テスト1位のベストバイ",
     "features": [
       "専門家テストでベストバイ獲得",
@@ -1908,7 +1908,7 @@ const PRODUCTS = [
     "maker": "SwitchBot",
     "model": "K10+",
     "name": "ロボット掃除機 K10+",
-    "price": 34800,
+    "price": 37800,
     "size": [
       "s"
     ],
@@ -1927,8 +1927,8 @@ const PRODUCTS = [
       "ゴミ収集ドック付き",
       "一人暮らしのワンルームに最適"
     ],
-    "img": "https://tshop.r10s.jp/plex/cabinet/swichbot/850043739975-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fplex%2F15100185%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fplex%2F15100185%2F"
+    "img": "https://tshop.r10s.jp/victoryslife/cabinet/amayahoo/07689284/0615-022959.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F"
   },
   {
     "cat": "robot",
@@ -2763,7 +2763,7 @@ const PRODUCTS = [
     "maker": "フィリップス",
     "model": "ダイヤモンドクリーン 9000",
     "name": "ソニッケアー ダイヤモンドクリーン 9000",
-    "price": 15800,
+    "price": 34029,
     "size": [
       "s",
       "m"
@@ -2783,8 +2783,8 @@ const PRODUCTS = [
       "過圧防止センサー搭載",
       "スタイリッシュなデザイン"
     ],
-    "img": "https://tshop.r10s.jp/nowpick/cabinet/biiino/item/main-image/20260620004255_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fhx9911%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnowpick%2Fhx9911%2F"
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/15_1/8720689027915_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F"
   },
   {
     "cat": "circulator",
@@ -3048,7 +3048,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "ビストロ SR-X710D",
     "name": "ビストロ 可変圧力IHジャー炊飯器 5.5合",
-    "price": 59944,
+    "price": 59890,
     "size": [
       "m",
       "l"
@@ -3068,8 +3068,8 @@ const PRODUCTS = [
       "お手入れ点数が少なく簡単",
       "パナソニック公式ストアで購入可"
     ],
-    "img": "https://tshop.r10s.jp/panasonic-store/cabinet/banner/thumb/sr-x710d_003.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fsr-x710d-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fsr-x710d-h%2F"
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/93_3/4549980974193_3.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F"
   },
   {
     "cat": "ricecooker",
