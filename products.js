@@ -340,7 +340,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://www.zojirushi-direct.com/client_info/ZOJIRUSHI_DIRECT/itemimage/EEDF35_WA/EEDF35_WA_01.png",
+    "img": "https://shop.r10s.jp/zojirushi-direct/cabinet/compass1760490831.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feedf35_ha%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fzojirushi-direct%2Feedf35_ha%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-DF35&tag=tanosiikitaic-22",
     "point": "寝室・個室向けのコンパクトなスチーム式",
@@ -2860,7 +2860,7 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "img": "https://www.zojirushi-direct.com/client_info/ZOJIRUSHI_DIRECT/itemimage/EERU35_WA/EERU35_WA_01.png",
+    "img": "https://shop.r10s.jp/ra-kudenmart/cabinet/10117/ee-ru35-wa.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Fee-ru35-wa%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Fee-ru35-wa%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20EE-RU35&tag=tanosiikitaic-22",
     "point": "象印スチーム式の入門ベーシック機。2万円以下で買える",
