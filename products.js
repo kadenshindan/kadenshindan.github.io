@@ -383,9 +383,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "シャープ",
-    "model": "CV-S71",
+    "model": "CV-U71",
     "name": "プラズマクラスター除湿機 7.1L",
-    "price": 22800,
+    "price": 34800,
     "size": [
       "s",
       "m"
@@ -398,16 +398,15 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/mrmax-r/cabinet/pb/12758812/imgrc0127080389.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmrmax-r%2Fcv-s71-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmrmax-r%2Fcv-s71-w%2F",
+    "img": "https://tshop.r10s.jp/kaden-sakura/cabinet/gazou82/cv-u71-w.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4550556189699%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4550556189699%2F",
     "point": "プラズマクラスターで部屋干し臭も抑える",
     "features": [
       "除湿7.1L/日",
       "プラズマクラスターで生乾き臭対策",
       "衣類乾燥モード搭載",
       "コンパクトで移動もラク"
-    ],
-    "amazon": "https://www.amazon.co.jp/dp/B0D86RDSLM?tag=tanosiikitaic-22"
+    ]
   },
   {
     "cat": "dehumidifier",
@@ -441,9 +440,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "三菱電機",
-    "model": "MJ-P180YX",
+    "model": "MJ-P180ZX",
     "name": "衣類乾燥除湿機 18L",
-    "price": 50335,
+    "price": 51678,
     "size": [
       "m",
       "l"
@@ -456,14 +455,14 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/endless02/cabinet/imgrc0101924509.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fendless02%2F4573637000430%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fendless02%2F4573637000430%2F",
+    "img": "https://image.rakuten.co.jp/jyupro/cabinet/kaden9/mj-p180zx-w.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyupro%2Fmj-p180zx-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjyupro%2Fmj-p180zx-w%2F",
     "point": "18L/日級のパワーで家族の部屋干しも一気に乾く",
     "features": [
       "除湿能力15.5L/日（50Hz）・18L/日（60Hz）",
       "広角オートスイングで大量の洗濯物に対応",
       "冬モード・おまかせ霜取りを搭載",
-      "市販ホースで連続排水に対応"
+      "切り忘れ防止機能付きで安心（解除も可能）"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0FGCBTYQY?tag=tanosiikitaic-22"
   },
@@ -630,9 +629,9 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/dyson/cabinet/product/09679188/006.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F447813-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F447813-01%2F",
-    "point": "1kg切りの軽さにダイソンの吸引力",
+    "point": "1.5kgの軽さにダイソンの吸引力",
     "features": [
-      "本体約0.97kgの超軽量",
+      "本体約1.5kgの軽量ボディ",
       "ダイソンならではの強力吸引",
       "小回りが利いて掃除がラク",
       "ワンルーム〜2LDKに最適"
@@ -673,7 +672,7 @@ const PRODUCTS = [
     "maker": "シャーク",
     "model": "EVOPOWER SYSTEM NEO+",
     "name": "エヴォパワーシステム NEO+",
-    "price": 46090,
+    "price": 40260,
     "size": [
       "m",
       "l"
@@ -686,8 +685,8 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p00/lc200j_ps.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc200j-xccklc400j%2F",
+    "img": "https://img1.kakaku.k-img.com/images/productimage/fullscale/K0001564385.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc351j-cp%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Flc351j-cp%2F",
     "point": "自動ゴミ収集ドック付きのハイエンド機",
     "features": [
       "ドックに戻すだけで自動ゴミ収集",
@@ -729,9 +728,9 @@ const PRODUCTS = [
   {
     "cat": "vacuum",
     "maker": "ダイソン",
-    "model": "V12 Detect Slim",
-    "name": "Dyson V12 Detect Slim",
-    "price": 59800,
+    "model": "V12 Detect Slim Absolute SV46",
+    "name": "Dyson V12 Detect Slim Absolute",
+    "price": 60440,
     "size": [
       "m",
       "l"
@@ -744,8 +743,8 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/superdeal/cabinet/09061004/10528769/11542220/5025155106518_00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14872dysonsv46ff2412%2F",
+    "img": "https://tshop.r10s.jp/outletplaza/cabinet/066/5025155082522.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Foutletplaza%2F40001059793%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Foutletplaza%2F40001059793%2F",
     "point": "レーザーで見えないホコリまで可視化",
     "features": [
       "グリーンレーザーでゴミを可視化",
@@ -753,7 +752,7 @@ const PRODUCTS = [
       "液晶でゴミの量とサイズを表示",
       "広い家の徹底掃除に"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0FYCSRTMS?tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0D86R7KML?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
