@@ -1416,7 +1416,8 @@ const PRODUCTS = [
       "替えブラシも安くて続けやすい",
       "シンプル操作",
       "まず試したい人にぴったり"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0C52HV6R4?tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -1908,7 +1909,8 @@ const PRODUCTS = [
       "2万円以下のロングセラー"
     ],
     "img": "https://tshop.r10s.jp/yamamura/cabinet/point3/cl107fdshw-main.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamamura%2Fcl107fdshw01%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B01LWLI39X?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -1935,7 +1937,8 @@ const PRODUCTS = [
       "一人暮らしのワンルームに最適"
     ],
     "img": "https://tshop.r10s.jp/victoryslife/cabinet/amayahoo/07689284/0615-022959.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0BYZ4FFLJ?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -2339,7 +2342,8 @@ const PRODUCTS = [
       "夏以外も空気清浄機として活躍"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/021/main-s4f79.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs4f79%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CZ9JDLF2?tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
@@ -2450,7 +2454,8 @@ const PRODUCTS = [
       "シャーク公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p00/wv416j_bs.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0C1NSHW31?tag=tanosiikitaic-22"
   },
   {
     "cat": "vacuum",
@@ -2535,7 +2540,8 @@ const PRODUCTS = [
       "エコバックス公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/store-ecovacs-japan/cabinet/campaign/260717/dkx55-12ee.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0D45V5W2D?tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -3021,7 +3027,8 @@ const PRODUCTS = [
       "ゴミ捨てが苦手な人の最適解"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/orj/30/0-4549873161426.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0BQXCZX1D?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -3049,7 +3056,8 @@ const PRODUCTS = [
       "世界シェア急成長ブランド"
     ],
     "img": "https://tshop.r10s.jp/dreame-shop/cabinet/11302689/imgrc0140534087.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0B59452FZ?tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -3077,7 +3085,8 @@ const PRODUCTS = [
       "パナソニック公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/93_3/4549980974193_3.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FHPG2PJS?tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -3160,7 +3169,8 @@ const PRODUCTS = [
       "ビタントニオ公式で購入可"
     ],
     "img": "https://tshop.r10s.jp/select-rainbow/cabinet/13322066/4968291311532-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B09F8G1C4J?tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
@@ -3633,7 +3643,8 @@ const PRODUCTS = [
       "コスパに優れた全自動モデル"
     ],
     "img": "https://tshop.r10s.jp/arc-market-kaden/cabinet/10911043/4571411226663.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CPHYJRRP?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -4017,7 +4028,8 @@ const PRODUCTS = [
       "室温センサー・2H/4H切タイマー・切り忘れ防止(8時間)",
       "176×176cm・約3.2kg / 12折で収納",
       "ダニ対策機能つき"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B01JS70F50?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -4046,7 +4058,8 @@ const PRODUCTS = [
       "24時間タイマー（30分単位でON/OFF設定）",
       "430×260×650mm / 13kg・キャスター付き",
       "電気代 最大 約37.2円/h（31円/kWh換算）"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B09BTV9SSQ?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
