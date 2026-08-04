@@ -839,7 +839,8 @@ const PRODUCTS = [
       "省スペースで一人暮らしにも",
       "吸引＋水拭き対応",
       "信頼のルンバブランド"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0F1FB6PSQ?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -1067,7 +1068,8 @@ const PRODUCTS = [
       "転倒お湯もれロック機能",
       "1.2Lでファミリーにも十分",
       "価格.com売れ筋1位の定番"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0DC6Z38NP?tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
@@ -1095,7 +1097,8 @@ const PRODUCTS = [
       "転倒湯もれ防止など安全設計",
       "ハンドドリップしやすい注ぎ口",
       "インテリアに映えるSTAN.デザイン"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0FH6DQ7FW?tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
@@ -1269,7 +1272,8 @@ const PRODUCTS = [
       "過度な熱を防ぐ温度制御",
       "マグネット式アタッチメント",
       "時短最優先ならこれ"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0FLPRRH5D?tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -2787,7 +2791,8 @@ const PRODUCTS = [
       "スタイリッシュなデザイン"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/15_1/8720689027915_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FGWXVQ8J?tag=tanosiikitaic-22"
   },
   {
     "cat": "circulator",
@@ -3835,7 +3840,8 @@ const PRODUCTS = [
       "アプリで磨き残しチェック"
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4987176272423%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B08SJWNGDG?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -3980,7 +3986,8 @@ const PRODUCTS = [
       "運転音 弱26dB（強42dB）",
       "ecoオート運転・切タイマー0.5/1/2h",
       "夏は涼風運転も使える（日本製）"
-    ]
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0DGS4D2RH?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
