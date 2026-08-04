@@ -702,7 +702,7 @@ const PRODUCTS = [
     "maker": "アイリスオーヤマ",
     "model": "SCD-L3PD",
     "name": "マジカリーナ ゴミ回収ドック付き",
-    "price": 49800,
+    "price": 29800,
     "size": [
       "s",
       "m",
@@ -716,12 +716,12 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 3
     },
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/30_5/4967576831130_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576831130%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576831130%2F",
-    "point": "5万円切りでゴミ自動回収ドック付き",
+    "img": "https://tshop.r10s.jp/value-shopping/cabinet/11252016/4967576732918.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvalue-shopping%2F4967576732918%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvalue-shopping%2F4967576732918%2F",
+    "point": "3万円以下でゴミ自動回収ドック付き",
     "features": [
       "ゴミ捨ては数週間に1回でOK",
-      "5万円を切るドック付きモデル",
+      "3万円以下で買えるドック付きモデル",
       "軽量で扱いやすい",
       "静電モップ付きモデルも選べる"
     ]
@@ -2517,9 +2517,9 @@ const PRODUCTS = [
   {
     "cat": "robot",
     "maker": "エコバックス",
-    "model": "DEEBOT N20",
-    "name": "DEEBOT N20 ロボット掃除機",
-    "price": 69800,
+    "model": "DEEBOT N20 PRO PLUS",
+    "name": "DEEBOT N20 PRO PLUS ロボット掃除機",
+    "price": 32800,
     "size": [
       "s",
       "m"
@@ -2541,7 +2541,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/store-ecovacs-japan/cabinet/campaign/260717/dkx55-12ee.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fdkx55-12ee%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0D45V5W2D?tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0D45R4YVL?tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -3035,7 +3035,7 @@ const PRODUCTS = [
     "maker": "Dreame",
     "model": "D10 Plus",
     "name": "Dreame D10 Plus ロボット掃除機",
-    "price": 69800,
+    "price": 27800,
     "size": [
       "s",
       "m"
