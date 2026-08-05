@@ -67,7 +67,14 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
-.priority-guides { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0 22px; } .priority-guides .guide-label { grid-column:1/-1; font-size:.85rem; font-weight:bold; color:var(--main-dark); margin-bottom:-3px; } .priority-guides a { display:block; background:#f0faf8; border:1px solid #b9dfd9; border-radius:10px; padding:12px; color:var(--main-dark); text-decoration:none; font-size:.88rem; font-weight:bold; line-height:1.55; } .priority-guides a span { display:block; font-size:.76rem; font-weight:normal; color:var(--muted); margin-top:3px; } @media (max-width:480px) { .priority-guides { grid-template-columns:1fr; } }</style>
+.priority-guides { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0 22px; } .priority-guides .guide-label { grid-column:1/-1; font-size:.85rem; font-weight:bold; color:var(--main-dark); margin-bottom:-3px; } .priority-guides a { display:block; background:#f0faf8; border:1px solid #b9dfd9; border-radius:10px; padding:12px; color:var(--main-dark); text-decoration:none; font-size:.88rem; font-weight:bold; line-height:1.55; } .priority-guides a span { display:block; font-size:.76rem; font-weight:normal; color:var(--muted); margin-top:3px; } @media (max-width:480px) { .priority-guides { grid-template-columns:1fr; } }
+.spec-table-wrap { overflow-x:auto; margin:12px 0 6px; border:1px solid var(--line); border-radius:10px; background:#fff; -webkit-overflow-scrolling:touch; }
+.spec-table { width:100%; border-collapse:collapse; font-size:0.78rem; white-space:nowrap; }
+.spec-table th, .spec-table td { padding:8px 10px; text-align:left; border-bottom:1px solid var(--line); }
+.spec-table th { background:#f0faf8; color:var(--main-dark); font-weight:bold; }
+.spec-table tr:last-child td { border-bottom:none; }
+.spec-table td:first-child, .spec-table th:first-child { color:var(--gold); font-weight:bold; }
+.spec-note { font-size:0.72rem; color:var(--muted); margin:8px 0 22px; line-height:1.6; }</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,7 +83,7 @@
   "description": "ロボット掃除機のおすすめ8機種を比較。吸引力・水拭き・自動ゴミ収集・マッピング性能での選び方を解説し、2万円台の入門機から全自動ハイエンドまで紹介します。",
   "image": "https://kadenshindan.com/og.png",
   "datePublished": "2026-07-19",
-  "dateModified": "2026-08-04",
+  "dateModified": "2026-08-06",
   "author": {
     "@type": "Person",
     "name": "れん"
@@ -202,7 +209,7 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>ロボット掃除機おすすめ7選【2026年】水拭き・自動ゴミ収集の人気モデルを比較</h1>
-  <div class="date">2026年7月更新</div>
+  <div class="date">2026年8月更新</div>
   <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <section class="priority-guides" aria-label="ロボット掃除機の基本ガイド"><p class="guide-label">まず読む2記事</p><a href="/erabi-robot.html">ロボット掃除機の選び方<span>失敗しない見分け方を読む →</span></a><a href="/denki-robot.html">ロボット掃除機の電気代<span>使い方別の月額目安を読む →</span></a></section>
   <p>「掃除そのものを家事からなくす」のがロボット掃除機です。最近は水拭きやゴミ収集まで全自動の機種が増え、価格も2万円台から選べるようになりました。この記事では失敗しない選び方と、予算別のおすすめ8機種を紹介します。</p>
@@ -215,6 +222,21 @@
   <h3>家の広さ・形で選ぶ</h3>
 <p>ワンルームなら小型モデルが小回りが利いて有利。広い家や段差の多い家は、バッテリー容量と乗り越え性能をチェックしましょう。</p>
   <h2>ロボット掃除機おすすめランキング7選</h2>
+  <div class="spec-table-wrap">
+  <table class="spec-table">
+    <thead><tr><th>順位</th><th>メーカー</th><th>型番</th><th>吸引力</th><th>集じん容量</th><th>稼働時間</th><th>水拭き</th><th>自動ゴミ収集</th><th>保証</th></tr></thead>
+    <tbody>
+      <tr><td>1位</td><td>エコバックス</td><td>DEEBOT T50 PRO OMNI</td><td>15,000Pa</td><td>260mL</td><td>255分(静音モード)</td><td>あり(自動洗浄・乾燥ドック)</td><td>あり(標準搭載)</td><td>1年</td></tr>
+      <tr><td>2位</td><td>ロボロック</td><td>Qrevo L</td><td>10,000Pa</td><td>330mL</td><td>180分(サイレントモード)</td><td>あり(自動洗浄・給水・乾燥)</td><td>あり(標準搭載)</td><td>1年</td></tr>
+      <tr><td>3位</td><td>アイロボット</td><td>Roomba 105 Combo</td><td>情報なし</td><td>情報なし</td><td>情報なし</td><td>あり(モップパッド)</td><td>別売(AutoEmpty)</td><td>1年</td></tr>
+      <tr><td>4位</td><td>SwitchBot</td><td>K11+</td><td>6,000Pa</td><td>情報なし</td><td>情報なし</td><td>あり(簡易・使い捨てシート)</td><td>あり(標準搭載)</td><td>2年</td></tr>
+      <tr><td>5位</td><td>Dreame</td><td>D10 Plus</td><td>4,000Pa</td><td>400mL</td><td>170分</td><td>あり(モップパッド)</td><td>あり(標準搭載)</td><td>1年</td></tr>
+      <tr><td>6位</td><td>エコバックス</td><td>DEEBOT N20 PRO PLUS</td><td>8,000Pa</td><td>400mL</td><td>300分</td><td>あり(電動振動モップ)</td><td>あり(標準搭載)</td><td>1年</td></tr>
+      <tr><td>7位</td><td>アイロボット</td><td>Roomba 205 DustCompactor Combo</td><td>情報なし</td><td>情報なし(本体内蔵ゴミ圧縮・最大60日分)</td><td>情報なし</td><td>あり(モップパッド)</td><td>本体内蔵(圧縮式・ドック不要)</td><td>1年</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="spec-note">※数値はメーカー公式サイトの仕様表(2026年8月確認)に基づく。「情報なし」はメーカーが公式に数値を公表していない項目です。アイロボット(ルンバ)は吸引力(Pa)・稼働時間・集じん容量を公式公表していません(「600シリーズ比最大70倍」という相対値のみ公表)。吸引力は各社の測定条件が異なるため、単純な大小比較ではなく目安としてご覧ください。</p>
 
   <div class="item">
     <span class="rk">第1位</span>
