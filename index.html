@@ -33,10 +33,10 @@
   }
 }
 </script>
-<meta name="description" content="4つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・暖房器具・掃除機・炊飯器・ドライヤーなど12カテゴリ・140点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
+<meta name="description" content="5つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・暖房器具・掃除機・炊飯器・ドライヤーなど12カテゴリ・140点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
 <link rel="canonical" href="https://kadenshindan.com/">
 <meta property="og:title" content="ぴったり家電診断｜あなたに合う家電が30秒でわかる">
-<meta property="og:description" content="4つの質問に答えるだけ。条件に合った家電がランキング形式で見つかる無料診断サイト。">
+<meta property="og:description" content="5つの質問に答えるだけ。条件に合った家電がランキング形式で見つかる無料診断サイト。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://kadenshindan.com/">
 <meta property="og:site_name" content="ぴったり家電診断">
@@ -186,6 +186,23 @@
     margin: 14px 0;
   }
   .match-reason strong { color: var(--main-dark); }
+  .score-breakdown {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 14px;
+    margin: 14px 0;
+    font-size: 0.85rem;
+  }
+  .score-breakdown .sb-title { font-weight: bold; margin-bottom: 8px; color: var(--main-dark); font-size: 0.8rem; }
+  .score-breakdown .sb-row { display: flex; justify-content: space-between; gap: 8px; margin-bottom: 5px; }
+  .score-breakdown .sb-label { color: var(--muted); font-size: 0.8rem; }
+  .score-breakdown .sb-val { font-size: 0.8rem; text-align: right; white-space: nowrap; }
+  .score-breakdown .sb-gap {
+    margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line);
+    font-size: 0.82rem; color: var(--muted); line-height: 1.6;
+  }
+  .score-breakdown .sb-gap strong { color: var(--main-dark); }
   .cta-row { display: flex; gap: 10px; margin-top: 16px; }
   .cta {
     flex: 1;
@@ -331,7 +348,7 @@
 
 <header>
   <h1>ぴったり家電診断</h1>
-  <p>4つの質問に答えるだけ。あなたにぴったりの家電が見つかります</p>
+  <p id="introText">5つの質問に答えるだけ。あなたにぴったりの家電が見つかります</p>
 </header>
 
 <div class="container">
@@ -369,6 +386,13 @@
         <div class="price-note">※価格は変動します。最新価格はリンク先でご確認ください。</div>
         <ul class="win-points" id="winPoints"></ul>
         <div class="match-reason" id="winReason"></div>
+        <div class="score-breakdown" id="scoreBreakdown">
+          <div class="sb-title">得点の内訳</div>
+          <div class="sb-row"><span class="sb-label">部屋の広さ</span><span class="sb-val" id="sbSize"></span></div>
+          <div class="sb-row"><span class="sb-label">重視ポイント</span><span class="sb-val" id="sbFocus"></span></div>
+          <div class="sb-row"><span class="sb-label">予算</span><span class="sb-val" id="sbBudget"></span></div>
+          <div class="sb-gap" id="sbGap"></div>
+        </div>
         <div class="cta-row">
           <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener sponsored">Amazonで見る</a>
           <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener sponsored">楽天で見る</a>
@@ -530,13 +554,16 @@ const FOCUS_Q = {
 };
 
 // Q4: 予算 — カテゴリごとに金額帯を変える [下限ライン, 中間ライン]
+// 3値目はカテゴリ内の実質上限(現行の最高価格帯より少し高め)。「予算は出せる」を選んだ人の中でも
+// 価格帯による差がスコアに反映されるようにするための基準値で、上限を超えるほど極端に高い商品は今のところ無いため
+// 実質的にペナルティは発生しない設計。
 const CAT_BUDGETS = {
-  circulator:[10000,25000], fan:[10000,25000], humidifier:[10000,25000],
-  dehumidifier:[20000,40000], purifier:[10000,30000],
-  vacuum:[30000,60000], robot:[50000,100000],
-  ricecooker:[15000,40000], kettle:[6000,12000],
-  dryer:[15000,35000], toothbrush:[8000,20000],
-  heater:[10000,30000],
+  circulator:[10000,25000,40000], fan:[10000,25000,40000], humidifier:[10000,25000,50000],
+  dehumidifier:[20000,40000,80000], purifier:[10000,30000,90000],
+  vacuum:[30000,60000,70000], robot:[50000,100000,150000],
+  ricecooker:[15000,40000,200000], kettle:[6000,12000,28000],
+  dryer:[15000,35000,55000], toothbrush:[8000,20000,50000],
+  heater:[10000,30000,45000],
 };
 
 function fmtYen(n) {
@@ -548,11 +575,11 @@ function fmtYen(n) {
 }
 
 function budgetQ(cat) {
-  const [low, mid] = CAT_BUDGETS[cat] || [10000, 30000]; // 未登録カテゴリでも診断を止めない
+  const [low, mid, high] = CAT_BUDGETS[cat] || [10000, 30000, 60000]; // 未登録カテゴリでも診断を止めない
   return { title:"ご予算は？", key:"budget", opts:[
     { label:"〜" + fmtYen(low), sub:"できるだけ安く", value:low },
     { label:fmtYen(low) + "〜" + fmtYen(mid), sub:"コスパ重視で選びたい", value:mid },
-    { label:fmtYen(mid) + "以上もOK", sub:"良いものなら予算は出せる", value:999999 },
+    { label:fmtYen(mid) + "以上もOK", sub:"良いものなら予算は出せる", value:high },
     { label:"こだわらない", sub:"予算より内容で選びたい", value:0 },
   ]};
 }
@@ -576,6 +603,7 @@ const CAT_Q = { title:"どの家電をお探しですか？", key:"cat", grid:tr
 // ===== 状態 =====
 const TOTAL_STEPS = 5;
 let step = 0;
+let stepOffset = 0; // 記事から#cat=で来てカテゴリ質問を飛ばした場合は1(進捗表示をQ1始まりに揃える)
 let flow = [CAT_Q];
 const answers = {};
 
@@ -601,7 +629,7 @@ function renderQuestion() {
     q.opts = FOCUS_Q[g].opts.filter(o => o.value !== answers.focus)
       .concat([{ label:"特になし", sub:"1番目のポイントだけで選ぶ", value:"none" }]);
   }
-  document.getElementById("qnum").textContent = "Q" + (step + 1) + " / " + TOTAL_STEPS;
+  document.getElementById("qnum").textContent = "Q" + (step - stepOffset + 1) + " / " + (TOTAL_STEPS - stepOffset);
   document.getElementById("qtitle").textContent = q.title;
 
   const optsEl = document.getElementById("opts");
@@ -629,31 +657,53 @@ function renderQuestion() {
   document.getElementById("backbtn").classList.toggle("hidden", step === 0);
 
   Array.from(progressEl.children).forEach((sp, i) => {
-    sp.classList.toggle("done", i <= step);
+    sp.classList.toggle("hidden", i < stepOffset);
+    sp.classList.toggle("done", i >= stepOffset && i <= step);
   });
 }
 
 document.getElementById("backbtn").addEventListener("click", () => {
-  if (step > 0) { step--; renderQuestion(); }
+  if (step > 0) {
+    step--;
+    if (step === 0 && stepOffset > 0) {
+      stepOffset = 0;
+      document.getElementById("introText").textContent = "5つの質問に答えるだけ。あなたにぴったりの家電が見つかります";
+    }
+    renderQuestion();
+  }
 });
 
 // ===== スコアリング =====
+// 内訳(size/focus/budget)を保持したオブジェクトを返す。合計はtotalに入る。
+// 表示用の得点内訳(診断結果画面)はこの内訳をそのまま使う。
 function scoreProduct(p) {
-  let score = 0;
-  if (p.size.includes(answers.size)) score += 3;
-  score += (p.focus[answers.focus] || 0) * 3;
-  if (answers.focus2 && answers.focus2 !== "none") score += (p.focus[answers.focus2] || 0) * 1.5;
+  const d = { size: 0, focus: 0, budget: 0 };
+  if (p.size.includes(answers.size)) d.size = 3;
+  d.focus = (p.focus[answers.focus] || 0) * 3;
+  if (answers.focus2 && answers.focus2 !== "none") d.focus += (p.focus[answers.focus2] || 0) * 1.5;
   if (answers.budget === 0) {
-    score += 1;
+    d.budget = 1;
   } else if (p.price <= answers.budget) {
-    score += 3;
-    if (p.price >= answers.budget * 0.4) score += 1;
+    d.budget = 3;
+    if (p.price >= answers.budget * 0.4) d.budget += 1;
   } else {
     // 予算超過は超過率に応じて減点(15%以内なら軽め)
     const ratio = (p.price - answers.budget) / answers.budget;
-    score -= ratio <= 0.15 ? 2 : 4 + Math.min(12, Math.round(ratio * 6));
+    d.budget = -(ratio <= 0.15 ? 2 : 4 + Math.min(12, Math.round(ratio * 6)));
   }
-  return score;
+  d.total = d.size + d.focus + d.budget;
+  return d;
+}
+
+function fmtScore(n) {
+  const r = Math.round(n * 10) / 10;
+  return (r > 0 ? "+" : "") + r + "点";
+}
+
+// URLの共有パラメータ(#r=...)経由で復元した文字列をそのままinnerHTMLへ渡すと
+// 任意のHTMLが注入できてしまうため(2026-08-05に発見)、表示前に必ずエスケープする。
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;" }[c]));
 }
 
 // ===== リンク生成(アフィリエイトリンクがあれば優先、なければ検索結果へ) =====
@@ -690,14 +740,17 @@ function showResult(forcedModel) {
   const candidates = PRODUCTS
     .filter(p => p.cat === answers.cat && p.img)
     .map(p => ({ p, s: scoreProduct(p) })) // 同点は価格の安い順（結果は常に同じになります）
-    .sort((a, b) => b.s - a.s || a.p.price - b.p.price);
+    .sort((a, b) => b.s.total - a.s.total || a.p.price - b.p.price);
 
   let winner = candidates[0].p;
+  let winnerScore = candidates[0].s;
   if (forcedModel) {
     const f = PRODUCTS.find(p => p.model === forcedModel && p.cat === answers.cat && p.img);
-    if (f) winner = f;
+    if (f) { winner = f; winnerScore = candidates.find(c => c.p === f).s; }
   }
   const rest = candidates.filter(c => c.p !== winner).slice(0, 4).map(c => c.p);
+  // 2位との差(シェアリンクで強制表示している場合は、順位そのままの2位を使う)
+  const secondCandidate = candidates.find(c => c.p !== winner);
 
   document.getElementById("resultTitle").textContent =
     "あなたにぴったりの" + CAT_NAMES[answers.cat] + "はこれ！";
@@ -716,8 +769,31 @@ function showResult(forcedModel) {
   });
 
   document.getElementById("winReason").innerHTML =
-    "<strong>この商品が1位の理由：</strong>「" + answers.sizeLabel + "」で「" +
-    answers.focusLabel + "」重視" + (answers.focus2 && answers.focus2 !== "none" ? "（次いで「" + answers.focus2Label + "」）" : "") + "というあなたの条件に、候補の中でもっとも高くマッチしました。";
+    "<strong>この商品が1位の理由：</strong>「" + escapeHtml(answers.sizeLabel) + "」で「" +
+    escapeHtml(answers.focusLabel) + "」重視" + (answers.focus2 && answers.focus2 !== "none" ? "（次いで「" + escapeHtml(answers.focus2Label) + "」）" : "") + "というあなたの条件に、候補の中でもっとも高くマッチしました。";
+
+  document.getElementById("sbSize").textContent =
+    fmtScore(winnerScore.size) + (winnerScore.size > 0 ? "（あなたの部屋の広さに対応）" : "（対応サイズ外）");
+  document.getElementById("sbFocus").textContent =
+    fmtScore(winnerScore.focus) + "（重視ポイントとの一致度）";
+  let budgetNote;
+  if (answers.budget === 0) budgetNote = "（予算希望なし）";
+  else if (winnerScore.budget >= 4) budgetNote = "（予算内・価格帯も高評価）";
+  else if (winnerScore.budget > 0) budgetNote = "（予算内）";
+  else budgetNote = "（予算をやや超過）";
+  document.getElementById("sbBudget").textContent = fmtScore(winnerScore.budget) + budgetNote;
+
+  const sbGapEl = document.getElementById("sbGap");
+  const winnerTotal = Math.round(winnerScore.total * 10) / 10;
+  if (secondCandidate) {
+    const secondTotal = Math.round(secondCandidate.s.total * 10) / 10;
+    const gap = Math.round((winnerScore.total - secondCandidate.s.total) * 10) / 10;
+    sbGapEl.innerHTML =
+      "合計 <strong>" + winnerTotal + "点</strong>。2位の「" + secondCandidate.p.maker + " " + secondCandidate.p.name +
+      "」（" + secondTotal + "点）とは<strong>" + gap + "点差</strong>でした。";
+  } else {
+    sbGapEl.textContent = "合計 " + winnerTotal + "点。このジャンルでは現在この1商品のみをご紹介しています。";
+  }
 
   document.getElementById("winAmazon").href = amazonLink(winner);
   document.getElementById("winRakuten").href = rakutenLink(winner);
@@ -772,6 +848,8 @@ function showResult(forcedModel) {
 // ===== リトライ =====
 document.getElementById("retryBtn").addEventListener("click", () => {
   step = 0;
+  stepOffset = 0;
+  document.getElementById("introText").textContent = "5つの質問に答えるだけ。あなたにぴったりの家電が見つかります";
   flow = [CAT_Q];
   for (const k in answers) delete answers[k];
   history.replaceState(null, "", location.pathname);
@@ -821,6 +899,8 @@ if (!restored) {
     answers.catLabel = CAT_NAMES[mc[1]];
     buildFlow(mc[1]);
     step = 1;
+    stepOffset = 1;
+    document.getElementById("introText").textContent = "4つの質問に答えるだけ。あなたにぴったりの家電が見つかります";
     history.replaceState(null, "", location.pathname);
   }
   renderQuestion();
