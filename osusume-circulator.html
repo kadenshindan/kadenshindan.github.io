@@ -67,7 +67,14 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
-.priority-guides { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0 22px; } .priority-guides .guide-label { grid-column:1/-1; font-size:.85rem; font-weight:bold; color:var(--main-dark); margin-bottom:-3px; } .priority-guides a { display:block; background:#f0faf8; border:1px solid #b9dfd9; border-radius:10px; padding:12px; color:var(--main-dark); text-decoration:none; font-size:.88rem; font-weight:bold; line-height:1.55; } .priority-guides a span { display:block; font-size:.76rem; font-weight:normal; color:var(--muted); margin-top:3px; } @media (max-width:480px) { .priority-guides { grid-template-columns:1fr; } }</style>
+.priority-guides { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0 22px; } .priority-guides .guide-label { grid-column:1/-1; font-size:.85rem; font-weight:bold; color:var(--main-dark); margin-bottom:-3px; } .priority-guides a { display:block; background:#f0faf8; border:1px solid #b9dfd9; border-radius:10px; padding:12px; color:var(--main-dark); text-decoration:none; font-size:.88rem; font-weight:bold; line-height:1.55; } .priority-guides a span { display:block; font-size:.76rem; font-weight:normal; color:var(--muted); margin-top:3px; } @media (max-width:480px) { .priority-guides { grid-template-columns:1fr; } }
+.spec-table-wrap { overflow-x:auto; margin:12px 0 6px; border:1px solid var(--line); border-radius:10px; background:#fff; -webkit-overflow-scrolling:touch; }
+.spec-table { width:100%; border-collapse:collapse; font-size:0.78rem; white-space:nowrap; }
+.spec-table th, .spec-table td { padding:8px 10px; text-align:left; border-bottom:1px solid var(--line); }
+.spec-table th { background:#f0faf8; color:var(--main-dark); font-weight:bold; }
+.spec-table tr:last-child td { border-bottom:none; }
+.spec-table td:first-child, .spec-table th:first-child { color:var(--gold); font-weight:bold; }
+.spec-note { font-size:0.72rem; color:var(--muted); margin:8px 0 22px; line-height:1.6; }</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,7 +83,7 @@
   "description": "サーキュレーターのおすすめ8機種を比較。静音性・省エネ・お手入れのしやすさ・価格で選び方を解説し、一人暮らしの6畳から28畳のリビングまで、部屋干しや換気に使える人気モデルを紹介します。",
   "image": "https://kadenshindan.com/og.png",
   "datePublished": "2026-07-19",
-  "dateModified": "2026-07-23",
+  "dateModified": "2026-08-06",
   "author": {
     "@type": "Person",
     "name": "れん"
@@ -199,7 +206,7 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>サーキュレーターおすすめ8選【2026年】静音・省エネ・お手入れ簡単モデルを比較</h1>
-  <div class="date">2026年7月更新</div>
+  <div class="date">2026年8月更新</div>
   <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <section class="priority-guides" aria-label="サーキュレーターの基本ガイド"><p class="guide-label">まず読む2記事</p><a href="/erabi-circulator.html">サーキュレーターの選び方<span>失敗しない見分け方を読む →</span></a><a href="/denki-circulator.html">サーキュレーターの電気代<span>使い方別の月額目安を読む →</span></a></section>
   <p>エアコンと併用して電気代を下げたり、部屋干しの洗濯物を早く乾かしたり、1台あると一年中活躍するのがサーキュレーターです。この記事では、静音性・省エネ性・お手入れのしやすさ・価格のバランスから選んだおすすめ8機種を紹介します。</p>
@@ -212,6 +219,22 @@
   <h3>お手入れのしやすさで選ぶ</h3>
 <p>サーキュレーターは羽根とガードにホコリが溜まりやすい家電です。前カバーや羽根を工具なしで外せるモデル、丸洗いできるモデルなら、清潔さを保ちやすく長く使えます。</p>
   <h2>サーキュレーターおすすめランキング8選</h2>
+  <div class="spec-table-wrap">
+  <table class="spec-table">
+    <thead><tr><th>順位</th><th>型番</th><th>運転音</th><th>消費電力</th><th>適用畳数</th><th>重量</th><th>風量段階</th><th>保証</th></tr></thead>
+    <tbody>
+      <tr><td>1位</td><td>PCF-SDC15T</td><td>情報なし</td><td>23W</td><td>〜28畳</td><td>1.3kg</td><td>8段階</td><td>1年</td></tr>
+      <tr><td>2位</td><td>SF-16A351</td><td>情報なし</td><td>34W</td><td>〜28畳</td><td>2.0kg</td><td>8段階</td><td>1年</td></tr>
+      <tr><td>3位</td><td>GreenFan C2</td><td>20〜52dB</td><td>1.5〜26W</td><td>〜20畳</td><td>約3.0kg</td><td>4段階</td><td>1年</td></tr>
+      <tr><td>4位</td><td>RCRP-BZX0151</td><td>情報なし</td><td>情報なし</td><td>〜24畳</td><td>2.0kg</td><td>10段階</td><td>1年</td></tr>
+      <tr><td>5位</td><td>YAR-CD20ES</td><td>情報なし</td><td>18W</td><td>〜20畳</td><td>2.2kg</td><td>8段階</td><td>1年</td></tr>
+      <tr><td>6位</td><td>SF-C151</td><td>情報なし</td><td>24W</td><td>情報なし</td><td>2.5kg</td><td>8段階</td><td>情報なし</td></tr>
+      <tr><td>7位</td><td>MJ-OCFG06</td><td>45dB未満(強)</td><td>16〜28W</td><td>〜6畳</td><td>約2.1kg</td><td>3段階</td><td>1年</td></tr>
+      <tr><td>8位</td><td>PCF-MKM15</td><td>情報なし</td><td>32〜33W</td><td>〜8畳</td><td>1.6kg</td><td>3段階</td><td>1年</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="spec-note">※数値はメーカー公式サイトの仕様表(2026年8月確認)に基づく。「情報なし」はメーカーが公式に数値を公表していない項目です。運転音は測定条件がメーカーごとに異なるため、単純な大小比較ではなく目安としてご覧ください。</p>
 
   <div class="item">
     <span class="rk">第1位</span>
