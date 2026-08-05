@@ -1914,30 +1914,30 @@ const PRODUCTS = [
   {
     "cat": "robot",
     "maker": "SwitchBot",
-    "model": "K10+",
-    "name": "ロボット掃除機 K10+",
-    "price": 37800,
+    "model": "K11+",
+    "name": "ロボット掃除機 K11+",
+    "price": 39800,
     "size": [
       "s"
     ],
     "focus": {
       "quiet": 3,
-      "power": 2,
+      "power": 3,
       "care": 3,
       "eco": 2,
       "compact": 3,
       "multi": 3
     },
-    "point": "世界最小クラス、狭い部屋・家具の多い家に",
+    "point": "世界最小クラスがさらにパワフルに、狭い部屋・家具の多い家に",
     "features": [
-      "直径25cmの世界最小クラス",
-      "静音設計で夜も使いやすい",
-      "ゴミ収集ドック付き",
-      "一人暮らしのワンルームに最適"
+      "6000Paの強力吸引（前モデルの2倍）",
+      "直径24.8cmの世界最小クラス",
+      "静音設計（最小45dB）で夜も使いやすい",
+      "ゴミ収集ドック付きで一人暮らしのワンルームに最適"
     ],
-    "img": "https://tshop.r10s.jp/victoryslife/cabinet/amayahoo/07689284/0615-022959.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F0615-022959%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0BYZ4FFLJ?tag=tanosiikitaic-22"
+    "img": "https://image.rakuten.co.jp/biccamera/cabinet/product/13219/00000014193275_a01.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fbiccamera.rakuten.co.jp%2Fitem%2F0810150544824&m=https%3A%2F%2Fbiccamera.rakuten.co.jp%2Fitem%2F0810150544824",
+    "amazon": "https://www.amazon.co.jp/dp/B0F8VWZ2J6?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
