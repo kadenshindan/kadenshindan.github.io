@@ -960,7 +960,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "SR-M10E4",
     "name": "おどり炊き 圧力IH炊飯器 5合",
-    "price": 29700,
+    "price": 28600,
     "size": [
       "s",
       "m"
@@ -2518,7 +2518,7 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT N20 PRO PLUS",
     "name": "DEEBOT N20 PRO PLUS ロボット掃除機",
-    "price": 32800,
+    "price": 29800,
     "size": [
       "s",
       "m"
