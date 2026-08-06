@@ -67,7 +67,14 @@
   .note { font-size:0.72rem; color:var(--muted); margin-top:26px; line-height:1.7; }
   footer { text-align:center; font-size:0.75rem; color:var(--muted); padding:20px 16px 40px; }
   footer a { color:var(--muted); }
-.priority-guides { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0 22px; } .priority-guides .guide-label { grid-column:1/-1; font-size:.85rem; font-weight:bold; color:var(--main-dark); margin-bottom:-3px; } .priority-guides a { display:block; background:#f0faf8; border:1px solid #b9dfd9; border-radius:10px; padding:12px; color:var(--main-dark); text-decoration:none; font-size:.88rem; font-weight:bold; line-height:1.55; } .priority-guides a span { display:block; font-size:.76rem; font-weight:normal; color:var(--muted); margin-top:3px; } @media (max-width:480px) { .priority-guides { grid-template-columns:1fr; } }</style>
+.priority-guides { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0 22px; } .priority-guides .guide-label { grid-column:1/-1; font-size:.85rem; font-weight:bold; color:var(--main-dark); margin-bottom:-3px; } .priority-guides a { display:block; background:#f0faf8; border:1px solid #b9dfd9; border-radius:10px; padding:12px; color:var(--main-dark); text-decoration:none; font-size:.88rem; font-weight:bold; line-height:1.55; } .priority-guides a span { display:block; font-size:.76rem; font-weight:normal; color:var(--muted); margin-top:3px; } @media (max-width:480px) { .priority-guides { grid-template-columns:1fr; } }
+.spec-table-wrap { overflow-x:auto; margin:12px 0 6px; border:1px solid var(--line); border-radius:10px; background:#fff; -webkit-overflow-scrolling:touch; }
+.spec-table { width:100%; border-collapse:collapse; font-size:0.78rem; white-space:nowrap; }
+.spec-table th, .spec-table td { padding:8px 10px; text-align:left; border-bottom:1px solid var(--line); }
+.spec-table th { background:#f0faf8; color:var(--main-dark); font-weight:bold; }
+.spec-table tr:last-child td { border-bottom:none; }
+.spec-table td:first-child, .spec-table th:first-child { color:var(--gold); font-weight:bold; }
+.spec-note { font-size:0.72rem; color:var(--muted); margin:8px 0 22px; line-height:1.6; }</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -76,7 +83,7 @@
   "description": "炊飯器のおすすめ8機種を比較。マイコン・IH・圧力IHの違い、合数の選び方を解説し、1万円以下の入門機から炎舞炊きなどの高級炊飯器まで紹介します。",
   "image": "https://kadenshindan.com/og.png",
   "datePublished": "2026-07-19",
-  "dateModified": "2026-07-23",
+  "dateModified": "2026-08-06",
   "author": {
     "@type": "Person",
     "name": "れん"
@@ -199,7 +206,7 @@
 <header><a href='/'>ぴったり家電診断</a></header>
 <div class="container">
   <h1>炊飯器おすすめ8選【2026年】IH・圧力IHの人気モデルをごはんの味で比較</h1>
-  <div class="date">2026年7月更新</div>
+  <div class="date">2026年8月更新</div>
   <div class="adnote">広告について：当サイトはアフィリエイトプログラムを利用しており、「Amazonで見る」「楽天で見る」のリンク経由で購入されると当サイトが紹介料を得ることがあります。</div>
   <section class="priority-guides" aria-label="炊飯器の基本ガイド"><p class="guide-label">まず読む2記事</p><a href="/erabi-ricecooker.html">炊飯器の選び方<span>失敗しない見分け方を読む →</span></a><a href="/denki-ricecooker.html">炊飯器の電気代<span>使い方別の月額目安を読む →</span></a></section>
   <p>毎日食べるごはんだからこそ、炊飯器選びで食卓の満足度は大きく変わります。加熱方式と合数さえ押さえれば失敗しません。この記事では方式ごとの味の違いと、予算別のおすすめ8機種を紹介します。</p>
@@ -212,6 +219,22 @@
   <h3>お手入れ点数で選ぶ</h3>
 <p>毎日洗う内ぶた・内釜の点数と洗いやすさは、長く使う上で味と同じくらい重要です。パーツ2点洗いのモデルなら負担がほとんどありません。</p>
   <h2>炊飯器おすすめランキング8選</h2>
+  <div class="spec-table-wrap">
+  <table class="spec-table">
+    <thead><tr><th>順位</th><th>メーカー</th><th>型番</th><th>炊飯方式</th><th>炊飯容量</th><th>内釜</th><th>保温時間</th><th>重量</th><th>保証</th></tr></thead>
+    <tbody>
+      <tr><td>1位</td><td>象印</td><td>NW-QB10</td><td>IH(豪熱大火力)</td><td>0.5〜5.5合</td><td>フッ素加工内釜(厚さ1.7mm)</td><td>うるおい保温30h・節約保温12h</td><td>約4.1kg</td><td>内釜3年(本体は情報なし)</td></tr>
+      <tr><td>2位</td><td>タイガー</td><td>JPV-X100</td><td>圧力IH</td><td>0.5〜5.5合</td><td>遠赤5層土鍋蓄熱コート釜</td><td>24h(参考値)</td><td>5.4kg</td><td>内釜3年(本体は情報なし)</td></tr>
+      <tr><td>3位</td><td>日立</td><td>RZ-V100JM(ふっくら御膳)</td><td>圧力&スチームIH</td><td>0.09〜1.0L(5.5合)</td><td>鉄仕込み全面発熱釜(肉厚十角形底面)</td><td>スチーム保温24h(参考値)</td><td>約5.6kg</td><td>情報なし</td></tr>
+      <tr><td>4位</td><td>パナソニック</td><td>SR-X710D</td><td>可変圧力IH</td><td>0.5〜5.5合</td><td>ダイヤモンド竈釜(釜厚約2.2mm)</td><td>情報なし</td><td>6.6kg</td><td>本体1年・内釜3年</td></tr>
+      <tr><td>5位</td><td>パナソニック</td><td>SR-M10E4</td><td>可変圧力IH</td><td>0.5〜5.5合</td><td>ダイヤモンド竈釜(釜厚2.2mm)</td><td>情報なし</td><td>約6.2kg</td><td>本体1年・内釜3年</td></tr>
+      <tr><td>6位</td><td>タイガー</td><td>JBH-G102</td><td>マイコン(全面加熱)</td><td>1〜5.5合</td><td>遠赤黒厚釜(1.7mm)</td><td>12h(参考値)</td><td>3.0kg</td><td>内釜1年(本体は情報なし)</td></tr>
+      <tr><td>7位</td><td>象印</td><td>NP-GS05</td><td>IH</td><td>0.5〜3合</td><td>黒厚釜(1.7mm)</td><td>うるおい保温30h・節約保温12h</td><td>3.2kg</td><td>1年</td></tr>
+      <tr><td>8位</td><td>象印</td><td>NW-FC10</td><td>圧力IH(炎舞炊き・3DローテーションIH)</td><td>0.5〜5.5合</td><td>豪炎かまど釜(鉄仕込み+うまみプラスプラチナコート)</td><td>極め保温40h</td><td>8.0kg</td><td>内釜5年(本体は情報なし)</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="spec-note">※数値はメーカー公式サイトの仕様表(2026年8月確認)に基づく。「情報なし」はメーカーが公式に数値を公表していない項目です。保温時間は一部、公式サイトに具体的な時間表記がないため型番が完全一致する量販店ページで補完した参考値です。日立「ふっくら御膳」5.5合はモデル切り替えが早いシリーズで、確認できたのはRZ-V100JM(2025年6月発売)のスペックです。最新モデルに切り替わっている可能性があります。</p>
 
   <div class="item">
     <span class="rk">第1位</span>
