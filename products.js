@@ -2545,9 +2545,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "日立",
-    "model": "ふっくら御膳",
-    "name": "圧力&スチームIH炊飯器 ふっくら御膳 5.5合",
-    "price": 34800,
+    "model": "RZ-V100JM",
+    "name": "圧力&スチームIH炊飯器 ふっくら御膳 RZ-V100JM 5.5合",
+    "price": 33600,
     "size": [
       "m",
       "l"
@@ -2567,8 +2567,8 @@ const PRODUCTS = [
       "少量でもおいしく炊ける",
       "日立の人気シリーズ"
     ],
-    "img": "https://tshop.r10s.jp/emedama/cabinet/5698/4549873195698_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873195698%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4549873195698%2F",
+    "img": "https://shop.r10s.jp/ai-corporation/cabinet/compass1751975060.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fai-corporation%2Frz-v100jm-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fai-corporation%2Frz-v100jm-w%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FC655FF7?tag=tanosiikitaic-22"
   },
   {
