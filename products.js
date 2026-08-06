@@ -2028,8 +2028,8 @@ const PRODUCTS = [
   {
     "cat": "kettle",
     "maker": "バルミューダ",
-    "model": "The Pot",
-    "name": "BALMUDA The Pot 0.6L",
+    "model": "The Pot KPT03JP",
+    "name": "BALMUDA The Pot 0.55L",
     "price": 13090,
     "size": [
       "s"
@@ -2047,7 +2047,7 @@ const PRODUCTS = [
       "コーヒードリップに最適な細口ノズル",
       "手元を照らすランプ付き",
       "キッチンに映えるデザイン",
-      "0.6Lの1〜2人用サイズ"
+      "0.55Lの1〜2人用サイズ"
     ],
     "img": "https://tshop.r10s.jp/kazamidori/cabinet/products26/4560330113307.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkazamidori%2F4560330113307%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkazamidori%2F4560330113307%2F",
@@ -3203,8 +3203,8 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "ホリスティックキュアーズ",
-    "model": "マグネットヘアプロ",
-    "name": "マグネットヘアプロ ドライヤー",
+    "model": "マグネットヘアプロ ドライヤーゼロプラス HCD-G07CB",
+    "name": "マグネットヘアプロ ドライヤーゼロプラス",
     "price": 32450,
     "size": [
       "s",
@@ -3223,7 +3223,7 @@ const PRODUCTS = [
       "美容師の支持が厚いプロ仕様",
       "速乾なのに髪がまとまる",
       "独自ミネラル・テラヘルツ加工",
-      "公式店限定の長期保証付き"
+      "メーカー保証1年(有料オプションで最大3年まで延長可)"
     ],
     "img": "https://tshop.r10s.jp/holistic-cures/cabinet/mg/0000mg_0001.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F"
