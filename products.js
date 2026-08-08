@@ -3031,32 +3031,32 @@ const PRODUCTS = [
   },
   {
     "cat": "robot",
-    "maker": "Dreame",
-    "model": "D10 Plus",
-    "name": "Dreame D10 Plus ロボット掃除機",
-    "price": 27800,
+    "maker": "ILIFE",
+    "model": "V9 Pro",
+    "name": "ILIFE V9 Pro ロボット掃除機",
+    "price": 18477,
     "size": [
       "s",
       "m"
     ],
     "focus": {
       "quiet": 2,
-      "power": 3,
+      "power": 2,
       "care": 3,
       "eco": 3,
       "compact": 2,
-      "multi": 3
+      "multi": 2
     },
-    "point": "2万円台で自動ゴミ収集付きの破格モデル",
+    "point": "1万円台で自動ゴミ収集付きの破格モデル",
     "features": [
-      "自動ゴミ収集ドック付きでこの価格",
-      "レーザーマッピングで賢く走行",
-      "吸引+水拭き対応",
-      "世界シェア急成長ブランド"
+      "自動ゴミ収集ドック付きでこの価格帯",
+      "吸引+水拭き対応の2in1",
+      "紙パック5枚付属で最長300日ゴミ捨て不要",
+      "ジャイロナビで衝突・落下を検知しながら走行"
     ],
-    "img": "https://tshop.r10s.jp/dreame-shop/cabinet/11302689/imgrc0140534087.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdreame-shop%2Fd10plus%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0B59452FZ?tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/hitcreations/cabinet/g/9/e9gjji6spf-2.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9gjji6spf%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9gjji6spf%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0D66LJV5Z?tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -3397,31 +3397,32 @@ const PRODUCTS = [
   },
   {
     "cat": "vacuum",
-    "maker": "ダイソン",
-    "model": "V8 Slim Fluffy",
-    "name": "Dyson V8 Slim Fluffy",
-    "price": 30699,
+    "maker": "シャープ",
+    "model": "EC-AR11-B",
+    "name": "SHARP RACTIVE Air EC-AR11",
+    "price": 31800,
     "size": [
       "s",
       "m"
     ],
     "focus": {
-      "quiet": 1,
-      "power": 3,
+      "quiet": 3,
+      "power": 2,
       "care": 2,
-      "eco": 2,
-      "compact": 2,
-      "multi": 1
+      "eco": 3,
+      "compact": 3,
+      "multi": 2
     },
-    "point": "3万円で買える日本向け軽量ダイソン",
+    "point": "RACTIVE Air史上最軽量1.2kg、低騒音も両立",
     "features": [
-      "日本の住環境向けの軽量スリム設計",
-      "ダイソンの吸引力を手頃に",
-      "公式ストアで購入可"
+      "RACTIVE Air史上最軽量1.2kgのボディ",
+      "遮音防振構造とダンピングコントロールで不快音を低減",
+      "着脱式バッテリーでスタミナ運転＆急速充電",
+      "からみにく〜いブラシで髪の毛のお手入れが簡単"
     ],
-    "img": "https://tshop.r10s.jp/dyson/cabinet/product/09439639/sv10kextbk_sale_em.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F436158-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F436158-01%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0DGX6HJ2Z?tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/winkstore/cabinet/269000/268918.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F268918%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F268918%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=SHARP%20EC-AR11&tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
