@@ -1277,9 +1277,9 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "パナソニック",
-    "model": "EH-NE7L",
+    "model": "EH-NE7N",
     "name": "イオニティ 大風量ドライヤー",
-    "price": 11244,
+    "price": 9998,
     "size": [
       "s",
       "m",
@@ -1293,16 +1293,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/nrfonline/cabinet/onesell527/nrf43c5e1fb83.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnrfonline%2Fnrf43c5e1fb83%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnrfonline%2Fnrf43c5e1fb83%2F",
-    "point": "1万円台で大風量1.6m³/分",
+    "img": "https://image.rakuten.co.jp/hmy-select/cabinet/steamer/2025q3/eh-ne7n_001.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhmy-select%2Feh-ne7n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhmy-select%2Feh-ne7n%2F",
+    "point": "1万円以下で大風量1.6m³/分",
     "features": [
       "風量1.6m³/分の速乾クラス",
-      "ミネラルマイナスイオン搭載",
+      "Wミネラル&マイナスイオン搭載",
       "低温ケアモード付き",
       "コスパと速乾の両立"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0CJXMBZ7B?tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0FRQV5XB2?tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -1393,8 +1393,8 @@ const PRODUCTS = [
   {
     "cat": "toothbrush",
     "maker": "ブラウン",
-    "model": "オーラルB すみずみクリーンEX",
-    "name": "オーラルB すみずみクリーンEX",
+    "model": "オーラルB すみずみクリーン",
+    "name": "オーラルB すみずみクリーン",
     "price": 3940,
     "size": [
       "s"
@@ -2173,7 +2173,7 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "サロニア",
-    "model": "スピーディーイオンドライヤー",
+    "model": "スピーディーイオンドライヤー SL-013",
     "name": "スピーディーイオンドライヤー",
     "price": 5360,
     "size": [
@@ -2716,9 +2716,9 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "KINUJO",
-    "model": "絹女 ドライヤー",
+    "model": "絹女 ドライヤー KH301/KH302",
     "name": "KINUJO Hair Dryer",
-    "price": 30300,
+    "price": 33200,
     "size": [
       "s",
       "m"
@@ -2733,7 +2733,7 @@ const PRODUCTS = [
     },
     "point": "超軽量×大風量、美容感度の高い人気機",
     "features": [
-      "約363gの超軽量ボディ",
+      "約348gの軽量ボディ",
       "大風量で速乾なのに静か",
       "遠赤外線でうるおいケア",
       "サロン品質の仕上がり"
