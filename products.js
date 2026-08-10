@@ -2225,8 +2225,8 @@ const PRODUCTS = [
       "W音波振動でパワフル洗浄",
       "日本メーカーの安心感"
     ],
-    "img": "https://tshop.r10s.jp/ebest/cabinet/479/4550719010105.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4550719010105%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F4550719010105%2F",
+    "img": "https://shop.r10s.jp/edion/cabinet/goods/ll/img_363/4550719010105_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550719010105%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550719010105%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FKFQZ2TW?tag=tanosiikitaic-22"
   },
   {
