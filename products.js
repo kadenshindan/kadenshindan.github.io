@@ -471,7 +471,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "CD-WH1825",
     "name": "衣類乾燥除湿機 18L ホワイト",
-    "price": 50380,
+    "price": 48158,
     "size": [
       "m",
       "l"
@@ -2889,9 +2889,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "三菱電機",
-    "model": "MJ-M120RX",
+    "model": "MJ-M120ZX",
     "name": "衣類乾燥除湿機 サラリ 12L",
-    "price": 47980,
+    "price": 52800,
     "size": [
       "m",
       "l"
@@ -2904,15 +2904,15 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "point": "ムーブアイ搭載、賢く乾かすサラリ",
+    "point": "部屋干しおまかせムーブアイ搭載、賢く乾かすサラリ",
     "features": [
-      "ムーブアイが濡れた衣類を狙って送風",
-      "12L/日のしっかり除湿",
-      "夜干しに使える静音設計",
-      "部屋干しの質を上げたい家庭に"
+      "部屋干しおまかせムーブアイが濡れた衣類を狙って送風",
+      "除湿能力 11L/日(50Hz)・12L/日(60Hz)",
+      "運転音 除湿 強47dB／弱39dB",
+      "洗濯物は約6kgまで・2kgなら約105分で乾燥"
     ],
-    "img": "https://tshop.r10s.jp/r-u-happiness/cabinet/10261635/12063833/13296320/01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-u-happiness%2Fmj-m120rx-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-u-happiness%2Fmj-m120rx-w%2F"
+    "img": "https://shop.r10s.jp/a-price/cabinet/pics/998/0-4573637000485.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4573637000485%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4573637000485%2F"
   },
   {
     "cat": "dehumidifier",
