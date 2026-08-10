@@ -62,10 +62,10 @@ const PRODUCTS = [
   },
   {
     "cat": "circulator",
-    "maker": "山善",
-    "model": "RCRP-BZX0151",
-    "name": "コードレスサーキュレーター",
-    "price": 16280,
+    "maker": "シャーク",
+    "model": "FA222J",
+    "name": "FlexBreeze コードレスサーキュレーターファン",
+    "price": 15950,
     "size": [
       "s",
       "m"
@@ -78,14 +78,15 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/74_5/4550533270174_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550533270174%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550533270174%2F",
-    "point": "コードレスでどこでも使える設置性の高さ",
+    "img": "https://shop.r10s.jp/shark/cabinet/renamethum/p10/fa222j_46off.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Ffa222j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Ffa222j%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FQJJSQY8?tag=tanosiikitaic-22",
+    "point": "コードレスで屋内外どこでも使える防水設計",
     "features": [
-      "充電式コードレスで持ち運び自由",
-      "静音性に優れたDCモーター",
-      "分解してお手入れしやすい設計",
-      "コンパクトで省スペース"
+      "充電式コードレスで最大24時間駆動",
+      "最大180°の自動首振りで広範囲をカバー",
+      "ミストアタッチメントで屋外でも涼しく",
+      "BLDCモーター搭載でパワフルなのに静か"
     ]
   },
   {
@@ -2801,10 +2802,10 @@ const PRODUCTS = [
   },
   {
     "cat": "circulator",
-    "maker": "山善",
-    "model": "YAR-CD20ES",
-    "name": "全分解で洗える360°首振りサーキュレーター",
-    "price": 9980,
+    "maker": "QUADS",
+    "model": "QSR506",
+    "name": "ツインブレード3D DCサーキュレーター DUOAIR DC",
+    "price": 10800,
     "size": [
       "s",
       "m"
@@ -2817,15 +2818,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "point": "全パーツ分解して丸洗いできる清潔派",
+    "point": "前後二重羽根のパワフル送風、丸洗いできる清潔設計",
     "features": [
-      "羽根もカバーも全分解して洗える",
-      "360°首振りで部屋中の空気を循環",
-      "DCモーターで静音・省エネ",
-      "山善公式ストアで購入可"
+      "前後二重羽根でパワフルな送風",
+      "適用畳数約38畳のハイパワー",
+      "風量12段階で細かく調整可能",
+      "全分解できて丸洗いOK、衣類乾燥モードも搭載"
     ],
-    "img": "https://tshop.r10s.jp/e-kurashi/cabinet/sku-img/001/sku-r9w52.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76220%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F76220%2F"
+    "img": "https://shop.r10s.jp/quads/cabinet/26ss/top_tmb/qs506_507_top_tmb_2.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fquads%2Fqs303%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fquads%2Fqs303%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0F3NDPW49?tag=tanosiikitaic-22"
   },
   {
     "cat": "circulator",
