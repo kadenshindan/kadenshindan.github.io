@@ -203,6 +203,26 @@
     font-size: 0.82rem; color: var(--muted); line-height: 1.6;
   }
   .score-breakdown .sb-gap strong { color: var(--main-dark); }
+  .caveat-box {
+    background: #fff7f0;
+    border-left: 4px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 12px 14px;
+    font-size: 0.85rem;
+    margin: 14px 0;
+    line-height: 1.7;
+  }
+  .caveat-box .cv-title { font-weight: bold; color: var(--accent); margin-bottom: 4px; display: block; }
+  .second-choice-box {
+    background: #f2f5fc;
+    border-left: 4px solid #4a63b3;
+    border-radius: 0 8px 8px 0;
+    padding: 12px 14px;
+    font-size: 0.85rem;
+    margin: 12px 0 20px;
+    line-height: 1.7;
+  }
+  .second-choice-box .sc-title { font-weight: bold; color: #4a63b3; margin-bottom: 4px; display: block; }
   .cta-row { display: flex; gap: 10px; margin-top: 16px; }
   .cta {
     flex: 1;
@@ -393,12 +413,15 @@
           <div class="sb-row"><span class="sb-label">予算</span><span class="sb-val" id="sbBudget"></span></div>
           <div class="sb-gap" id="sbGap"></div>
         </div>
+        <div class="caveat-box" id="caveatBox" style="display:none;"></div>
         <div class="cta-row">
           <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener sponsored">Amazonで見る</a>
           <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener sponsored">楽天で見る</a>
         </div>
       </div>
     </div>
+
+    <div class="second-choice-box" id="secondChoiceBox" style="display:none;"></div>
 
     <div class="rank-section">
       <h3>2位以下のおすすめ</h3>
@@ -792,6 +815,58 @@ function showResult(forcedModel) {
       "」（" + secondTotal + "点）とは<strong>" + gap + "点差</strong>でした。";
   } else {
     sbGapEl.textContent = "合計 " + winnerTotal + "点。このジャンルでは現在この1商品のみをご紹介しています。";
+  }
+
+  // 1位の短所(スコア内訳から機械的に判定。事実に基づかない弱点は書かない)
+  const caveats = [];
+  if (winnerScore.size <= 0) {
+    caveats.push("対応畳数（サイズ）の目安が、回答いただいた部屋の広さと完全には一致しません。");
+  }
+  if (winnerScore.budget < 0) {
+    const over = winner.price - answers.budget;
+    caveats.push("ご希望の予算より約" + over.toLocaleString("ja-JP") + "円高くなっています。");
+  }
+  if ((winner.focus[answers.focus] || 0) <= 1) {
+    caveats.push("重視ポイントに挙げた「" + escapeHtml(answers.focusLabel) + "」は、他の候補ほど強みではありません。");
+  }
+  if (answers.focus2 && answers.focus2 !== "none" && (winner.focus[answers.focus2] || 0) <= 1) {
+    caveats.push("2番目に重視した「" + escapeHtml(answers.focus2Label) + "」も、突出した強みではありません。");
+  }
+  const caveatBox = document.getElementById("caveatBox");
+  if (caveats.length > 0) {
+    caveatBox.innerHTML = "<span class='cv-title'>この商品の弱点</span>" + caveats.map(c => "・" + c).join("<br>");
+  } else {
+    caveatBox.innerHTML = "<span class='cv-title'>この商品の弱点</span>今回の条件では、部屋の広さ・重視ポイント・予算のいずれにも大きな弱点は見つかりませんでした。";
+  }
+  caveatBox.style.display = "";
+
+  // 2位を選ぶべきケース(2位が1位を上回っている観点のみを、事実として提示)
+  const secondBox = document.getElementById("secondChoiceBox");
+  if (secondCandidate) {
+    const s2 = secondCandidate.p;
+    const s2Score = secondCandidate.s;
+    const reasons = [];
+    if (s2.price < winner.price) {
+      const diff = winner.price - s2.price;
+      reasons.push("予算を最優先するなら、2位の方が約" + diff.toLocaleString("ja-JP") + "円安く抑えられます。");
+    }
+    if ((s2.focus[answers.focus] || 0) > (winner.focus[answers.focus] || 0)) {
+      reasons.push("「" + escapeHtml(answers.focusLabel) + "」を特に重視するなら、2位の方が相性が良い場合があります。");
+    }
+    if (answers.focus2 && answers.focus2 !== "none" && (s2.focus[answers.focus2] || 0) > (winner.focus[answers.focus2] || 0)) {
+      reasons.push("「" + escapeHtml(answers.focus2Label) + "」を優先するなら、2位も検討する価値があります。");
+    }
+    if (s2Score.size > winnerScore.size) {
+      reasons.push("お部屋の広さへの対応は、2位の方がより確実です。");
+    }
+    if (reasons.length > 0) {
+      secondBox.innerHTML = "<span class='sc-title'>こんな方は2位の「" + s2.maker + " " + s2.name + "」もおすすめ</span>" + reasons.map(r => "・" + r).join("<br>");
+      secondBox.style.display = "";
+    } else {
+      secondBox.style.display = "none";
+    }
+  } else {
+    secondBox.style.display = "none";
   }
 
   document.getElementById("winAmazon").href = amazonLink(winner);
