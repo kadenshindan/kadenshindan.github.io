@@ -1220,7 +1220,7 @@ const PRODUCTS = [
     "cat": "dryer",
     "maker": "パナソニック",
     "model": "EH-NA0J",
-    "name": "ヘアードライヤー ナノケア(型落ち)",
+    "name": "ヘアードライヤー ナノケア(旧モデル)",
     "price": 35900,
     "size": [
       "s",
@@ -1229,22 +1229,52 @@ const PRODUCTS = [
     ],
     "focus": {
       "quiet": 2,
-      "power": 2,
-      "care": 3,
-      "eco": 3,
+      "power": 1,
+      "care": 2,
+      "eco": 2,
       "compact": 2,
-      "multi": 2
+      "multi": 1
     },
+    "point": "EH-NA0Kの1世代前。現在は在庫限りで値上がり傾向",
+    "features": [
+      "EH-NA0Kとほぼ同機能",
+      "公式サイトはEH-NA0Kへ案内中(2025年9月に世代交代)",
+      "高浸透ナノイー搭載",
+      "新品在庫は限られ現在はEH-NA0Kより高い場合がある"
+    ],
     "img": "https://tshop.r10s.jp/alljapan-online-shop/cabinet/kaden/08229209/imgrc0096194198.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgs-trade%2Fcompass1783345632%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgs-trade%2Fcompass1783345632%2F",
-    "point": "最新とほぼ同性能、型落ちでお得",
-    "features": [
-      "EH-NA0Kとほぼ同性能",
-      "型落ちで数千円お得",
-      "高浸透ナノイー搭載",
-      "賢く買いたい人の定番choice"
-    ],
     "amazon": "https://www.amazon.co.jp/dp/B0B72HZHLG?tag=tanosiikitaic-22"
+  },
+  {
+    "cat": "dryer",
+    "maker": "コイズミ",
+    "model": "KHD-B200",
+    "name": "ハイスピードドライヤー IMPULSE",
+    "price": 9840,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 2
+    },
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/43_1/4981747085443_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4981747085443%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4981747085443%2F",
+    "point": "約375gの軽量ボディに温冷自動切替を搭載したコスパ機",
+    "features": [
+      "BLDCモーターで最大10万回転/分のパワフルな風",
+      "HOT/SCALP/AUTO H&C/COOLの4モード切替",
+      "温冷自動切替で熱ダメージを抑制",
+      "約375gの軽量ボディで旅行にも便利"
+    ],
+    "amazon": "https://www.amazon.co.jp/dp/B0FXK2BRLJ?tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -3176,9 +3206,9 @@ const PRODUCTS = [
   {
     "cat": "kettle",
     "maker": "象印",
-    "model": "CK-DA10",
+    "model": "CK-DC10",
     "name": "電気ケトル 1.0L",
-    "price": 8233,
+    "price": 5698,
     "size": [
       "s",
       "m"
@@ -3191,16 +3221,16 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "5千円で象印の安心安全設計",
+    "point": "5千円台で象印の安心安全設計",
     "features": [
-      "転倒湯もれ防止構造",
+      "転倒湯もれ防止構造(新安全基準適合品)",
       "本体が熱くなりにくい二重構造",
       "1.0Lの使いやすいサイズ",
-      "5千円前後の高コスパ"
+      "5千円台の高コスパ"
     ],
-    "img": "https://tshop.r10s.jp/nttxstore/cabinet/12563235/qzx0031257.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsse--shop%2Fho5516f696f6%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B09HBQHDL2?tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/try3/cabinet/11147956/11928062/4974305230935.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4974305230935%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4974305230935%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH6FR9HR?tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -3431,7 +3461,7 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT mini",
     "name": "DEEBOT mini ロボット掃除機",
-    "price": 69800,
+    "price": 39700,
     "size": [
       "s"
     ],
@@ -3740,9 +3770,9 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "リファ",
-    "model": "ビューテック ドライヤー プロ",
-    "name": "ReFa BEAUTECH DRYER PRO",
-    "price": 30980,
+    "model": "ビューテック ドライヤー S+",
+    "name": "ReFa BEAUTECH DRYER S+",
+    "price": 39600,
     "size": [
       "s",
       "m",
@@ -3753,18 +3783,19 @@ const PRODUCTS = [
       "power": 3,
       "care": 3,
       "eco": 2,
-      "compact": 1,
+      "compact": 2,
       "multi": 2
     },
-    "point": "サロン発想のハイブリッド温冷ドライヤー",
+    "point": "コンパクトな速乾力とサロン級のツヤ仕上げ",
     "features": [
-      "温風と冷風を自動で切替",
-      "ハイドロイオンでうるおい",
-      "大風量で速乾",
-      "美容師にも人気"
+      "センシングプログラムで頭皮50℃・毛先60℃以下をキープ",
+      "ハイドロイオンでうるおいとツヤ",
+      "クールボタンでワンタッチ冷風仕上げ",
+      "コンパクトで持ち運びやすい"
     ],
-    "img": "https://tshop.r10s.jp/kiseki-shop/cabinet/shohin/mtg-ka/5066-o-5073-6100_m.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbelle-01%2Frefa-20%2F"
+    "img": "https://tshop.r10s.jp/mtgec-beauty/cabinet/refa/refa_dryer_splus/imgrc0120473542.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1850320101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1850320101%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0DMN9CX52?tag=tanosiikitaic-22"
   },
   {
     "cat": "circulator",
