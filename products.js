@@ -3598,9 +3598,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "三菱電機",
-    "model": "本炭釜 紬",
+    "model": "NJ-BW10G",
     "name": "本炭釜 紬 IH炊飯器 5.5合",
-    "price": 60390,
+    "price": 57280,
     "size": [
       "m",
       "l"
