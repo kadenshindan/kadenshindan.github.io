@@ -224,6 +224,15 @@
   }
   .second-choice-box .sc-title { font-weight: bold; color: #4a63b3; margin-bottom: 4px; display: block; }
   .cta-row { display: flex; gap: 10px; margin-top: 16px; }
+  .official-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.78rem;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  .official-link:hover { color: var(--main-dark); }
   .cta {
     flex: 1;
     display: block;
@@ -418,6 +427,7 @@
           <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener sponsored">Amazonで見る</a>
           <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener sponsored">楽天で見る</a>
         </div>
+        <a class="official-link" id="officialSourceLink" href="#" target="_blank" rel="noopener" style="display:none;">メーカー公式ページで仕様を見る →</a>
       </div>
     </div>
 
@@ -871,6 +881,15 @@ function showResult(forcedModel) {
 
   document.getElementById("winAmazon").href = amazonLink(winner);
   document.getElementById("winRakuten").href = rakutenLink(winner);
+
+  // メーカー公式ページへのリンク(officialUrlがある商品のみ表示。ない場合は何も出さない)
+  const officialLinkEl = document.getElementById("officialSourceLink");
+  if (winner.officialUrl) {
+    officialLinkEl.href = winner.officialUrl;
+    officialLinkEl.style.display = "";
+  } else {
+    officialLinkEl.style.display = "none";
+  }
 
   const rankList = document.getElementById("rankList");
   rankList.innerHTML = "";
