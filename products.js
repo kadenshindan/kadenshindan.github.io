@@ -1612,7 +1612,7 @@ const PRODUCTS = [
       "部屋干しの消臭にも活躍",
       "コスパの高い1.5万円以下"
     ],
-    "img": "https://shop.r10s.jp/ei-one/cabinet/syouhin_seikatu/03265069/imgrc0137633654.jpg",
+    "img": "https://tshop.r10s.jp/ei-one/cabinet/syouhin_seikatu/03265069/imgrc0137633654.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fei-one%2Fpj-u3ds%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fei-one%2Fpj-u3ds%2F",
     "officialUrl": "https://jp.sharp/pci_fan/products/pj-u3ds/spec/"
   },
