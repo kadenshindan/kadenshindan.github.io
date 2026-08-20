@@ -270,7 +270,7 @@ const PRODUCTS = [
       "1〜8時間の入・切タイマー",
       "最大消費電力18W"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0CY4JKW3V?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20YLX-AJD30E&tag=tanosiikitaic-22",
     "officialUrl": "https://book.yamazen.co.jp/product/detail/I00005376"
   },
   {
@@ -808,7 +808,7 @@ const PRODUCTS = [
       "ゴミ収集ドック付きで手間いらず",
       "セールで大幅値下げされることも"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0DRVBP6B2?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A8%E3%82%B3%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%20DEEBOT%20T50%20PRO%20OMNI&tag=tanosiikitaic-22",
     "officialUrl": "https://www.ecovacs.com/jp/deebot-robotic-vacuum-cleaner/deebot-t50-pro-omni-white"
   },
   {
@@ -1286,7 +1286,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/alljapan-online-shop/cabinet/kaden/08229209/imgrc0096194198.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgs-trade%2Fcompass1783345632%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgs-trade%2Fcompass1783345632%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0B72HZHLG?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20EH-NA0J&tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/hair/products/EH-NA0J.html"
   },
   {
@@ -1643,7 +1643,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/doshisha-marche/cabinet/kamome/p10/k-f28ay-4700.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdoshisha-marche%2Fk-f28ay%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdoshisha-marche%2Fk-f28ay%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0CCY1HRKZ?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%89%E3%82%A6%E3%82%B7%E3%82%B7%E3%83%A3%20%E3%82%AB%E3%83%A2%E3%83%A1%E3%83%95%E3%82%A1%E3%83%B3%20K-F28AY&tag=tanosiikitaic-22",
     "officialUrl": "https://www.kamome-d.jp/kamomefan/k-f28ay/"
   },
   {
@@ -4007,7 +4007,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000027/4210201328223_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4987176272409%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4987176272409%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B08SJWNGDG?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20iO9&tag=tanosiikitaic-22",
     "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-9-electric-toothbrush"
   },
   {
