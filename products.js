@@ -754,32 +754,32 @@ const PRODUCTS = [
   {
     "cat": "vacuum",
     "maker": "ダイソン",
-    "model": "V12 Detect Slim Absolute SV46",
-    "name": "Dyson V12 Detect Slim Absolute",
-    "price": 80080,
+    "model": "PencilVac Fluffycones SV50 FC",
+    "name": "Dyson PencilVac Fluffycones",
+    "price": 73670,
     "size": [
-      "m",
-      "l"
+      "s",
+      "m"
     ],
     "focus": {
       "quiet": 1,
       "power": 3,
       "care": 2,
-      "eco": 2,
-      "compact": 1,
-      "multi": 3
+      "eco": 1,
+      "compact": 3,
+      "multi": 2
     },
-    "img": "https://tshop.r10s.jp/outletplaza/cabinet/066/5025155082522.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F5025155082461%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F5025155082461%2F",
-    "point": "レーザーで見えないホコリまで可視化",
+    "img": "https://shop.r10s.jp/dyson/cabinet/product/11756959/sv50fc_point_em.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F499044-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F499044-01%2F",
+    "point": "本体3.8cm・全方位に動く世界最スリム",
     "features": [
-      "グリーンレーザーでゴミを可視化",
-      "強力な吸引力とゴミ量の自動検知",
-      "液晶でゴミの量とサイズを表示",
-      "広い家の徹底掃除に"
+      "前後2つのLEDで見えないホコリを可視化",
+      "約9.5cmの低い家具下まで入る薄さ",
+      "毛が絡まない4本の円すい形ブラシ",
+      "ゴミを圧縮して舞い上げずに捨てられる"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0D86R7KML?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.dyson.co.jp/vacuum-cleaners/cordless/v12/detect-slim-absolute"
+    "amazon": "https://www.amazon.co.jp/dp/B0F7WJW98P?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.dyson.co.jp/vacuum-cleaners/powerbroom/pencilvac/fluffycones"
   },
   {
     "cat": "robot",
