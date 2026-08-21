@@ -2634,7 +2634,7 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT N20 PRO PLUS",
     "name": "DEEBOT N20 PRO PLUS ロボット掃除機",
-    "price": 29800,
+    "price": 32800,
     "size": [
       "s",
       "m"
