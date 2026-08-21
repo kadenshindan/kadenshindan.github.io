@@ -769,7 +769,7 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 2
     },
-    "img": "https://shop.r10s.jp/dyson/cabinet/product/11756959/sv50fc_point_em.jpg",
+    "img": "https://tshop.r10s.jp/dyson/cabinet/product/11756959/sv50fc_point_em.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F499044-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F499044-01%2F",
     "point": "本体3.8cm・全方位に動く世界最スリム",
     "features": [
