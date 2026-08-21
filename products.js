@@ -369,9 +369,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "コロナ",
-    "model": "CD-S6325",
+    "model": "CD-S6326",
     "name": "コンプレッサー式除湿機 6.3L",
-    "price": 22000,
+    "price": 22149,
     "size": [
       "s"
     ],
@@ -383,8 +383,8 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/medicell51/cabinet/4906128541134_t.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4906128541134%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4906128541134%2F",
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9193/4906128569336.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4906128569336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4906128569336%2F",
     "point": "一人暮らしの部屋干しにちょうどいい定番機",
     "features": [
       "6.3L/日でワンルームに最適",
@@ -664,9 +664,9 @@ const PRODUCTS = [
   {
     "cat": "vacuum",
     "maker": "日立",
-    "model": "PV-BL3M",
+    "model": "PV-BL3P",
     "name": "ラクかるスティック",
-    "price": 45981,
+    "price": 48489,
     "size": [
       "s",
       "m"
@@ -679,8 +679,8 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://shop.r10s.jp/auroravision/cabinet/13283286/46079403_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauroravision%2Fgurqnf7a37e7emhjq2htfn2wk4%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauroravision%2Fgurqnf7a37e7emhjq2htfn2wk4%2F",
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9174/4549873218595.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4549873218595%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4549873218595%2F",
     "point": "0.8kgの超軽量で毎日の掃除が苦にならない",
     "features": [
       "業界トップクラスの軽さ0.8kg",
@@ -688,7 +688,7 @@ const PRODUCTS = [
       "自走式ヘッドで軽い操作感",
       "日本メーカーの安心感"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0DZ61NHSZ?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E6%97%A5%E7%AB%8B%20%E3%83%A9%E3%82%AF%E3%81%8B%E3%82%8B%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%20PV-BL3P&tag=tanosiikitaic-22",
     "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bl3m/"
   },
   {
@@ -4044,9 +4044,9 @@ const PRODUCTS = [
   {
     "cat": "heater",
     "maker": "パナソニック",
-    "model": "DS-FTX1201",
-    "name": "ナノイー搭載セラミックファンヒーター",
-    "price": 30383,
+    "model": "DS-FZX1200",
+    "name": "ナノイーX搭載セラミックファンヒーター",
+    "price": 19900,
     "size": [
       "s",
       "m"
@@ -4059,17 +4059,17 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/hitcreations/cabinet/g/23/e9uhjrb4cb-3.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitcreations%2Fgr-e9uhjrb4cb%2F",
-    "point": "ナノイーと2WAY人センサー搭載。タテヨコ置きできる薄型",
+    "img": "https://tshop.r10s.jp/kaden-sakura/cabinet/gazou53/ds-fzx1200-h.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4549980793091%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4549980793091%2F",
+    "point": "ナノイーXとひと・室温センサー搭載。奥行14cmの薄型",
     "features": [
-      "温風 強1170W/中750W/弱530W(50Hz)",
-      "2WAY人センサーで自動節電",
-      "ナノイー搭載・アレルバスターフィルター",
-      "41.5×21.5×14.0cm / 2.8kg",
-      "電気代 強 約31.6円/h(27円/kWh換算)"
+      "温風 強1170W/弱640W(50Hz)",
+      "ひとセンサー・室温センサーで自動節電",
+      "ナノイーX搭載",
+      "37.9×23.5×14.0cm(高さ×幅×奥行)",
+      "電気代 強 約36.3円/h(31円/kWh換算・室温15℃)"
     ],
-    "officialUrl": "https://panasonic.jp/danbo/products/DS-FTX1201/spec.html"
+    "officialUrl": "https://panasonic.jp/danbo/products/DS-FZX1200/spec.html"
   },
   {
     "cat": "heater",
