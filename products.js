@@ -1323,9 +1323,9 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "ダイソン",
-    "model": "Supersonic HD08",
-    "name": "Dyson Supersonic",
-    "price": 24280,
+    "model": "Supersonic Travel",
+    "name": "Dyson Supersonic Travel",
+    "price": 42799,
     "size": [
       "s",
       "m"
@@ -1335,20 +1335,20 @@ const PRODUCTS = [
       "power": 3,
       "care": 2,
       "eco": 2,
-      "compact": 2,
-      "multi": 3
+      "compact": 3,
+      "multi": 2
     },
-    "img": "https://tshop.r10s.jp/seishinjapan/cabinet/k0001704924.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F5025155117699%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F5025155117699%2F",
-    "point": "圧倒的風量でとにかく速く乾かす",
+    "point": "小型軽量なのに風量そのまま、時短も持ち運びも両立",
     "features": [
-      "大風量でロングヘアも速乾",
-      "過度な熱を防ぐ温度制御",
-      "マグネット式アタッチメント",
-      "時短最優先ならこれ"
+      "従来のダイソンドライヤーより32%小さく25%軽い",
+      "Air Multiplierテクノロジーで風量はそのまま",
+      "過度な熱を防ぐインテリジェント・ヒートコントロール",
+      "100〜240V対応で海外でも使える"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0FLPRRH5D?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic/lite-nickel-copper"
+    "img": "https://tshop.r10s.jp/dyson/cabinet/product/13066113/kf09_gallery_9.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F492452-01%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdyson%2F492452-01%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0GV2XFS51?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.dyson.co.jp/hair-care/hair-dryers/supersonic-travel/ceramic-pink"
   },
   {
     "cat": "dryer",
