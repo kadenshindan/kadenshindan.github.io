@@ -2484,10 +2484,10 @@ const PRODUCTS = [
   },
   {
     "cat": "humidifier",
-    "maker": "BRUNO",
-    "model": "ハイブリッド加湿器 4.7L",
-    "name": "ハイブリッドUV加湿器 4.7L",
-    "price": 15094,
+    "maker": "Stadler Form",
+    "model": "Oliver",
+    "name": "ハイブリッド加湿器 Oliver",
+    "price": 19800,
     "size": [
       "s",
       "m"
@@ -2495,21 +2495,22 @@ const PRODUCTS = [
     "focus": {
       "quiet": 2,
       "power": 2,
-      "care": 2,
+      "care": 3,
       "eco": 2,
       "compact": 2,
-      "multi": 1
+      "multi": 2
     },
-    "point": "インテリアに映えるおしゃれ加湿器",
+    "point": "UV除菌×北欧デザインで清潔に加湿",
     "features": [
-      "デザイン家電ブランドBRUNOの人気作",
-      "4.7Lタンクで給水回数が少ない",
-      "ハイブリッド式で効率よく加湿",
-      "公式ストアで購入可"
+      "スイスのデザイン家電ブランドStadler Formの人気作",
+      "内蔵UVランプで99.99%除菌してからミスト化",
+      "6.8Lタンクで給水回数が少ない",
+      "アロマオイル対応で香りも楽しめる"
     ],
-    "img": "https://tshop.r10s.jp/bruno-official/cabinet/item/2025_2/7761193_main1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmanesus%2Fm92733b49bb%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmanesus%2Fm92733b49bb%2F",
-    "officialUrl": "https://bruno-onlineshop.com/item/07761193.html"
+    "img": "https://tshop.r10s.jp/entresquare/cabinet/stadler/7630850303902_8.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fentresquare%2F7630850303902%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fentresquare%2F7630850303902%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=Stadler%20Form%20Oliver%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22",
+    "officialUrl": "https://stadlerform.jp/showroom/oliver/"
   },
   {
     "cat": "dehumidifier",
@@ -3280,32 +3281,32 @@ const PRODUCTS = [
   },
   {
     "cat": "kettle",
-    "maker": "ビタントニオ",
-    "model": "VEK-20-K",
-    "name": "温調ドリップケトル アクティ2",
-    "price": 17400,
+    "maker": "山善",
+    "model": "YKR-SC1280",
+    "name": "電気式バリスタポット",
+    "price": 11000,
     "size": [
       "s"
     ],
     "focus": {
       "quiet": 2,
-      "power": 3,
+      "power": 2,
       "care": 2,
-      "eco": 1,
+      "eco": 2,
       "compact": 3,
-      "multi": 3
+      "multi": 2
     },
-    "point": "1℃単位の温調でコーヒーを極める",
+    "point": "50〜100度の温度調節でコーヒーを美味しく",
     "features": [
-      "50〜100℃を1℃単位で設定",
+      "50〜100度を細かく設定できる温度調節機能",
       "細口ノズルでドリップに最適",
-      "保温機能付き",
-      "ビタントニオ公式で購入可"
+      "設定温度で1時間保温可能",
+      "ドリップ時間を計れるタイマー付き"
     ],
-    "img": "https://tshop.r10s.jp/select-rainbow/cabinet/13322066/4968291311532-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4968291311532%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B09F8G1C4J?tag=tanosiikitaic-22",
-    "officialUrl": "https://vitantonio.jp/products/vek-20"
+    "img": "https://tshop.r10s.jp/yamazenkaden/cabinet/pc_sub/089/s1d33-01.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2Fs1d33%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2Fs1d33%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0DPLTLCMN?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.yamazen.co.jp/news/entry-2142.html"
   },
   {
     "cat": "kettle",
