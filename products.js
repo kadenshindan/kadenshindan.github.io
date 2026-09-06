@@ -111,7 +111,7 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/enetroom/cabinet/11375185/11760512/i271000.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2Fi271000%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fenetroom%2Fi271000%2F",
-    "point": "3,000円台で買える入門モデル",
+    "point": "2,000円台で買える入門モデル",
     "features": [
       "圧倒的な低価格",
       "〜8畳の小部屋にちょうどいい",
@@ -876,7 +876,7 @@ const PRODUCTS = [
     "maker": "ロボロック",
     "model": "Qrevo L",
     "name": "Roborock Qrevo L",
-    "price": 79800,
+    "price": 59800,
     "size": [
       "l"
     ],
@@ -918,7 +918,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "3万円で買えるマッピング機能付き入門機",
+    "point": "2万円台で買えるマッピング機能付き入門機",
     "features": [
       "間取りを学習するスマートマッピング",
       "2000Paのパワフル吸引",
@@ -934,7 +934,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "NW-QB10",
     "name": "IH炊飯ジャー 極め炊き 5.5合",
-    "price": 27480,
+    "price": 28000,
     "size": [
       "m",
       "l"
@@ -948,7 +948,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/yas-online/cabinet/11334967/4974305230508.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305230508%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305230508%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvsonic%2F53538%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvsonic%2F53538%2F",
     "point": "お米マイスター実証テスト1位のベストバイ",
     "features": [
       "専門家テストでベストバイ獲得",
@@ -1023,7 +1023,7 @@ const PRODUCTS = [
     "maker": "タイガー",
     "model": "JBH-G102",
     "name": "マイコン炊飯器〈炊きたて〉5.5合",
-    "price": 9183,
+    "price": 7763,
     "size": [
       "m",
       "l"
@@ -1038,9 +1038,9 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/82_5/4904710429082_5.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4904710429082%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4904710429082%2F",
-    "point": "1万円台前半で買える定番マイコン機",
+    "point": "7千円台で買える定番マイコン機",
     "features": [
-      "1万円台前半の手頃な価格",
+      "7千円台の手頃な価格",
       "シンプル操作で使いやすい",
       "黒遠赤釜採用",
       "コスパ最優先ならこれ"
@@ -1263,7 +1263,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "EH-NA0J",
     "name": "ヘアードライヤー ナノケア(旧モデル)",
-    "price": 35900,
+    "price": 32287,
     "size": [
       "s",
       "m",
@@ -1285,7 +1285,7 @@ const PRODUCTS = [
       "新品在庫は限られ現在はEH-NA0Kより高い場合がある"
     ],
     "img": "https://tshop.r10s.jp/alljapan-online-shop/cabinet/kaden/08229209/imgrc0096194198.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgs-trade%2Fcompass1783345632%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgs-trade%2Fcompass1783345632%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsokutei%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsokutei%2F4549980652961%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20EH-NA0J&tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/hair/products/EH-NA0J.html"
   },
@@ -1458,7 +1458,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/world-free-store/cabinet/07084073/12723007/imgrc0110279006.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F8710103985648%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F8710103985648%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhotnet-shop%2F985648%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhotnet-shop%2F985648%2F",
     "point": "7千円以下で買える音波式エントリー",
     "features": [
       "音波式をこの価格で",
@@ -1503,7 +1503,7 @@ const PRODUCTS = [
     "maker": "ブラウン",
     "model": "iOM10442ADCB",
     "name": "オーラルB iO10",
-    "price": 46489,
+    "price": 47000,
     "size": [
       "s",
       "m",
@@ -1518,7 +1518,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/lcs-live/cabinet/living/09818817/12581206/imgrc0339931715.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4987176160720%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4987176160720%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftokai-online-shop21%2Fcompass1780902261%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftokai-online-shop21%2Fcompass1780902261%2F",
     "point": "AIガイド付きの最上位フラッグシップ",
     "features": [
       "AIが磨き残しをリアルタイム表示",
@@ -2160,7 +2160,7 @@ const PRODUCTS = [
     "maker": "デロンギ",
     "model": "アイコナ",
     "name": "アイコナ 電気ケトル 1.0L",
-    "price": 12800,
+    "price": 9980,
     "size": [
       "s",
       "m"
@@ -2189,7 +2189,7 @@ const PRODUCTS = [
     "maker": "ラッセルホブス",
     "model": "カフェケトル",
     "name": "カフェケトル ステンレス",
-    "price": 11000,
+    "price": 8800,
     "size": [
       "s",
       "m"
@@ -2210,7 +2210,7 @@ const PRODUCTS = [
       "カフェのような佇まい"
     ],
     "img": "https://tshop.r10s.jp/levenmarqt/cabinet/russelhobbs/ru0004c.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flevenmarqt%2Fru0004%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Flevenmarqt%2Fru0004%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaguzaku%2Frh-7013jp%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaguzaku%2Frh-7013jp%2F",
     "amazon": "https://www.amazon.co.jp/dp/B09F2RBJVQ?tag=tanosiikitaic-22"
   },
   {
@@ -2547,7 +2547,7 @@ const PRODUCTS = [
     "maker": "シャーク",
     "model": "EVOPOWER WV416J",
     "name": "EVOPOWER ハンディクリーナー",
-    "price": 15840,
+    "price": 15950,
     "size": [
       "s"
     ],
@@ -2567,7 +2567,7 @@ const PRODUCTS = [
       "シャーク公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p00/wv416j_bs.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j-xkitmtwut400j%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv416j%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0C1NSHW31?tag=tanosiikitaic-22",
     "officialUrl": "https://www.sharkninja.jp/products/wv416j"
   },
@@ -2605,7 +2605,7 @@ const PRODUCTS = [
     "maker": "ツインバード",
     "model": "TC-E124",
     "name": "サイクロンスティック掃除機",
-    "price": 6480,
+    "price": 4980,
     "size": [
       "s"
     ],
@@ -2617,7 +2617,7 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "6千円台で買える自立式スティック",
+    "point": "4千円台で買える自立式スティック",
     "features": [
       "圧倒的な低価格",
       "自立式で収納いらず",
@@ -2634,7 +2634,7 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT N20 PRO PLUS",
     "name": "DEEBOT N20 PRO PLUS ロボット掃除機",
-    "price": 39800,
+    "price": 29800,
     "size": [
       "s",
       "m"
@@ -2647,7 +2647,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 3
     },
-    "point": "3万円台で自動ゴミ収集付きの高コスパ",
+    "point": "2万円台で自動ゴミ収集付きの高コスパ",
     "features": [
       "8000Paの強力吸引",
       "自動ゴミ収集ステーション付き",
@@ -2694,7 +2694,7 @@ const PRODUCTS = [
     "maker": "東芝",
     "model": "RC-10VRV",
     "name": "真空IH炊飯器 銅かまど 5.5合",
-    "price": 23800,
+    "price": 22680,
     "size": [
       "m",
       "l"
@@ -2715,7 +2715,7 @@ const PRODUCTS = [
       "保温重視の家庭に最適"
     ],
     "img": "https://tshop.r10s.jp/superdeal/cabinet/yamada/2024/11424131/4904530120107_00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14542rc10vrv2411%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsuperdeal%2F14542rc10vrv2411%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frimp-ecshop%2F4108-000265%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frimp-ecshop%2F4108-000265%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DNY7TZZG?tag=tanosiikitaic-22",
     "officialUrl": "https://www.toshiba-lifestyle.com/jp/rice-cookers/rc-10vrv/spec/"
   },
@@ -2724,7 +2724,7 @@ const PRODUCTS = [
     "maker": "山善",
     "model": "マイコン炊飯器 3合",
     "name": "マイコン炊飯器 3合",
-    "price": 5980,
+    "price": 7980,
     "size": [
       "s"
     ],
@@ -2736,7 +2736,7 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "6千円以下、初めての1台に",
+    "point": "8千円以下、初めての1台に",
     "features": [
       "圧倒的な低価格",
       "3合で一人暮らしにぴったり",
@@ -3167,7 +3167,7 @@ const PRODUCTS = [
     "maker": "ILIFE",
     "model": "V9 Pro",
     "name": "ILIFE V9 Pro ロボット掃除機",
-    "price": 17627,
+    "price": 25717,
     "size": [
       "s",
       "m"
@@ -3180,7 +3180,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "1万円台後半で自動ゴミ収集付きの高コスパモデル",
+    "point": "2万円台で自動ゴミ収集付きの高コスパモデル",
     "features": [
       "自動ゴミ収集ドック付きでこの価格帯",
       "吸引+水拭き対応の2in1",
@@ -3197,7 +3197,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "ビストロ SR-X710D",
     "name": "ビストロ 可変圧力IHジャー炊飯器 5.5合",
-    "price": 59890,
+    "price": 50918,
     "size": [
       "m",
       "l"
@@ -3218,7 +3218,7 @@ const PRODUCTS = [
       "パナソニック公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/93_3/4549980974193_3.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4549980974193%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-shop%2Fsr-x710d-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-shop%2Fsr-x710d-h%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FHPG2PJS?tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/suihan/products/SR-X710D.html"
   },
@@ -3443,7 +3443,7 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "4千円以下でソニッケアーデビュー",
+    "point": "6千円台でソニッケアーデビュー",
     "features": [
       "音波水流をこの価格で",
       "シンプルな1モード設計",
@@ -3641,7 +3641,7 @@ const PRODUCTS = [
     },
     "point": "9千円以下のIH3合、デザインもシンプル",
     "features": [
-      "1万円台前半でIH炊飯",
+      "9千円以下でIH炊飯",
       "キッチンに馴染むシンプルデザイン",
       "一人暮らしにちょうどいい3合"
     ],
@@ -3741,7 +3741,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "ポケットドルツ",
     "name": "音波式電動歯ブラシ ポケットドルツ",
-    "price": 2464,
+    "price": 3000,
     "size": [
       "s"
     ],
@@ -3760,7 +3760,7 @@ const PRODUCTS = [
       "3千円前後の手軽さ"
     ],
     "img": "https://tshop.r10s.jp/edion/cabinet/goods/ll/img_167/4549980052068_ll.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4549980052068%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmltrading%2F4549980052068%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fsmltrading%2F4549980052068%2F",
     "amazon": "https://www.amazon.co.jp/dp/B07BMR45R8?tag=tanosiikitaic-22"
   },
   {
@@ -4228,7 +4228,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "DH-1225R",
     "name": "遠赤外線暖房機 コアヒート",
-    "price": 29650,
+    "price": 36080,
     "size": [
       "s"
     ],
@@ -4272,7 +4272,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/39_5/4906128545439_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128545439%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128545439%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128545439%2F",
     "point": "3.4kgと軽くてスリム。スイッチひとつですぐ暖まるカーボンヒーター",
     "features": [
       "暖房出力900W・消費電力900〜350W（10段階）",
