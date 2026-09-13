@@ -2507,7 +2507,7 @@ const PRODUCTS = [
       "6.8Lタンクで給水回数が少ない",
       "アロマオイル対応で香りも楽しめる"
     ],
-    "img": "https://tshop.r10s.jp/entresquare/cabinet/stadler/7630850303902_8.jpg",
+    "img": "https://tshop.r10s.jp/entresquare/cabinet/stadler/7630850303902_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fentresquare%2F7630850303902%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fentresquare%2F7630850303902%2F",
     "amazon": "https://www.amazon.co.jp/s?k=Stadler%20Form%20Oliver%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22",
     "officialUrl": "https://stadlerform.jp/showroom/oliver/"
