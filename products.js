@@ -3683,9 +3683,9 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "モッズヘア",
-    "model": "MHD-12",
-    "name": "ダブルイオンヘアードライヤー",
-    "price": 4950,
+    "model": "MHD-1246",
+    "name": "アドバンススマート ダブルイオンヘアードライヤー",
+    "price": 5940,
     "size": [
       "s",
       "m"
@@ -3698,15 +3698,16 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "point": "サロン発ブランドを5千円以下で",
+    "point": "サロン発ブランドを6千円以下で",
     "features": [
       "ダブルイオンで静電気を抑える",
       "ヘアサロン発の人気ブランド",
       "手頃な価格でデザインも良い"
     ],
-    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000873/4968291313826_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4968291313826%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4968291313826%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0DJFBF7XH?tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/26_5/4968291313826_5.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4968291313826%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4968291313826%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=mod's%20hair%20MHD-1246-W&tag=tanosiikitaic-22",
+    "officialUrl": "https://mods-stylingtools.com/products/mhd-1246"
   },
   {
     "cat": "toothbrush",
