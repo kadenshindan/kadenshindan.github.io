@@ -1709,9 +1709,9 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-TB60",
+    "model": "EE-TC60",
     "name": "スチーム式加湿器 ハイパワー 4.0L",
-    "price": 37480,
+    "price": 27180,
     "size": [
       "m",
       "l"
@@ -1728,14 +1728,14 @@ const PRODUCTS = [
     "features": [
       "定格加湿能力600mL/h・タンク約4.0L",
       "適用床面積 木造和室〜10畳／プレハブ洋室〜17畳",
-      "連続加湿 強6h／中10h／弱20h",
-      "弱（静音）モードは約30dB",
+      "連続加湿 強6h／中10h／弱（静音）20h",
+      "消費電力 加湿時450W／湯沸かし立ち上げ時985W",
       "フィルター不要・広口容器でお手入れ簡単"
     ],
-    "img": "https://tshop.r10s.jp/14promo/cabinet/imgrc0103853607.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F14promo%2F20241226-39300%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FH9Q2RQG?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/assets/cms/materials/catalog_humidifier.pdf"
+    "img": "https://tshop.r10s.jp/auc-gion/cabinet/shopping312/ee-tc60-bm.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-gion%2Fee-tc60-bm%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-gion%2Fee-tc60-bm%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HGFKGF2N?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-tc/"
   },
   {
     "cat": "dehumidifier",
