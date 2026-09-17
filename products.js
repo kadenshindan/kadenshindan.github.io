@@ -4048,8 +4048,7 @@ const PRODUCTS = [
     "name": "プラズマクラスター加湿セラミックファンヒーター",
     "price": 22170,
     "size": [
-      "s",
-      "m"
+      "s"
     ],
     "focus": {
       "quiet": 2,
@@ -4079,8 +4078,7 @@ const PRODUCTS = [
     "name": "ナノイーX搭載セラミックファンヒーター",
     "price": 19900,
     "size": [
-      "s",
-      "m"
+      "s"
     ],
     "focus": {
       "quiet": 2,
@@ -4138,6 +4136,7 @@ const PRODUCTS = [
     "model": "DB-U12T",
     "name": "電気しき毛布 シングルSサイズ",
     "price": 6800,
+    "spot": true,
     "size": [
       "s"
     ],
@@ -4198,9 +4197,9 @@ const PRODUCTS = [
     "model": "DC-2NK",
     "name": "着せかえカーペット用ヒーター 2畳",
     "price": 11324,
+    "spot": true,
     "size": [
-      "s",
-      "m"
+      "s"
     ],
     "focus": {
       "quiet": 3,

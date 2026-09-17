@@ -610,6 +610,11 @@ const REALITY_NOTES = {
           "現実的なのは、<strong>エアコンを主役にして、電気の暖房は「足元」「体のまわり」を直接あたためる補助として使う</strong>組み合わせです。下の結果も、その前提でご覧ください。<br><br>" +
           "加湿器を併用すると体感温度が上がるので、暖房の設定温度を下げられます（湿度30%→60%で体感温度が約1.7℃上がるという試験結果があります）。"
   },
+  "heater:m": {
+    title: "先にお伝えしたいこと",
+    body: "<strong>8〜16畳のリビングを、電気の暖房器具だけで暖めるのは現実的ではありません。</strong>家庭のコンセント1口で使える電力が1,500Wまでのため、電気のヒーターはどれも「部屋全体」ではなく「人のまわり」を暖める力しかありません。<br><br>" +
+          "<strong>エアコンを主役にして、足元や体のまわりを補う1台として選ぶ</strong>のが現実的な使い方です。下の結果も、その前提でご覧ください。"
+  },
   "humidifier:l": {
     title: "先にお伝えしたいこと",
     body: "<strong>16畳以上に対応する加湿器は、3万円台後半から4万円台が相場です。</strong>大きな部屋をうるおすには、それだけタンクとファンが大きくなるためで、1〜2万円台にこのクラスの製品はほとんどありません。<br><br>" +
@@ -736,9 +741,43 @@ document.getElementById("backbtn").addEventListener("click", () => {
 // ===== スコアリング =====
 // 内訳(size/focus/budget)を保持したオブジェクトを返す。合計はtotalに入る。
 // 表示用の得点内訳(診断結果画面)はこの内訳をそのまま使う。
+// ===== 部屋の広さの適合度 =====
+// 「部屋の広さ」を聞くカテゴリ（air）では、畳数は物理的な制約なので特別に扱う。
+// 2026-09-17まで size は「一致=3点／不一致=0点」の2値だった。そのため聞かれた広さに
+// 合う商品が1つも無いと全員0点になり、広さがスコアに一切効かなくなっていた。
+// その結果「16畳以上のリビング」で電気しき毛布が1位に出る、という状態になっていた。
+const SIZE_ORDER = { s: 0, m: 1, l: 2 };
+const AIR_CATS = { circulator:1, fan:1, dehumidifier:1, purifier:1, heater:1, humidifier:1 };
+
+// その商品が、聞かれた広さに何段階足りないか（0 = 足りている）
+function sizeGap(p) {
+  if (p.size.includes(answers.size)) return 0;
+  const want = SIZE_ORDER[answers.size];
+  const max = Math.max.apply(null, p.size.map(x => SIZE_ORDER[x]));
+  if (max > want) return 0; // より広い範囲まで対応している＝実質足りている
+  return want - max;
+}
+
+// 並び順の第1キー。0 が先、1 が後。
+// ・spot=true（電気毛布・ホットカーペットなど、部屋ではなく体を直接あたためる器具）は
+//   〜8畳以外を選ばれたら必ず後ろへ回す。省エネ・静かさでは強いが「部屋を暖める」答えではないため。
+// ・2段階以上足りない商品も後ろへ回す。
+function fitTier(p) {
+  if (!AIR_CATS[answers.cat]) return 0;
+  if (p.spot) return answers.size === "s" ? 0 : 1;
+  return sizeGap(p) >= 2 ? 1 : 0;
+}
+
 function scoreProduct(p) {
   const d = { size: 0, focus: 0, budget: 0 };
-  if (p.size.includes(answers.size)) d.size = 3;
+  const gap = sizeGap(p);
+  if (gap === 0) {
+    d.size = 3;
+  } else if (AIR_CATS[answers.cat]) {
+    d.size = gap >= 2 ? -6 : 0;
+  } else {
+    d.size = gap >= 2 ? -1.5 : 0;
+  }
   d.focus = (p.focus[answers.focus] || 0) * 3;
   if (answers.focus2 && answers.focus2 !== "none") d.focus += (p.focus[answers.focus2] || 0) * 1.5;
   if (answers.budget === 0) {
@@ -803,8 +842,8 @@ function yen(n) {
 function showResult(forcedModel) {
   const candidates = PRODUCTS
     .filter(p => p.cat === answers.cat && p.img)
-    .map(p => ({ p, s: scoreProduct(p) })) // 同点は価格の安い順（結果は常に同じになります）
-    .sort((a, b) => b.s.total - a.s.total || a.p.price - b.p.price);
+    .map(p => ({ p, s: scoreProduct(p), t: fitTier(p) })) // 同点は価格の安い順（結果は常に同じになります）
+    .sort((a, b) => a.t - b.t || b.s.total - a.s.total || a.p.price - b.p.price);
 
   let winner = candidates[0].p;
   let winnerScore = candidates[0].s;
