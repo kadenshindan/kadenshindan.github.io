@@ -787,11 +787,16 @@ const SIZE_ORDER = { s: 0, m: 1, l: 2 };
 const AIR_CATS = { circulator:1, fan:1, dehumidifier:1, purifier:1, heater:1, humidifier:1 };
 
 // その商品が、聞かれた広さに何段階足りないか（0 = 足りている）
+// 【重要】「より大きいものは小さい部屋でも使える」という考え方が成り立つのは、
+// 質問が「部屋の広さ」のときだけ。24畳用の加湿器を8畳で使うのは問題ないが、
+// 一升炊きの炊飯器が1人暮らしに最適とは言えないし、家族4人向けの歯ブラシも同じ。
+// そのため air 以外のカテゴリは、従来どおり「一致しているかどうか」だけで判定する。
 function sizeGap(p) {
   if (p.size.includes(answers.size)) return 0;
+  if (!AIR_CATS[answers.cat]) return 1; // 人数・住まいの広さを聞くカテゴリは、一致しなければ一律「合っていない」
   const want = SIZE_ORDER[answers.size];
   const max = Math.max.apply(null, p.size.map(x => SIZE_ORDER[x]));
-  if (max > want) return 0; // より広い範囲まで対応している＝実質足りている
+  if (max > want) return 0; // より広い部屋まで対応している＝実質足りている
   return want - max;
 }
 
@@ -811,9 +816,9 @@ function scoreProduct(p) {
   if (gap === 0) {
     d.size = 3;
   } else if (AIR_CATS[answers.cat]) {
-    d.size = gap >= 2 ? -6 : 0;
+    d.size = gap >= 2 ? -6 : 0; // 2段階足りない＝その広さでは答えになっていない
   } else {
-    d.size = gap >= 2 ? -1.5 : 0;
+    d.size = 0; // 人数・住まいの広さ。2026-09-17以前と同じ挙動
   }
   d.focus = (p.focus[answers.focus] || 0) * 3;
   if (answers.focus2 && answers.focus2 !== "none") d.focus += (p.focus[answers.focus2] || 0) * 1.5;
