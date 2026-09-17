@@ -2484,6 +2484,37 @@ const PRODUCTS = [
   },
   {
     "cat": "humidifier",
+    "maker": "ダイニチ",
+    "model": "HD-RXT926",
+    "name": "ハイブリッド式加湿器 RXT TYPE",
+    "price": 39380,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "24畳まで対応の大容量を4万円以下で",
+    "features": [
+      "定格加湿能力860mL/h・タンク約6.3L",
+      "適用床面積 木造和室〜14.5畳／プレハブ洋室〜24畳",
+      "最小運転音13dB・「おやすみ快適」で就寝時も静か",
+      "eco運転なら消費電力283W（標準は470W）",
+      "外形寸法 37.5×37.5×21cm・約5.1kg"
+    ],
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001881/4951272037170_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272037170%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272037170%2F",
+    "amazon": "",
+    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/rxt2026/"
+  },
+  {
+    "cat": "humidifier",
     "maker": "Stadler Form",
     "model": "Oliver",
     "name": "ハイブリッド加湿器 Oliver",
