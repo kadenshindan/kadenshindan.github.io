@@ -230,12 +230,17 @@ $("saveBtn").addEventListener("click", () => {
   if (!$("f_point").value.trim()) return msg("ひとことポイントを入力してください。", false);
   if (features.length === 0) return msg("特徴を1行以上入力してください。", false);
 
-  const p = {
+  // 【2026-09-17修正】この画面にフォームが無い項目（amazon / officialUrl / spot など）を
+  // 消さないように、編集時は元の商品を土台にして上書きする。
+  // 以前は毎回オブジェクトを作り直していたため、1商品でも編集すると
+  // Amazonリンクとメーカー公式リンクが消えていた。
+  const base = (editIndex >= 0) ? Object.assign({}, products[editIndex]) : {};
+  const p = Object.assign(base, {
     cat: $("f_cat").value, maker: $("f_maker").value.trim(), model: $("f_model").value.trim(),
     name: $("f_name").value.trim(), price: +$("f_price").value, size,
     focus: { quiet:+$("f_quiet").value, power:+$("f_power").value, care:+$("f_care").value, eco:+$("f_eco").value, compact:+$("f_compact").value, multi:+$("f_multi").value },
     point: $("f_point").value.trim(), features,
-  };
+  });
   const img = $("f_img").value.trim(); if (img) p.img = img;
   const rk = toAffiliate($("f_rakuten").value); if (rk) p.rakuten = rk;
 
