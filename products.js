@@ -392,7 +392,8 @@ const PRODUCTS = [
       "省エネ性に優れたコロナ製",
       "日本製で安心の品質"
     ],
-    "officialUrl": "https://www.corona.co.jp/aircon/dehumidifier2/s/lineup.html"
+    "officialUrl": "https://www.corona.co.jp/aircon/dehumidifier2/s/lineup.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%99%A4%E6%B9%BF%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -421,7 +422,8 @@ const PRODUCTS = [
       "衣類乾燥モード搭載",
       "コンパクトで移動もラク"
     ],
-    "officialUrl": "https://jp.sharp/joshitsu/products/cv-u71/"
+    "officialUrl": "https://jp.sharp/joshitsu/products/cv-u71/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E9%99%A4%E6%B9%BF%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -510,7 +512,8 @@ const PRODUCTS = [
       "広範囲スイング送風",
       "梅雨の大量部屋干しに強い"
     ],
-    "officialUrl": "https://www.corona.co.jp/aircon/dehumidifier2/wh/lineup.html"
+    "officialUrl": "https://www.corona.co.jp/aircon/dehumidifier2/wh/lineup.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%99%A4%E6%B9%BF%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "purifier",
@@ -569,7 +572,8 @@ const PRODUCTS = [
       "スリムで置き場所を選ばない",
       "〜18畳対応"
     ],
-    "officialUrl": "https://jp.sharp/kuusei/products/fuu40/"
+    "officialUrl": "https://jp.sharp/kuusei/products/fuu40/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E7%A9%BA%E6%B0%97%E6%B8%85%E6%B5%84%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "purifier",
@@ -749,7 +753,8 @@ const PRODUCTS = [
       "軽量で扱いやすい",
       "静電モップ付きモデルも選べる"
     ],
-    "officialUrl": "https://www.irisohyama.co.jp/products/support/4967576732918"
+    "officialUrl": "https://www.irisohyama.co.jp/products/support/4967576732918",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E6%8E%83%E9%99%A4%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "vacuum",
@@ -927,7 +932,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/relief10/cabinet/10023451/12065965/b0bxdc3417-1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiikakakustore%2Fb0bxdc3417%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fiikakakustore%2Fb0bxdc3417%2F",
-    "officialUrl": "https://www.ankerjapan.com/products/t2250"
+    "officialUrl": "https://www.ankerjapan.com/products/t2250",
+    "amazon": "https://www.amazon.co.jp/s?k=Anker%20Eufy%20%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E6%8E%83%E9%99%A4%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -1016,7 +1022,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/seishinjapan/cabinet/k0001636884.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F",
-    "officialUrl": "https://www.edion.com/detail.html?p_cd=00078611269"
+    "officialUrl": "https://www.edion.com/detail.html?p_cd=00078611269",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -1438,7 +1445,8 @@ const PRODUCTS = [
       "押し付け防止センサーが赤・緑・白で圧をガイド",
       "公式現行のiOシリーズ エントリーモデル"
     ],
-    "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-4-electric-toothbrush"
+    "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-4-electric-toothbrush",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20%E9%9B%BB%E5%8B%95%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7&tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -1526,7 +1534,8 @@ const PRODUCTS = [
       "充電しながら除菌できるケース付き",
       "口腔ケアを極めたい人へ"
     ],
-    "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-10-electric-toothbrush"
+    "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-10-electric-toothbrush",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20%E9%9B%BB%E5%8B%95%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7&tag=tanosiikitaic-22"
   },
   {
     "cat": "circulator",
@@ -1584,7 +1593,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/mujirushi-ryohin/cabinet/item34/4550584865336.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550584865336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmujirushi-ryohin%2F4550584865336%2F",
-    "officialUrl": "https://www.muji.com/jp/ja/store/cmdty/detail/4550584865336"
+    "officialUrl": "https://www.muji.com/jp/ja/store/cmdty/detail/4550584865336",
+    "amazon": ""
   },
   {
     "cat": "fan",
@@ -1613,7 +1623,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/ei-one/cabinet/syouhin_seikatu/03265069/imgrc0137633654.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550556198226%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4550556198226%2F",
-    "officialUrl": "https://jp.sharp/pci_fan/products/pj-u3ds/spec/"
+    "officialUrl": "https://jp.sharp/pci_fan/products/pj-u3ds/spec/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E6%89%87%E9%A2%A8%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
@@ -2421,7 +2432,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9201/4904530144356.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530144356%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530144356%2F",
-    "officialUrl": "https://www.toshiba-lifestyle.com/jp/fans/"
+    "officialUrl": "https://www.toshiba-lifestyle.com/jp/fans/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E6%9D%B1%E8%8A%9D%20%E6%89%87%E9%A2%A8%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "fan",
@@ -2480,7 +2492,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/81_5/4951272036081_5.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F",
-    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/lx2025/"
+    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/lx2025/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%82%A4%E3%83%8B%E3%83%81%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
@@ -2775,7 +2788,8 @@ const PRODUCTS = [
       "山善公式ストアで購入可"
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/020/main-t0f25.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
     "cat": "kettle",
@@ -2893,7 +2907,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/fastep/cabinet/09581633/imgrc0115029990.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffastep%2Fft-1009%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffastep%2Fft-1009%2F",
-    "officialUrl": "https://online-shop.kinujo.jp/view/item/000000000015"
+    "officialUrl": "https://online-shop.kinujo.jp/view/item/000000000015",
+    "amazon": "https://www.amazon.co.jp/s?k=KINUJO%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -2922,7 +2937,8 @@ const PRODUCTS = [
       "6千円以下の高コスパ"
     ],
     "img": "https://tshop.r10s.jp/atomya/cabinet/bte02/nb_dr_nb1906_m01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fatomya%2Fnb-dr-fps-ec%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%86%E3%82%B9%E3%82%B3%E3%83%A0%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -3072,7 +3088,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/pics/998/0-4573637000485.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4573637000485%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4573637000485%2F",
-    "officialUrl": "https://www.mitsubishielectric.co.jp/home/jyoshitsuki/product/mj-m120zx/"
+    "officialUrl": "https://www.mitsubishielectric.co.jp/home/jyoshitsuki/product/mj-m120zx/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E4%B8%89%E8%8F%B1%E9%9B%BB%E6%A9%9F%20%E8%A1%A3%E9%A1%9E%E4%B9%BE%E7%87%A5%E9%99%A4%E6%B9%BF%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "dehumidifier",
@@ -3278,7 +3295,8 @@ const PRODUCTS = [
       "公式店は2年保証付き"
     ],
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/10172579/12541977/imgrc0117628162.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
     "cat": "ricecooker",
@@ -3396,7 +3414,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/holistic-cures/cabinet/mg/0000mg_0001.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F",
-    "officialUrl": "https://item.rakuten.co.jp/holistic-cures/mhp-dryer0/"
+    "officialUrl": "https://item.rakuten.co.jp/holistic-cures/mhp-dryer0/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%83%98%E3%82%A2%E3%83%97%E3%83%AD%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=tanosiikitaic-22"
   },
   {
     "cat": "dryer",
@@ -3509,7 +3528,8 @@ const PRODUCTS = [
       "コンパクトで置き場所自由"
     ],
     "img": "https://tshop.r10s.jp/bluxe-store/cabinet/thumb/cfaz2601_main.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F"
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbluxe-store%2Fcfaz2601%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%AA%E3%83%BC%E3%82%A2%E3%83%83%E3%83%97%20%E3%82%B5%E3%83%BC%E3%82%AD%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%BF%E3%83%BC&tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
@@ -3537,7 +3557,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705516.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F",
-    "officialUrl": "https://www.irisohyama.co.jp/products/support/4967576705516"
+    "officialUrl": "https://www.irisohyama.co.jp/products/support/4967576705516",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
     "cat": "purifier",
@@ -3595,7 +3616,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/winkstore/cabinet/269000/268918.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F268918%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F268918%2F",
-    "officialUrl": "https://jp.sharp/souji/products/ecar11/spec/"
+    "officialUrl": "https://jp.sharp/souji/products/ecar11/spec/",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E6%8E%83%E9%99%A4%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -3766,7 +3788,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000675/4210201442233_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4210201442233%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4210201442233%2F",
-    "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-5-electric-toothbrush"
+    "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-5-electric-toothbrush",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20%E9%9B%BB%E5%8B%95%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7&tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -4008,7 +4031,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/harika-hanno/cabinet/2023to/p254-277/20230612073638.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/stan/product/ricecooker/nw-sa.html"
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/stan/product/ricecooker/nw-sa.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
@@ -4098,7 +4122,8 @@ const PRODUCTS = [
       "37.9×23.5×14.0cm(高さ×幅×奥行)",
       "電気代 強 約36.3円/h(31円/kWh換算・室温15℃)"
     ],
-    "officialUrl": "https://panasonic.jp/danbo/products/DS-FZX1200/spec.html"
+    "officialUrl": "https://panasonic.jp/danbo/products/DS-FZX1200/spec.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20%E3%82%BB%E3%83%A9%E3%83%9F%E3%83%83%E3%82%AF%E3%83%95%E3%82%A1%E3%83%B3%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC&tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -4158,7 +4183,8 @@ const PRODUCTS = [
       "標準表面温度 強51℃/中37℃",
       "コントローラーを外して丸洗い可"
     ],
-    "officialUrl": "https://panasonic.jp/danbo/comparison.html"
+    "officialUrl": "https://panasonic.jp/danbo/comparison.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20%E9%9B%BB%E6%B0%97%E6%95%B7%E6%AF%9B%E5%B8%83&tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -4283,7 +4309,8 @@ const PRODUCTS = [
       "高さ718×幅343×奥行293mm / 6.3kg・日本製",
       "電気代 強 約35.7円/h（31円/kWh換算）"
     ],
-    "officialUrl": "https://www.corona.co.jp/heating/coreheat/coreheat/lineup.html"
+    "officialUrl": "https://www.corona.co.jp/heating/coreheat/coreheat/lineup.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96&tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -4313,6 +4340,7 @@ const PRODUCTS = [
       "転倒オフスイッチ・過熱防止装置つき（日本製）",
       "電気代 強 約27.9円/h（31円/kWh換算）"
     ],
-    "officialUrl": "https://www.corona.co.jp/heating/coreheat/slimcarbon/lineup.html"
+    "officialUrl": "https://www.corona.co.jp/heating/coreheat/slimcarbon/lineup.html",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96&tag=tanosiikitaic-22"
   }
 ];
