@@ -709,7 +709,7 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "img": "https://img1.kakaku.k-img.com/images/productimage/fullscale/K0001564385.jpg",
+    "img": "https://tshop.r10s.jp/mobileshop1/cabinet/622356274975.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmobileshop1%2F622356274975%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmobileshop1%2F622356274975%2F",
     "point": "自動ゴミ収集ドック付きのハイエンド機",
     "features": [
