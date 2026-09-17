@@ -234,6 +234,7 @@
   }
   .second-choice-box .sc-title { font-weight: bold; color: #4a63b3; margin-bottom: 4px; display: block; }
   .cta-row { display: flex; gap: 10px; margin-top: 16px; }
+  .cta-row .cta { flex: 1; }
   .official-link {
     display: block;
     text-align: center;
@@ -773,6 +774,9 @@ const RAKUTEN_AFF_ID = "5600500c.eee1bd55.5600500d.dffe8316";
 // AmazonアソシエイトのトラッキングID(例: "ren1020-22")。取得したらここに入れるだけで全リンクに適用されます
 const AMAZON_TAG = "tanosiikitaic-22";
 
+// amazon が空文字("")の商品は「Amazonに該当の出品が無いことを確認済み」という意味。
+// 当てずっぽうの検索リンクを出すと読者が別の型番にたどり着くので、リンク自体を出さない。
+function hasAmazon(p) { return p.amazon !== ""; }
 function amazonLink(p) {
   if (p.amazon) return p.amazon;
   let url = "https://www.amazon.co.jp/s?k=" + encodeURIComponent(p.maker + " " + p.model);
@@ -916,7 +920,13 @@ function showResult(forcedModel) {
     secondBox.style.display = "none";
   }
 
-  document.getElementById("winAmazon").href = amazonLink(winner);
+  const winAmazonEl = document.getElementById("winAmazon");
+  if (hasAmazon(winner)) {
+    winAmazonEl.href = amazonLink(winner);
+    winAmazonEl.style.display = "";
+  } else {
+    winAmazonEl.style.display = "none";
+  }
   document.getElementById("winRakuten").href = rakutenLink(winner);
 
   // メーカー公式ページへのリンク(officialUrlがある商品のみ表示。ない場合は何も出さない)
@@ -947,7 +957,7 @@ function showResult(forcedModel) {
         "<div class='rank-price'>" + yen(p.price) + "</div>" +
       "</div>" +
       "<div class='rank-ctas'>" +
-        "<a class='am' href='" + amazonLink(p) + "' target='_blank' rel='noopener sponsored'>Amazon</a>" +
+        (hasAmazon(p) ? "<a class='am' href='" + amazonLink(p) + "' target='_blank' rel='noopener sponsored'>Amazon</a>" : "") +
         "<a class='rk' href='" + rakutenLink(p) + "' target='_blank' rel='noopener sponsored'>楽天</a>" +
       "</div>";
     rankList.appendChild(item);
