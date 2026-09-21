@@ -3563,9 +3563,9 @@ const PRODUCTS = [
   {
     "cat": "purifier",
     "maker": "シャープ",
-    "model": "KI-TX100",
-    "name": "プレミアム加湿空気清浄機 KI-TX100",
-    "price": 86500,
+    "model": "KI-UX100",
+    "name": "プレミアム加湿空気清浄機 KI-UX100",
+    "price": 73000,
     "size": [
       "l"
     ],
@@ -3584,10 +3584,10 @@ const PRODUCTS = [
       "最大加湿量1,100mL/h・タンク約4.3L",
       "ホコリ・照度まで見る5種センサーとAIモニター"
     ],
-    "img": "https://tshop.r10s.jp/seishinjapan/cabinet/k0001650140.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4550556135689%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4550556135689%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0F4JRGMDZ?tag=tanosiikitaic-22",
-    "officialUrl": "https://jp.sharp/support/air_purifier/lineup/kiux100_tx100_spec.html"
+    "img": "https://tshop.r10s.jp/a-denki/cabinet/shouhingazou/13/76801.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F76801%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F76801%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HK1483N1?tag=tanosiikitaic-22",
+    "officialUrl": "https://jp.sharp/kuusei/products/kiux100/"
   },
   {
     "cat": "vacuum",
