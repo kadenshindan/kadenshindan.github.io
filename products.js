@@ -2196,35 +2196,6 @@ const PRODUCTS = [
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%87%E3%83%AD%E3%83%B3%E3%82%AE%20%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB&tag=tanosiikitaic-22"
   },
   {
-    "cat": "kettle",
-    "maker": "ラッセルホブス",
-    "model": "カフェケトル",
-    "name": "カフェケトル ステンレス",
-    "price": 8800,
-    "size": [
-      "s",
-      "m"
-    ],
-    "focus": {
-      "quiet": 2,
-      "power": 3,
-      "care": 2,
-      "eco": 2,
-      "compact": 2,
-      "multi": 1
-    },
-    "point": "注ぎやすさに定評のあるステンレスケトル",
-    "features": [
-      "湯量をコントロールしやすい注ぎ口",
-      "保温性の高いステンレス構造",
-      "沸騰が速い",
-      "カフェのような佇まい"
-    ],
-    "img": "https://tshop.r10s.jp/levenmarqt/cabinet/russelhobbs/ru0004c.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaguzaku%2Frh-7013jp%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaguzaku%2Frh-7013jp%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B09F2RBJVQ?tag=tanosiikitaic-22"
-  },
-  {
     "cat": "dryer",
     "maker": "リファ",
     "model": "ビューテック ドライヤースマート",
@@ -2736,9 +2707,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "東芝",
-    "model": "RC-10VRV",
-    "name": "真空IH炊飯器 銅かまど 5.5合",
-    "price": 27550,
+    "model": "RC-10RXB",
+    "name": "真空IH炊飯器 炎匠炊き 5.5合",
+    "price": 26230,
     "size": [
       "m",
       "l"
@@ -2753,15 +2724,15 @@ const PRODUCTS = [
     },
     "point": "真空技術でお米の芯まで吸水",
     "features": [
-      "真空ひたしで甘み・うまみを引き出す",
-      "真空保温で40時間おいしさキープ",
-      "銅かまど釜の高火力",
-      "保温重視の家庭に最適"
+      "真空ひたしでお米の芯まで吸水",
+      "真空保温に対応",
+      "銅かまど丸釜の高火力",
+      "2026年6月発売の現行モデル"
     ],
-    "img": "https://tshop.r10s.jp/superdeal/cabinet/yamada/2024/11424131/4904530120107_00.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenitselect%2F4904530120114%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenitselect%2F4904530120114%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0DNY7TZZG?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.toshiba-lifestyle.com/jp/rice-cookers/rc-10vrv/spec/"
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9216/4904530136238.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530136238%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530136238%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0H4XTX3MN?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.toshiba-lifestyle.com/jp/rice-cookers/rc-10rxb/spec/"
   },
   {
     "cat": "ricecooker",
@@ -3679,8 +3650,8 @@ const PRODUCTS = [
     "cat": "ricecooker",
     "maker": "シャープ",
     "model": "KS-CF05B",
-    "name": "IHジャー炊飯器 3合",
-    "price": 8580,
+    "name": "ジャー炊飯器 3合（マイコン式）",
+    "price": 7980,
     "size": [
       "s"
     ],
@@ -3692,9 +3663,10 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "9千円以下のIH3合、デザインもシンプル",
+    "point": "8千円以下のマイコン3合、黒厚釜でふっくら",
     "features": [
-      "9千円以下でIH炊飯",
+      "黒厚釜＋球面炊きでふっくら炊ける",
+      "玄米・雑穀米の炊き分けメニュー付き",
       "キッチンに馴染むシンプルデザイン",
       "一人暮らしにちょうどいい3合"
     ],
@@ -4006,9 +3978,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "象印",
-    "model": "NW-SA10",
+    "model": "NW-SB10",
     "name": "STAN. IH炊飯ジャー",
-    "price": 39600,
+    "price": 32490,
     "size": [
       "s",
       "m",
@@ -4024,15 +3996,15 @@ const PRODUCTS = [
     },
     "point": "インテリアになじむSTAN.デザインのIH炊飯器",
     "features": [
-      "フラットでお手入れ簡単",
-      "落ち着いたマットデザイン",
-      "わたし好み炊き分け",
+      "フラットな本体で拭き取りが簡単",
+      "内ぶたは食器洗い乾燥機に対応",
+      "白米炊き分け3コース",
       "5.5合炊き"
     ],
-    "img": "https://tshop.r10s.jp/harika-hanno/cabinet/2023to/p254-277/20230612073638.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftno%2Fnw-sa10%2F",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/stan/product/ricecooker/nw-sa.html",
-    "amazon": "https://www.amazon.co.jp/s?k=%E8%B1%A1%E5%8D%B0%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
+    "img": "https://tshop.r10s.jp/jhb-trade/cabinet/listing-man0002/4974305230768-1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjhb-trade%2F4974305230768%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjhb-trade%2F4974305230768%2F",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/stan/product/ricecooker/nw-sb.html",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH6CPYXY?tag=tanosiikitaic-22"
   },
   {
     "cat": "toothbrush",
