@@ -187,7 +187,7 @@ const PRODUCTS = [
     "maker": "バルミューダ",
     "model": "EGF-1800",
     "name": "The GreenFan",
-    "price": 30750,
+    "price": 27900,
     "size": [
       "s",
       "m",
@@ -201,8 +201,8 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/a-denki/cabinet/shouhingazou/6/71779.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F71779%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F71779%2F",
+    "img": "https://tshop.r10s.jp/a-price/cabinet/pics/702/4560330111532.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4560330111532%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4560330111532%2F",
     "point": "自然界の風を再現した高級扇風機の代名詞",
     "features": [
       "二重構造の羽根で面で広がる自然な風",
@@ -371,7 +371,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "CD-S6326",
     "name": "コンプレッサー式除湿機 6.3L",
-    "price": 26800,
+    "price": 24986,
     "size": [
       "s"
     ],
@@ -384,7 +384,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9193/4906128569336.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4906128569336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4906128569336%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128569336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128569336%2F",
     "point": "一人暮らしの部屋干しにちょうどいい定番機",
     "features": [
       "6.3L/日でワンルームに最適",
@@ -1511,7 +1511,7 @@ const PRODUCTS = [
     "maker": "ブラウン",
     "model": "iOM10442ADCB",
     "name": "オーラルB iO10",
-    "price": 48860,
+    "price": 49800,
     "size": [
       "s",
       "m",
@@ -1526,7 +1526,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/akibasoko/cabinet/imgrc0085601581.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakibasoko%2F4987176160720%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakibasoko%2F4987176160720%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F4987176160720%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fvictoryslife%2F4987176160720%2F",
     "point": "AIガイド付きの最上位フラッグシップ",
     "features": [
       "AIが磨き残しをリアルタイム表示",
@@ -1744,7 +1744,7 @@ const PRODUCTS = [
       "フィルター不要・広口容器でお手入れ簡単"
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9303/4974305232502.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4974305232502%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4974305232502%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305232502%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305232502%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0HGFKGF2N?tag=tanosiikitaic-22",
     "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-tc/"
   },
@@ -2709,7 +2709,7 @@ const PRODUCTS = [
     "maker": "東芝",
     "model": "RC-10RXB",
     "name": "真空IH炊飯器 炎匠炊き 5.5合",
-    "price": 26230,
+    "price": 29299,
     "size": [
       "m",
       "l"
@@ -2730,7 +2730,7 @@ const PRODUCTS = [
       "2026年6月発売の現行モデル"
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9216/4904530136238.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530136238%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4904530136238%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4904530136238%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4904530136238%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0H4XTX3MN?tag=tanosiikitaic-22",
     "officialUrl": "https://www.toshiba-lifestyle.com/jp/rice-cookers/rc-10rxb/spec/"
   },
@@ -3067,7 +3067,7 @@ const PRODUCTS = [
     "maker": "トヨトミ",
     "model": "TD-C60R",
     "name": "コンプレッサー式除湿機 6L",
-    "price": 17190,
+    "price": 17930,
     "size": [
       "s",
       "m"
@@ -3087,8 +3087,8 @@ const PRODUCTS = [
       "シンプルで使いやすい操作性",
       "日本の老舗メーカー製"
     ],
-    "img": "https://tshop.r10s.jp/mellow/cabinet/mellow0509/shouhin8/td-c60r-w.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmellow%2Ftd-c60r-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmellow%2Ftd-c60r-w%2F",
+    "img": "https://tshop.r10s.jp/a-price/cabinet/pics/1215/4963505218799.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4963505218799%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4963505218799%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0C5DJV9S4?tag=tanosiikitaic-22",
     "officialUrl": "https://www.toyotomi.jp/products/air/clothes-drying/td-c60"
   },
@@ -3186,7 +3186,7 @@ const PRODUCTS = [
     "maker": "ILIFE",
     "model": "V9 Pro",
     "name": "ILIFE V9 Pro ロボット掃除機",
-    "price": 17626,
+    "price": 25717,
     "size": [
       "s",
       "m"
@@ -3199,7 +3199,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "1万円台で自動ゴミ収集付きの高コスパモデル",
+    "point": "2万円台で自動ゴミ収集付きの高コスパモデル",
     "features": [
       "自動ゴミ収集ドック付きでこの価格帯",
       "吸引+水拭き対応の2in1",
@@ -3333,7 +3333,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "CK-DC10",
     "name": "電気ケトル 1.0L",
-    "price": 7069,
+    "price": 6424,
     "size": [
       "s",
       "m"
@@ -3346,15 +3346,15 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "7千円台で象印の安心安全設計",
+    "point": "6千円台で象印の安心安全設計",
     "features": [
       "転倒湯もれ防止構造(新安全基準適合品)",
       "本体が熱くなりにくい二重構造",
       "1.0Lの使いやすいサイズ",
-      "7千円台の高コスパ"
+      "6千円台の高コスパ"
     ],
-    "img": "https://tshop.r10s.jp/try3/cabinet/11147956/11928062/4974305230935.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230942%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4974305230942%2F",
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/42_5/4974305230942_5.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FH6FR9HR?tag=tanosiikitaic-22",
     "officialUrl": "https://www.zojirushi-direct.com/category/ELECTRIC_KETTLE/CKDC10_WA.html"
   },
@@ -3680,7 +3680,7 @@ const PRODUCTS = [
     "maker": "ティファール",
     "model": "KO8608J0",
     "name": "アプレシア ロック コントロール 0.8L",
-    "price": 8800,
+    "price": 10067,
     "size": [
       "s",
       "m"
@@ -3700,8 +3700,8 @@ const PRODUCTS = [
       "転倒お湯もれロック搭載",
       "容量0.8Lの軽量コンパクト設計"
     ],
-    "img": "https://tshop.r10s.jp/hdirect/cabinet/a2025/560-ko8608j0-01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhdirect%2F560-ko8608j0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhdirect%2F560-ko8608j0%2F",
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001501/3045387296971_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F3045387296971%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F3045387296971%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FMWMY986?tag=tanosiikitaic-22",
     "officialUrl": "https://www.t-fal.co.jp/kettle/products/aprecia-lock-control-7211419697/"
   },
