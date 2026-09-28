@@ -218,7 +218,7 @@ const PRODUCTS = [
     "maker": "ツインバード",
     "model": "EF-E995W",
     "name": "サーキュレーション扇風機3D Lite",
-    "price": 17800,
+    "price": 13283,
     "size": [
       "s",
       "m"
@@ -238,8 +238,8 @@ const PRODUCTS = [
       "11枚羽根「エクセルブレード」で大風量",
       "羽根とガードは水洗いできる"
     ],
-    "img": "https://tshop.r10s.jp/twinbird/cabinet/06297082/59951/59951.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftwinbird%2F59951%2F",
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9135/4975058599515.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4975058599515%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4975058599515%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F3N3WD64?tag=tanosiikitaic-22",
     "officialUrl": "https://store.twinbird.jp/products/efe995"
   },
@@ -278,7 +278,7 @@ const PRODUCTS = [
     "maker": "日立",
     "model": "HEF-DL300H",
     "name": "DC扇風機 うちわ風搭載",
-    "price": 16780,
+    "price": 18133,
     "size": [
       "m",
       "l"
@@ -292,7 +292,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9192_01/4526044017645_01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4526044017645%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4526044017645%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4526044017645%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4526044017645%2F",
     "point": "うちわのようなやさしい風が特徴",
     "features": [
       "独自の「うちわ風」機能",
@@ -2679,7 +2679,7 @@ const PRODUCTS = [
     "maker": "日立",
     "model": "RZ-V100JM",
     "name": "圧力&スチームIH炊飯器 ふっくら御膳 RZ-V100JM 5.5合",
-    "price": 33330,
+    "price": 31588,
     "size": [
       "m",
       "l"
@@ -2700,7 +2700,7 @@ const PRODUCTS = [
       "日立の人気シリーズ"
     ],
     "img": "https://tshop.r10s.jp/ai-corporation/cabinet/compass1751975060.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4549873213699%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F4549873213699%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F267993%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F267993%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FC655FF7?tag=tanosiikitaic-22",
     "officialUrl": "https://kadenfan.hitachi.co.jp/kitchen/lineup/rzv100jm/"
   },
@@ -3236,7 +3236,7 @@ const PRODUCTS = [
       "お手入れ点数が少なく簡単",
       "パナソニック公式ストアで購入可"
     ],
-    "img": "https://tshop.r10s.jp/applied2/cabinet/dskuma/ds20260108/4549980974193.jpg",
+    "img": "https://tshop.r10s.jp/a-denki/cabinet/shouhingazou/13/77108.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fapplied2%2F4549980974193-ds%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fapplied2%2F4549980974193-ds%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FHPG2PJS?tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/suihan/products/SR-X710D.html"
