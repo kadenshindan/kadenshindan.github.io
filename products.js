@@ -306,9 +306,9 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-DF50",
+    "model": "EE-DG50",
     "name": "スチーム式加湿器 4.0L",
-    "price": 25979,
+    "price": 22450,
     "size": [
       "s",
       "m"
@@ -321,9 +321,9 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/compmoto-r/cabinet/gf00050/4974305231123.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcompmoto-r%2F4974305231123%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fcompmoto-r%2F4974305231123%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FH8WJXRM?tag=tanosiikitaic-22",
+    "img": "https://tshop.r10s.jp/fansfactory/cabinet/images258/4974305232533_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffansfactory%2F4974305232533%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffansfactory%2F4974305232533%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HGF5B9D8?tag=tanosiikitaic-22",
     "point": "フィルターレスで手入れが圧倒的にラク。リビング向けの4.0L",
     "features": [
       "定格加湿能力480mL/h・タンク約4.0L",
@@ -333,14 +333,14 @@ const PRODUCTS = [
       "消費電力 湯沸かし985W／加湿410W",
       "外形寸法 24×27.5×36.5cm・約2.9kg"
     ],
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-df/"
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-dg/"
   },
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-DF35",
+    "model": "EE-DG35",
     "name": "スチーム式加湿器 3.0L",
-    "price": 21580,
+    "price": 22380,
     "size": [
       "s"
     ],
@@ -352,9 +352,9 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/zojirushi-direct/cabinet/compass1760490831.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmttstore%2Feedf35ha-4974305231116%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmttstore%2Feedf35ha-4974305231116%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FH97RNLP?tag=tanosiikitaic-22",
+    "img": "https://tshop.r10s.jp/jhb-trade/cabinet/13438392/imgrc0134231627.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjhb-trade%2F4974305232519%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjhb-trade%2F4974305232519%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HGF9J1MT?tag=tanosiikitaic-22",
     "point": "寝室・個室向けのコンパクトなスチーム式",
     "features": [
       "定格加湿能力350mL/h・タンク約3.0L",
@@ -364,7 +364,7 @@ const PRODUCTS = [
       "消費電力 湯沸かし985W／加湿305W",
       "外形寸法 24×27.5×32.5cm・約2.7kg"
     ],
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-df/"
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-dg/"
   },
   {
     "cat": "dehumidifier",
@@ -2440,9 +2440,9 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "ダイニチ",
-    "model": "HD-LX1025",
+    "model": "HD-LX1026",
     "name": "ハイブリッド式加湿器 LX TYPE",
-    "price": 41580,
+    "price": 40959,
     "size": [
       "l"
     ],
@@ -2461,9 +2461,9 @@ const PRODUCTS = [
       "タンク・トレイが洗いやすい設計",
       "加湿器シェア上位ダイニチの上位機"
     ],
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/81_5/4951272036081_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4951272036081%2F",
-    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/lx2025/",
+    "img": "https://tshop.r10s.jp/cuticle/cabinet/kaden/x-0/x-43/4951272037248_0.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuticle%2F4951272037248%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fcuticle%2F4951272037248%2F",
+    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/lx2026/",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%80%E3%82%A4%E3%83%8B%E3%83%81%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
