@@ -2053,7 +2053,7 @@ const PRODUCTS = [
     "maker": "アイロボット",
     "model": "Roomba 105 Combo",
     "name": "ルンバ 105 Combo",
-    "price": 39761,
+    "price": 24800,
     "size": [
       "s",
       "m"
@@ -2074,7 +2074,7 @@ const PRODUCTS = [
       "初めてのロボット掃除機に"
     ],
     "img": "https://tshop.r10s.jp/irobotstore/cabinet/03016688/20260719_marathon/260719_105c_tm.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firobotstore%2Fy31%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0885155046659%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbiccamera%2F0885155046659%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F1FCG28P?tag=tanosiikitaic-22",
     "officialUrl": "https://store.irobot-jp.com/item/Y311260.html"
   },
@@ -3180,36 +3180,6 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0BQXCZX1D?tag=tanosiikitaic-22",
     "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pkv-bk3k/"
-  },
-  {
-    "cat": "robot",
-    "maker": "ILIFE",
-    "model": "V9 Pro",
-    "name": "ILIFE V9 Pro ロボット掃除機",
-    "price": 25717,
-    "size": [
-      "s",
-      "m"
-    ],
-    "focus": {
-      "quiet": 2,
-      "power": 2,
-      "care": 3,
-      "eco": 3,
-      "compact": 2,
-      "multi": 2
-    },
-    "point": "2万円台で自動ゴミ収集付きの高コスパモデル",
-    "features": [
-      "自動ゴミ収集ドック付きでこの価格帯",
-      "吸引+水拭き対応の2in1",
-      "紙パック5枚付属で最長300日ゴミ捨て不要",
-      "ジャイロナビで衝突・落下を検知しながら走行"
-    ],
-    "img": "https://tshop.r10s.jp/daily-store/cabinet/g/49/e9gjji6spf-2.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaily-store%2Fgr-e9gjji6spf%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaily-store%2Fgr-e9gjji6spf%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0D66LJV5Z?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.iliferobot.com/mobile/products/V9Pro/"
   },
   {
     "cat": "ricecooker",
