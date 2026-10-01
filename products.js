@@ -3502,6 +3502,68 @@ const PRODUCTS = [
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
+    "cat": "humidifier",
+    "maker": "ダイニチ",
+    "model": "HD-C500H",
+    "name": "ハイブリッド式加湿器 C TYPE 4.0L",
+    "price": 18165,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "2万円以下で買えるダイニチのハイブリッド式。eco運転なら11W",
+    "features": [
+      "加湿量 標準500mL/h（静音375／eco365mL/h）・タンク約4.0L",
+      "適用床面積 木造和室〜8.5畳／プレハブ洋室〜14畳",
+      "消費電力 標準163W／eco運転11W（eco時 約0.34円/h）",
+      "運転音 最小15dB・連続加湿 標準8.0h／eco11.0h",
+      "外形寸法 37.5×37.5×19cm・約4.5kg"
+    ],
+    "img": "https://tshop.r10s.jp/jetprice/cabinet/cz8/6117ba.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetprice%2Fx298tp%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetprice%2Fx298tp%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH9XNYMQ?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/c2025/"
+  },
+  {
+    "cat": "humidifier",
+    "maker": "パナソニック",
+    "model": "FE-KF07D",
+    "name": "ヒーターレス気化式加湿機",
+    "price": 27848,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 3,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "ヒーターを使わない気化式。強運転でも11W、電気代は月約84円",
+    "features": [
+      "加湿量 強700mL/h（速効800mL/h）・タンク約4.2L",
+      "適用床面積 木造和室〜12畳／プレハブ洋室〜19畳",
+      "消費電力 強11W／静音1.6W（1か月の電気代 約84円・メーカー公表）",
+      "運転音 静音15dB〜速効44dB・フィルターは月1回の手洗いで交換目安約10年",
+      "外形寸法 37.5×37.5×18cm・約4.7kg"
+    ],
+    "img": "https://tshop.r10s.jp/ecjoy/cabinet/image1439/22249226.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecjoy%2F22249226%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecjoy%2F22249226%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B08R1X3PFP?tag=tanosiikitaic-22",
+    "officialUrl": "https://panasonic.jp/kashitsu/products/FE-KF07D.html"
+  },
+  {
     "cat": "purifier",
     "maker": "シャープ",
     "model": "KI-UX100",
@@ -4284,5 +4346,66 @@ const PRODUCTS = [
     ],
     "officialUrl": "https://www.corona.co.jp/heating/coreheat/slimcarbon/lineup.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96&tag=tanosiikitaic-22"
+  },
+  {
+    "cat": "heater",
+    "maker": "アイリスオーヤマ",
+    "model": "APH-16B-H",
+    "name": "デスクパネルヒーター",
+    "price": 7350,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 1,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "spot": true,
+    "point": "机の下を囲って足元だけ暖める。160Wで1時間 約5.0円",
+    "features": [
+      "消費電力160W（1時間 約5.0円・31円/kWh換算）",
+      "温度調節5段階（強 約55℃）・6時間で自動OFF",
+      "幅45×奥行30×高さ48cm・約1.7kg、折りたたんで収納できる",
+      "風が出ないので音が静かで、空気も乾かさない"
+    ],
+    "img": "https://tshop.r10s.jp/a-price/cabinet/pics/592/4967576672061.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4967576672061%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4967576672061%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CGTKQS9M?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/for-feet-heating-appliances/desk-heater/desk-panel-heater"
+  },
+  {
+    "cat": "heater",
+    "maker": "ダイニチ",
+    "model": "FW-32S7",
+    "name": "石油ファンヒーター S TYPE",
+    "price": 22800,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 1,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "部屋全体を暖めたいなら灯油。木造9畳・コンクリート12畳まで",
+    "features": [
+      "暖房出力 3.20〜0.74kW（灯油）・木造9畳／コンクリート12畳まで",
+      "電気は大火力98W／小火力52W（点火時370W）・着火約35秒",
+      "タンク5.0Lで連続16.1〜69.4時間",
+      "消し忘れ消火・対震自動消火・不完全燃焼防止つき、本体3年保証",
+      "灯油の補給と1時間に1〜2回の換気が必要。賃貸は使用可能か要確認"
+    ],
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001881/4951272036753_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272036753%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272036753%2F",
+    "amazon": "",
+    "officialUrl": "https://www.dainichi-net.co.jp/products/fanheater/lineup/s2026/"
   }
 ];
