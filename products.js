@@ -1,4 +1,4 @@
-// 商品データ(admin.htmlで編集できます)
+// 商品データ（AIの定期作業が管理。旧 admin.html は2026-10-02に廃止）
 const PRODUCTS = [
   {
     "cat": "circulator",
