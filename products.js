@@ -67,7 +67,7 @@ const PRODUCTS = [
     "maker": "シャーク",
     "model": "FA222J",
     "name": "FlexBreeze コードレスサーキュレーターファン",
-    "price": 15950,
+    "price": 23380,
     "size": [
       "s",
       "m"
@@ -81,7 +81,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p10/fa222j_46off.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Ffa222j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Ffa222j%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-surprise2%2F0622356326919%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-surprise2%2F0622356326919%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FQJJSQY8?tag=tanosiikitaic-22",
     "point": "コードレスで屋内外どこでも使える防水設計",
     "features": [
