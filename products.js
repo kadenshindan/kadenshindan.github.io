@@ -2217,7 +2217,7 @@ const PRODUCTS = [
     "features": [
       "センシングプログラムで熱ダメージを抑制",
       "サロン帰りのようなツヤ髪に",
-      "本体約330gの軽量コンパクト（国内専用・AC100V）",
+      "軽量コンパクト（国内専用・AC100V）",
       "美容感度の高い人に人気"
     ],
     "img": "https://tshop.r10s.jp/mtgec-beauty/cabinet/refa/refa_dryer_smart_w/imgrc0128428312.jpg",
