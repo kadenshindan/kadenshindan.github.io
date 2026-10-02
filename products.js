@@ -301,7 +301,7 @@ const PRODUCTS = [
       "チャイルドロック搭載"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0H6LX73VD?tag=tanosiikitaic-22",
-    "officialUrl": "https://kadenfan.hitachi.co.jp/air/"
+    "officialUrl": "https://kadenfan.hitachi.co.jp/air/hef-dl300h/"
   },
   {
     "cat": "humidifier",
@@ -387,7 +387,7 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128569336%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128569336%2F",
     "point": "一人暮らしの部屋干しにちょうどいい定番機",
     "features": [
-      "6.3L/日でワンルームに最適",
+      "6.3L/日(60Hz)でワンルームに最適",
       "夏に強いコンプレッサー式",
       "省エネ性に優れたコロナ製",
       "日本製で安心の品質"
@@ -417,7 +417,7 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4550556189699%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4550556189699%2F",
     "point": "プラズマクラスターで部屋干し臭も抑える",
     "features": [
-      "除湿7.1L/日",
+      "除湿6.3L/日(50Hz)・7.1L/日(60Hz)",
       "プラズマクラスターで生乾き臭対策",
       "衣類乾燥モード搭載",
       "コンパクトで移動もラク"
@@ -507,12 +507,12 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F",
     "point": "大能力＋省エネDC送風のハイエンド機",
     "features": [
-      "18L/日の大能力コンプレッサー式",
+      "18L/日(60Hz)の大能力コンプレッサー式",
       "DCモーター送風で電気代を抑える",
       "広範囲スイング送風",
       "梅雨の大量部屋干しに強い"
     ],
-    "officialUrl": "https://www.corona.co.jp/aircon/dehumidifier2/wh/lineup.html",
+    "officialUrl": "https://www.corona.co.jp/aircon/dehumidifier2/past/wh/lineup.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%99%A4%E6%B9%BF%E6%A9%9F&tag=tanosiikitaic-22"
   },
   {
@@ -693,7 +693,7 @@ const PRODUCTS = [
       "日本メーカーの安心感"
     ],
     "amazon": "https://www.amazon.co.jp/s?k=%E6%97%A5%E7%AB%8B%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%20PV-BL3P&tag=tanosiikitaic-22",
-    "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bl3m/"
+    "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bl3p/feature01.html"
   },
   {
     "cat": "vacuum",
@@ -748,7 +748,7 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecolotop%2Fscd-l3pd-hc%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecolotop%2Fscd-l3pd-hc%2F",
     "point": "3万円以下でゴミ自動回収ドック付き",
     "features": [
-      "ゴミ捨ては数週間に1回でOK",
+      "ゴミ捨ては最大約90日に1回でOK（メーカー公表）",
       "3万円以下で買えるドック付きモデル",
       "軽量で扱いやすい",
       "静電モップ付きモデルも選べる"
@@ -923,9 +923,9 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "2万円台で買えるマッピング機能付き入門機",
+    "point": "2万円台で買える、掃除した経路をアプリで確認できる入門機",
     "features": [
-      "間取りを学習するスマートマッピング",
+      "ジャイロ等のセンサーで効率よく走行（エリア指定・進入禁止の設定は非対応）",
       "2000Paのパワフル吸引",
       "薄型でベッド・ソファ下にも潜れる",
       "Anker公式ストアで購入可"
@@ -999,7 +999,7 @@ const PRODUCTS = [
     "cat": "ricecooker",
     "maker": "パナソニック",
     "model": "SR-M10E4",
-    "name": "おどり炊き 圧力IH炊飯器 5合",
+    "name": "おどり炊き 圧力IH炊飯器 5.5合",
     "price": 28600,
     "size": [
       "s",
@@ -1016,13 +1016,13 @@ const PRODUCTS = [
     "point": "2〜3人暮らしにちょうどいい圧力IH",
     "features": [
       "圧力IH「おどり炊き」でふっくら食感",
-      "2〜3人分にちょうどいい5合サイズ",
+      "2〜3人分にちょうどいい5.5合サイズ",
       "早炊きモードが優秀",
-      "2025年発売の現行モデル"
+      "可変圧力IH・炊飯容量0.5〜5.5合"
     ],
     "img": "https://tshop.r10s.jp/seishinjapan/cabinet/k0001636884.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fseishinjapan%2F4549980803288%2F",
-    "officialUrl": "https://www.edion.com/detail.html?p_cd=00078611269",
+    "officialUrl": "https://panasonic.jp/suihan/products/SR-M10E4/spec.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
   },
   {
@@ -1049,7 +1049,7 @@ const PRODUCTS = [
     "features": [
       "7千円台の手頃な価格",
       "シンプル操作で使いやすい",
-      "黒遠赤釜採用",
+      "遠赤黒厚釜採用",
       "コスパ最優先ならこれ"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0DQ7D52LK?tag=tanosiikitaic-22",
@@ -1135,15 +1135,15 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/payoff/cabinet/muryou_07/b07854.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpayoff%2Fpk07854%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpayoff%2Fpk07854%2F",
-    "point": "沸騰3分台の速さとデザイン性を両立",
+    "point": "カップ1杯約60秒の速さとデザイン性を両立",
     "features": [
-      "実測3分台の沸騰スピード",
+      "満水0.8Lで約4分・カップ1杯約60秒で沸騰",
       "転倒湯もれ防止など安全設計",
       "ハンドドリップしやすい注ぎ口",
       "インテリアに映えるSTAN.デザイン"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0FH6DQ7FW?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/pot_kettle/"
+    "officialUrl": "https://www.zojirushi.co.jp/corp/news/2025/250818/STAN.html"
   },
   {
     "cat": "kettle",
@@ -1345,10 +1345,10 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 2
     },
-    "point": "小型軽量なのに風量そのまま、時短も持ち運びも両立",
+    "point": "小型軽量で持ち運びやすく、100〜240Vで海外でも使える",
     "features": [
       "従来のダイソンドライヤーより32%小さく25%軽い",
-      "Air Multiplierテクノロジーで風量はそのまま",
+      "風量は抑えめだがAir Multiplierで高圧・高速の風",
       "過度な熱を防ぐインテリジェント・ヒートコントロール",
       "100〜240V対応で海外でも使える"
     ],
@@ -1386,7 +1386,7 @@ const PRODUCTS = [
       "コスパと速乾の両立"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0FRQV5XB2?tag=tanosiikitaic-22",
-    "officialUrl": "https://panasonic.jp/hair/products/EH-NE7L.html"
+    "officialUrl": "https://panasonic.jp/hair/products/EH-NE7N.html"
   },
   {
     "cat": "toothbrush",
@@ -1443,7 +1443,7 @@ const PRODUCTS = [
       "丸型ブラシの回転＋遠心マイクロモーション",
       "歯科クリーニング後のような磨き上がり",
       "押し付け防止センサーが赤・緑・白で圧をガイド",
-      "公式現行のiOシリーズ エントリーモデル"
+      "iOシリーズの中価格帯モデル"
     ],
     "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-4-electric-toothbrush",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20%E9%9B%BB%E5%8B%95%E6%AD%AF%E3%83%96%E3%83%A9%E3%82%B7&tag=tanosiikitaic-22"
@@ -1530,8 +1530,8 @@ const PRODUCTS = [
     "point": "AIガイド付きの最上位フラッグシップ",
     "features": [
       "AIが磨き残しをリアルタイム表示",
-      "歯ぐきの状態に合わせた圧力制御",
-      "充電しながら除菌できるケース付き",
+      "押し付けすぎを3色で知らせる圧力センサー",
+      "充電機能付きトラベルケース付き",
       "口腔ケアを極めたい人へ"
     ],
     "officialUrl": "https://www.oralb.braun.co.jp/ja-jp/products/electric-toothbrushes/oral-b-io-series-10-electric-toothbrush",
@@ -1951,7 +1951,7 @@ const PRODUCTS = [
     "features": [
       "ドックに戻すだけで自動ゴミ収集",
       "本体はスリムで超軽量",
-      "紙パック式でゴミ捨ての手間最小",
+      "ドック側は紙パック式でゴミ捨ての手間最小",
       "スキマ時間掃除に最適"
     ],
     "img": "https://tshop.r10s.jp/panasonic-store/cabinet/itemimg01/mc-ns10ke_00_v2.jpg",
@@ -2040,7 +2040,7 @@ const PRODUCTS = [
     "features": [
       "6000Paの強力吸引（前モデルの2倍）",
       "直径24.8cmの世界最小クラス",
-      "静音設計（最小45dB）で夜も使いやすい",
+      "静音設計（運転音45dB以下・メーカー公表）で夜も使いやすい",
       "ゴミ収集ドック付きで一人暮らしのワンルームに最適"
     ],
     "img": "https://tshop.r10s.jp/biccamera/cabinet/product/13219/00000014193275_a01.jpg",
@@ -2096,17 +2096,17 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 3
     },
-    "point": "象印最高峰、炎のゆらぎで炊く極上ごはん",
+    "point": "炎舞炊きシリーズ。炎のゆらぎを再現して炊く極上ごはん",
     "features": [
       "ローテーションIHで炎のゆらぎを再現",
-      "圧力IHの最上位モデル",
+      "炎舞炊き（2024年発売）の上位モデル",
       "炊き分け圧力でメニュー豊富",
       "ごはんの甘み・粒立ちが別格"
     ],
     "img": "https://tshop.r10s.jp/akindo/cabinet/l41/nw-fc10-bz.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fnw-fc10-bz%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fnw-fc10-bz%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D4D95VKD?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/assets/cms/materials/catalog_rice.pdf"
+    "officialUrl": "https://www.zojirushi.co.jp/corp/news/2024/240516/NWFC.html"
   },
   {
     "cat": "ricecooker",
@@ -2157,7 +2157,7 @@ const PRODUCTS = [
     "point": "ドリップに最適なノズルと美しいデザイン",
     "features": [
       "コーヒードリップに最適な細口ノズル",
-      "手元を照らすランプ付き",
+      "灯台のようにほんのり光る電源ランプ付き",
       "キッチンに映えるデザイン",
       "0.55Lの1〜2人用サイズ"
     ],
@@ -2215,9 +2215,9 @@ const PRODUCTS = [
     },
     "point": "サロン級の仕上がり、美容室でも採用",
     "features": [
-      "プロセンシングで熱ダメージを抑制",
+      "センシングプログラムで熱ダメージを抑制",
       "サロン帰りのようなツヤ髪に",
-      "軽量コンパクトで海外対応",
+      "本体約330gの軽量コンパクト（国内専用・AC100V）",
       "美容感度の高い人に人気"
     ],
     "img": "https://tshop.r10s.jp/mtgec-beauty/cabinet/refa/refa_dryer_smart_w/imgrc0128428312.jpg",
@@ -2489,7 +2489,7 @@ const PRODUCTS = [
       "定格加湿能力860mL/h・タンク約6.3L",
       "適用床面積 木造和室〜14.5畳／プレハブ洋室〜24畳",
       "最小運転音13dB・「おやすみ快適」で就寝時も静か",
-      "eco運転なら消費電力283W（標準は470W）",
+      "消費電力 標準470W／静音283W／eco 18W(50Hz)",
       "外形寸法 37.5×37.5×21cm・約5.1kg"
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001881/4951272037170_1.jpg",
@@ -2766,7 +2766,7 @@ const PRODUCTS = [
     "cat": "kettle",
     "maker": "タイガー",
     "model": "PCM-N080",
-    "name": "省スチーム電気ケトル わく子 0.8L",
+    "name": "電気ケトル QUICK＆SAFE＋ 0.8L",
     "price": 4980,
     "size": [
       "s",
@@ -2782,7 +2782,7 @@ const PRODUCTS = [
     },
     "point": "蒸気を抑えた安全設計のコンパクトケトル",
     "features": [
-      "蒸気をほとんど出さない省スチーム設計",
+      "蒸気を抑える省スチーム設計",
       "転倒お湯もれ防止など安全設計",
       "カップ1杯が約60秒のスピード沸騰",
       "1300W・容量0.8L"
@@ -2796,7 +2796,7 @@ const PRODUCTS = [
     "cat": "kettle",
     "maker": "ハリオ",
     "model": "ECK-80",
-    "name": "コーヒーケトル エレクトリック",
+    "name": "電気ケトル Lyra（リラ）",
     "price": 22800,
     "size": [
       "s"
@@ -2929,7 +2929,7 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 3
     },
-    "point": "ソニッケアー最上位クラス。歯ぐきにやさしい音波式",
+    "point": "ソニッケアーの上位モデル。歯ぐきにやさしい音波式",
     "features": [
       "ホワイトニングに強い上位モデル",
       "4つのモード+3段階の強さ調整",
@@ -3083,7 +3083,7 @@ const PRODUCTS = [
     "point": "老舗トヨトミの手堅い定番機",
     "features": [
       "夏に強いコンプレッサー式",
-      "6L/日でワンルーム〜寝室に",
+      "6L/日(60Hz)でワンルーム〜寝室に",
       "シンプルで使いやすい操作性",
       "日本の老舗メーカー製"
     ],
@@ -3111,10 +3111,10 @@ const PRODUCTS = [
     },
     "point": "フィルター交換不要のTPAフィルター",
     "features": [
-      "医療現場でも採用される先進技術",
+      "ペットボトルほどの小型ボディ（高さ約22cm）",
       "フィルター買い替え不要で洗って繰り返し使える",
-      "ウイルスレベルの微細粒子まで除去",
-      "コンパクトな個室向けサイズ"
+      "デスクまわり向け（30分で約4.3㎡分を清浄・メーカー公表）",
+      "コンパクトで持ち運びやすい"
     ],
     "img": "https://tshop.r10s.jp/toconnect/cabinet/07831354/09225771/rakuten_mini01-1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoconnect%2F10000022%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftoconnect%2F10000022%2F",
@@ -3169,9 +3169,9 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "point": "紙パック式コードレスでゴミ捨て月1回",
+    "point": "紙パック式コードレスでゴミ捨ては約2か月に1回",
     "features": [
-      "紙パック式でゴミ捨てが月1回程度",
+      "紙パック式でゴミ捨ては約2か月に1回（メーカー公表）",
       "ホコリが舞わず衛生的",
       "パワフル吸引と軽さを両立",
       "ゴミ捨てが苦手な人の最適解"
@@ -3232,8 +3232,7 @@ const PRODUCTS = [
     "features": [
       "50銘柄の炊き分けに対応",
       "IH加熱でふっくら",
-      "一人暮らしにちょうどいい3合",
-      "公式店は2年保証付き"
+      "一人暮らしにちょうどいい3合"
     ],
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/10172579/12541977/imgrc0117628162.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F",
@@ -3379,7 +3378,7 @@ const PRODUCTS = [
     "point": "乾かしながら顔ケアもできる美顔器兼用",
     "features": [
       "ドライヤー+美顔器の1台2役",
-      "音波振動ヘッドで頭皮ケア",
+      "振動ヘッド（約6,000回/分）で頭皮ケア",
       "美容機器メーカーならではの発想",
       "ヤーマン公式ストアで購入可"
     ],
@@ -3494,7 +3493,7 @@ const PRODUCTS = [
       "上から注ぐだけの上給水・タンク約4.0L",
       "加湿量280mL/h・消費電力24W（HI時）",
       "適用床面積 和室約4畳／洋室約7畳",
-      "最長約14時間の連続運転・本体約1.4kg"
+      "連続運転 約14時間（HI時）・本体約1.4kg"
     ],
     "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705516.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F",
@@ -3552,10 +3551,10 @@ const PRODUCTS = [
     },
     "point": "ヒーターを使わない気化式。強運転でも11W、電気代は月約84円",
     "features": [
-      "加湿量 強700mL/h（速効800mL/h）・タンク約4.2L",
+      "加湿量 強700mL/h（お急ぎ800mL/h）・タンク約4.2L",
       "適用床面積 木造和室〜12畳／プレハブ洋室〜19畳",
       "消費電力 強11W／静音1.6W（1か月の電気代 約84円・メーカー公表）",
-      "運転音 静音15dB〜速効44dB・フィルターは月1回の手洗いで交換目安約10年",
+      "運転音 静か15dB〜お急ぎ44dB・フィルターは月1回の手洗いで交換目安約10年",
       "外形寸法 37.5×37.5×18cm・約4.7kg"
     ],
     "img": "https://tshop.r10s.jp/ecjoy/cabinet/image1439/22249226.jpg",
@@ -3875,7 +3874,7 @@ const PRODUCTS = [
       "給水・排水を自動化する新方式",
       "水拭きの手間を大幅カット",
       "スマートホーム連携が得意",
-      "薄型ボディで家具下も"
+      "本体の高さは約11.5cm（家具下の隙間は事前に確認を）"
     ],
     "img": "https://tshop.r10s.jp/switchbot/cabinet/09377790/s10/ebc/imgrc0092497597.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Febest%2F0810150540697%2F",
@@ -3935,9 +3934,9 @@ const PRODUCTS = [
     "point": "頭皮を感知して自動で風温を調整する最新ダイソン",
     "features": [
       "大風量で速乾",
-      "頭皮センサーで温度を自動調整",
+      "距離センサーで温度を自動調整",
       "髪のダメージを抑える",
-      "付け替えノズルが豊富"
+      "アタッチメント3種付き"
     ],
     "img": "https://tshop.r10s.jp/b-bell/cabinet/products/dyson/20901002.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-bell%2F20901002%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-bell%2F20901002%2F",
@@ -3994,9 +3993,9 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "point": "風量1〜3なら35dB未満。上下左右の自動首振りで部屋の空気を循環",
+    "point": "DCモーターで静か。上下左右の自動首振りで部屋の空気を循環",
     "features": [
-      "風量1〜3の運転音は35dB未満",
+      "DCモーター・風量1〜3は静音運転",
       "上下左右に自動で首振り",
       "風量6段階＋2/4/8時間タイマー",
       "適用床面積22畳・消費電力23W",
@@ -4184,10 +4183,10 @@ const PRODUCTS = [
       "消費電力 定格54W",
       "1時間の電気代 強 約1.0円(室温10℃)",
       "約140×80cmのシングルSサイズ",
-      "標準表面温度 強51℃/中37℃",
+      "標準表面温度 強51℃／「3」37℃",
       "コントローラーを外して丸洗い可"
     ],
-    "officialUrl": "https://panasonic.jp/danbo/comparison.html",
+    "officialUrl": "https://panasonic.jp/danbo/products/DB-U12T/spec.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20%E9%9B%BB%E6%B0%97%E6%95%B7%E6%AF%9B%E5%B8%83&tag=tanosiikitaic-22"
   },
   {
@@ -4278,7 +4277,7 @@ const PRODUCTS = [
       "平均表面温度 約80℃で子ども部屋や寝室にも",
       "サーモスタットで設定温度を自動キープ",
       "24時間タイマー（30分単位でON/OFF設定）",
-      "430×260×650mm / 13kg・キャスター付き",
+      "幅260×奥行430×高さ650mm / 約12.4kg・キャスター付き",
       "電気代 最大 約37.2円/h（31円/kWh換算）"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B09BTV9SSQ?tag=tanosiikitaic-22",
@@ -4313,7 +4312,7 @@ const PRODUCTS = [
       "高さ718×幅343×奥行293mm / 6.3kg・日本製",
       "電気代 強 約35.7円/h（31円/kWh換算）"
     ],
-    "officialUrl": "https://www.corona.co.jp/heating/coreheat/coreheat/lineup.html",
+    "officialUrl": "https://www.corona.co.jp/heating/coreheat/past/coreheat/lineup.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96&tag=tanosiikitaic-22"
   },
   {
@@ -4344,7 +4343,7 @@ const PRODUCTS = [
       "転倒オフスイッチ・過熱防止装置つき（日本製）",
       "電気代 強 約27.9円/h（31円/kWh換算）"
     ],
-    "officialUrl": "https://www.corona.co.jp/heating/coreheat/slimcarbon/lineup.html",
+    "officialUrl": "https://www.corona.co.jp/heating/coreheat/past/slimcarbon/lineup.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96&tag=tanosiikitaic-22"
   },
   {
@@ -4368,7 +4367,7 @@ const PRODUCTS = [
     "point": "机の下を囲って足元だけ暖める。160Wで1時間 約5.0円",
     "features": [
       "消費電力160W（1時間 約5.0円・31円/kWh換算）",
-      "温度調節5段階（強 約55℃）・6時間で自動OFF",
+      "温度調節つき（強 約55℃）・6時間で自動OFF",
       "幅45×奥行30×高さ48cm・約1.7kg、折りたたんで収納できる",
       "風が出ないので音が静かで、空気も乾かさない"
     ],
