@@ -126,7 +126,7 @@ const PRODUCTS = [
     "maker": "ボルネード",
     "model": "633DC-JP",
     "name": "DCサーキュレーター",
-    "price": 33881,
+    "price": 20580,
     "size": [
       "m",
       "l"
@@ -140,7 +140,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/irodorikukan/cabinet/other19/21010526.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmannishboy%2F20049532562%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmannishboy%2F20049532562%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firodorikukan%2F21010526%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firodorikukan%2F21010526%2F",
     "point": "竜巻状の直進気流で大空間もしっかり循環",
     "features": [
       "独自の竜巻気流で到達距離が長い",
@@ -805,7 +805,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/dejikura/cabinet/ir024/6970135034697.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdejikura%2F6970135034697%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdejikura%2F6970135034697%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fddx67-12ee%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fstore-ecovacs-japan%2Fddx67-12ee%2F",
     "point": "吸引力トップ級、水拭きまで全自動のベストバイ",
     "features": [
       "比較テストで吸引力トップの成績",
@@ -927,8 +927,7 @@ const PRODUCTS = [
     "features": [
       "ジャイロ等のセンサーで効率よく走行（エリア指定・進入禁止の設定は非対応）",
       "2000Paのパワフル吸引",
-      "薄型でベッド・ソファ下にも潜れる",
-      "Anker公式ストアで購入可"
+      "薄型でベッド・ソファ下にも潜れる"
     ],
     "img": "https://tshop.r10s.jp/relief10/cabinet/10023451/12065965/b0bxdc3417-1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fiikakakustore%2Fb0bxdc3417%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fiikakakustore%2Fb0bxdc3417%2F",
@@ -2169,8 +2168,8 @@ const PRODUCTS = [
   {
     "cat": "kettle",
     "maker": "デロンギ",
-    "model": "アイコナ",
-    "name": "アイコナ 電気ケトル 1.0L",
+    "model": "KBOV1240J",
+    "name": "アイコナ・ヴィンテージ 電気ケトル 1.0L",
     "price": 12800,
     "size": [
       "s",
@@ -2191,15 +2190,16 @@ const PRODUCTS = [
       "注ぎやすい注ぎ口",
       "ギフトにも人気"
     ],
-    "img": "https://tshop.r10s.jp/delonghi/cabinet/06618479/item/0210100062/0210100062_01.jpg",
+    "img": "https://tshop.r10s.jp/delonghi/cabinet/06618479/item/0210100061/0210100061_01.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100061%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100061%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%87%E3%83%AD%E3%83%B3%E3%82%AE%20%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%87%E3%83%AD%E3%83%B3%E3%82%AE%20%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.delonghi.com/ja-jp/p/KBOV1240J-BK.html"
   },
   {
     "cat": "dryer",
     "maker": "リファ",
-    "model": "ビューテック ドライヤースマート",
-    "name": "ReFa BEAUTECH DRYER SMART",
+    "model": "ビューテック ドライヤースマート ダブル",
+    "name": "ReFa BEAUTECH DRYER SMART W",
     "price": 40000,
     "size": [
       "s",
@@ -2217,13 +2217,13 @@ const PRODUCTS = [
     "features": [
       "センシングプログラムで熱ダメージを抑制",
       "サロン帰りのようなツヤ髪に",
-      "軽量コンパクト（国内専用・AC100V）",
+      "コンパクト設計・海外電圧対応（AC100〜240V）",
       "美容感度の高い人に人気"
     ],
     "img": "https://tshop.r10s.jp/mtgec-beauty/cabinet/refa/refa_dryer_smart_w/imgrc0128428312.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1382920101%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmtgec-beauty%2F1382920101%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FQ4Y2169?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.refa.net/item/refa_beautech_dryer_smart/"
+    "officialUrl": "https://www.refa.net/item/refa_beautech_dryer_smart_w/"
   },
   {
     "cat": "dryer",
@@ -2261,7 +2261,7 @@ const PRODUCTS = [
     "maker": "サロニア",
     "model": "スピーディーイオンドライヤー SL-013",
     "name": "スピーディーイオンドライヤー",
-    "price": 5360,
+    "price": 4940,
     "size": [
       "s",
       "m",
@@ -2275,15 +2275,15 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "point": "5千円台の大風量、SNSでも人気",
+    "point": "4千円台の大風量、SNSでも人気",
     "features": [
       "大風量でとにかく速く乾く",
       "マイナスイオン搭載",
-      "5千円台の圧倒的コスパ",
+      "4千円台の圧倒的コスパ",
       "シンプルでおしゃれなデザイン"
     ],
     "img": "https://tshop.r10s.jp/beautyeveryday/cabinet/heakea/11920277/salonia-iondryer3.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyeveryday%2F4582267399890%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeautyeveryday%2F4582267399890%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbearmarche%2F4582267399890-2%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbearmarche%2F4582267399890-2%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DYNWMQ7F?tag=tanosiikitaic-22",
     "officialUrl": "https://salonia.jp/product/hair/dryerbrush/dryer/"
   },
@@ -2351,7 +2351,7 @@ const PRODUCTS = [
     "maker": "siroca",
     "model": "SF-C151",
     "name": "DC サーキュレーター扇風機",
-    "price": 12980,
+    "price": 9980,
     "size": [
       "s",
       "m"
@@ -2709,7 +2709,7 @@ const PRODUCTS = [
     "maker": "東芝",
     "model": "RC-10RXB",
     "name": "真空IH炊飯器 炎匠炊き 5.5合",
-    "price": 29299,
+    "price": 27600,
     "size": [
       "m",
       "l"
@@ -2730,7 +2730,7 @@ const PRODUCTS = [
       "2026年6月発売の現行モデル"
     ],
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9216/4904530136238.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4904530136238%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4904530136238%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fn-chacha%2F4904530136238%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fn-chacha%2F4904530136238%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0H4XTX3MN?tag=tanosiikitaic-22",
     "officialUrl": "https://www.toshiba-lifestyle.com/jp/rice-cookers/rc-10rxb/spec/"
   },
@@ -3037,7 +3037,7 @@ const PRODUCTS = [
     "maker": "三菱電機",
     "model": "MJ-M120ZX",
     "name": "衣類乾燥除湿機 サラリ 12L",
-    "price": 52800,
+    "price": 52400,
     "size": [
       "m",
       "l"
@@ -3058,7 +3058,7 @@ const PRODUCTS = [
       "洗濯物は約6kgまで・2kgなら約105分で乾燥"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/pics/998/0-4573637000485.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4573637000485%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4573637000485%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-gion%2Fmj-m120zx-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-gion%2Fmj-m120zx-w%2F",
     "officialUrl": "https://www.mitsubishielectric.co.jp/home/jyoshitsuki/product/mj-m120zx/",
     "amazon": "https://www.amazon.co.jp/s?k=%E4%B8%89%E8%8F%B1%E9%9B%BB%E6%A9%9F%20%E8%A1%A3%E9%A1%9E%E4%B9%BE%E7%87%A5%E9%99%A4%E6%B9%BF%E6%A9%9F&tag=tanosiikitaic-22"
   },
@@ -3360,8 +3360,8 @@ const PRODUCTS = [
   {
     "cat": "dryer",
     "maker": "ヤーマン",
-    "model": "リフトドライヤー",
-    "name": "リフトドライヤー",
+    "model": "リフトドライヤー スマート",
+    "name": "リフトドライヤー スマート",
     "price": 27500,
     "size": [
       "s",
@@ -3375,10 +3375,10 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 3
     },
-    "point": "乾かしながら顔ケアもできる美顔器兼用",
+    "point": "UP・SHINY・SMOOTHの3モードで艶髪に仕上げる折りたたみ式",
     "features": [
-      "ドライヤー+美顔器の1台2役",
-      "振動ヘッド（約6,000回/分）で頭皮ケア",
+      "UP・SHINY・SMOOTHの3つのモード",
+      "折りたたみ式・海外電圧対応（100〜240V）",
       "美容機器メーカーならではの発想",
       "ヤーマン公式ストアで購入可"
     ],
@@ -4288,7 +4288,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "DH-1225R",
     "name": "遠赤外線暖房機 コアヒート",
-    "price": 36080,
+    "price": 30554,
     "size": [
       "s"
     ],
