@@ -2253,7 +2253,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/shopch-r/cabinet/item/ele/4000765255001/4000765255001-1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0B5Q5J9HR?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC%20IB-NP9&tag=tanosiikitaic-22",
     "officialUrl": "https://jp.sharp/beauty/products/ibnp9/"
   },
   {
