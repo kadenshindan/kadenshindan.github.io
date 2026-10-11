@@ -1,4 +1,4 @@
-// 商品データ（AIの定期作業が管理。旧 admin.html は2026-10-02に廃止）
+// 商品データ(admin.htmlで編集できます)
 const PRODUCTS = [
   {
     "cat": "circulator",
@@ -580,7 +580,7 @@ const PRODUCTS = [
     "maker": "ダイキン",
     "model": "MC556A",
     "name": "ストリーマ空気清浄機",
-    "price": 41530,
+    "price": 48000,
     "size": [
       "m",
       "l"
@@ -730,7 +730,7 @@ const PRODUCTS = [
     "maker": "アイリスオーヤマ",
     "model": "SCD-L3PD",
     "name": "マジカリーナ ゴミ回収ドック付き",
-    "price": 29780,
+    "price": 38860,
     "size": [
       "s",
       "m",
@@ -745,11 +745,11 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/value-shopping/cabinet/11252016/4967576732918.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecolotop%2Fscd-l3pd-hc%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecolotop%2Fscd-l3pd-hc%2F",
-    "point": "3万円以下でゴミ自動回収ドック付き",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-surprise2%2F4967576732918%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fb-surprise2%2F4967576732918%2F",
+    "point": "4万円以下でゴミ自動回収ドック付き",
     "features": [
       "ゴミ捨ては最大約90日に1回でOK（メーカー公表）",
-      "3万円以下で買えるドック付きモデル",
+      "4万円以下で買えるドック付きモデル",
       "軽量で扱いやすい",
       "静電モップ付きモデルも選べる"
     ],
@@ -1029,7 +1029,7 @@ const PRODUCTS = [
     "maker": "タイガー",
     "model": "JBH-G102",
     "name": "マイコン炊飯器〈炊きたて〉5.5合",
-    "price": 7215,
+    "price": 9000,
     "size": [
       "m",
       "l"
@@ -1044,9 +1044,9 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/82_5/4904710429082_5.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4904710429082%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4904710429082%2F",
-    "point": "7千円台で買える定番マイコン機",
+    "point": "9千円台で買える定番マイコン機",
     "features": [
-      "7千円台の手頃な価格",
+      "9千円台の手頃な価格",
       "シンプル操作で使いやすい",
       "遠赤黒厚釜採用",
       "コスパ最優先ならこれ"
@@ -1775,7 +1775,7 @@ const PRODUCTS = [
       "583×370×225mm・13.0kg"
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001279/4549980784358_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4549980784358%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4549980784358%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980784358%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4549980784358%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0D1764L6D?tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/catalog/ctlg/dehumidifier/dehumidifier.pdf"
   },
@@ -2190,10 +2190,10 @@ const PRODUCTS = [
       "注ぎやすい注ぎ口",
       "ギフトにも人気"
     ],
-    "img": "https://tshop.r10s.jp/delonghi/cabinet/06618479/item/0210100061/0210100061_01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100061%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100061%2F",
+    "img": "https://tshop.r10s.jp/delonghi/cabinet/06618479/item/0210100062/0210100062_01.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100062%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdelonghi%2F0210100062%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%87%E3%83%AD%E3%83%B3%E3%82%AE%20%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B1%E3%83%88%E3%83%AB&tag=tanosiikitaic-22",
-    "officialUrl": "https://www.delonghi.com/ja-jp/p/KBOV1240J-BK.html"
+    "officialUrl": "https://www.delonghi.com/ja-jp/p/KBOV1240J-BG.html"
   },
   {
     "cat": "dryer",
@@ -2351,7 +2351,7 @@ const PRODUCTS = [
     "maker": "siroca",
     "model": "SF-C151",
     "name": "DC サーキュレーター扇風機",
-    "price": 9980,
+    "price": 12980,
     "size": [
       "s",
       "m"
@@ -2589,9 +2589,9 @@ const PRODUCTS = [
   {
     "cat": "vacuum",
     "maker": "東芝",
-    "model": "トルネオ コードレス",
+    "model": "VC-CLZ74DS",
     "name": "トルネオ コードレススティック",
-    "price": 39800,
+    "price": 34980,
     "size": [
       "m",
       "l"
@@ -2612,7 +2612,7 @@ const PRODUCTS = [
       "国内メーカーの安心感"
     ],
     "img": "https://tshop.r10s.jp/denkichiweb/cabinet/12405600/4904530134388_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530134388%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530134388%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4904530134388%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4904530134388%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FYN7ZCLY?tag=tanosiikitaic-22"
   },
   {
@@ -2737,7 +2737,7 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "山善",
-    "model": "マイコン炊飯器 3合",
+    "model": "YJT-M05",
     "name": "マイコン炊飯器 3合",
     "price": 7980,
     "size": [
@@ -2916,7 +2916,7 @@ const PRODUCTS = [
     "maker": "フィリップス",
     "model": "ダイヤモンドクリーン 9000",
     "name": "ソニッケアー ダイヤモンドクリーン 9000",
-    "price": 28250,
+    "price": 24088,
     "size": [
       "s",
       "m"
@@ -2937,7 +2937,7 @@ const PRODUCTS = [
       "スタイリッシュなデザイン"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/15_1/8720689027915_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F8720689027915%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmurauchi-denki%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmurauchi-denki%2F8720689027915%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FGWXVQ8J?tag=tanosiikitaic-22",
     "officialUrl": "https://www.philips.co.jp/c-p/HX9911_70/diamondclean-9000-sonic-electric-toothbrush-with-app"
   },
@@ -3214,7 +3214,7 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "アイリスオーヤマ",
-    "model": "銘柄炊き IH 3合",
+    "model": "RC-IL30",
     "name": "銘柄炊き IHジャー炊飯器 3合",
     "price": 11781,
     "size": [
@@ -3447,7 +3447,7 @@ const PRODUCTS = [
   {
     "cat": "circulator",
     "maker": "スリーアップ",
-    "model": "DCサーキュレーター",
+    "model": "CF-AZ2601",
     "name": "DCモーターサーキュレーター",
     "price": 4980,
     "size": [
@@ -3567,7 +3567,7 @@ const PRODUCTS = [
     "maker": "シャープ",
     "model": "KI-UX100",
     "name": "プレミアム加湿空気清浄機 KI-UX100",
-    "price": 73000,
+    "price": 75778,
     "size": [
       "l"
     ],
@@ -3587,7 +3587,7 @@ const PRODUCTS = [
       "ホコリ・照度まで見る5種センサーとAIモニター"
     ],
     "img": "https://tshop.r10s.jp/a-denki/cabinet/shouhingazou/13/76801.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F76801%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-denki%2F76801%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fecjoy%2F21788896%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fecjoy%2F21788896%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0HK1483N1?tag=tanosiikitaic-22",
     "officialUrl": "https://jp.sharp/kuusei/products/kiux100/"
   },
@@ -3826,7 +3826,7 @@ const PRODUCTS = [
     "maker": "Anker Eufy",
     "model": "Clean X10 Pro Omni",
     "name": "Eufy Clean X10 Pro Omni",
-    "price": 57200,
+    "price": 69300,
     "size": [
       "m",
       "l"
@@ -3847,7 +3847,7 @@ const PRODUCTS = [
       "コスパに優れた全自動モデル"
     ],
     "img": "https://tshop.r10s.jp/arc-market-kaden/cabinet/10911043/4571411226663.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Farc-market-kaden%2F4571411226663%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4571411226663%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4571411226663%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0CPHYJRRP?tag=tanosiikitaic-22",
     "officialUrl": "https://www.ankerjapan.com/products/t2351"
   },
@@ -4011,7 +4011,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "NW-SB10",
     "name": "STAN. IH炊飯ジャー",
-    "price": 33300,
+    "price": 33333,
     "size": [
       "s",
       "m",
@@ -4033,7 +4033,7 @@ const PRODUCTS = [
       "5.5合炊き"
     ],
     "img": "https://tshop.r10s.jp/jhb-trade/cabinet/listing-man0002/4974305230768-1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-den-shop%2F4974305230768%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-den-shop%2F4974305230768%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnishimuta%2F4974305230768%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnishimuta%2F4974305230768%2F",
     "officialUrl": "https://www.zojirushi.co.jp/syohin/stan/product/ricecooker/nw-sb.html",
     "amazon": "https://www.amazon.co.jp/dp/B0FH6CPYXY?tag=tanosiikitaic-22"
   },
