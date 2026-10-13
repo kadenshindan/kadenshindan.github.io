@@ -2560,9 +2560,9 @@ const PRODUCTS = [
   {
     "cat": "vacuum",
     "maker": "シャーク",
-    "model": "EVOPOWER WV416J",
-    "name": "EVOPOWER ハンディクリーナー",
-    "price": 21900,
+    "model": "EVOPOWER DX WV516J",
+    "name": "EVOPOWER DX ハンディクリーナー",
+    "price": 25620,
     "size": [
       "s"
     ],
@@ -2574,17 +2574,17 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "サッと使える人気No.1級ハンディ",
+    "point": "延長ノズル付きで床の「ちょい掃除」もこなすハンディ",
     "features": [
       "机・車・ソファの「ちょい掃除」に最適",
-      "スティック掃除機との2台持ちにも",
-      "充電ドックでいつでも満充電",
-      "シャーク公式ストアで購入可"
+      "最長約40分（エコモード）・本体約680g",
+      "フローリング用延長ノズル付き",
+      "ドックに置くだけで充電"
     ],
-    "img": "https://tshop.r10s.jp/shark/cabinet/renamethum/p00/wv416j_bs.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fruterm%2F622356273206-1%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fruterm%2F622356273206-1%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0C1NSHW31?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.sharkninja.jp/products/wv416j"
+    "img": "https://tshop.r10s.jp/select-rainbow/cabinet/12791086/12971895/0622356295550_.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F622356295550%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fselect-rainbow%2F622356295550%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0DG1X8TGB?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.sharkninja.jp/products/wv516j"
   },
   {
     "cat": "vacuum",
@@ -3332,7 +3332,7 @@ const PRODUCTS = [
     "maker": "ホリスティックキュアーズ",
     "model": "マグネットヘアプロ ドライヤーゼロプラス HCD-G07CB",
     "name": "マグネットヘアプロ ドライヤーゼロプラス",
-    "price": 32450,
+    "price": 20200,
     "size": [
       "s",
       "m"
@@ -3350,10 +3350,10 @@ const PRODUCTS = [
       "美容師の支持が厚いプロ仕様",
       "速乾なのに髪がまとまる",
       "独自ミネラル・テラヘルツ加工",
-      "メーカー保証1年(有料オプションで最大3年まで延長可)"
+      "メーカー保証1年"
     ],
     "img": "https://tshop.r10s.jp/holistic-cures/cabinet/mg/0000mg_0001.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fholistic-cures%2Fmhp-dryer0%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4988338201749%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4988338201749%2F",
     "officialUrl": "https://item.rakuten.co.jp/holistic-cures/mhp-dryer0/",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%83%98%E3%82%A2%E3%83%97%E3%83%AD%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=tanosiikitaic-22"
   },
@@ -3886,7 +3886,7 @@ const PRODUCTS = [
     "maker": "シャープ",
     "model": "KI-TS50",
     "name": "加湿空気清浄機 プラズマクラスター25000",
-    "price": 32800,
+    "price": 31799,
     "size": [
       "m",
       "l"
@@ -3908,7 +3908,7 @@ const PRODUCTS = [
       "静電HEPA・脱臭フィルターとも交換目安10年"
     ],
     "img": "https://tshop.r10s.jp/premoa/cabinet/orj/49/0-4550556135832.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2Fs9f44%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135832%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4550556135832%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DP2KLMMT?tag=tanosiikitaic-22",
     "officialUrl": "https://jp.sharp/support/air_purifier/lineup/kius50_ts50_spec.html"
   },
