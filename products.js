@@ -2607,13 +2607,14 @@ const PRODUCTS = [
     "point": "遠心分離で吸引力が持続するトルネオ",
     "features": [
       "サイクロンの遠心分離でパワー持続",
-      "ゴミ捨てワンタッチ",
-      "自走式ヘッドで軽い操作感",
+      "本体のゴミはダストステーションに自動で収集",
+      "手元の動きにヘッドが連動して操作しやすい",
       "国内メーカーの安心感"
     ],
     "img": "https://tshop.r10s.jp/denkichiweb/cabinet/12405600/4904530134388_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4904530134388%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4904530134388%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FYN7ZCLY?tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0FYN7ZCLY?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.toshiba-lifestyle.com/jp/vacuum_cleaners/vc-clz74ds/"
   },
   {
     "cat": "vacuum",
@@ -2760,7 +2761,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/e-kurashi/cabinet/main-img/020/main-t0f25.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-kurashi%2F33518%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22",
+    "officialUrl": "https://book.yamazen.co.jp/product/detail/I00009240"
   },
   {
     "cat": "kettle",
@@ -2937,7 +2939,7 @@ const PRODUCTS = [
       "スタイリッシュなデザイン"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/15_1/8720689027915_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmurauchi-denki%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmurauchi-denki%2F8720689027915%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmurauchi-dvd%2F8720689027915%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmurauchi-dvd%2F8720689027915%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FGWXVQ8J?tag=tanosiikitaic-22",
     "officialUrl": "https://www.philips.co.jp/c-p/HX9911_70/diamondclean-9000-sonic-electric-toothbrush-with-app"
   },
@@ -3236,7 +3238,8 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/10172579/12541977/imgrc0117628162.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F517435%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E7%82%8A%E9%A3%AF%E5%99%A8&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/ricecooker/ih-jar-il/"
   },
   {
     "cat": "ricecooker",
