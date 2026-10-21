@@ -603,7 +603,7 @@ const PRODUCTS = [
       "加湿機能なしで手入れがシンプル"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0FQ5PNWY5?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.ac.daikin.co.jp/cleanair/ichiran"
+    "officialUrl": "https://www.ac.daikin.co.jp/cleanair/2026/co"
   },
   {
     "cat": "purifier",
@@ -1867,7 +1867,7 @@ const PRODUCTS = [
     "img": "https://tshop.r10s.jp/niche-express/cabinet/2025/dkn/01/dkn00000000067-01.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000067%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FLWHV6KG?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.ac.daikin.co.jp/cleanair/ichiran"
+    "officialUrl": "https://www.ac.daikin.co.jp/cleanair/2026/hg"
   },
   {
     "cat": "purifier",
@@ -2680,7 +2680,7 @@ const PRODUCTS = [
     "maker": "日立",
     "model": "RZ-V100JM",
     "name": "圧力&スチームIH炊飯器 ふっくら御膳 RZ-V100JM 5.5合",
-    "price": 35480,
+    "price": 36900,
     "size": [
       "m",
       "l"
@@ -2701,7 +2701,7 @@ const PRODUCTS = [
       "日立の人気シリーズ"
     ],
     "img": "https://tshop.r10s.jp/ai-corporation/cabinet/compass1751975060.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Frz-v100jm-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Frz-v100jm-w%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F267993%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F267993%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FC655FF7?tag=tanosiikitaic-22",
     "officialUrl": "https://kadenfan.hitachi.co.jp/kitchen/lineup/rzv100jm/"
   },
