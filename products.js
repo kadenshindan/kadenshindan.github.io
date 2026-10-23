@@ -882,6 +882,7 @@ const PRODUCTS = [
     "model": "Qrevo L",
     "name": "Roborock Qrevo L",
     "price": 59800,
+    "priceNote": "クーポン利用時",
     "size": [
       "l"
     ],
@@ -2650,7 +2651,8 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT N20 PRO PLUS",
     "name": "DEEBOT N20 PRO PLUS ロボット掃除機",
-    "price": 37100,
+    "price": 32800,
+    "priceNote": "クーポン利用時",
     "size": [
       "s",
       "m"
@@ -3629,7 +3631,8 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT mini",
     "name": "DEEBOT mini ロボット掃除機",
-    "price": 49800,
+    "price": 39800,
+    "priceNote": "クーポン利用時",
     "size": [
       "s"
     ],

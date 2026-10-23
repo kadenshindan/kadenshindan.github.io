@@ -904,7 +904,7 @@ function showResult(forcedModel) {
   document.getElementById("winPhoto").innerHTML = photoHTML(winner, true);
   document.getElementById("winMaker").textContent = winner.maker + " ／ " + winner.model;
   document.getElementById("winName").textContent = winner.name;
-  document.getElementById("winPrice").textContent = yen(winner.price);
+  document.getElementById("winPrice").textContent = yen(winner.price) + (winner.priceNote ? "（" + winner.priceNote + "）" : "");
 
   const pointsEl = document.getElementById("winPoints");
   pointsEl.innerHTML = "";
@@ -1037,7 +1037,7 @@ function showResult(forcedModel) {
         "<div class='rank-maker'>" + p.maker + " ／ " + p.model + "</div>" +
         "<div class='rank-name'>" + p.name + "</div>" +
         "<div class='rank-point'>" + p.point + "</div>" +
-        "<div class='rank-price'>" + yen(p.price) + "</div>" +
+        "<div class='rank-price'>" + yen(p.price) + (p.priceNote ? "<span style='font-size:0.72rem;color:var(--muted);font-weight:normal;'>（" + p.priceNote + "）</span>" : "") + "</div>" +
       "</div>" +
       "<div class='rank-ctas'>" +
         (hasAmazon(p) ? "<a class='am' href='" + amazonLink(p) + "' target='_blank' rel='noopener sponsored'>Amazon</a>" : "") +
