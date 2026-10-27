@@ -518,9 +518,9 @@ const PRODUCTS = [
   {
     "cat": "purifier",
     "maker": "シャープ",
-    "model": "KC-S50",
+    "model": "KC-U50",
     "name": "加湿空気清浄機 プラズマクラスター",
-    "price": 28479,
+    "price": 25778,
     "size": [
       "s",
       "m"
@@ -533,8 +533,8 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/auc-pcfreak/cabinet/imgrc0110215368.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4550556111386%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-worldichi%2F4550556111386%2F",
+    "img": "https://tshop.r10s.jp/denkichiweb/cabinet/12627487/4550556176194_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4550556176194%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4550556176194%2F",
     "point": "迷ったらこれ、加湿もできる国民的定番機",
     "features": [
       "空気清浄＋加湿の1台2役",
@@ -542,8 +542,8 @@ const PRODUCTS = [
       "花粉・ホコリ・ニオイに幅広く対応",
       "価格と性能のバランスが優秀"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0CX7Z8LW4?tag=tanosiikitaic-22",
-    "officialUrl": "https://jp.sharp/kuusei/products/kcs50/"
+    "amazon": "",
+    "officialUrl": "https://jp.sharp/kuusei/products/kcu50/"
   },
   {
     "cat": "purifier",
@@ -578,9 +578,9 @@ const PRODUCTS = [
   {
     "cat": "purifier",
     "maker": "ダイキン",
-    "model": "MC556A",
+    "model": "MC557A",
     "name": "ストリーマ空気清浄機",
-    "price": 48000,
+    "price": 44127,
     "size": [
       "m",
       "l"
@@ -593,17 +593,17 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/niche-express/cabinet/2025/dkn/01/dkn00000000122-01.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fniche-express%2Fdkn00000000122%2F",
-    "point": "加湿なしで25畳まで、5.8kgの軽量ストリーマ空気清浄機",
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001872/4573535556954_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4573535556954%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4573535556954%2F",
+    "point": "加湿なしで〜16畳（新基準）、5.8kgの軽量ストリーマ空気清浄機",
     "features": [
-      "適用床面積 25畳・8畳を11分で清浄",
+      "適用床面積 〜16畳（新基準）・8畳を12分で清浄",
       "ストリーマ＋TAFUフィルター（交換目安10年）",
       "本体5.8kgと軽く動かしやすい",
       "加湿機能なしで手入れがシンプル"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0FQ5PNWY5?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.ac.daikin.co.jp/cleanair/2026/co"
+    "amazon": "https://www.amazon.co.jp/dp/B0HFMQFJ5K?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.ac.daikin.co.jp/cleanair/co"
   },
   {
     "cat": "purifier",
