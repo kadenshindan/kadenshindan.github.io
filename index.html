@@ -416,7 +416,7 @@
     <div class="win-card">
       <div class="win-rank">🏆 あなたへのおすすめ 第1位</div>
       <div class="win-body">
-        <div class="win-photo" id="winPhoto">商品写真（後で差し替え）</div>
+        <div class="win-photo" id="winPhoto"></div>
         <div class="win-maker" id="winMaker"></div>
         <div class="win-name" id="winName"></div>
         <div class="price-line">
@@ -871,11 +871,11 @@ function rakutenLink(p) {
   return "https://hb.afl.rakuten.co.jp/hgc/" + RAKUTEN_AFF_ID + "/?pc=" +
     encodeURIComponent(target) + "&m=" + encodeURIComponent(target);
 }
-// 画像(imgがあれば表示、なければプレースホルダー)
+// 画像(imgがあれば表示、なければ「画像なし」)
 function photoHTML(p, isWin) {
   return p.img
     ? "<img src='" + p.img + "' alt='" + p.maker + " " + p.name + "' style='max-width:100%;max-height:100%;object-fit:contain;'>"
-    : (isWin ? "商品写真（後で差し替え）" : "写真");
+    : "<span style='font-size:0.8rem;color:var(--muted);'>画像なし</span>";
 }
 function yen(n) {
   return "約" + n.toLocaleString("ja-JP") + "円";
