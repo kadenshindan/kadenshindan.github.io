@@ -3558,7 +3558,7 @@ const PRODUCTS = [
     "features": [
       "加湿量 強700mL/h（お急ぎ800mL/h）・タンク約4.2L",
       "適用床面積 木造和室〜12畳／プレハブ洋室〜19畳",
-      "消費電力 強11W／静音1.6W（1か月の電気代 約84円・メーカー公表）",
+      "消費電力 強11W／静音1.6W（1か月の電気代 約84円＝強運転・1日8時間×30日・メーカー公表）",
       "運転音 静か15dB〜お急ぎ44dB・フィルターは月1回の手洗いで交換目安約10年",
       "外形寸法 37.5×37.5×18cm・約4.7kg"
     ],
@@ -4287,7 +4287,7 @@ const PRODUCTS = [
       "電気代 最大 約37.2円/h（31円/kWh換算）"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B09BTV9SSQ?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.delonghi.com/ja-jp/p/oiruhi%E3%83%BCta%E3%83%BC-rhj21f0812-wh-vueruteikarudo-oiruhi%E3%83%BCta%E3%83%BC-kamomi%E3%83%BCruhowaito/RHJ21F0812-WH.html"
+    "officialUrl": "https://www.delonghi.com/ja-jp/p/oiruhi%E3%83%BCta%E3%83%BC-rhj21f0812-gy-vueruteikarudo-oiruhi%E3%83%BCta%E3%83%BC-shida%E3%83%BCgure%E3%83%BC/RHJ21F0812-GY.html?pid=0108156301"
   },
   {
     "cat": "heater",
