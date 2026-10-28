@@ -3207,8 +3207,7 @@ const PRODUCTS = [
     "features": [
       "可変圧力でお米が踊る炊き上がり",
       "銘柄炊き分けに対応",
-      "お手入れ点数が少なく簡単",
-      "パナソニック公式ストアで購入可"
+      "お手入れ点数が少なく簡単"
     ],
     "img": "https://tshop.r10s.jp/a-denki/cabinet/shouhingazou/13/77108.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faruyan%2F4549980974193%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Faruyan%2F4549980974193%2F",
