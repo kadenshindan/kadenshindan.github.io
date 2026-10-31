@@ -3008,9 +3008,9 @@ const PRODUCTS = [
   {
     "cat": "humidifier",
     "maker": "象印",
-    "model": "EE-RU35",
+    "model": "EE-RV35",
     "name": "スチーム式加湿器 ベーシック 2.2L",
-    "price": 18980,
+    "price": 14778,
     "size": [
       "s"
     ],
@@ -3022,10 +3022,10 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/ra-kudenmart/cabinet/10117/ee-ru35-wa.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpowerkobe%2Fee-ru%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpowerkobe%2Fee-ru%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FH94KJHW?tag=tanosiikitaic-22",
-    "point": "象印スチーム式の入門ベーシック機。2万円以下で買える",
+    "img": "https://tshop.r10s.jp/jetprice/cabinet/cz8/6242ba.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetprice%2Fx421tp%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetprice%2Fx421tp%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HGFBYKPN?tag=tanosiikitaic-22",
+    "point": "象印スチーム式の入門ベーシック機。1万円台半ばで買える",
     "features": [
       "定格加湿能力350mL/h・タンク約2.2L",
       "適用床面積 木造和室〜6畳／プレハブ洋室〜10畳",
@@ -3034,7 +3034,7 @@ const PRODUCTS = [
       "消費電力 湯沸かし985W／加湿305W",
       "外形寸法 24×26×27.5cm・約2.3kg"
     ],
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-ru/"
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/humidifier/ee-rv/"
   },
   {
     "cat": "dehumidifier",
@@ -4323,9 +4323,9 @@ const PRODUCTS = [
   {
     "cat": "heater",
     "maker": "コロナ",
-    "model": "DH-C925",
+    "model": "DH-C926",
     "name": "遠赤外線電気ストーブ スリムカーボン",
-    "price": 17380,
+    "price": 17749,
     "size": [
       "s"
     ],
@@ -4337,8 +4337,8 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/39_5/4906128545439_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128545439%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128545439%2F",
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9326/4906128584735.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128584735%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128584735%2F",
     "point": "3.4kgと軽くてスリム。スイッチひとつですぐ暖まるカーボンヒーター",
     "features": [
       "暖房出力900W・消費電力900〜350W（10段階）",
@@ -4348,7 +4348,7 @@ const PRODUCTS = [
       "転倒オフスイッチ・過熱防止装置つき（日本製）",
       "電気代 強 約27.9円/h（31円/kWh換算）"
     ],
-    "officialUrl": "https://www.corona.co.jp/heating/coreheat/past/slimcarbon/lineup.html",
+    "officialUrl": "https://www.corona.co.jp/heating/coreheat/slimcarbon/lineup.html",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20%E9%9B%BB%E6%B0%97%E3%82%B9%E3%83%88%E3%83%BC%E3%83%96&tag=tanosiikitaic-22"
   },
   {
