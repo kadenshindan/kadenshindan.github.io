@@ -3306,7 +3306,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "CK-DC10",
     "name": "電気ケトル 1.0L",
-    "price": 6424,
+    "price": 5280,
     "size": [
       "s",
       "m"
@@ -3319,12 +3319,12 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "6千円台で象印の安心安全設計",
+    "point": "5千円台で象印の安心安全設計",
     "features": [
       "転倒湯もれ防止構造(新安全基準適合品)",
       "本体が熱くなりにくい二重構造",
       "1.0Lの使いやすいサイズ",
-      "6千円台の高コスパ"
+      "5千円台の高コスパ"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/42_5/4974305230942_5.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F",
