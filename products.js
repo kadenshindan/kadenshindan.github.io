@@ -2051,9 +2051,9 @@ const PRODUCTS = [
   {
     "cat": "robot",
     "maker": "アイロボット",
-    "model": "Roomba 105 Combo",
-    "name": "ルンバ 105 Combo",
-    "price": 34750,
+    "model": "Roomba Mini Slim",
+    "name": "ルンバ Mini Slim（SlimCharge 充電スタンド付き）",
+    "price": 34800,
     "size": [
       "s",
       "m"
@@ -2063,20 +2063,20 @@ const PRODUCTS = [
       "power": 2,
       "care": 2,
       "eco": 3,
-      "compact": 2,
+      "compact": 3,
       "multi": 2
     },
-    "point": "吸引+水拭きの入門ルンバ",
+    "point": "ルンバ史上最小。家具の下やすき間に入り込む入門機",
     "features": [
-      "吸引と水拭きの1台2役",
-      "信頼のルンバブランドを手頃に",
-      "アプリで掃除スケジュール管理",
-      "初めてのロボット掃除機に"
+      "ルンバ史上最小の本体 24.5×24.5×高さ9.2cm・約2kg",
+      "ClearView LiDARでマッピング、水拭き中はラグを自動で回避",
+      "吸引＋使い捨て床拭きシートで水拭き（市販シートも可）",
+      "立てて置けるSlimCharge充電スタンド（自動ゴミ収集なし）"
     ],
-    "img": "https://tshop.r10s.jp/irobotstore/cabinet/03016688/20260719_marathon/260719_105c_tm.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Frikusyouya%2Fy311260%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Frikusyouya%2Fy311260%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0F1FCG28P?tag=tanosiikitaic-22",
-    "officialUrl": "https://store.irobot-jp.com/item/Y311260.html"
+    "img": "https://tshop.r10s.jp/edion/cabinet/goods/ll/img_540/0885155053633_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Faruyan%2F0885155053633%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Faruyan%2F0885155053633%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0GN2RTSP1?tag=tanosiikitaic-22",
+    "officialUrl": "https://store.irobot-jp.com/item/F115060.html"
   },
   {
     "cat": "ricecooker",
@@ -2651,7 +2651,7 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT N20 PRO PLUS",
     "name": "DEEBOT N20 PRO PLUS ロボット掃除機",
-    "price": 39800,
+    "price": 32800,
     "priceNote": "クーポン利用時",
     "size": [
       "s",
