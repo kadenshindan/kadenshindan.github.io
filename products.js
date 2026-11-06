@@ -1060,7 +1060,7 @@ const PRODUCTS = [
     "maker": "タイガー",
     "model": "JRX-S100",
     "name": "土鍋ご泡火炊き",
-    "price": 100000,
+    "price": 84480,
     "size": [
       "m",
       "l"
@@ -1074,7 +1074,7 @@ const PRODUCTS = [
       "multi": 3
     },
     "img": "https://tshop.r10s.jp/e-cutestyle/cabinet/img051/p000000909871_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4904710443316%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Femedama%2F4904710443316%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000909871%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000909871%2F",
     "point": "本物の土鍋で炊く最高峰の一杯",
     "features": [
       "本土鍋の遠赤外線と泡立ちで炊く",
@@ -2111,9 +2111,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "象印",
-    "model": "NP-GS05",
+    "model": "NP-GM05",
     "name": "IH炊飯ジャー 3合",
-    "price": 16580,
+    "price": 17450,
     "size": [
       "s"
     ],
@@ -2132,10 +2132,10 @@ const PRODUCTS = [
       "コンパクトで置き場所に困らない",
       "ランキング上位の定番3合機"
     ],
-    "img": "https://tshop.r10s.jp/a-price/cabinet/mailmaga/08814302/12654252/4974305231390.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4974305231390%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4974305231390%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0FH6BW4Q3?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/np-gs/"
+    "img": "https://tshop.r10s.jp/winkstore/cabinet/265000/264576.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F264576%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F264576%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0DQPZ3Z4Y?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/np-gm/"
   },
   {
     "cat": "kettle",
