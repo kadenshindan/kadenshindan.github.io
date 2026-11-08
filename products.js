@@ -505,10 +505,9 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/n0000000029/4906128540731_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4906128540731%2F",
-    "point": "大能力＋省エネDC送風のハイエンド機",
+    "point": "大能力＋ヒーター温風乾燥のハイエンド機",
     "features": [
       "18L/日(60Hz)の大能力コンプレッサー式",
-      "DCモーター送風で電気代を抑える",
       "広範囲スイング送風",
       "梅雨の大量部屋干しに強い"
     ],
@@ -630,7 +629,7 @@ const PRODUCTS = [
       "ナノイーX 4.8兆搭載",
       "床上の花粉を吸い取る花粉撃退気流",
       "加湿クオリティが高い",
-      "〜25畳対応"
+      "〜25畳対応（旧基準）"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0CL954B27?tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/catalog/ctlg/air_cleaner/air_cleaner.pdf"
