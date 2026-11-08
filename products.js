@@ -3326,7 +3326,7 @@ const PRODUCTS = [
       "1.0Lの使いやすいサイズ",
       "5千円台の高コスパ"
     ],
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/42_5/4974305230942_5.jpg",
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/n0000000039/4974305230942_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FH6FR9HR?tag=tanosiikitaic-22",
     "officialUrl": "https://www.zojirushi-direct.com/category/ELECTRIC_KETTLE/CKDC10_WA.html"
