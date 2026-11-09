@@ -308,7 +308,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "EE-DG50",
     "name": "スチーム式加湿器 4.0L",
-    "price": 20400,
+    "price": 20480,
     "size": [
       "s",
       "m"
@@ -322,7 +322,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/fansfactory/cabinet/images258/4974305232533_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiyu8%2F4974305232533%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiyu8%2F4974305232533%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F276155%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F276155%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0HGF5B9D8?tag=tanosiikitaic-22",
     "point": "フィルターレスで手入れが圧倒的にラク。リビング向けの4.0L",
     "features": [
@@ -579,7 +579,7 @@ const PRODUCTS = [
     "maker": "ダイキン",
     "model": "MC557A",
     "name": "ストリーマ空気清浄機",
-    "price": 54172,
+    "price": 44127,
     "size": [
       "m",
       "l"
@@ -729,7 +729,7 @@ const PRODUCTS = [
     "maker": "アイリスオーヤマ",
     "model": "SCD-L3PD",
     "name": "マジカリーナ ゴミ回収ドック付き",
-    "price": 43759,
+    "price": 34800,
     "size": [
       "s",
       "m",
@@ -745,10 +745,10 @@ const PRODUCTS = [
     },
     "img": "https://tshop.r10s.jp/value-shopping/cabinet/11252016/4967576732918.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4967576732918%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4967576732918%2F",
-    "point": "4万円台でゴミ自動回収ドック付き",
+    "point": "3万円台でゴミ自動回収ドック付き",
     "features": [
       "ゴミ捨ては最大約90日に1回でOK（メーカー公表）",
-      "4万円台で買えるドック付きモデル",
+      "3万円台で買えるドック付きモデル",
       "軽量で扱いやすい",
       "静電モップ付きモデルも選べる"
     ],
@@ -881,7 +881,6 @@ const PRODUCTS = [
     "model": "Qrevo L",
     "name": "Roborock Qrevo L",
     "price": 59800,
-    "priceNote": "クーポン利用時",
     "size": [
       "l"
     ],
@@ -1178,7 +1177,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "CK-VB15",
     "name": "電気ケトル 1.5L",
-    "price": 6046,
+    "price": 7900,
     "size": [
       "m",
       "l"
@@ -1269,7 +1268,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "EH-NA0J",
     "name": "ヘアードライヤー ナノケア(旧モデル)",
-    "price": 30980,
+    "price": 32600,
     "size": [
       "s",
       "m",
@@ -1291,7 +1290,7 @@ const PRODUCTS = [
       "新品在庫は限られ現在はEH-NA0Kより高い場合がある"
     ],
     "img": "https://tshop.r10s.jp/alljapan-online-shop/cabinet/kaden/08229209/imgrc0096194198.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetts%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetts%2F4549980652961%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4549980652961%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmedicell51%2F4549980652961%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20EH-NA0J&tag=tanosiikitaic-22",
     "officialUrl": "https://panasonic.jp/hair/products/EH-NA0J.html"
   },
@@ -1361,7 +1360,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "EH-NE7N",
     "name": "イオニティ 大風量ドライヤー",
-    "price": 7028,
+    "price": 7850,
     "size": [
       "s",
       "m",
@@ -1376,7 +1375,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/hmy-select/cabinet/steamer/2025q3/eh-ne7n_001.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F269856%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F269856%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4550719001479%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4550719001479%2F",
     "point": "1万円以下で大風量1.6m³/分",
     "features": [
       "風量1.6m³/分の速乾クラス",
@@ -2442,7 +2441,7 @@ const PRODUCTS = [
     "maker": "ダイニチ",
     "model": "HD-LX1026",
     "name": "ハイブリッド式加湿器 LX TYPE",
-    "price": 40238,
+    "price": 47800,
     "size": [
       "l"
     ],
@@ -2562,7 +2561,7 @@ const PRODUCTS = [
     "maker": "シャーク",
     "model": "EVOPOWER DX WV516J",
     "name": "EVOPOWER DX ハンディクリーナー",
-    "price": 32746,
+    "price": 24722,
     "size": [
       "s"
     ],
@@ -3305,7 +3304,7 @@ const PRODUCTS = [
     "maker": "象印",
     "model": "CK-DC10",
     "name": "電気ケトル 1.0L",
-    "price": 5280,
+    "price": 6358,
     "size": [
       "s",
       "m"
@@ -3318,12 +3317,12 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "point": "5千円台で象印の安心安全設計",
+    "point": "6千円台で象印の安心安全設計",
     "features": [
       "転倒湯もれ防止構造(新安全基準適合品)",
       "本体が熱くなりにくい二重構造",
       "1.0Lの使いやすいサイズ",
-      "5千円台の高コスパ"
+      "6千円台の高コスパ"
     ],
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/n0000000039/4974305230942_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4974305230942%2F",
@@ -3335,7 +3334,7 @@ const PRODUCTS = [
     "maker": "ホリスティックキュアーズ",
     "model": "マグネットヘアプロ ドライヤーゼロプラス HCD-G07CB",
     "name": "マグネットヘアプロ ドライヤーゼロプラス",
-    "price": 20200,
+    "price": 21299,
     "size": [
       "s",
       "m"
@@ -3356,7 +3355,7 @@ const PRODUCTS = [
       "メーカー保証1年"
     ],
     "img": "https://tshop.r10s.jp/holistic-cures/cabinet/mg/0000mg_0001.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4988338201749%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4988338201749%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fspicos%2Fcosmo_dryer_b%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fspicos%2Fcosmo_dryer_b%2F",
     "officialUrl": "https://item.rakuten.co.jp/holistic-cures/mhp-dryer0/",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%83%9E%E3%82%B0%E3%83%8D%E3%83%83%E3%83%88%E3%83%98%E3%82%A2%E3%83%97%E3%83%AD%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=tanosiikitaic-22"
   },
@@ -3508,7 +3507,7 @@ const PRODUCTS = [
     "maker": "ダイニチ",
     "model": "HD-C500H",
     "name": "ハイブリッド式加湿器 C TYPE 4.0L",
-    "price": 18165,
+    "price": 16958,
     "size": [
       "s",
       "m"
@@ -3530,7 +3529,7 @@ const PRODUCTS = [
       "外形寸法 37.5×37.5×19cm・約4.5kg"
     ],
     "img": "https://tshop.r10s.jp/jetprice/cabinet/cz8/6117ba.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetprice%2Fx298tp%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjetprice%2Fx298tp%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4951272036241%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4951272036241%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0FH9XNYMQ?tag=tanosiikitaic-22",
     "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/c2025/"
   },
@@ -3629,7 +3628,7 @@ const PRODUCTS = [
     "maker": "エコバックス",
     "model": "DEEBOT mini",
     "name": "DEEBOT mini ロボット掃除機",
-    "price": 49800,
+    "price": 39800,
     "priceNote": "クーポン利用時",
     "size": [
       "s"
@@ -3764,7 +3763,7 @@ const PRODUCTS = [
       "ヘアサロン発の人気ブランド",
       "手頃な価格でデザインも良い"
     ],
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/26_5/4968291313826_5.jpg",
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/n0000000055/4968291313826_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4968291313826%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4968291313826%2F",
     "amazon": "https://www.amazon.co.jp/s?k=mod's%20hair%20MHD-1246-W&tag=tanosiikitaic-22",
     "officialUrl": "https://mods-stylingtools.com/products/mhd-1246"
@@ -4167,7 +4166,7 @@ const PRODUCTS = [
     "maker": "パナソニック",
     "model": "DB-U12T",
     "name": "電気しき毛布 シングルSサイズ",
-    "price": 6800,
+    "price": 7327,
     "spot": true,
     "size": [
       "s"
@@ -4181,7 +4180,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/63_5/4549077646163_5.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4549077646163%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkaden-sakura%2F4549077646163%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonan%2F4549077646163%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonan%2F4549077646163%2F",
     "point": "1時間 約1.0円。部屋ごと暖めない省エネ暖房",
     "features": [
       "消費電力 定格54W",
@@ -4198,7 +4197,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "CHK-C12B",
     "name": "ウォールヒート 壁掛型遠赤外線暖房機",
-    "price": 36250,
+    "price": 36190,
     "size": [
       "s"
     ],
@@ -4211,7 +4210,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/auc-ventistyle/cabinet/corona/imgrc0131235750.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fauc-ventistyle%2Fchk-c126%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffansfactory%2F4906128524830%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffansfactory%2F4906128524830%2F",
     "point": "壁掛けで床を占領しない。脱衣所のヒートショック対策に",
     "features": [
       "壁掛け設置で床スペースを使わない",
@@ -4292,7 +4291,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "DH-1225R",
     "name": "遠赤外線暖房機 コアヒート",
-    "price": 30554,
+    "price": 36080,
     "size": [
       "s"
     ],
