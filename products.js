@@ -691,7 +691,7 @@ const PRODUCTS = [
       "自走式ヘッドで軽い操作感",
       "日本メーカーの安心感"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E6%97%A5%E7%AB%8B%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC%20PV-BL3P&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0GR4JYNTV?tag=tanosiikitaic-22",
     "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bl3p/feature01.html"
   },
   {
@@ -2252,7 +2252,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/shopch-r/cabinet/item/ele/4000765255001/4000765255001-1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshopch-r%2F4000765255001%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC%20IB-NP9&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0B5Q44D28?tag=tanosiikitaic-22",
     "officialUrl": "https://jp.sharp/beauty/products/ibnp9/"
   },
   {
@@ -2493,7 +2493,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001881/4951272037170_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272037170%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272037170%2F",
-    "amazon": "",
+    "amazon": "https://www.amazon.co.jp/dp/B0HQNVT2T5?tag=tanosiikitaic-22",
     "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/rxt2026/"
   },
   {
@@ -2791,7 +2791,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/tiger-online/cabinet/pcm-n080_ra260710.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftiger-online%2Fpcm-a080%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftiger-online%2Fpcm-a080%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%20PCM-N080&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0DH7WLPB5?tag=tanosiikitaic-22",
     "officialUrl": "https://www.tiger-corporation.com/ja/jpn/product/kettle-pot/pcm-n/"
   },
   {
@@ -3500,7 +3500,7 @@ const PRODUCTS = [
     "img": "https://tshop.r10s.jp/171online-shop/cabinet/home/04/4967576705516.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2F171online-shop%2F4967576705516%2F",
     "officialUrl": "https://www.irisohyama.co.jp/products/support/4967576705516",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E5%8A%A0%E6%B9%BF%E5%99%A8&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0F41WSN26?tag=tanosiikitaic-22"
   },
   {
     "cat": "humidifier",
@@ -3621,7 +3621,7 @@ const PRODUCTS = [
     "img": "https://tshop.r10s.jp/winkstore/cabinet/269000/268918.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4550556174084%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-shop1one%2F4550556174084%2F",
     "officialUrl": "https://jp.sharp/souji/products/ecar11/spec/",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E6%8E%83%E9%99%A4%E6%A9%9F&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0HM2KMRL2?tag=tanosiikitaic-22"
   },
   {
     "cat": "robot",
@@ -4129,7 +4129,7 @@ const PRODUCTS = [
       "電気代 強 約36.3円/h(31円/kWh換算・室温15℃)"
     ],
     "officialUrl": "https://panasonic.jp/danbo/products/DS-FZX1200/spec.html",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20%E3%82%BB%E3%83%A9%E3%83%9F%E3%83%83%E3%82%AF%E3%83%95%E3%82%A1%E3%83%B3%E3%83%92%E3%83%BC%E3%82%BF%E3%83%BC&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/dp/B0DGP3YGK6?tag=tanosiikitaic-22"
   },
   {
     "cat": "heater",
@@ -4158,7 +4158,7 @@ const PRODUCTS = [
       "270×130×378mm / 2.4kg と軽量",
       "温度設定16/20/24/28℃・転倒時停止"
     ],
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20ACH-LW12A&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0DDSH5DM3?tag=tanosiikitaic-22",
     "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/ceramic-fan-heater/large-air-volume/large-air-volume-ceramic-fan-heater-with-motion-sensors"
   },
   {
