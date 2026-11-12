@@ -4179,7 +4179,7 @@ const PRODUCTS = [
       "compact": 3,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/63_5/4549077646163_5.jpg",
+    "img": "https://tshop.r10s.jp/konan/cabinet/sa020/4549077646163_1.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonan%2F4549077646163%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkonan%2F4549077646163%2F",
     "point": "1時間 約1.0円。部屋ごと暖めない省エネ暖房",
     "features": [

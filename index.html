@@ -807,14 +807,17 @@ function sizeGap(p) {
 // ・2段階以上足りない商品も後ろへ回す。
 function fitTier(p) {
   if (!AIR_CATS[answers.cat]) return 0;
-  if (p.spot) return answers.size === "s" ? 0 : 1;
+  // 2026-11-12: 「パワー・性能」を1番目か2番目に選んだ人にも、体を暖める器具は答えにならないので後ろへ回す。
+  if (p.spot) return (answers.size === "s" && answers.focus !== "power" && answers.focus2 !== "power") ? 0 : 1;
   return sizeGap(p) >= 2 ? 1 : 0;
 }
 
 function scoreProduct(p) {
   const d = { size: 0, focus: 0, budget: 0 };
   const gap = sizeGap(p);
-  if (gap === 0) {
+  if (p.spot) {
+    d.size = 0; // 体を直接あたためる器具（電気毛布・ホットカーペット・デスクパネル）は部屋を暖めないので、広さの加点はしない（2026-11-12）
+  } else if (gap === 0) {
     d.size = 3;
   } else if (AIR_CATS[answers.cat]) {
     d.size = gap >= 2 ? -6 : 0; // 2段階足りない＝その広さでは答えになっていない
@@ -919,7 +922,7 @@ function showResult(forcedModel) {
     escapeHtml(answers.focusLabel) + "」重視" + (answers.focus2 && answers.focus2 !== "none" ? "（次いで「" + escapeHtml(answers.focus2Label) + "」）" : "") + "というあなたの条件に、候補の中でもっとも高くマッチしました。";
 
   document.getElementById("sbSize").textContent =
-    fmtScore(winnerScore.size) + (winnerScore.size > 0 ? "（あなたの部屋の広さに対応）" : "（対応サイズ外）");
+    fmtScore(winnerScore.size) + (winner.spot ? "（部屋ではなく体を直接あたためるタイプ）" : winnerScore.size > 0 ? "（あなたの部屋の広さに対応）" : "（対応サイズ外）");
   document.getElementById("sbFocus").textContent =
     fmtScore(winnerScore.focus) + "（重視ポイントとの一致度）";
   let budgetNote;
@@ -942,7 +945,9 @@ function showResult(forcedModel) {
 
   // 1位の短所(スコア内訳から機械的に判定。事実に基づかない弱点は書かない)
   const caveats = [];
-  if (winnerScore.size <= 0) {
+  if (winner.spot) {
+    caveats.push("部屋全体を暖める器具ではありません。ふとんの中・足元・座る場所など、体を直接あたためるタイプです。部屋ごと暖めたい場合は2位以下もご覧ください。");
+  } else if (winnerScore.size <= 0) {
     caveats.push("対応畳数（サイズ）の目安が、回答いただいた部屋の広さと完全には一致しません。");
   }
   if (winnerScore.budget < 0) {
