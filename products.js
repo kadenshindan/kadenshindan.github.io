@@ -428,9 +428,9 @@ const PRODUCTS = [
   {
     "cat": "dehumidifier",
     "maker": "アイリスオーヤマ",
-    "model": "IJC-R65",
-    "name": "コンプレッサー式除湿機 6.5L",
-    "price": 17171,
+    "model": "IJC-P70",
+    "name": "衣類乾燥除湿機 7L（コンプレッサー式）",
+    "price": 24013,
     "size": [
       "s",
       "m"
@@ -443,16 +443,17 @@ const PRODUCTS = [
       "compact": 2,
       "multi": 1
     },
-    "img": "https://tshop.r10s.jp/irisplaza-r/cabinet/12113165/imgrc0121244229.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F561929%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Firisplaza-r%2F561929%2F",
-    "point": "軽くて安い、除湿機デビューの入門機",
+    "img": "https://tshop.r10s.jp/matsuyoshi-web/cabinet/13834171/00364734.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuyoshi-web%2F00364734%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fmatsuyoshi-web%2F00364734%2F",
+    "point": "軽くて手ごろ、除湿機デビューの入門機",
     "features": [
-      "除湿能力5.5L/日（50Hz）・6.5L/日（60Hz）",
-      "約2Lの水タンク",
-      "内部乾燥運転を搭載",
-      "市販ホースで連続排水に対応"
+      "除湿能力5.9L/日（50Hz）・7.3L/日（60Hz）",
+      "約2.5Lの水タンク",
+      "約8.3kgの軽量コンパクト（幅約24.4cm）",
+      "鉄筋なら最大18畳（60Hz）まで"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0DXQ1Z3J2?tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/dp/B0C1S1PJG5?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/dehumidifier/search/",
     "officialUrl": "https://www.irisohyama.co.jp/dehumidifier/search/"
   },
   {
@@ -1930,9 +1931,9 @@ const PRODUCTS = [
   {
     "cat": "vacuum",
     "maker": "パナソニック",
-    "model": "MC-NS10KE",
+    "model": "MC-NX500K",
     "name": "セパレート型コードレス掃除機",
-    "price": 58168,
+    "price": 69935,
     "size": [
       "s",
       "m"
@@ -1948,14 +1949,14 @@ const PRODUCTS = [
     "point": "ゴミ捨て自動、クリーンドックで手間いらず",
     "features": [
       "ドックに戻すだけで自動ゴミ収集",
-      "本体はスリムで超軽量",
+      "スティック時1.2kgの軽さ",
       "ドック側は紙パック式でゴミ捨ての手間最小",
-      "スキマ時間掃除に最適"
+      "スゴ取れセンサーとLEDライトで取り残しを防ぐ"
     ],
-    "img": "https://tshop.r10s.jp/panasonic-store/cabinet/itemimg01/mc-ns10ke_00_v2.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fmc-ns10ke-k%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpanasonic-store%2Fmc-ns10ke-k%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0CN27SVQ9?tag=tanosiikitaic-22",
-    "officialUrl": "https://panasonic.jp/soji/products/MC-NS10KE.html"
+    "img": "https://tshop.r10s.jp/edion/cabinet/goods/ll/img_517/4550719036754_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550719036754%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fedion%2F4550719036754%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0G2XZ3JDK?tag=tanosiikitaic-22",
+    "officialUrl": "https://panasonic.jp/soji/products/MC-NX500K.html"
   },
   {
     "cat": "vacuum",
