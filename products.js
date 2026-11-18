@@ -937,9 +937,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "象印",
-    "model": "NW-QB10",
-    "name": "IH炊飯ジャー 極め炊き 5.5合",
-    "price": 31980,
+    "model": "NW-QC10",
+    "name": "IH炊飯ジャー 豪熱大火力 5.5合",
+    "price": 28370,
     "size": [
       "m",
       "l"
@@ -952,17 +952,17 @@ const PRODUCTS = [
       "compact": 1,
       "multi": 2
     },
-    "img": "https://tshop.r10s.jp/yas-online/cabinet/11334967/4974305230508.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fnw-qb10-bz%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fnw-qb10-bz%2F",
-    "point": "お米マイスター実証テスト1位のベストバイ",
+    "img": "https://tshop.r10s.jp/yas-online/cabinet/11334967/4974305232342.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305232342%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyas-online%2F4974305232342%2F",
+    "point": "人気機NW-QB10と仕様が同じ2026年9月発売の後継機",
     "features": [
-      "専門家テストでベストバイ獲得",
+      "大火力IH・黒まる厚釜（1.7mm）・内釜3年保証",
       "IHの強火で甘みのある炊き上がり",
       "メニュー豊富で炊き分け可能",
       "5.5合でファミリーに最適"
     ],
-    "amazon": "https://www.amazon.co.jp/dp/B0FH6BGV8G?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/nw-qb/"
+    "amazon": "https://www.amazon.co.jp/dp/B0HCL87WNM?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/nw-qc/"
   },
   {
     "cat": "ricecooker",
@@ -2080,9 +2080,9 @@ const PRODUCTS = [
   {
     "cat": "ricecooker",
     "maker": "象印",
-    "model": "NW-FC10",
+    "model": "NX-AB10",
     "name": "炎舞炊き 圧力IH 5.5合",
-    "price": 110356,
+    "price": 107500,
     "size": [
       "m",
       "l"
@@ -2097,15 +2097,15 @@ const PRODUCTS = [
     },
     "point": "炎舞炊きシリーズ。炎のゆらぎを再現して炊く極上ごはん",
     "features": [
-      "ローテーションIHで炎のゆらぎを再現",
-      "炎舞炊き（2024年発売）の上位モデル",
+      "3DローテーションIHで炎のゆらぎを再現",
+      "鉄を仕込んだ豪炎かまど釜（2026年モデル）",
       "炊き分け圧力でメニュー豊富",
       "ごはんの甘み・粒立ちが別格"
     ],
-    "img": "https://tshop.r10s.jp/akindo/cabinet/l41/nw-fc10-bz.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitline%2F4974305227089%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhitline%2F4974305227089%2F",
-    "amazon": "https://www.amazon.co.jp/dp/B0D4D95VKD?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.zojirushi.co.jp/corp/news/2024/240516/NWFC.html"
+    "img": "https://tshop.r10s.jp/asahiprocureace/cabinet/zojirushi/nx/nx-ab10-bz_top.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fgiga-web%2F67844%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fgiga-web%2F67844%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0H1VZDQ7G?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/nx-ab/"
   },
   {
     "cat": "ricecooker",
@@ -2562,7 +2562,7 @@ const PRODUCTS = [
     "maker": "シャーク",
     "model": "EVOPOWER DX WV516J",
     "name": "EVOPOWER DX ハンディクリーナー",
-    "price": 25092,
+    "price": 33550,
     "size": [
       "s"
     ],
@@ -2582,7 +2582,7 @@ const PRODUCTS = [
       "ドックに置くだけで充電"
     ],
     "img": "https://tshop.r10s.jp/select-rainbow/cabinet/12791086/12971895/0622356295550_.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhomarina%2Fgr-e9gdu3t8de%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhomarina%2Fgr-e9gdu3t8de%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv516j%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fshark%2Fwv516j%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0DG1X8TGB?tag=tanosiikitaic-22",
     "officialUrl": "https://www.sharkninja.jp/products/wv516j"
   },
