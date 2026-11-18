@@ -620,7 +620,7 @@ const REALITY_NOTES = {
   "fan:l": {
     maxBudget: 10000,
     title: "先にお伝えしたいこと",
-    body: "<strong>16畳以上の部屋までしっかり風を届ける扇風機は、2万円台後半からが相場です。</strong>羽根が大きく、弱い風でも遠くまで届くDCモーター機がこの価格帯に集まっているためです。<br><br>" +
+    body: "<strong>16畳以上の部屋までしっかり風を届ける扇風機は、2万円台からが相場です。</strong>羽根が大きく、弱い風でも遠くまで届くDCモーター機がこの価格帯に集まっているためです。<br><br>" +
           "1万円前後の機種でも風量そのものは出ますが、<strong>広い部屋では「首振りで部屋全体に回す」より「人のいる場所へ向けて使う」ほうが体感は良くなります。</strong>"
   },
   "dehumidifier:l": {
@@ -649,13 +649,13 @@ const REALITY_NOTES = {
   "purifier:l": {
     maxBudget: 30000,
     title: "先にお伝えしたいこと",
-    body: "<strong>16畳以上をカバーする空気清浄機は、3万円台からが相場です。</strong>適用床面積は本体の大きさとファンの力でほぼ決まるので、この広さになると価格が上がります。<br><br>" +
+    body: "<strong>16畳以上をカバーする空気清浄機は、3万円前後からが相場です。</strong>適用床面積は本体の大きさとファンの力でほぼ決まるので、この広さになると価格が上がります。<br><br>" +
           "なお従来の基準の適用床面積は「密閉した部屋を30分できれいにできる広さ」を表したものです。<strong>表示より広い部屋で使っても効かないわけではなく、きれいになるまでの時間が長くなります。</strong>"
   },
   "humidifier:l": {
     maxBudget: 25000,
     title: "先にお伝えしたいこと",
-    body: "<strong>16畳以上に対応する加湿器は、3万円台後半から4万円台が相場です。</strong>大きな部屋をうるおすには、それだけタンクとファンが大きくなるためで、1〜2万円台にこのクラスの製品はほとんどありません。<br><br>" +
+    body: "<strong>16畳以上に対応する加湿器は、3万円前後からが相場です。</strong>大きな部屋をうるおすには、それだけタンクとファンが大きくなるためで、2万円台前半以下にこのクラスの製品はほとんどありません。<br><br>" +
           "ご予算を抑えたい場合は、<strong>部屋全体ではなく「過ごす場所の近く」に小さめの1台を置く</strong>ほうが、結果的に満足度が高くなることがあります。"
   },
 };
@@ -1054,7 +1054,7 @@ function showResult(forcedModel) {
   // カテゴリのおすすめ記事への導線（回遊・SEO内部リンク）
   const catLink = document.getElementById("catArticleLink");
   if (catLink) {
-    catLink.href = "/osusume-" + answers.cat + ".html";
+    catLink.href = "/" + "osusume-" + answers.cat + ".html"; // 文字列を分けているのは、検索エンジンが「/osusume-」だけを住所と誤認して404扱いにするのを防ぐため（2026-11-18）
     catLink.textContent = CAT_NAMES[answers.cat] + "のおすすめランキングをもっと見る →";
     catLink.style.display = "block";
   }
