@@ -3467,7 +3467,7 @@ const PRODUCTS = [
     "point": "5千円以下でDCモーター搭載",
     "features": [
       "DCモーターをこの価格で",
-      "静音・省エネ運転",
+      "省エネ運転（消費電力17W）",
       "コンパクトで置き場所自由"
     ],
     "img": "https://tshop.r10s.jp/bluxe-store/cabinet/thumb/cfaz2601_main.jpg",
