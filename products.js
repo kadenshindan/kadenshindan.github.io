@@ -4409,5 +4409,299 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272036753%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4951272036753%2F",
     "amazon": "",
     "officialUrl": "https://www.dainichi-net.co.jp/products/fanheater/lineup/s2026/"
+  },
+  {
+    "cat": "futon",
+    "maker": "アイリスオーヤマ",
+    "model": "FK-W3",
+    "name": "ふとん乾燥機 カラリエ ツインノズル",
+    "price": 16280,
+    "size": [
+      "s",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "2組同時＋「寝ながらモード」付きの2026年モデル",
+    "features": [
+      "ノズル2本でふとん2組を同時に乾燥",
+      "寝ながらモードで就寝中も足元をあたためる（メーカーによる）",
+      "ダニモード・くつ乾燥ノズル2個付き",
+      "最大880W・タイマー15〜180分"
+    ],
+    "img": "https://tshop.r10s.jp/etre/cabinet/itemimage43/1304694.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fetre%2F1304694%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fetre%2F1304694%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HPSMTP4Y?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/home-appliances/dryer/futon-dryer/drier-bed-twin-w1"
+  },
+  {
+    "cat": "futon",
+    "maker": "アイリスオーヤマ",
+    "model": "FK-W2",
+    "name": "ふとん乾燥機 カラリエ ツインノズル",
+    "price": 11700,
+    "size": [
+      "s",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "2組同時に使えるツインノズルが1万円台前半",
+    "features": [
+      "ノズル2本でふとん2組を同時に乾燥",
+      "ダニ・冬・夏・あたためのモード",
+      "くつ乾燥アタッチメント2個付き",
+      "760W・約2.4kgの小型ボディ"
+    ],
+    "img": "https://tshop.r10s.jp/beisia/cabinet/image109/4967576541688s_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx0022165%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx0022165%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20FK-W2-W&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/home-appliances/dryer/futon-dryer/drier-bed-twin-w1"
+  },
+  {
+    "cat": "futon",
+    "maker": "アイリスオーヤマ",
+    "model": "FK-WH2",
+    "name": "ふとん乾燥機 カラリエ ハイパワーツインノズル",
+    "price": 15700,
+    "size": [
+      "s",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 3,
+      "care": 2,
+      "eco": 1,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "最大1150Wのハイパワー。速く温めたい人向け",
+    "features": [
+      "最大1150Wのハイパワー",
+      "ノズル2本でふとん2組を同時に",
+      "くつ乾燥アタッチメント2個付き",
+      "タイマー5〜180分・約2.2kg"
+    ],
+    "img": "https://tshop.r10s.jp/beisia/cabinet/image111/4967576674713s_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx0026631%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx0026631%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20FK-WH2-W&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/home-appliances/dryer/futon-dryer/drier-bed-high-power-twin"
+  },
+  {
+    "cat": "futon",
+    "maker": "アイリスオーヤマ",
+    "model": "FK-D2",
+    "name": "ふとん乾燥機 カラリエ シングルノズル",
+    "price": 14200,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "布張りの本体で寝室に置きっぱなしにしやすい",
+    "features": [
+      "インテリアになじむファブリック調の本体",
+      "約80cmのロングホースでベッドにも床のふとんにも",
+      "ノズルハンガーで衣類乾燥にも使える",
+      "ダニ・冬・夏・あたための4モード"
+    ],
+    "img": "https://tshop.r10s.jp/jism/cabinet/0103/4967576618250.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4967576618250-21-76325-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4967576618250-21-76325-n%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20FK-D2-B&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/kararie/futon/fk-d2-product/"
+  },
+  {
+    "cat": "futon",
+    "maker": "象印",
+    "model": "RF-FB20",
+    "name": "ふとん乾燥機 スマートドライ（パワフルモデル）",
+    "price": 15000,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 3,
+      "eco": 3,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "マットもホースも不要。象印で最大風量のパワフルモデル",
+    "features": [
+      "開いて差し込むだけ・マットもホースも不要",
+      "ツインファンでシングル約35分（冬コース）",
+      "ダニ対策コース（シングル80分）",
+      "衣類・くつ乾燥はアタッチメントなしで"
+    ],
+    "img": "https://tshop.r10s.jp/telaffy/cabinet/2023/08/rf-fb20-wa.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftelaffy%2Frf-fb20-wa%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ftelaffy%2Frf-fb20-wa%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CD3KPHLQ?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-fb/"
+  },
+  {
+    "cat": "futon",
+    "maker": "象印",
+    "model": "RF-UA10",
+    "name": "ふとん乾燥機 スマートドライ（コンパクトモデル）",
+    "price": 12569,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 1,
+      "care": 3,
+      "eco": 2,
+      "compact": 2,
+      "multi": 3
+    },
+    "point": "マット・ホース不要のシンプル＆コンパクト版",
+    "features": [
+      "マットもホースも不要の3ステップ",
+      "運転音 約49dB（ふとん乾燥時）",
+      "ダニ対策コース（120分）・冬コース50分",
+      "衣類・くつ乾燥にも対応"
+    ],
+    "img": "https://tshop.r10s.jp/winkstore/cabinet/258000/257652.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F257652%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F257652%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CD3L35YL?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/life/coverlet-dryer/rf-ua/"
+  },
+  {
+    "cat": "futon",
+    "maker": "日立",
+    "model": "HFK-VS6000",
+    "name": "ふとん乾燥機 アッとドライ",
+    "price": 15460,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "ダニ対策約65分・衣類1kgまで乾かせる多機能機",
+    "features": [
+      "アタッチメントを挟んでふとんの両面を一度に",
+      "ダニ対策コース 約65分（約60℃・シングル）",
+      "衣類乾燥（約1kg）・くつ乾燥・低温コース",
+      "ホースとアタッチメントを本体に収納"
+    ],
+    "img": "https://tshop.r10s.jp/premoa/cabinet/pics/658/4526044017485.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4526044017485%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4526044017485%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CLXVXXPB?tag=tanosiikitaic-22",
+    "officialUrl": "https://kadenfan.hitachi.co.jp/futon/hfk-vs6000/"
+  },
+  {
+    "cat": "futon",
+    "maker": "日立",
+    "model": "HFK-CV1B",
+    "name": "ふとん乾燥機 アッとドライ（コンパクト）",
+    "price": 10880,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 1,
+      "care": 2,
+      "eco": 1,
+      "compact": 3,
+      "multi": 2
+    },
+    "point": "約2.3kg・ボタン3つのコンパクト機",
+    "features": [
+      "幅20cm・約2.3kgの小型軽量",
+      "ボタン3つのシンプル操作",
+      "アタッチメントとホースを本体に収納",
+      "衣類/ダニコース（衣類は別売カバーで）"
+    ],
+    "img": "https://tshop.r10s.jp/beisiadenki/cabinet/cm222/imgrc0147033802.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisiadenki%2F4526044017379%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fbeisiadenki%2F4526044017379%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0BRR85YQ2?tag=tanosiikitaic-22",
+    "officialUrl": "https://kadenfan.hitachi.co.jp/futon/hfk-cv1b/"
+  },
+  {
+    "cat": "futon",
+    "maker": "パナソニック",
+    "model": "FD-F06S2",
+    "name": "ふとん暖め乾燥機",
+    "price": 13908,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 1,
+      "care": 2,
+      "eco": 1,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "差し込むだけのノズルで寝る前の足もとをすぐ暖める",
+    "features": [
+      "マットなし・すぐぽかノズルを差し込むだけ",
+      "足もとモード（5分）で寝る前にすぐ暖める",
+      "ルーバー調整でくつ・小物衣類も",
+      "収納時の幅14cm・約3.2kg"
+    ],
+    "img": "https://tshop.r10s.jp/e-wellness/cabinet/a07000079/478886014.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-wellness%2F478886014%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-wellness%2F478886014%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%91%E3%83%8A%E3%82%BD%E3%83%8B%E3%83%83%E3%82%AF%20FD-F06S2&tag=tanosiikitaic-22",
+    "officialUrl": "https://panasonic.jp/futon/products/FD-F06S2.html"
+  },
+  {
+    "cat": "futon",
+    "maker": "カドー",
+    "model": "FEN-L01",
+    "name": "ふとん乾燥機 FOEHN LITE",
+    "price": 14570,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 1,
+      "care": 3,
+      "eco": 2,
+      "compact": 3,
+      "multi": 1
+    },
+    "point": "約400gのスティック型。海外電圧にも対応",
+    "features": [
+      "直径約4.5cm・約400gのスティック型",
+      "乾燥・ダニ対策コース（約80分・約60℃の温風）",
+      "あたため約10分・送風コース",
+      "AC100〜240V対応で旅行にも"
+    ],
+    "img": "https://tshop.r10s.jp/akindo/cabinet/l48/fen-l01-wg.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Ffen-l01-wg%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Ffen-l01-wg%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0F3CFZWPP?tag=tanosiikitaic-22",
+    "officialUrl": "https://cdn.cado.com/manual/manual_safety_fen-l01.pdf"
   }
 ];

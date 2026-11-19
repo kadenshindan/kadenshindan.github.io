@@ -33,7 +33,7 @@
   }
 }
 </script>
-<meta name="description" content="5つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・暖房器具・掃除機・炊飯器・ドライヤーなど12カテゴリ・140点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
+<meta name="description" content="5つの質問に答えるだけで、あなたにぴったりの家電が見つかる無料診断。サーキュレーター・扇風機・除湿機・空気清浄機・暖房器具・掃除機・炊飯器・ドライヤー・布団乾燥機など13カテゴリ・150点以上の人気家電から、部屋の広さ・重視ポイント・予算に合わせて最適な1台をおすすめします。">
 <link rel="canonical" href="https://kadenshindan.com/">
 <meta property="og:title" content="ぴったり家電診断｜あなたに合う家電が30秒でわかる">
 <meta property="og:description" content="5つの質問に答えるだけ。条件に合った家電がランキング形式で見つかる無料診断サイト。">
@@ -428,7 +428,7 @@
         <div class="match-reason" id="winReason"></div>
         <div class="score-breakdown" id="scoreBreakdown">
           <div class="sb-title">得点の内訳</div>
-          <div class="sb-row"><span class="sb-label">部屋の広さ</span><span class="sb-val" id="sbSize"></span></div>
+          <div class="sb-row"><span class="sb-label" id="sbSizeLabel">部屋の広さ</span><span class="sb-val" id="sbSize"></span></div>
           <div class="sb-row"><span class="sb-label">重視ポイント</span><span class="sb-val" id="sbFocus"></span></div>
           <div class="sb-row"><span class="sb-label">予算</span><span class="sb-val" id="sbBudget"></span></div>
           <div class="sb-gap" id="sbGap"></div>
@@ -471,7 +471,7 @@
   <section style="margin-top:32px; font-size:0.82rem; color:var(--muted); line-height:1.9;">
     <h2 style="font-size:0.95rem; color:var(--text); padding-left:10px; border-left:4px solid var(--main); margin-bottom:8px;">家電診断とは</h2>
     <p style="margin-bottom:8px;">「家電診断」は、カテゴリ・部屋の広さ(人数)・重視ポイント（1番目・2番目）・予算の5つの質問に答えるだけで、あなたの条件に合った家電をランキング形式で紹介する無料の診断サービスです。</p>
-    <p>対応カテゴリはサーキュレーター、扇風機、除湿機、空気清浄機、加湿器、暖房器具、コードレス掃除機、ロボット掃除機、炊飯器、電気ケトル、ドライヤー、電動歯ブラシの12ジャンル・<span id="pcount">143</span>商品。専門メディアや価格比較サイトの評価を参考に、毎週確認している楽天市場の実勢価格とあわせて掲載しています。静音性重視、お手入れのしやすさ重視、省エネ重視など、こだわりに合わせた1台がすぐに見つかります。</p>
+    <p>対応カテゴリはサーキュレーター、扇風機、除湿機、空気清浄機、加湿器、暖房器具、コードレス掃除機、ロボット掃除機、炊飯器、電気ケトル、ドライヤー、電動歯ブラシ、布団乾燥機の13ジャンル・<span id="pcount">157</span>商品。専門メディアや価格比較サイトの評価を参考に、毎週確認している楽天市場の実勢価格とあわせて掲載しています。静音性重視、お手入れのしやすさ重視、省エネ重視など、こだわりに合わせた1台がすぐに見つかります。</p>
     <div class="linknav">
       <h3>カテゴリ別おすすめ記事</h3>
       <div class="chips">
@@ -487,6 +487,7 @@
         <a href="/osusume-dryer.html">ドライヤー</a>
         <a href="/osusume-toothbrush.html">電動歯ブラシ</a>
         <a href="/osusume-heater.html">暖房器具</a>
+        <a href="/osusume-futon.html">布団乾燥機</a>
       </div>
     </div>
 
@@ -506,7 +507,7 @@
         <a href="/hikaku-eedf35-eeru35.html">象印の加湿器 DG35とRU35</a>
         <a href="/hikaku-hdlx1025-eetb60.html">大容量加湿器 ダイニチと象印</a>
       </div>
-      <a class="allink" href="/kiji.html">記事一覧をすべて見る（全66本）→</a>
+      <a class="allink" href="/kiji.html">記事一覧をすべて見る（全70本）→</a>
     </div>
   </section>
 </main>
@@ -528,6 +529,7 @@ const CAT_NAMES = {
   dryer: "ドライヤー",
   toothbrush: "電動歯ブラシ",
   heater: "暖房器具",
+  futon: "布団乾燥機",
 };
 
 // カテゴリ→質問グループ
@@ -536,6 +538,7 @@ const CAT_GROUPS = {
   vacuum:"clean", robot:"clean",
   ricecooker:"kitchen", kettle:"kitchen",
   dryer:"beauty", toothbrush:"beauty",
+  futon:"futon",
 };
 
 // Q2: 規模(s/m/l) — グループごとに聞き方を変える
@@ -559,6 +562,12 @@ const SIZE_Q = {
     { label:"自分専用", sub:"自分だけで使う", value:"s" },
     { label:"2人で共用", sub:"夫婦・パートナーと", value:"m" },
     { label:"家族みんな", sub:"3人以上で使う", value:"l" },
+  ]},
+  // 布団乾燥機（2026-11-20追加）: 広さの代わりに、乾かす布団の大きさ・枚数を聞く
+  futon: { title:"乾かしたい布団は？", opts:[
+    { label:"シングル1組", sub:"一人用の布団・ベッド", value:"s" },
+    { label:"ダブルサイズ", sub:"大きめの布団を1組", value:"m" },
+    { label:"2組を同時に", sub:"家族や子どもの布団もまとめて", value:"l" },
   ]},
 };
 
@@ -595,6 +604,15 @@ const FOCUS_Q = {
     { label:"コスパ", sub:"価格とランニングコスト重視", value:"eco" },
     { label:"軽さ・携帯性", sub:"軽くて旅行にも持ち運べる", value:"compact" },
     { label:"多機能・高機能", sub:"モード・付加機能の充実度", value:"multi" },
+  ]},
+  // 布団乾燥機（2026-11-20追加）。値の名前は他のカテゴリと共通の箱を使い回している（中身の意味はこのラベルのとおり）
+  futon: { title:"いちばん重視するポイントは？", opts:[
+    { label:"準備の手軽さ", sub:"マットなし・差し込むだけで使いたい", value:"care" },
+    { label:"ダニ対策", sub:"ダニ対策コースの充実度", value:"eco" },
+    { label:"衣類・靴も乾かしたい", sub:"部屋干しや濡れた靴にも使う", value:"multi" },
+    { label:"速さ", sub:"短時間でぽかぽか・カラッと", value:"power" },
+    { label:"静かさ", sub:"寝る前や夜でも気にならない", value:"quiet" },
+    { label:"しまいやすさ", sub:"小さく軽く、置き場所に困らない", value:"compact" },
   ]},
 };
 
@@ -667,6 +685,7 @@ const CAT_BUDGETS = {
   ricecooker:[15000,40000,200000], kettle:[6000,12000,28000],
   dryer:[15000,35000,55000], toothbrush:[8000,20000,50000],
   heater:[10000,30000,45000],
+  futon:[12000,16000,25000],
 };
 
 function fmtYen(n) {
@@ -701,6 +720,7 @@ const CAT_Q = { title:"どの家電をお探しですか？", key:"cat", grid:tr
   { label:"ドライヤー", sub:"速乾・ヘアケア", value:"dryer" },
   { label:"電動歯ブラシ", sub:"歯みがきをレベルアップ", value:"toothbrush" },
   { label:"暖房器具", sub:"足元・脱衣所・寝室の寒さ対策", value:"heater" },
+  { label:"布団乾燥機", sub:"冷えた布団・ダニ・花粉の季節に", value:"futon" },
 ]};
 
 // ===== 状態 =====
@@ -806,6 +826,8 @@ function sizeGap(p) {
 //   〜8畳以外を選ばれたら必ず後ろへ回す。省エネ・静かさでは強いが「部屋を暖める」答えではないため。
 // ・2段階以上足りない商品も後ろへ回す。
 function fitTier(p) {
+  // 布団乾燥機（2026-11-20）: 「2組を同時に」はノズル2本の機種でしかできない（物理的な制約）ので、1組用は後ろへ回す
+  if (answers.cat === "futon") return (answers.size === "l" && !p.size.includes("l")) ? 1 : 0;
   if (!AIR_CATS[answers.cat]) return 0;
   // 2026-11-12: 「パワー・性能」を1番目か2番目に選んだ人にも、体を暖める器具は答えにならないので後ろへ回す。
   if (p.spot) return (answers.size === "s" && answers.focus !== "power" && answers.focus2 !== "power") ? 0 : 1;
@@ -931,8 +953,9 @@ function showResult(forcedModel) {
     "<strong>この商品が1位の理由：</strong>「" + escapeHtml(answers.sizeLabel) + "」で「" +
     escapeHtml(answers.focusLabel) + "」重視" + (answers.focus2 && answers.focus2 !== "none" ? "（次いで「" + escapeHtml(answers.focus2Label) + "」）" : "") + "というあなたの条件に、候補の中でもっとも高くマッチしました。";
 
+  document.getElementById("sbSizeLabel").textContent = answers.cat === "futon" ? "布団の大きさ" : "部屋の広さ";
   document.getElementById("sbSize").textContent =
-    fmtScore(winnerScore.size) + (winner.spot ? "（部屋ではなく体を直接あたためるタイプ）" : winnerScore.size > 0 ? "（あなたの部屋の広さに対応）" : "（対応サイズ外）");
+    fmtScore(winnerScore.size) + (winner.spot ? "（部屋ではなく体を直接あたためるタイプ）" : answers.cat === "futon" ? (winnerScore.size > 0 ? "（乾かしたい布団の大きさ・枚数に対応）" : "（布団の大きさ・枚数の対応は未確認）") : winnerScore.size > 0 ? "（あなたの部屋の広さに対応）" : "（対応サイズ外）");
   document.getElementById("sbFocus").textContent =
     fmtScore(winnerScore.focus) + "（重視ポイントとの一致度）";
   let budgetNote;
@@ -959,7 +982,9 @@ function showResult(forcedModel) {
   if (winner.spot) {
     caveats.push("部屋全体を暖める器具ではありません。ふとんの中・足元・座る場所など、体を直接あたためるタイプです。部屋ごと暖めたい場合は2位以下もご覧ください。");
   } else if (winnerScore.size <= 0) {
-    caveats.push("対応畳数（サイズ）の目安が、回答いただいた部屋の広さと完全には一致しません。");
+    caveats.push(answers.cat === "futon"
+      ? (answers.size === "l" ? "2組を同時に乾かす作り（ノズル2本）ではないため、1組ずつ順番に使います。" : "メーカーの公式情報では、ダブルサイズへの対応がはっきり書かれていません。")
+      : "対応畳数（サイズ）の目安が、回答いただいた部屋の広さと完全には一致しません。");
   }
   if (winnerScore.budget < 0) {
     const over = winner.price - answers.budget;
@@ -986,7 +1011,7 @@ function showResult(forcedModel) {
   if (caveats.length > 0) {
     caveatBox.innerHTML = "<span class='cv-title'>この商品の弱点</span>" + caveats.map(c => "・" + c).join("<br>");
   } else {
-    caveatBox.innerHTML = "<span class='cv-title'>この商品の弱点</span>今回の条件では、部屋の広さ・重視ポイント・予算のいずれにも大きな弱点は見つかりませんでした。";
+    caveatBox.innerHTML = "<span class='cv-title'>この商品の弱点</span>今回の条件では、" + (answers.cat === "futon" ? "布団の大きさ" : "部屋の広さ") + "・重視ポイント・予算のいずれにも大きな弱点は見つかりませんでした。";
   }
   caveatBox.style.display = "";
 
@@ -1007,7 +1032,7 @@ function showResult(forcedModel) {
       reasons.push("「" + escapeHtml(answers.focus2Label) + "」を優先するなら、2位も検討する価値があります。");
     }
     if (s2Score.size > winnerScore.size) {
-      reasons.push("お部屋の広さへの対応は、2位の方がより確実です。");
+      reasons.push(answers.cat === "futon" ? "布団の大きさ・枚数への対応は、2位の方がより確実です。" : "お部屋の広さへの対応は、2位の方がより確実です。");
     }
     if (reasons.length > 0) {
       secondBox.innerHTML = "<span class='sc-title'>こんな方は2位の「" + s2.maker + " " + s2.name + "」もおすすめ</span>" + reasons.map(r => "・" + r).join("<br>");
