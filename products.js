@@ -453,7 +453,6 @@ const PRODUCTS = [
       "鉄筋なら最大18畳（60Hz）まで"
     ],
     "amazon": "https://www.amazon.co.jp/dp/B0C1S1PJG5?tag=tanosiikitaic-22",
-    "officialUrl": "https://www.irisohyama.co.jp/dehumidifier/search/",
     "officialUrl": "https://www.irisohyama.co.jp/dehumidifier/search/"
   },
   {
@@ -580,7 +579,7 @@ const PRODUCTS = [
     "maker": "ダイキン",
     "model": "MC557A",
     "name": "ストリーマ空気清浄機",
-    "price": 44127,
+    "price": 45165,
     "size": [
       "m",
       "l"
@@ -594,7 +593,7 @@ const PRODUCTS = [
       "multi": 2
     },
     "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000001872/4573535556954_1.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4573535556954%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4573535556954%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4573535556954%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4573535556954%2F",
     "point": "加湿なしで〜16畳（新基準）、5.8kgの軽量ストリーマ空気清浄機",
     "features": [
       "適用床面積 〜16畳（新基準）・8畳を12分で清浄",
@@ -2442,7 +2441,7 @@ const PRODUCTS = [
     "maker": "ダイニチ",
     "model": "HD-LX1026",
     "name": "ハイブリッド式加湿器 LX TYPE",
-    "price": 47800,
+    "price": 37881,
     "size": [
       "l"
     ],
@@ -4324,7 +4323,7 @@ const PRODUCTS = [
     "maker": "コロナ",
     "model": "DH-C926",
     "name": "遠赤外線電気ストーブ スリムカーボン",
-    "price": 17749,
+    "price": 17700,
     "size": [
       "s"
     ],
@@ -4337,7 +4336,7 @@ const PRODUCTS = [
       "multi": 1
     },
     "img": "https://tshop.r10s.jp/ec-current/cabinet/9326/4906128584735.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128584735%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F4906128584735%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffansfactory%2F4906128584735%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffansfactory%2F4906128584735%2F",
     "point": "3.4kgと軽くてスリム。スイッチひとつですぐ暖まるカーボンヒーター",
     "features": [
       "暖房出力900W・消費電力900〜350W（10段階）",
