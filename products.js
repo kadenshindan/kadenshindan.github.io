@@ -4703,5 +4703,395 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Ffen-l01-wg%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Ffen-l01-wg%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0F3CFZWPP?tag=tanosiikitaic-22",
     "officialUrl": "https://cdn.cado.com/manual/manual_safety_fen-l01.pdf"
+  },
+  {
+    "cat": "heater",
+    "maker": "ダイニチ",
+    "model": "FW-5626L",
+    "name": "石油ファンヒーター Lタイプ",
+    "price": 27689,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "木造15畳・コンクリート20畳。広いリビングを部屋ごと暖める",
+    "features": [
+      "暖房出力5.60kW（木造15畳／コンクリート20畳まで）",
+      "9Lの大容量タンクで給油の回数が少ない",
+      "運転音41〜25dB・ecoおまかせモード",
+      "本体3年保証（メーカー公表）"
+    ],
+    "img": "https://tshop.r10s.jp/daiyu8/cabinet/images258/4951272036913_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiyu8%2F4951272036913%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdaiyu8%2F4951272036913%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0H943YGLF?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.dainichi-net.co.jp/products/fanheater/lineup/l2026/"
+  },
+  {
+    "cat": "ricecooker",
+    "maker": "象印",
+    "model": "NW-MC07",
+    "name": "圧力IH炊飯ジャー 豪熱大火力 4合",
+    "price": 44339,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 3,
+      "multi": 3
+    },
+    "point": "1〜2人向けの4合で、圧力IHの上位機能をそろえた小容量モデル",
+    "features": [
+      "4合炊きの圧力IH（豪熱大火力）",
+      "鉄器コート黒まる厚釜（厚さ2.2mm）",
+      "わが家炊き49通り・炊き分け圧力7通り",
+      "特急メニュー・最長30時間の保温"
+    ],
+    "img": "https://tshop.r10s.jp/first23/cabinet/etc/etc/fi-4974305231345.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ffirst23%2Ffi-4974305231345%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Ffirst23%2Ffi-4974305231345%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0G69ZLCFR?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.zojirushi.co.jp/syohin/rice/ricecooker/nw-mc/"
+  },
+  {
+    "cat": "humidifier",
+    "maker": "ダイニチ",
+    "model": "HD-C900H",
+    "name": "ハイブリッド式加湿器 Cタイプ",
+    "price": 23178,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 3,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 1
+    },
+    "point": "プレハブ洋室24畳まで。広い部屋向けをおさえた価格で",
+    "features": [
+      "プレハブ洋室24畳・木造和室14.5畳まで",
+      "加湿量860mL/h・タンク4.7L",
+      "静音モード 27〜15dB",
+      "ecoモードは消費電力14W（50Hz）"
+    ],
+    "img": "https://tshop.r10s.jp/d-price/cabinet/d65/hd-c900h-h_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-price%2Fhd-c900h-h%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fd-price%2Fhd-c900h-h%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FH9X6J4F?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.dainichi-net.co.jp/products/humidifier/lineup/c2025/"
+  },
+  {
+    "cat": "dehumidifier",
+    "maker": "アイリスオーヤマ",
+    "model": "IJC-M120",
+    "name": "衣類乾燥除湿機 コンプレッサー式 12L",
+    "price": 28798,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "鉄筋30畳まで。広い部屋の除湿と部屋干しを手ごろな価格で",
+    "features": [
+      "除湿能力12L/日（鉄筋30畳・木造15畳まで）",
+      "衣類乾燥は速乾・標準・ひかえめの3モード",
+      "約4Lタンク（満水で自動停止）",
+      "消費電力265W（50Hz）"
+    ],
+    "img": "https://tshop.r10s.jp/a-price/cabinet/pics/434/4967576534239.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4967576534239%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4967576534239%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20IJC-M120&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/manual/pdf/518135.pdf"
+  },
+  {
+    "cat": "purifier",
+    "maker": "アイリスオーヤマ",
+    "model": "KAP-S303",
+    "name": "空気清浄機 16畳",
+    "price": 18800,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "point": "16畳まで対応。リビングにも置ける手ごろな単機能タイプ",
+    "features": [
+      "適用床面積16畳",
+      "運転音19〜46dB",
+      "消費電力2〜19W",
+      "直径23.8cm・約2.5kgのコンパクト設計"
+    ],
+    "img": "https://tshop.r10s.jp/jism/cabinet/0143/4967576790864.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4967576790864-22-9800-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4967576790864-22-9800-n%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20KAP-S303&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/aircleaner/single-function/standard-air-cleaner"
+  },
+  {
+    "cat": "circulator",
+    "maker": "シャープ",
+    "model": "PK-18S03",
+    "name": "プラズマクラスターサーキュレーター",
+    "price": 18785,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 3
+    },
+    "point": "30畳まで対応。プラズマクラスターNEXT搭載の多機能モデル",
+    "features": [
+      "〜30畳対応（メーカー基準の風量）",
+      "プラズマクラスターNEXT搭載",
+      "上下左右に首を振る3Dターン",
+      "約2.6kg"
+    ],
+    "img": "https://tshop.r10s.jp/pc-bomber-shop/cabinet/mastertool91/253950008799300.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-bomber-shop%2F253950008799300%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpc-bomber-shop%2F253950008799300%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0G57DLW1D?tag=tanosiikitaic-22",
+    "officialUrl": "https://jp.sharp/pci_fan/products/pk-18s03/"
+  },
+  {
+    "cat": "fan",
+    "maker": "アイリスオーヤマ",
+    "model": "TWF-CD83",
+    "name": "タワーファン DCモーター",
+    "price": 10978,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 1,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "point": "幅24.5cmのスリムなタワー型。置き場所をとらない",
+    "features": [
+      "設置面 幅24.5×奥行24.5cmのタワー型",
+      "DCモーター・消費電力16W",
+      "風量10段階＋リズム風3種類",
+      "切タイマー1〜12時間"
+    ],
+    "img": "https://tshop.r10s.jp/ksdenki/cabinet/images/n0000000055/4967576694322_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576694322%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fksdenki%2F4967576694322%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CW2Z5X1J?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/tower-fan-fan/tower-fan/tower-fan-basic/"
+  },
+  {
+    "cat": "kettle",
+    "maker": "タイガー",
+    "model": "PTV-A120",
+    "name": "蒸気レス電気ケトル QUICK＆SAFE＋ 1.2L",
+    "price": 10738,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "1.2Lの大容量で温度調節もできる、蒸気レスの安全設計",
+    "features": [
+      "1.2Lの大容量",
+      "ダイヤルで6段階の温度調節",
+      "蒸気キャッチャー構造で蒸気が出ない",
+      "転倒お湯もれ防止・本体二重構造"
+    ],
+    "img": "https://tshop.r10s.jp/kenkocom/cabinet/834/4904710440834.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F4904710440834%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fkenkocom%2F4904710440834%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC%20PTV-A120&tag=tanosiikitaic-22",
+    "officialUrl": "https://tiger-corporation.com/en/jpn/product/kettle-pot/ptv-a"
+  },
+  {
+    "cat": "vacuum",
+    "maker": "日立",
+    "model": "PV-BS1L",
+    "name": "すごかるスティック",
+    "price": 23480,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "point": "0.97kgの軽さと自走式ヘッドを3万円以下で",
+    "features": [
+      "質量0.97kg（本体・パイプ・ヘッド・電池の合計）",
+      "自走コンパクトヘッドで軽い力で動かせる",
+      "コードレスのスティック型"
+    ],
+    "img": "https://tshop.r10s.jp/akindo/cabinet/l37/pv-bs1l-w.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fpv-bs1l-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fpv-bs1l-w%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0CF4HZZ9M?tag=tanosiikitaic-22",
+    "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pv-bs1l/"
+  },
+  {
+    "cat": "robot",
+    "maker": "SwitchBot",
+    "model": "お掃除ロボット S30",
+    "name": "お掃除ロボット S30",
+    "price": 89800,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 3,
+      "care": 3,
+      "eco": 1,
+      "compact": 3,
+      "multi": 3
+    },
+    "point": "直径28cmの小型ながら、ゴミ捨てもモップ洗いも全自動",
+    "features": [
+      "直径28cm・高さ9.9cmの小型ボディ",
+      "最大15,000Paの吸引力",
+      "ステーションがゴミを自動回収",
+      "ローラーモップを自動で洗浄・温風乾燥"
+    ],
+    "img": "https://tshop.r10s.jp/ec-current/cabinet/9356/0810150549430.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F0810150549430%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fec-current%2F0810150549430%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0GYX1PY29?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.switchbot.jp/products/switchbot-robot-vacuum-cleaner-s30"
+  },
+  {
+    "cat": "toothbrush",
+    "maker": "ブラウン",
+    "model": "オーラルB PRO1",
+    "name": "オーラルB PRO1",
+    "price": 5310,
+    "size": [
+      "s",
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 1
+    },
+    "point": "替えブラシを付け替えて家族で使いやすい回転式の入門機",
+    "features": [
+      "丸型ブラシの回転式",
+      "オーラルBの替えブラシを人数分そろえて付け替えられる",
+      "充電式（AC100-110V）"
+    ],
+    "img": "https://tshop.r10s.jp/r-kojima/cabinet/n0000000511/4210201402473_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4210201402473%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fr-kojima%2F4210201402473%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%20%E3%82%AA%E3%83%BC%E3%83%A9%E3%83%ABB%20PRO1&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.rakuten.co.jp/oralb-braun/"
+  },
+  {
+    "cat": "dryer",
+    "maker": "テスコム",
+    "model": "TD760A",
+    "name": "マイナスイオン ヘアドライヤー",
+    "price": 7980,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 1,
+      "eco": 3,
+      "compact": 3,
+      "multi": 1
+    },
+    "point": "本体約320gの軽さ。動作音が控えめなI字型（メーカーによる）",
+    "features": [
+      "本体約320g（コード除く）の軽量I字型",
+      "従来機比 約7%の低騒音化（メーカーによる）",
+      "HIGH・LOW・COOL・AUTOの4モード",
+      "1200W・TURBO時4.1m³/分（自社基準）"
+    ],
+    "img": "https://tshop.r10s.jp/denkichiweb/cabinet/10776559/4975302176035_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4975302176035%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4975302176035%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0D4724QJ3?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.elecom.co.jp/products/TD760A-W.html"
+  },
+  {
+    "cat": "futon",
+    "maker": "山善",
+    "model": "ZFE-W800",
+    "name": "ふとん乾燥機 ダブルノズル",
+    "price": 9980,
+    "size": [
+      "s",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 1
+    },
+    "point": "ノズル2本で2組同時に使えて1万円以下",
+    "features": [
+      "ノズル2本でふとん2組を同時に乾燥",
+      "夏・冬・あたため・ダニの自動モード",
+      "760W・タイマー15分〜3時間",
+      "約2.5kg"
+    ],
+    "img": "https://tshop.r10s.jp/yamazenkaden/cabinet/main-img/013/main-91717.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F91717%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F91717%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B08WPFYL94?tag=tanosiikitaic-22",
+    "officialUrl": "https://yamazenbizcom.jp/client_info/YAMAZEN/itemimage/manual/91717.pdf"
   }
 ];
