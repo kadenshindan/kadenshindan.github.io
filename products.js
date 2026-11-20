@@ -5392,5 +5392,95 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F274528%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F274528%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E3%83%98%E3%83%AB%E3%82%B7%E3%82%AA%20AX-U1D&tag=tanosiikitaic-22",
     "officialUrl": "https://jp.sharp/range/products/axu1d/spec/"
+  },
+  {
+    "cat": "purifier",
+    "maker": "アイリスオーヤマ",
+    "model": "AAP-AH50A",
+    "name": "加湿空気清浄機 23畳",
+    "price": 19800,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "空気清浄は23畳まで。加湿もできて2万円以下",
+    "features": [
+      "空気清浄の適用床面積23畳",
+      "加湿量 約500mL/h（プレハブ洋室14畳まで）・タンク約3.5L",
+      "運転音24〜54dB（空気清浄）",
+      "上からも給水できる2WAY給水"
+    ],
+    "img": "https://tshop.r10s.jp/u-denki/cabinet/sinkitouroku/imgrc0127384897.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fu-denki%2F289205%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fu-denki%2F289205%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20AAP-AH50A&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/aircleaner/humidifying-function/humidified-air-cleaner-23"
+  },
+  {
+    "cat": "heater",
+    "maker": "コロナ",
+    "model": "FH-VX5726BY",
+    "name": "石油ファンヒーター VXシリーズ",
+    "price": 41720,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 3,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "木造15畳・コンクリート20畳。運転音21dBからの静かな上位シリーズ",
+    "features": [
+      "暖房出力5.65〜0.80kW（木造15畳／コンクリート20畳まで）",
+      "運転音21〜40dB（弱燃焼〜強燃焼）",
+      "燃焼時の消費電力4〜10.5W",
+      "タンク7.2L・秒速点火機能つき"
+    ],
+    "img": "https://tshop.r10s.jp/ra-kudenmart/cabinet/10127/fh-vx5726by-w.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Ffh-vx5726by-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fra-kudenmart%2Ffh-vx5726by-w%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B3%E3%83%AD%E3%83%8A%20FH-VX5726BY&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.corona.co.jp/heating/fanheater/vx/lineup.html"
+  },
+  {
+    "cat": "humidifier",
+    "maker": "山善",
+    "model": "EZ-HMA550",
+    "name": "ハイブリッド式加湿器 5L",
+    "price": 9980,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 2,
+      "eco": 2,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "プレハブ洋室14畳まで。湿度センサー付きのハイブリッド式が1万円以下",
+    "features": [
+      "加湿量 最大約500mL/h（プレハブ洋室14畳・木造8.5畳まで）",
+      "タンク5L・ふたを開けずに上から給水",
+      "湿度センサーで40/50/60%に自動調節",
+      "アロマトレイ・切タイマー1〜8時間"
+    ],
+    "img": "https://tshop.r10s.jp/yamazenkaden/cabinet/pc_sub/096/t1u39-07.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F1440589%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F1440589%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20EZ-HMA550&tag=tanosiikitaic-22",
+    "officialUrl": "https://book.yamazen.co.jp/product/detail/I00009252"
   }
 ];
