@@ -5093,5 +5093,304 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F91717%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F91717%2F",
     "amazon": "https://www.amazon.co.jp/dp/B08WPFYL94?tag=tanosiikitaic-22",
     "officialUrl": "https://yamazenbizcom.jp/client_info/YAMAZEN/itemimage/manual/91717.pdf"
+  },
+  {
+    "cat": "microwave",
+    "maker": "アイリスオーヤマ",
+    "model": "IMB-T178",
+    "name": "単機能レンジ 17L ターンテーブル",
+    "price": 9779,
+    "size": [
+      "s"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 1,
+      "care": 1,
+      "eco": 3,
+      "compact": 3,
+      "multi": 0
+    },
+    "point": "1万円以下で買える、あたため専用のシンプルな17L",
+    "features": [
+      "約17Lのターンテーブル式",
+      "ヘルツフリーで東日本・西日本どちらでも使える",
+      "出力 50Hz:500W／60Hz:650W相当",
+      "幅44cmのコンパクト設計"
+    ],
+    "img": "https://tshop.r10s.jp/etre/cabinet/itemimage19/1243742.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fetre%2F1243742%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fetre%2F1243742%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HQW3W3KT?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/single-function-range/microwave-17l-turntable"
+  },
+  {
+    "cat": "microwave",
+    "maker": "アイリスオーヤマ",
+    "model": "IMB-F2001",
+    "name": "単機能レンジ 20L フラットテーブル",
+    "price": 17800,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 1,
+      "care": 2,
+      "eco": 3,
+      "compact": 2,
+      "multi": 0
+    },
+    "point": "お皿が回らないフラット庫内の20L。大きなお弁当も入れやすい",
+    "features": [
+      "約20Lのワイドなフラット庫内（ターンテーブルなし）",
+      "ヘルツフリーで東日本・西日本どちらでも使える",
+      "出力 50Hz:500W／60Hz:650W相当",
+      "庫内を拭き掃除しやすい"
+    ],
+    "img": "https://tshop.r10s.jp/k-kitchen/cabinet/tasya96/103245.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-kitchen%2F103245%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fk-kitchen%2F103245%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20IMB-F2001&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/single-function-range/microwave-20l-flat-table"
+  },
+  {
+    "cat": "microwave",
+    "maker": "アイリスオーヤマ",
+    "model": "MO-F1810",
+    "name": "オーブンレンジ 18L フラットテーブル",
+    "price": 19700,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 2,
+      "multi": 2
+    },
+    "point": "2万円以下でオーブン・グリルも使える18Lのフラット型",
+    "features": [
+      "約18Lのフラット庫内",
+      "オーブン100〜250℃・発酵35/40℃",
+      "トーストやグリル料理にも使える",
+      "出力 50Hz:500W／60Hz:650W相当"
+    ],
+    "img": "https://tshop.r10s.jp/nttxstore/cabinet/13983986/qzx8490.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx8490%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fnttxstore%2Fqzx8490%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20MO-F1810&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/cooking-appliances/microwave-microwave-oven/microwave-oven/microwave-oven-18l-flat-table"
+  },
+  {
+    "cat": "microwave",
+    "maker": "東芝",
+    "model": "ER-S6C",
+    "name": "単機能電子レンジ 19L",
+    "price": 21763,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 1,
+      "care": 2,
+      "eco": 2,
+      "compact": 3,
+      "multi": 1
+    },
+    "point": "あたためは最高900W。速さ重視の単機能フラット（2026年11月発売）",
+    "features": [
+      "約19Lのフラット庫内",
+      "あたためは最高900W（最大2分）",
+      "ワンタッチあたため・見やすいバックライト液晶",
+      "幅46.9cm・約11kg"
+    ],
+    "img": "https://tshop.r10s.jp/winkstore/cabinet/278000/277612.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F277612%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F277612%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HQ1BH5KR?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.toshiba-lifestyle.com/jp/microwaves/er-s6c"
+  },
+  {
+    "cat": "microwave",
+    "maker": "日立",
+    "model": "MRO-F6E",
+    "name": "オーブンレンジ 27L",
+    "price": 39850,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 3,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "庫内の手入れをラクにする「らくメンテ」付きの27L",
+    "features": [
+      "27Lのワイド＆フラット庫内（幅39cm）",
+      "オーブン最高250℃",
+      "らくメンテで調理後の手入れがラク",
+      "少量ボタン・10分以内のスピードメニュー"
+    ],
+    "img": "https://tshop.r10s.jp/e-cutestyle/cabinet/img058/p000000991640_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000991640%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000991640%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HJT6KFVX?tag=tanosiikitaic-22",
+    "officialUrl": "https://kadenfan.hitachi.co.jp/range/lineup/mro-f6e/feature.html"
+  },
+  {
+    "cat": "microwave",
+    "maker": "東芝",
+    "model": "ER-D100C",
+    "name": "石窯ドーム 角皿式スチームオーブンレンジ 30L",
+    "price": 41790,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 2,
+      "eco": 3,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "30Lの大容量を4万円台で。家族の料理にも余裕",
+    "features": [
+      "30Lのワイド＆フラット庫内",
+      "石窯ドームオーブン（上下ヒーター）最高250℃",
+      "角皿式スチーム・自動メニュー97",
+      "2026年8月発売"
+    ],
+    "img": "https://tshop.r10s.jp/hows01/cabinet/img07/4904530145278.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fhows01%2F4904530145278%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fhows01%2F4904530145278%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E6%9D%B1%E8%8A%9D%20ER-D100C&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.toshiba-lifestyle.com/jp/microwaves/er-d100c/function"
+  },
+  {
+    "cat": "microwave",
+    "maker": "日立",
+    "model": "MRO-S7E",
+    "name": "ヘルシーシェフ 過熱水蒸気オーブンレンジ 27L",
+    "price": 45690,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 2,
+      "care": 3,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "重量センサーで分量に合わせて加熱。外して洗えるテーブルプレート",
+    "features": [
+      "27Lのワイド＆フラット庫内",
+      "過熱水蒸気でノンフライ調理も",
+      "重量センサーで量に合わせて自動加熱",
+      "外して丸洗いできるテーブルプレート"
+    ],
+    "img": "https://tshop.r10s.jp/e-cutestyle/cabinet/img058/p000000991642_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000991642%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fe-cutestyle%2Fp000000991642%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HJT8WYW5?tag=tanosiikitaic-22",
+    "officialUrl": "https://kadenfan.hitachi.co.jp/range/lineup/mro-s7e/feature.html"
+  },
+  {
+    "cat": "microwave",
+    "maker": "パナソニック",
+    "model": "NE-BS5D",
+    "name": "ビストロ スチームオーブンレンジ 26L",
+    "price": 54980,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 3,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 2
+    },
+    "point": "ボタンひとつで両面こんがり。人気のビストロの26Lモデル",
+    "features": [
+      "26L・自動メニュー80",
+      "大火力平面ヒーターで両面グリル",
+      "赤外線センサーでスピードあたため",
+      "2025年9月発売"
+    ],
+    "img": "https://tshop.r10s.jp/akindo/cabinet/l46/ne-bs5d-w.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fne-bs5d-w%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fakindo%2Fne-bs5d-w%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0FJLJ39XF?tag=tanosiikitaic-22",
+    "officialUrl": "https://panasonic.jp/range/products/NE-BS5D.html"
+  },
+  {
+    "cat": "microwave",
+    "maker": "東芝",
+    "model": "ER-D3000C",
+    "name": "石窯ドーム 過熱水蒸気オーブンレンジ 30L",
+    "price": 59450,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 2,
+      "power": 3,
+      "care": 2,
+      "eco": 2,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "最高300℃・2段調理の石窯ドーム。焼き物にこだわる家族向け",
+    "features": [
+      "30Lのワイド＆フラット庫内",
+      "石窯ドームオーブン最高300℃・2段調理",
+      "8眼のワイド赤外線センサー",
+      "自動メニュー122（2026年7月発売）"
+    ],
+    "img": "https://tshop.r10s.jp/denkichiweb/cabinet/13465671/4904530145254_1.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530145254%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdenkichiweb%2F4904530145254%2F",
+    "amazon": "https://www.amazon.co.jp/dp/B0HJZ47QH1?tag=tanosiikitaic-22",
+    "officialUrl": "https://www.toshiba-lifestyle.com/jp/microwaves/er-d3000c/function"
+  },
+  {
+    "cat": "microwave",
+    "maker": "シャープ",
+    "model": "AX-U1D",
+    "name": "ウォーターオーブン ヘルシオ 26L",
+    "price": 75260,
+    "size": [
+      "m",
+      "l"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 3,
+      "care": 2,
+      "eco": 1,
+      "compact": 1,
+      "multi": 3
+    },
+    "point": "過熱水蒸気で調理するヘルシオ。自動メニュー92",
+    "features": [
+      "26L・過熱水蒸気（ウォーターオーブン）",
+      "オーブン最高250℃",
+      "自動メニュー92",
+      "幅48cm・約17kg"
+    ],
+    "img": "https://tshop.r10s.jp/winkstore/cabinet/275000/274528.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F274528%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fwinkstore%2F274528%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%B7%E3%83%A3%E3%83%BC%E3%83%97%20%E3%83%98%E3%83%AB%E3%82%B7%E3%82%AA%20AX-U1D&tag=tanosiikitaic-22",
+    "officialUrl": "https://jp.sharp/range/products/axu1d/spec/"
   }
 ];
