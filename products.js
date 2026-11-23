@@ -4851,7 +4851,7 @@ const PRODUCTS = [
     ],
     "img": "https://tshop.r10s.jp/jism/cabinet/0143/4967576790864.jpg",
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4967576790864-22-9800-n%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fjism%2F4967576790864-22-9800-n%2F",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20KAP-S303&tag=tanosiikitaic-22",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E7%A9%BA%E6%B0%97%E6%B8%85%E6%B5%84%E6%A9%9F%20KAP-S303&tag=tanosiikitaic-22",
     "officialUrl": "https://www.irisohyama.co.jp/products/electrical-appliances/seasonal-appliances/aircleaner/single-function/standard-air-cleaner"
   },
   {
