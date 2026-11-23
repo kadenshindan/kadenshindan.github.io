@@ -3158,7 +3158,7 @@ const PRODUCTS = [
     "maker": "日立",
     "model": "PKV-BK3K",
     "name": "かるパック スティック",
-    "price": 30400,
+    "price": 26800,
     "size": [
       "m",
       "l"
@@ -3179,7 +3179,7 @@ const PRODUCTS = [
       "ゴミ捨てが苦手な人の最適解"
     ],
     "img": "https://tshop.r10s.jp/a-price/cabinet/orj/30/0-4549873161426.jpg",
-    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fa-price%2F4549873161426%2F",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4549873161426%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fpremoa%2F4549873161426%2F",
     "amazon": "https://www.amazon.co.jp/dp/B0BQXCZX1D?tag=tanosiikitaic-22",
     "officialUrl": "https://kadenfan.hitachi.co.jp/clean/lineup/pkv-bk3k/"
   },
