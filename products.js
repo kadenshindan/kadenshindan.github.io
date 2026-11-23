@@ -5482,5 +5482,35 @@ const PRODUCTS = [
     "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F1440589%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fyamazenkaden%2F1440589%2F",
     "amazon": "https://www.amazon.co.jp/s?k=%E5%B1%B1%E5%96%84%20EZ-HMA550&tag=tanosiikitaic-22",
     "officialUrl": "https://book.yamazen.co.jp/product/detail/I00009252"
+  },
+  {
+    "cat": "microwave",
+    "maker": "ハイアール",
+    "model": "JM-FH18J",
+    "name": "単機能レンジ 18L フラット",
+    "price": 14846,
+    "size": [
+      "s",
+      "m"
+    ],
+    "focus": {
+      "quiet": 1,
+      "power": 1,
+      "care": 2,
+      "eco": 3,
+      "compact": 2,
+      "multi": 1
+    },
+    "point": "1.5万円以下で自動メニュー13種類。2〜3人でも使える18Lフラット",
+    "features": [
+      "18Lのフラット庫内（ターンテーブルなし）",
+      "ヘルツフリー（出力は50Hz:500W／60Hz:650W）",
+      "自動メニュー13種類（お弁当・冷凍あたため・野菜ゆでなど）",
+      "年間消費電力量59.5kWh/年"
+    ],
+    "img": "https://tshop.r10s.jp/dtc/cabinet/mc4186/2093269.jpg",
+    "rakuten": "https://hb.afl.rakuten.co.jp/hgc/5600500c.eee1bd55.5600500d.dffe8316/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4571526730888%2F&m=https%3A%2F%2Fitem.rakuten.co.jp%2Fdtc%2F4571526730888%2F",
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%83%8F%E3%82%A4%E3%82%A2%E3%83%BC%E3%83%AB%20JM-FH18J&tag=tanosiikitaic-22",
+    "officialUrl": "https://www.haier.com/jp/kitchen/jm-fh18j.shtml"
   }
 ];
