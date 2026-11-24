@@ -244,6 +244,7 @@
     text-decoration: none;
   }
   .official-link:hover { color: var(--main-dark); }
+  .more-shops { display:block; text-align:center; margin:10px 0 0; font-size:0.85rem; color:#bf0000; font-weight:bold; text-decoration:underline; }
   .cta {
     flex: 1;
     display: block;
@@ -439,6 +440,7 @@
           <a class="cta amazon" id="winAmazon" href="#" target="_blank" rel="noopener sponsored">Amazonで見る</a>
           <a class="cta rakuten" id="winRakuten" href="#" target="_blank" rel="noopener sponsored">楽天で見る</a>
         </div>
+        <a class="more-shops" id="winRakutenSearch" href="#" target="_blank" rel="noopener sponsored">楽天でほかのお店の価格も見る →</a>
         <a class="official-link" id="officialSourceLink" href="#" target="_blank" rel="noopener" style="display:none;">メーカー公式ページで仕様を見る →</a>
       </div>
     </div>
@@ -913,6 +915,13 @@ function amazonLink(p) {
   if (AMAZON_TAG) url += "&tag=" + AMAZON_TAG;
   return url;
 }
+// 楽天の検索結果（同じ型番を売るお店の一覧）へのリンク。リンク先のお店が売り切れ・割高でも、ほかのお店を選べるように（2026-11-24）。
+// 楽天アフィリエイトは、どのお店で買っても紹介料の対象になる。中古品は除外する。
+function rakutenSearchLink(p) {
+  const target = "https://search.rakuten.co.jp/search/mall/" + encodeURIComponent(p.maker + " " + p.model) + "/?nitem=" + encodeURIComponent("中古");
+  return "https://hb.afl.rakuten.co.jp/hgc/" + RAKUTEN_AFF_ID + "/?pc=" +
+    encodeURIComponent(target) + "&m=" + encodeURIComponent(target);
+}
 function rakutenLink(p) {
   if (p.rakuten) return p.rakuten; // 商品個別のアフィリエイトリンクがあれば優先
   const target = "https://search.rakuten.co.jp/search/mall/" + encodeURIComponent(p.maker + " " + p.model) + "/";
@@ -931,6 +940,15 @@ function yen(n) {
 
 // ===== 結果表示 =====
 function showResult(forcedModel) {
+  // 診断を最後まで答えた回数と回答をGA4へ送る（共有リンクからの復元は数えない）（2026-11-24）
+  if (!forcedModel) {
+    try {
+      window.gtag && window.gtag("event", "diagnosis_complete", {
+        category: answers.cat, size: answers.size, focus: answers.focus,
+        focus2: answers.focus2, budget: String(answers.budget)
+      });
+    } catch (e) {}
+  }
   const candidates = PRODUCTS
     .filter(p => p.cat === answers.cat && p.img)
     .map(p => ({ p, s: scoreProduct(p), t: fitTier(p) })) // 同点は価格の安い順（結果は常に同じになります）
@@ -1066,6 +1084,7 @@ function showResult(forcedModel) {
     winAmazonEl.style.display = "none";
   }
   document.getElementById("winRakuten").href = rakutenLink(winner);
+  document.getElementById("winRakutenSearch").href = rakutenSearchLink(winner);
 
   // メーカー公式ページへのリンク(officialUrlがある商品のみ表示。ない場合は何も出さない)
   const officialLinkEl = document.getElementById("officialSourceLink");

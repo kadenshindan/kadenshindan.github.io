@@ -42,7 +42,7 @@ if (GA_ID) {
       if (mk) return clean(mk.textContent);
     }
     // 診断結果の1位（勝者ブロックの #winMaker）
-    if (a.id === "winAmazon" || a.id === "winRakuten") {
+    if (a.id === "winAmazon" || a.id === "winRakuten" || a.id === "winRakutenSearch") {
       const mk = document.getElementById("winMaker");
       if (mk) return clean(mk.textContent);
     }
@@ -67,7 +67,8 @@ if (GA_ID) {
         shop: shop,
         product_name: product_name,
         page_path: location.pathname,
-        link_url: href
+        link_url: href,
+        link_kind: a.id === "winRakutenSearch" ? "rakuten_search" : "item"
       });
     } catch (err) {}
   }, true);
