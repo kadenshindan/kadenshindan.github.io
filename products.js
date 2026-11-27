@@ -753,7 +753,7 @@ const PRODUCTS = [
       "静電モップ付きモデルも選べる"
     ],
     "officialUrl": "https://www.irisohyama.co.jp/products/support/4967576732918",
-    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E6%8E%83%E9%99%A4%E6%A9%9F&tag=tanosiikitaic-22"
+    "amazon": "https://www.amazon.co.jp/s?k=%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E%20%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%82%B9%E6%8E%83%E9%99%A4%E6%A9%9F%20SCD-L3PD&tag=tanosiikitaic-22"
   },
   {
     "cat": "vacuum",
